@@ -2,5 +2,7 @@
   "quiz_section_title": "🧠 Quiz",
   "quiz_intro": "You will now answer a short quiz based on the video.",
   "vocab_section_title": "📘 Vocabulary",
-  "vocab_intro": "Here are some useful words and phrases from the video."
+  "vocab_intro": "Here are some useful words and phrases from the video.",
+  "video_section_title": "📺 Watch the Video",
+  "video_intro": "Let’s watch the video that today’s quiz and vocabulary are based on."
 }

@@ -10,6 +10,7 @@ export default function ArticlePage() {
 
   const [quizData, setQuizData] = useState<any>(null)
   const [vocabData, setVocabData] = useState<any>(null)
+  const [categoryData, setCategoryData] = useState<any>(null)
 
   useEffect(() => {
     if (!slug) return
@@ -21,9 +22,13 @@ export default function ArticlePage() {
     fetch(`/data/vocab/vocab-${slug}.json`)
       .then((res) => res.json())
       .then((data) => setVocabData(data))
+
+    fetch(`/data/category/category-${slug}.json`)
+      .then((res) => res.json())
+      .then((data) => setCategoryData(data))
   }, [slug])
 
-  if (!quizData || !vocabData) {
+  if (!quizData || !vocabData || !categoryData) {
     return <p className="p-10 text-center">Loading...</p>
   }
 
@@ -33,6 +38,12 @@ export default function ArticlePage() {
       leadIntro={quizData.lead_intro}
       quiz={quizData.quiz}
       vocabulary={vocabData.vocabulary}
+      videoId={categoryData.video_id}
+      channelName={categoryData.channel_name}
+      category={categoryData.assigned_category}
+      level={categoryData.assigned_level}
+      duration={categoryData.duration}
+      publishedAt={categoryData.published_at}
     />
   )
 }
