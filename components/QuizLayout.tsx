@@ -1,6 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import VocabularyCard from './VocabularyCard'
+
 
 type QuizItem = {
   question: string
@@ -162,14 +164,12 @@ export default function QuizLayout({
         <h2 className="text-xl font-semibold mt-10 mb-2">{vocabTitle}</h2>
         <p className="text-gray-700 dark:text-gray-300 mb-4">{vocabIntro}</p>
         <ul className="space-y-4">
-          {vocabulary.map((v, i) => (
-            <li key={i} className="p-4 border rounded bg-gray-50 dark:bg-gray-900 text-black dark:text-white border-gray-200 dark:border-gray-700">
-              <p className="font-bold text-blue-700 dark:text-blue-400">{v.word}</p>
-              <p className="text-sm text-gray-600 dark:text-gray-300">{v.definition}</p>
-              <p className="text-sm italic">"{v.example}"</p>
-            </li>
-          ))}
-        </ul>
+            {vocabulary.map((v, i) => (
+              <li key={i}>
+                <VocabularyCard item={v} />
+              </li>
+            ))}
+          </ul>
       </section>
     </main>
   )
