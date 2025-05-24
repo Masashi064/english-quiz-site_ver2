@@ -170,6 +170,14 @@ export default function QuizLayout({
               </li>
             ))}
           </ul>
+            <div className="mt-8 text-center">
+              <a
+                href="/"
+                className="inline-block px-6 py-2 bg-blue-600 text-white dark:bg-blue-400 dark:text-black rounded hover:bg-blue-700 dark:hover:bg-blue-500 transition"
+              >
+                ← Back to Article List
+              </a>
+            </div>
       </section>
     </main>
   )
