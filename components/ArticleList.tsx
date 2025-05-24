@@ -79,12 +79,20 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
       <h1 className="text-3xl font-bold mb-6">📚 Mochi English Articles</h1>
 
       <div className="flex flex-wrap gap-4 mb-6">
-        <select value={category} onChange={(e) => setCategory(e.target.value)} className="p-2 border rounded">
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white"
+        >
           <option value="all">All Categories</option>
           {allCategories.map((c) => <option key={c} value={c}>{c}</option>)}
         </select>
 
-        <select value={level} onChange={(e) => setLevel(e.target.value)} className="p-2 border rounded">
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white"
+        >
           <option value="all">All Levels</option>
           {allLevels.map((l) => <option key={l} value={l}>{l}</option>)}
         </select>
@@ -94,15 +102,24 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search by title or channel"
-          className="p-2 border rounded flex-grow"
+          className="p-2 border rounded flex-grow bg-white text-black dark:bg-gray-800 dark:text-white"
         />
 
-        <select value={sortKey} onChange={(e) => setSortKey(e.target.value as any)} className="p-2 border rounded">
+
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white"
+        >
           <option value="published_at">Sort by: Date</option>
           <option value="duration">Sort by: Duration</option>
         </select>
 
-        <select value={sortOrder} onChange={(e) => setSortOrder(e.target.value as any)} className="p-2 border rounded">
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white"
+        >
           <option value="desc">↓ Desc</option>
           <option value="asc">↑ Asc</option>
         </select>

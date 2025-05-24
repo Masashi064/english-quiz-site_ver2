@@ -36,25 +36,33 @@ export default function VocabularyCard({ item }: Props) {
 
   return (
     <div className="relative w-full cursor-pointer" onClick={() => setFlipped(!flipped)}>
-      <div className={`transition-transform duration-500 transform perspective preserve-3d ${flipped ? 'rotate-y-180' : ''}`}>
+      <div
+        className={`transition-transform duration-500 transform perspective preserve-3d ${flipped ? 'rotate-y-180' : ''}`}
+      >
         {/* Front */}
-        <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded border border-gray-300 dark:border-gray-600 backface-hidden">
-          <div className="flex justify-between items-center">
-            <p className="font-bold text-lg text-blue-700 dark:text-blue-400">{item.word}</p>
-            <div className="flex items-center gap-2">
-              <button
-                className="text-gray-600 dark:text-gray-300 hover:text-blue-600"
-                onClick={(e) => { e.stopPropagation(); speakWord(item.word) }}
-              >
-                🔊
-              </button>
-              <button
-                className="text-red-500 text-lg hover:text-red-700"
-                onClick={(e) => { e.stopPropagation(); toggleFavorite() }}
-              >
-                {isFavorite ? '♥' : '♡'}
-              </button>
-            </div>
+        <div className="bg-gray-100 dark:bg-gray-800 px-4 py-6 rounded border border-gray-300 dark:border-gray-600 backface-hidden min-h-[120px] sm:min-h-[100px] flex items-center justify-between">
+          <p className="text-xl sm:text-lg font-semibold text-blue-700 dark:text-blue-400 text-center flex-1">
+            {item.word}
+          </p>
+          <div className="flex items-center gap-2 ml-4">
+            <button
+              className="text-gray-600 dark:text-gray-300 hover:text-blue-600"
+              onClick={(e) => {
+                e.stopPropagation()
+                speakWord(item.word)
+              }}
+            >
+              🔊
+            </button>
+            <button
+              className="text-red-500 text-lg hover:text-red-700"
+              onClick={(e) => {
+                e.stopPropagation()
+                toggleFavorite()
+              }}
+            >
+              {isFavorite ? '♥' : '♡'}
+            </button>
           </div>
         </div>
 
