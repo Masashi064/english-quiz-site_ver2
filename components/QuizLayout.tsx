@@ -46,6 +46,7 @@ export default function QuizLayout({
   const [vocabTitle, setVocabTitle] = useState<string>('📘 Vocabulary')
   const [videoTitle, setVideoTitle] = useState<string>('📺 Watch the Video')
   const [videoIntro, setVideoIntro] = useState<string>('Let’s watch the video that today’s quiz and vocabulary are based on.')
+  const [answers, setAnswers] = useState<(string | null)[]>(Array(quiz.length).fill(null))
 
   useEffect(() => {
     fetch('/data/config/article-template.json')
@@ -77,6 +78,16 @@ export default function QuizLayout({
     return new Date(iso).toLocaleDateString()
   }
 
+  const handleAnswer = (questionIndex: number, choice: string) => {
+    if (answers[questionIndex] !== null) return
+    const newAnswers = [...answers]
+    newAnswers[questionIndex] = choice
+    setAnswers(newAnswers)
+  }
+
+  const score = answers.filter((a, i) => a === quiz[i].answer).length
+  const allAnswered = answers.every((a) => a !== null)
+
   return (
     <main className="p-10 max-w-3xl mx-auto space-y-10 text-black dark:text-white bg-white dark:bg-black">
       <h1 className="text-3xl font-bold">{movieTitle}</h1>
@@ -107,17 +118,43 @@ export default function QuizLayout({
         <h2 className="text-xl font-semibold mt-10 mb-2">{quizTitle}</h2>
         <p className="text-gray-700 dark:text-gray-300 mb-4">{quizIntro}</p>
         {quiz.map((q, i) => (
-          <div key={i} className="mb-6 p-4 rounded shadow bg-white dark:bg-gray-800 text-black dark:text-white">
-            <p className="font-bold">{i + 1}. {q.question}</p>
-            <ul className="list-disc ml-6 mt-2">
-              {q.choices.map((c, j) => (
-                <li key={j}>{c}</li>
-              ))}
+          <div key={i} className="mb-6 p-4 rounded shadow bg-white dark:bg-gray-800 text-black dark:text-white border dark:border-gray-700">
+            <p className="font-bold mb-2">{i + 1}. {q.question}</p>
+            <ul className="space-y-2">
+              {q.choices.map((c, j) => {
+                const selected = answers[i]
+                const isCorrect = selected && c === q.answer
+                const isWrong = selected && c === selected && c !== q.answer
+                const base = 'p-2 border rounded cursor-pointer'
+                const style = isCorrect
+                  ? 'bg-green-100 border-green-500 dark:bg-green-500/30 dark:border-green-400'
+                  : isWrong
+                  ? 'bg-red-100 border-red-500 dark:bg-red-500/30 dark:border-red-400'
+                  : 'hover:bg-gray-100 dark:hover:bg-gray-700'
+                return (
+                  <li
+                    key={j}
+                    className={`${base} ${style}`}
+                    onClick={() => handleAnswer(i, c)}
+                  >
+                    {c}
+                  </li>
+                )
+              })}
             </ul>
-            <p className="mt-2 text-green-700 dark:text-green-300">Answer: {q.answer}</p>
-            <p className="text-sm text-gray-600 dark:text-gray-300">{q.explanation}</p>
+            {answers[i] && (
+              <div className="mt-4">
+                <p className="text-green-700 dark:text-green-300 font-semibold">Answer: {q.answer}</p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">{q.explanation}</p>
+              </div>
+            )}
           </div>
         ))}
+        {allAnswered && (
+          <p className="text-lg font-bold text-center text-blue-700 dark:text-blue-300">
+            ✅ Your Score: {score} / {quiz.length}
+          </p>
+        )}
       </section>
 
       <section>
@@ -125,7 +162,7 @@ export default function QuizLayout({
         <p className="text-gray-700 dark:text-gray-300 mb-4">{vocabIntro}</p>
         <ul className="space-y-4">
           {vocabulary.map((v, i) => (
-            <li key={i} className="p-4 border rounded bg-gray-50 dark:bg-gray-900 text-black dark:text-white">
+            <li key={i} className="p-4 border rounded bg-gray-50 dark:bg-gray-900 text-black dark:text-white border-gray-200 dark:border-gray-700">
               <p className="font-bold text-blue-700 dark:text-blue-400">{v.word}</p>
               <p className="text-sm text-gray-600 dark:text-gray-300">{v.definition}</p>
               <p className="text-sm italic">"{v.example}"</p>
