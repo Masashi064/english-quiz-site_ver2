@@ -117,39 +117,40 @@ export default function QuizLayout({
       <section>
         <h2 className="text-xl font-semibold mt-10 mb-2">{quizTitle}</h2>
         <p className="text-gray-700 dark:text-gray-300 mb-4">{quizIntro}</p>
-        {quiz.map((q, i) => (
-          <div key={i} className="mb-6 p-4 rounded shadow bg-white dark:bg-gray-800 text-black dark:text-white border dark:border-gray-700">
-            <p className="font-bold mb-2">{i + 1}. {q.question}</p>
-            <ul className="space-y-2">
-              {q.choices.map((c, j) => {
-                const selected = answers[i]
-                const isCorrect = selected && c === q.answer
-                const isWrong = selected && c === selected && c !== q.answer
-                const base = 'p-2 border rounded cursor-pointer'
-                const style = isCorrect
-                  ? 'bg-green-100 border-green-500 dark:bg-green-500/30 dark:border-green-400'
-                  : isWrong
-                  ? 'bg-red-100 border-red-500 dark:bg-red-500/30 dark:border-red-400'
-                  : 'hover:bg-gray-100 dark:hover:bg-gray-700'
-                return (
+        {quiz.map((q, i) => {
+          const selected = answers[i]
+          const isCorrect = selected === q.answer
+          const isWrong = selected && selected !== q.answer
+
+          const boxStyle = selected
+            ? isCorrect
+              ? 'bg-green-100 border-green-500 dark:bg-green-500/30 dark:border-green-400'
+              : 'bg-red-100 border-red-500 dark:bg-red-500/30 dark:border-red-400'
+            : 'bg-white dark:bg-gray-800 border dark:border-gray-700'
+
+          return (
+            <div key={i} className={`mb-6 p-4 rounded shadow text-black dark:text-white ${boxStyle}`}>
+              <p className="font-bold mb-2">{i + 1}. {q.question}</p>
+              <ul className="space-y-2">
+                {q.choices.map((c, j) => (
                   <li
                     key={j}
-                    className={`${base} ${style}`}
+                    className="p-2 border rounded cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"
                     onClick={() => handleAnswer(i, c)}
                   >
                     {c}
                   </li>
-                )
-              })}
-            </ul>
-            {answers[i] && (
-              <div className="mt-4">
-                <p className="text-green-700 dark:text-green-300 font-semibold">Answer: {q.answer}</p>
-                <p className="text-sm text-gray-600 dark:text-gray-300">{q.explanation}</p>
-              </div>
-            )}
-          </div>
-        ))}
+                ))}
+              </ul>
+              {selected && (
+                <div className="mt-4">
+                  <p className="text-green-700 dark:text-green-300 font-semibold">Answer: {q.answer}</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">{q.explanation}</p>
+                </div>
+              )}
+            </div>
+          )
+        })}
         {allAnswered && (
           <p className="text-lg font-bold text-center text-blue-700 dark:text-blue-300">
             ✅ Your Score: {score} / {quiz.length}
