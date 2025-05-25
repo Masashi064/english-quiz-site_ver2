@@ -54,28 +54,43 @@
   "vocabulary": [
     {
       "word": "trample",
-      "definition": "to step heavily on or crush something underfoot",
-      "example": "The cows trample on the vegetation to help open up the forest."
+      "definition": "to step heavily on something or someone, causing damage or injury",
+      "example": "The cows trample on the vegetation to help prevent wildfires."
     },
     {
-      "word": "voracious",
-      "definition": "eager for a lot of food or an activity",
-      "example": "The cows are voracious eaters, consuming grass, leaves, and tree branches."
+      "word": "manmade",
+      "definition": "made or caused by human beings rather than occurring naturally",
+      "example": "Four out of every five wildfires are manmade, according to research."
     },
     {
       "word": "extinction",
       "definition": "the state or process of a species, family, or larger group being or becoming extinct",
-      "example": "The dinosaurs faced extinction millions of years ago."
+      "example": "The extinction of certain grazing animals has led to unchecked growth in forests."
+    },
+    {
+      "word": "domestication",
+      "definition": "the process of taming wild animals or plants for human use or cultivation",
+      "example": "Domestication of grazing animals has decreased in modern times."
+    },
+    {
+      "word": "trampling",
+      "definition": "the act of treading heavily on something or someone",
+      "example": "The cows' trampling helps to open up the forest and reduce flammable vegetation."
+    },
+    {
+      "word": "voracious",
+      "definition": "having a very eager approach to an activity, especially eating a lot of food",
+      "example": "The cows are voracious eaters, consuming grass, leaves, and tree branches."
     },
     {
       "word": "unchecked",
-      "definition": "not controlled or restrained",
-      "example": "If wildfires are left unchecked, they can spread rapidly."
+      "definition": "not restrained or controlled; allowed to continue or grow without interference",
+      "example": "Unchecked growth of vegetation increases the risk of wildfires in forests."
     },
     {
       "word": "flammable",
-      "definition": "easily set on fire, capable of burning",
-      "example": "The dense vegetation in the forest is highly flammable during dry seasons."
+      "definition": "easily ignited and capable of burning quickly",
+      "example": "Reducing flammable vegetation helps prevent wildfires in dry regions like Spain."
     }
   ]
 }

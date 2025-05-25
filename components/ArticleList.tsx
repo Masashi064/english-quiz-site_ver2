@@ -75,9 +75,6 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
 
   return (
     <main className="p-6 max-w-5xl mx-auto text-black dark:text-white bg-white dark:bg-black min-h-screen">
-
-      <h1 className="text-3xl font-bold mb-6">📚 Mochi English Articles</h1>
-
       <div className="flex flex-wrap gap-4 mb-6">
         <select
           value={category}
@@ -89,8 +86,8 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
         </select>
 
         <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
+          value={level}
+          onChange={(e) => setLevel(e.target.value)}
           className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white"
         >
           <option value="all">All Levels</option>
@@ -105,10 +102,9 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
           className="p-2 border rounded flex-grow bg-white text-black dark:bg-gray-800 dark:text-white"
         />
 
-
         <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
+          value={sortKey}
+          onChange={(e) => setSortKey(e.target.value as 'duration' | 'published_at')}
           className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white"
         >
           <option value="published_at">Sort by: Date</option>
@@ -116,8 +112,8 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
         </select>
 
         <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
+          value={sortOrder}
+          onChange={(e) => setSortOrder(e.target.value as 'asc' | 'desc')}
           className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white"
         >
           <option value="desc">↓ Desc</option>

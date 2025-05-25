@@ -55,27 +55,42 @@
     {
       "word": "migration",
       "definition": "the movement of animals from one place to another, usually because of the weather or temperature",
-      "example": "The wildebeest are famous for their annual migration in Tanzania and Kenya."
+      "example": "The wildebeest migration in Africa is a spectacular sight to witness."
     },
     {
       "word": "swathes",
       "definition": "large areas of something",
-      "example": "Great white sharks can travel across huge swathes of ocean."
+      "example": "The forest fire covered large swathes of land, causing extensive damage."
     },
     {
       "word": "sequester",
       "definition": "to remove and store something, such as carbon dioxide",
-      "example": "By protecting sharks, we could sequester carbon dioxide from the atmosphere."
+      "example": "The forests sequester carbon dioxide, helping to reduce greenhouse gases in the atmosphere."
     },
     {
       "word": "perspective",
-      "definition": "explaining the size or importance of something, especially when it's hard to imagine",
-      "example": "To put it into perspective, 6 gigatonnes of carbon dioxide is a significant amount."
+      "definition": "to explain the size or importance of something, particularly when it's difficult to imagine",
+      "example": "Looking at the issue from a global perspective, we realize the magnitude of the problem."
     },
     {
-      "word": "informally",
-      "definition": "in a casual or relaxed manner, not formally",
-      "example": "We can rephrase questions more informally using structures like 'what kind of... are we talking?'"
+      "word": "interactive",
+      "definition": "involving the active participation of a user",
+      "example": "The interactive map allowed users to explore different regions by clicking on various markers."
+    },
+    {
+      "word": "advantage",
+      "definition": "a condition or circumstance that puts one in a favorable or superior position",
+      "example": "Having prior knowledge of the topic gave her an advantage during the debate."
+    },
+    {
+      "word": "spectacular",
+      "definition": "impressively large, beautiful, or dramatic",
+      "example": "The fireworks display on New Year's Eve was truly spectacular."
+    },
+    {
+      "word": "participate",
+      "definition": "to take part in or engage in an activity",
+      "example": "Students are encouraged to participate actively in class discussions."
     }
   ]
 }

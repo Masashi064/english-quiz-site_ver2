@@ -54,28 +54,43 @@
   "vocabulary": [
     {
       "word": "detective",
-      "definition": "a person whose job is to discover information about crimes and solve them",
-      "example": "Sherlock Holmes is a famous fictional detective known for his brilliant deductions."
+      "definition": "a person whose job is to discover information about crimes and find out who is responsible for them",
+      "example": "Sherlock Holmes is a famous fictional detective known for his brilliant deductive skills."
     },
     {
-      "word": "background",
-      "definition": "the area in which someone has the most work experience or knowledge",
-      "example": "Her background in computer science helped her excel in the tech industry."
+      "word": "artificial intelligence",
+      "definition": "the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages",
+      "example": "AI technologies are being increasingly used in various industries including healthcare, finance, and now in solving crimes."
     },
     {
       "word": "renaissance",
-      "definition": "a new interest or activity in a particular topic or area",
-      "example": "There has been a renaissance in traditional cooking methods in modern cuisine."
-    },
-    {
-      "word": "out of favour",
-      "definition": "less popular or appealing",
-      "example": "Vinyl records were out of favour for many years before making a comeback recently."
+      "definition": "a revival or renewed interest in something; a new period of growth or activity",
+      "example": "There has been a renaissance in traditional crafts and artisanal products in recent years."
     },
     {
       "word": "real-time",
-      "definition": "information that is presented as it is happening",
-      "example": "The real-time traffic updates on the app helped me choose the fastest route."
+      "definition": "occurring immediately or with no noticeable delay; information presented as it happens",
+      "example": "The real-time data feed provides live updates on stock prices for traders."
+    },
+    {
+      "word": "perspective",
+      "definition": "a particular way of regarding or understanding something; a point of view",
+      "example": "From a historical perspective, the impact of the Industrial Revolution was profound."
+    },
+    {
+      "word": "background",
+      "definition": "the details of a person's family, education, experience, and social circumstances",
+      "example": "She has a background in marketing, having worked for several multinational companies."
+    },
+    {
+      "word": "out of favour",
+      "definition": "no longer popular or accepted; not in demand",
+      "example": "Traditional cooking methods have fallen out of favour with the rise of fast food chains."
+    },
+    {
+      "word": "improve",
+      "definition": "make or become better; enhance the quality or value of",
+      "example": "Regular exercise and a balanced diet can greatly improve your overall health."
     }
   ]
 }

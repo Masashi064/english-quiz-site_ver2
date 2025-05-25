@@ -163,13 +163,12 @@ export default function QuizLayout({
       <section>
         <h2 className="text-xl font-semibold mt-10 mb-2">{vocabTitle}</h2>
         <p className="text-gray-700 dark:text-gray-300 mb-4">{vocabIntro}</p>
-        <ul className="space-y-4">
-            {vocabulary.map((v, i) => (
-              <li key={i}>
-                <VocabularyCard item={v} />
-              </li>
-            ))}
-          </ul>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {vocabulary.map((v, i) => (
+            <VocabularyCard key={i} item={v} />
+          ))}
+        </div>
+
             <div className="mt-8 text-center">
               <a
                 href="/"

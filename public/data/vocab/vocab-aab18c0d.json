@@ -60,22 +60,37 @@
     {
       "word": "essential",
       "definition": "absolutely necessary; extremely important",
-      "example": "Water is essential for human survival."
-    },
-    {
-      "word": "adjective",
-      "definition": "a word naming an attribute of a noun",
-      "example": "In the sentence 'the red car', 'red' is an adjective describing the car."
-    },
-    {
-      "word": "convert",
-      "definition": "a person who has changed their beliefs or way of living",
-      "example": "After traveling to India, she became a convert to yoga."
+      "example": "Water is essential for life to exist."
     },
     {
       "word": "alternative",
       "definition": "one of two or more available possibilities",
-      "example": "He offered an alternative solution to the problem."
+      "example": "She offered an alternative solution to the problem."
+    },
+    {
+      "word": "emphasise",
+      "definition": "to give special importance or attention to something",
+      "example": "He emphasized the need for teamwork in the project."
+    },
+    {
+      "word": "investigating",
+      "definition": "to carry out a systematic or formal inquiry to discover and examine the facts of an issue",
+      "example": "The police are investigating the crime scene for evidence."
+    },
+    {
+      "word": "texture",
+      "definition": "the feel or consistency of a surface or a substance",
+      "example": "The cake had a smooth and creamy texture."
+    },
+    {
+      "word": "freshness",
+      "definition": "the quality of being new, original, or unused",
+      "example": "The freshness of the vegetables made the salad delicious."
+    },
+    {
+      "word": "convince",
+      "definition": "to cause someone to believe firmly in the truth of something",
+      "example": "She managed to convince him to change his mind about the decision."
     }
   ]
 }
