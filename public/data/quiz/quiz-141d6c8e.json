@@ -45,57 +45,57 @@
     "6 minutes english"
   ],
   "introduction": "Is learning languages good for you? For audio and transcript downloads, a quiz and a list of the wor",
-  "lead_intro": "Have you ever wondered about the benefits of being a polyglot? Join us in exploring the fascinating world of learning multiple languages in this 6 Minute English episode!",
+  "lead_intro": "Have you ever wondered about the benefits of being a polyglot and learning multiple languages? Dive into this quiz to test your knowledge!",
   "quiz": [
     {
-      "question": "Which country has the most officially recognised languages?",
+      "question": "Which country has the most official languages recognised by their government?",
       "choices": [
         "Zimbabwe",
         "Switzerland",
         "Bolivia"
       ],
       "answer": "Bolivia",
-      "explanation": "Bolivia has the most officially recognised languages, totaling 37, although not everyone speaks all of them."
+      "explanation": "Bolivia recognises 37 languages officially, making it the country with the most recognised languages by their government."
     },
     {
       "question": "What does it mean to 'soldier on'?",
       "choices": [
-        "To fight a battle",
+        "To fight in a war",
         "To continue doing something despite difficulties",
-        "To rest and relax"
+        "To go on a vacation"
       ],
       "answer": "To continue doing something despite difficulties",
-      "explanation": "'Soldier on' means to persist or continue with a task even when it is challenging."
+      "explanation": "When you 'soldier on,' you persist and keep going even when faced with challenges or obstacles."
     },
     {
-      "question": "What is a polyglot?",
+      "question": "What is a 'brain workout' according to the transcript?",
       "choices": [
-        "A type of bird",
-        "A person who knows many languages",
-        "A type of exercise"
+        "Physical exercise for the body",
+        "Mental exercise for the brain",
+        "Relaxing the mind"
       ],
-      "answer": "A person who knows many languages",
-      "explanation": "A polyglot is someone who knows and is able to use several languages."
+      "answer": "Mental exercise for the brain",
+      "explanation": "A 'brain workout' is described as an exercise for your brain that can make it stronger, similar to how physical workouts strengthen the body."
     },
     {
       "question": "What does it mean to 'pick up a skill'?",
       "choices": [
-        "To drop something accidentally",
-        "To learn a new skill through practice",
+        "To drop a skill",
+        "To learn a skill through practice",
         "To ignore a skill"
       ],
-      "answer": "To learn a new skill through practice",
-      "explanation": "When you 'pick up a skill', you acquire or learn it, often by being in an environment where you can practice it."
+      "answer": "To learn a skill through practice",
+      "explanation": "When you 'pick up a skill,' it means you learn it, usually through practice or exposure, rather than being explicitly taught."
     },
     {
-      "question": "What is a 'brain workout'?",
+      "question": "What is the term for someone who knows multiple languages?",
       "choices": [
-        "Physical exercise for the body",
-        "Mental exercise for the brain",
-        "Resting the brain"
+        "Monoglot",
+        "Polyglot",
+        "Bilingual"
       ],
-      "answer": "Mental exercise for the brain",
-      "explanation": "A 'brain workout' refers to activities that stimulate and challenge the brain, improving its function and efficiency."
+      "answer": "Polyglot",
+      "explanation": "A person who knows multiple languages is referred to as a 'polyglot,' showcasing their linguistic abilities."
     }
   ]
 }

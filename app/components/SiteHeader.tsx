@@ -1,36 +1,44 @@
-import Link from 'next/link'
+'use client';
 
-export default function SiteHeader({ user }: { user?: { name: string } }) {
+import Link from 'next/link';
+import { useAuth } from '@/context/AuthContext';
+import { signOut } from 'firebase/auth';
+import { auth } from '@/lib/firebase';
+import { useRouter } from 'next/navigation';
+
+export default function SiteHeader() {
+  const { user, loading } = useAuth();
+  const router = useRouter();
+
+  console.log('[SiteHeader]', { user, loading }); // ✅ ここに移動！
+
+  const handleSignOut = async () => {
+    await signOut(auth);
+    router.push('/signup');
+  };
+
   return (
-    <header className="flex justify-between items-center p-4 bg-white dark:bg-gray-900 border-b border-gray-300 dark:border-gray-700 text-black dark:text-white">
-      <div className="flex items-center gap-4">
-        <Link href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-300 hover:underline">
-          Mochi English
-        </Link>
-      </div>
+    <header className="flex justify-between items-center p-4 border-b">
+      <Link href="/" className="text-xl font-bold text-blue-600">
+        Mochi English
+      </Link>
 
-      <div className="flex items-center gap-4">
-        {/* ダークモードトグル（将来） */}
-        {/* <ThemeToggle /> */}
-
-        {user ? (
-          <div className="text-sm">
-            👋 Hello, {user.name}
-            <Link href="/account" className="ml-4 underline text-blue-600 dark:text-blue-300">
-              Account
-            </Link>
-          </div>
-        ) : (
-          <>
-            <Link href="/login" className="text-sm px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700">
-              Log in
-            </Link>
-            <Link href="/signup" className="text-sm px-3 py-1 bg-gray-200 dark:bg-gray-700 rounded hover:bg-gray-300 dark:hover:bg-gray-600">
-              Sign up
-            </Link>
-          </>
-        )}
-      </div>
+      {!loading && (
+        <div className="flex gap-4 items-center">
+          {user ? (
+            <>
+              <span>Hello, {user.displayName || user.email}</span>
+              <Link href="/account">Account</Link>
+              <button onClick={handleSignOut}>Sign out</button>
+            </>
+          ) : (
+            <>
+              <Link href="/login">Log in</Link>
+              <Link href="/signup">Sign up</Link>
+            </>
+          )}
+        </div>
+      )}
     </header>
-  )
+  );
 }
