@@ -1,8 +1,11 @@
 'use client'
 
+import { db } from '@/lib/firebase'
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
+import { useAuth } from '@/context/AuthContext'
+
 import { useEffect, useState } from 'react'
 import VocabularyCard from './VocabularyCard'
-
 
 type QuizItem = {
   question: string
@@ -42,49 +45,31 @@ export default function QuizLayout({
   duration,
   publishedAt,
 }: Props) {
-  const [quizIntro, setQuizIntro] = useState<string>('Let’s try a quiz!')
-  const [vocabIntro, setVocabIntro] = useState<string>('Vocabulary from the video')
-  const [quizTitle, setQuizTitle] = useState<string>('🧠 Quiz')
-  const [vocabTitle, setVocabTitle] = useState<string>('📘 Vocabulary')
-  const [videoTitle, setVideoTitle] = useState<string>('📺 Watch the Video')
-  const [videoIntro, setVideoIntro] = useState<string>('Let’s watch the video that today’s quiz and vocabulary are based on.')
+  const { user } = useAuth()
   const [answers, setAnswers] = useState<(string | null)[]>(Array(quiz.length).fill(null))
+  const [saved, setSaved] = useState(false)
 
-  useEffect(() => {
-    fetch('/data/config/article-template.json')
-      .then((res) => res.json())
-      .then((config) => {
-        setQuizIntro(config.quiz_intro || quizIntro)
-        setVocabIntro(config.vocab_intro || vocabIntro)
-        setQuizTitle(config.quiz_section_title || quizTitle)
-        setVocabTitle(config.vocab_section_title || vocabTitle)
-        setVideoTitle(config.video_section_title || videoTitle)
-        setVideoIntro(config.video_intro || videoIntro)
-      })
-      .catch(() => {
-        console.warn('No config found, using default intros.')
-      })
-  }, [])
-
-  const formatDuration = (iso?: string): string => {
-    if (!iso) return '–'
-    const match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/)
-    if (!match) return iso
-    const [, h, m, s] = match.map(Number)
-    const totalMinutes = (h || 0) * 60 + (m || 0)
-    return `${totalMinutes}:${(s || 0).toString().padStart(2, '0')} min`
-  }
-
-  const formatDate = (iso?: string): string => {
-    if (!iso) return '–'
-    return new Date(iso).toLocaleDateString()
-  }
-
-  const handleAnswer = (questionIndex: number, choice: string) => {
+  const handleAnswer = async (questionIndex: number, choice: string) => {
     if (answers[questionIndex] !== null) return
     const newAnswers = [...answers]
     newAnswers[questionIndex] = choice
     setAnswers(newAnswers)
+
+    const allAnswered = newAnswers.every((a) => a !== null)
+    if (allAnswered && user && !saved) {
+      setSaved(true)
+      await addDoc(collection(db, `users/${user.uid}/quizResults`), {
+        userId: user.uid,
+        videoId,
+        movieTitle,
+        score: newAnswers.filter((a, i) => a === quiz[i].answer).length,
+        total: quiz.length,
+        category,
+        level,
+        channelName,
+        timestamp: serverTimestamp(),
+      })
+    }
   }
 
   const score = answers.filter((a, i) => a === quiz[i].answer).length
@@ -96,15 +81,8 @@ export default function QuizLayout({
       <p className="text-gray-600 dark:text-gray-300">{leadIntro}</p>
 
       <section>
-        <h2 className="text-xl font-semibold mt-10 mb-2">{videoTitle}</h2>
-        <p className="text-gray-700 dark:text-gray-300 mb-2">{videoIntro}</p>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mb-1">
-          Channel: {channelName} / 📂 {category} / 🎯 {level}
-        </p>
-        <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-          🕒 {formatDuration(duration)} / 📅 {formatDate(publishedAt)}
-        </p>
-        <div className="aspect-video">
+        <h2 className="text-xl font-semibold mt-10 mb-2">📺 Watch the Video</h2>
+        <div className="aspect-video mb-4">
           <iframe
             className="w-full h-full rounded"
             src={`https://www.youtube.com/embed/${videoId}`}
@@ -114,16 +92,16 @@ export default function QuizLayout({
             allowFullScreen
           ></iframe>
         </div>
+        <p className="text-sm text-gray-500 dark:text-gray-400">
+          Channel: {channelName} / 📂 {category} / 🎯 {level}
+        </p>
       </section>
 
       <section>
-        <h2 className="text-xl font-semibold mt-10 mb-2">{quizTitle}</h2>
-        <p className="text-gray-700 dark:text-gray-300 mb-4">{quizIntro}</p>
+        <h2 className="text-xl font-semibold mt-10 mb-2">🧠 Quiz</h2>
         {quiz.map((q, i) => {
           const selected = answers[i]
           const isCorrect = selected === q.answer
-          const isWrong = selected && selected !== q.answer
-
           const boxStyle = selected
             ? isCorrect
               ? 'bg-green-100 border-green-500 dark:bg-green-500/30 dark:border-green-400'
@@ -131,7 +109,7 @@ export default function QuizLayout({
             : 'bg-white dark:bg-gray-800 border dark:border-gray-700'
 
           return (
-            <div key={i} className={`mb-6 p-4 rounded shadow text-black dark:text-white ${boxStyle}`}>
+            <div key={i} className={`mb-6 p-4 rounded shadow ${boxStyle}`}>
               <p className="font-bold mb-2">{i + 1}. {q.question}</p>
               <ul className="space-y-2">
                 {q.choices.map((c, j) => (
@@ -145,38 +123,30 @@ export default function QuizLayout({
                 ))}
               </ul>
               {selected && (
-                <div className="mt-4">
-                  <p className="text-green-700 dark:text-green-300 font-semibold">Answer: {q.answer}</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">{q.explanation}</p>
+                <div className="mt-4 text-sm text-gray-600 dark:text-gray-300">
+                  <p className="font-semibold text-green-700 dark:text-green-300">Answer: {q.answer}</p>
+                  <p>{q.explanation}</p>
                 </div>
               )}
             </div>
           )
         })}
         {allAnswered && (
-          <p className="text-lg font-bold text-center text-blue-700 dark:text-blue-300">
+          <p className="text-lg font-bold text-center text-blue-700 dark:text-blue-300 mt-4">
             ✅ Your Score: {score} / {quiz.length}
           </p>
         )}
       </section>
 
       <section>
-        <h2 className="text-xl font-semibold mt-10 mb-2">{vocabTitle}</h2>
-        <p className="text-gray-700 dark:text-gray-300 mb-4">{vocabIntro}</p>
+        <h2 className="text-xl font-semibold mt-10 mb-2">📘 Vocabulary</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {vocabulary.map((v, i) => (
-            <VocabularyCard key={i} item={v} />
-          ))}
+          {vocabulary
+            .filter((v) => v && v.word && v.definition && v.example)
+            .map((v, i) => (
+              <VocabularyCard key={i} item={v} />
+            ))}
         </div>
-
-            <div className="mt-8 text-center">
-              <a
-                href="/"
-                className="inline-block px-6 py-2 bg-blue-600 text-white dark:bg-blue-400 dark:text-black rounded hover:bg-blue-700 dark:hover:bg-blue-500 transition"
-              >
-                ← Back to Article List
-              </a>
-            </div>
       </section>
     </main>
   )

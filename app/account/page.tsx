@@ -38,37 +38,59 @@ export default function AccountPage() {
     }
   }, [user, loading, router]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      if (!user) return;
+useEffect(() => {
+  const fetchData = async () => {
+    if (!user) return;
 
-      const userRef = doc(db, 'users', user.uid);
-      const userSnap = await getDoc(userRef);
-      if (userSnap.exists()) {
-        const data = userSnap.data();
-        setNickname(data.nickname || '');
-        if (data.createdAt?.seconds) {
-          const date = new Date(data.createdAt.seconds * 1000);
-          setCreatedAt(date.toLocaleDateString());
-        }
-        if (data.favoriteWords) {
-          setFavoriteWords(data.favoriteWords);
-        }
+    const userRef = doc(db, 'users', user.uid);
+    const userSnap = await getDoc(userRef);
+    if (userSnap.exists()) {
+      const data = userSnap.data();
+      setNickname(data.nickname || '');
+      if (data.createdAt?.seconds) {
+        const date = new Date(data.createdAt.seconds * 1000);
+        setCreatedAt(date.toLocaleDateString());
       }
+    }
 
-      const quizRef = collection(db, 'users', user.uid, 'quizHistory');
-      const quizSnap = await getDocs(quizRef);
-      const history: QuizRecord[] = [];
-      quizSnap.forEach((doc) => {
-        history.push(doc.data() as QuizRecord);
+    // 🔄 クイズ履歴の読み込み（quizResults に修正）
+    const quizRef = collection(db, 'users', user.uid, 'quizResults');
+    const quizSnap = await getDocs(quizRef);
+    const history: QuizRecord[] = [];
+    quizSnap.forEach((doc) => {
+      const q = doc.data();
+      history.push({
+        date: q.timestamp || { seconds: 0 },
+        title: q.movieTitle,
+        url: `https://youtube.com/watch?v=${q.videoId}`,
+        channel: q.channelName,
+        category: q.category,
+        level: q.level,
+        score: `${q.score}/${q.total}`,
       });
-      setQuizHistory(history);
+    });
+    setQuizHistory(history);
 
-      setFetching(false);
-    };
+    // 🔄 お気に入り単語（favoriteWords に修正）
+    const favRef = collection(db, 'users', user.uid, 'favoriteWords');
+    const favSnap = await getDocs(favRef);
+    const favs: FavoriteWord[] = [];
+    favSnap.forEach((doc) => {
+      const d = doc.data();
+      favs.push({
+        word: d.word,
+        meaning: d.definition,
+        example: d.example,
+      });
+    });
+    setFavoriteWords(favs);
 
-    fetchData();
-  }, [user]);
+    setFetching(false);
+  }
+
+  fetchData();
+}, [user]);
+
 
   if (loading || fetching) {
     return (
