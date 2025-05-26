@@ -1,5 +1,6 @@
 'use client';
 
+import { useTheme } from '@/context/ThemeContext'; 
 import { useEffect, useState } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { useRouter } from 'next/navigation';
@@ -25,6 +26,8 @@ interface FavoriteWord {
 export default function AccountPage() {
   const { user, loading } = useAuth();
   const router = useRouter();
+  const { theme, toggleTheme } = useTheme(); 
+
 
   const [nickname, setNickname] = useState('');
   const [createdAt, setCreatedAt] = useState<string | null>(null);
@@ -104,6 +107,21 @@ useEffect(() => {
     <div className="min-h-screen px-6 py-10 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white">
       <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
         <h1 className="text-2xl font-bold mb-4">My Account</h1>
+
+        <div className="mb-4 flex items-center">
+          <span className="mr-2">🌞</span>
+          <label className="relative inline-flex items-center cursor-pointer">
+            <input
+              type="checkbox"
+              className="sr-only peer"
+              checked={theme === 'dark'}
+              onChange={toggleTheme}
+            />
+            <div className="w-11 h-6 bg-gray-300 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-blue-500 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all"></div>
+          </label>
+          <span className="ml-2">🌙</span>
+        </div>
+
 
         <section className="mb-6">
           <p><strong>Nickname:</strong> {nickname}</p>
