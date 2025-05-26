@@ -5,12 +5,11 @@ import { useAuth } from '@/context/AuthContext';
 import { signOut } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 export default function SiteHeader() {
   const { user, loading } = useAuth();
   const router = useRouter();
-
-  console.log('[SiteHeader]', { user, loading }); // ✅ ここに移動！
 
   const handleSignOut = async () => {
     await signOut(auth);
@@ -18,13 +17,30 @@ export default function SiteHeader() {
   };
 
   return (
-    <header className="flex justify-between items-center p-4 border-b">
-      <Link href="/" className="text-xl font-bold text-blue-600">
-        Mochi English
+    <header className="flex justify-between items-center px-4 py-2 border-b border-gray-700">
+      <Link href="/">
+        {/* ダークモード用ロゴ */}
+        <Image
+          src="/img/logo-dark.png"
+          alt="SABACAN"
+          width={140}
+          height={40}
+          className="h-8 w-auto object-contain dark:block hidden"
+          priority
+        />
+        {/* ライトモード用ロゴ */}
+        <Image
+          src="/img/logo-light.png"
+          alt="SABACAN"
+          width={140}
+          height={40}
+          className="h-8 w-auto object-contain dark:hidden block"
+          priority
+        />
       </Link>
 
       {!loading && (
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center text-sm">
           {user ? (
             <>
               <span>Hello, {user.displayName || user.email}</span>
