@@ -18,23 +18,21 @@ export default function SiteHeader() {
 
   return (
     <header className="flex justify-between items-center px-4 py-2 border-b border-gray-700">
-      <Link href="/">
-        {/* ダークモード用ロゴ */}
+      <Link href="/" className="flex items-center">
         <Image
           src="/img/logo-dark.png"
           alt="SABACAN"
           width={140}
-          height={40}
-          className="h-8 w-auto object-contain dark:block hidden"
+          height={60}
+          className="h-8 w-auto object-contain cursor-pointer dark:block hidden"
           priority
         />
-        {/* ライトモード用ロゴ */}
         <Image
           src="/img/logo-light.png"
           alt="SABACAN"
           width={140}
-          height={40}
-          className="h-8 w-auto object-contain dark:hidden block"
+          height={60}
+          className="h-8 w-auto object-contain cursor-pointer dark:hidden block"
           priority
         />
       </Link>
