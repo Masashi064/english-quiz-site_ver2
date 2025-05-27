@@ -45,7 +45,7 @@
     "6 minutes english"
   ],
   "introduction": "Are zoos an important scientific resource, or an unnecessary abuse of animal rights? For audio and t",
-  "lead_intro": "Join us as we delve into the debate on whether animals should be kept in zoos, exploring both sides of this controversial topic!",
+  "lead_intro": "Are you ready to test your knowledge on the debate about keeping animals in zoos? Let's dive into a quiz based on a discussion from BBC Learning English!",
   "quiz": [
     {
       "question": "What animals escaped from Sydney's Taronga Zoo in Australia in 2022?",
@@ -54,48 +54,48 @@
         "lions",
         "zebras"
       ],
-      "answer": "b) lions",
-      "explanation": "The escaped animals from Sydney's Taronga Zoo in 2022 were lions, not zebras as speculated."
+      "answer": "lions",
+      "explanation": "The correct answer is lions. The escaped animals were not elephants or zebras, but lions."
     },
     {
-      "question": "What is the primary reason zoos give for their existence?",
+      "question": "What is the primary reason zoos give for why they should exist?",
       "choices": [
         "entertainment",
         "education",
         "conservation"
       ],
-      "answer": "b) education",
-      "explanation": "Zoos primarily exist to educate people, especially school children, about conservation and the importance of protecting plants and animals."
+      "answer": "education",
+      "explanation": "Zoos primarily exist for education. They aim to educate people, especially school children, about conservation."
     },
     {
-      "question": "What term describes the purposeless behaviors displayed by captive animals due to stress?",
+      "question": "What does the idiom 'it takes two to tango' refer to in the context of the discussion?",
       "choices": [
-        "zoochosis",
+        "an animal mating ritual",
+        "a dance performed by zoo animals",
+        "an activity needing two active participants"
+      ],
+      "answer": "an activity needing two active participants",
+      "explanation": "In the context of the discussion, 'it takes two to tango' means an activity that requires two willing and active participants for success."
+    },
+    {
+      "question": "What term is used to describe the abnormal behaviors displayed by animals in zoos due to stress?",
+      "choices": [
         "zoophobia",
-        "zoolinguistics"
+        "zoochosis",
+        "zoophilia"
       ],
-      "answer": "a) zoochosis",
-      "explanation": "Zoochosis is the term used to describe abnormal behaviors like pacing and head-bobbing exhibited by animals in captivity due to stress."
+      "answer": "zoochosis",
+      "explanation": "The term 'zoochosis' is used to describe the abnormal, repetitive behaviors exhibited by captive animals in response to the stress of being confined in zoos."
     },
     {
-      "question": "What idiom does William Lee Adams use to describe the need for two pandas to reproduce?",
+      "question": "What does the adjective 'reluctant' mean in the context of the discussion?",
       "choices": [
-        "two's a crowd",
-        "it takes two to tango",
-        "double trouble"
+        "eager",
+        "hesitant",
+        "enthusiastic"
       ],
-      "answer": "b) it takes two to tango",
-      "explanation": "The idiom 'it takes two to tango' is used by William to emphasize that successful reproduction of pandas requires both male and female pandas to participate."
-    },
-    {
-      "question": "What did Nikita Dhawan argue about zoos' impact on animals?",
-      "choices": [
-        "physical benefits",
-        "psychological benefits",
-        "detrimental impact"
-      ],
-      "answer": "c) detrimental impact",
-      "explanation": "Nikita argued that zoos have a detrimental impact on animals' physical and psychological health, leading to abnormal behaviors and mental distress."
+      "answer": "hesitant",
+      "explanation": "In this context, 'reluctant' means hesitant or unwilling. It refers to animals, like pandas, being slow or hesitant to reproduce."
     }
   ]
 }
