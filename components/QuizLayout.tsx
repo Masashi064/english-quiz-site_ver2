@@ -21,6 +21,7 @@ type VocabItem = {
 }
 
 type Props = {
+  slug: string
   movieTitle: string
   leadIntro: string
   quiz: QuizItem[]
@@ -34,6 +35,7 @@ type Props = {
 }
 
 export default function QuizLayout({
+  slug,  // ✅ これを追加
   movieTitle,
   leadIntro,
   quiz,
@@ -60,6 +62,7 @@ export default function QuizLayout({
       setSaved(true)
       await addDoc(collection(db, `users/${user.uid}/quizResults`), {
         userId: user.uid,
+        slug,
         videoId,
         movieTitle,
         score: newAnswers.filter((a, i) => a === quiz[i].answer).length,
@@ -68,6 +71,12 @@ export default function QuizLayout({
         level,
         channelName,
         timestamp: serverTimestamp(),
+        referrer: document.referrer || 'direct',
+        userAgent: navigator.userAgent,
+        platform: navigator.platform,
+        language: navigator.language,
+        screenWidth: window.innerWidth,
+        version: 'quiz-v1.2.0',
       })
     }
   }

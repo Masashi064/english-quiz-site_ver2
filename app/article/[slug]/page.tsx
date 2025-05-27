@@ -34,6 +34,7 @@ export default function ArticlePage() {
 
   return (
     <QuizLayout
+      slug={slug} // ✅ 追加
       movieTitle={quizData.movie_title}
       leadIntro={quizData.lead_intro}
       quiz={quizData.quiz}
