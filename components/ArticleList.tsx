@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useAuth } from '@/lib/useAuth'
@@ -162,7 +163,7 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">
-        {filtered.map((a) => {
+        {filtered.map((a, index) => {
           const isCompleted = completedSlugs.includes(a.slug)
           return (
             <div key={a.slug} className="p-4 border rounded relative shadow hover:shadow-lg bg-white dark:bg-gray-800 text-black dark:text-white">
@@ -172,7 +173,14 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
                 </div>
               )}
               <Link href={`/article/${a.slug}`} className="block hover:opacity-80 transition">
-                <img src={`/img/img-${a.slug}.jpg`} alt="thumbnail" className="mb-3 w-full h-40 object-cover rounded" loading="lazy" />
+                <Image
+                  src={`/img/img-${a.slug}.jpg`}
+                  alt="thumbnail"
+                  width={480}
+                  height={270}
+                  className="mb-3 w-full h-40 object-cover rounded"
+                  priority={index < 1}
+                />
                 <h2 className="text-xl font-semibold mb-1">{a.movie_title}</h2>
               </Link>
               <p className="text-sm text-gray-500 dark:text-gray-300">Channel: {a.channel_name}</p>
