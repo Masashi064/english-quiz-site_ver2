@@ -24,9 +24,9 @@ export default function VocabularyCard({ item }: Props) {
   }
 
   const toggleFavorite = async () => {
-    alert("🟡 toggleFavorite 実行")
-    alert("🧠 単語: " + item.word)
-    alert("👤 user: " + JSON.stringify(user))
+    //alert("🟡 toggleFavorite 実行")
+    //alert("🧠 単語: " + item.word)
+    //alert("👤 user: " + JSON.stringify(user))
 
     const key = `favorite-${item.word}`
     const newState = !isFavorite
@@ -42,9 +42,9 @@ export default function VocabularyCard({ item }: Props) {
           example: item.example,
           timestamp: serverTimestamp(),
         })
-        alert("✅ Firestoreに保存しました！")
+        //alert("✅ Firestoreに保存しました！")
       } catch (error) {
-        alert("❌ Firestore保存失敗！")
+        //alert("❌ Firestore保存失敗！")
         console.error('Firestore保存エラー:', error)
       }
     }
@@ -78,7 +78,7 @@ export default function VocabularyCard({ item }: Props) {
           <div
             onClick={(e) => {
               e.stopPropagation()
-              alert("❤️ ハートクリックされた！")
+              //alert("❤️ ハートクリックされた！")
               toggleFavorite()
             }}
             className="absolute top-3 right-3 cursor-pointer"

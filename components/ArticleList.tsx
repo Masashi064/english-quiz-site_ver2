@@ -123,8 +123,10 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
       <div className="grid md:grid-cols-2 gap-6">
         {filtered.map((a) => (
           <div key={a.slug} className="p-4 border rounded bg-white dark:bg-gray-800 text-black dark:text-white shadow hover:shadow-lg">
-            <img src={a.thumbnail_url} alt="thumbnail" className="mb-3 w-full h-40 object-cover rounded" />
-            <h2 className="text-xl font-semibold mb-1">{a.movie_title}</h2>
+            <Link href={`/article/${a.slug}`} className="block hover:opacity-80 transition">
+              <img src={`/img/img-${a.slug}.jpg`} alt="thumbnail" className="mb-3 w-full h-40 object-cover rounded" />
+              <h2 className="text-xl font-semibold mb-1">{a.movie_title}</h2>
+            </Link>
             <p className="text-sm text-gray-500 dark:text-gray-300">Channel: {a.channel_name}</p>
             <p className="text-sm mt-1">📂 {a.assigned_category} / 🎯 {a.assigned_level}</p>
             <p className="text-sm text-gray-600 dark:text-gray-300">🕒 {formatDuration(a.duration)} / 📅 {formatDate(a.published_at)}</p>

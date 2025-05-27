@@ -45,62 +45,57 @@
     "6 minutes english"
   ],
   "introduction": "Is eating healthily always expensive? For audio and transcript downloads, a quiz and a list of the w",
-  "lead_intro": "Join us in this 6 Minute English episode where we discuss saving money on food and learn about a project helping people eat healthily on a budget!",
+  "lead_intro": "Join us on 6 Minute English to learn about saving money on food and discover a project that helps people cook healthy meals on a budget!",
   "quiz": [
     {
-      "question": "What is the most expensive restaurant in the world, Sublimotion in Ibiza, estimated to charge per person for a meal in euros?",
+      "question": "What is the cost per person for a meal at the restaurant Sublimotion in Ibiza?",
       "choices": [
         "€650",
         "€1650",
-        "€2650",
-        "..."
+        "€2650"
       ],
       "answer": "€1650",
-      "explanation": "The correct answer is €1650. Although Georgie guessed €2650, the meal at Sublimotion actually costs €1650 per person."
+      "explanation": "The cost per person for a meal at Sublimotion is €1650, making it one of the most expensive restaurants in the world."
     },
     {
-      "question": "What does the adverb 'ultimately' mean in the context of the episode?",
+      "question": "What does the adverb 'ultimately' mean in the context of the discussion?",
       "choices": [
-        "Quickly",
-        "Finally",
-        "Regularly",
-        "..."
+        "Suddenly",
+        "Slowly",
+        "Finally"
       ],
       "answer": "Finally",
-      "explanation": "'Ultimately' in the episode means 'finally, after a series of events have happened.'"
+      "explanation": "In this context, 'ultimately' means finally or after a series of events have happened."
     },
     {
-      "question": "How is the term 'a classic' used in the episode?",
+      "question": "How is the recipe 'chana masala' described by the mentor Amy?",
       "choices": [
-        "To describe an old recipe",
-        "To refer to a well-known recipe of high quality",
-        "To introduce a new recipe",
-        "..."
+        "Easy",
+        "A classic",
+        "Complicated"
       ],
-      "answer": "To refer to a well-known recipe of high quality",
-      "explanation": "In the episode, 'a classic' is used to describe the recipe for chana masala as well known and of good quality."
+      "answer": "A classic",
+      "explanation": "Amy describes the recipe for chana masala as 'a classic', indicating that it is well known and of good quality."
     },
     {
-      "question": "What does it mean if someone is 'heavy-handed' with an ingredient?",
+      "question": "What does it mean to be 'heavy-handed' with an ingredient?",
       "choices": [
-        "Using the ingredient cautiously",
-        "Using the ingredient sparingly",
-        "Using too much of the ingredient",
-        "..."
+        "Using too little of it",
+        "Using just the right amount",
+        "Using too much of it"
       ],
-      "answer": "Using too much of the ingredient",
-      "explanation": "If someone is 'heavy-handed' with an ingredient, they use more of it than necessary, resulting in an excess amount in the dish."
+      "answer": "Using too much of it",
+      "explanation": "If you are heavy-handed with an ingredient, you use too much of it, resulting in an overly intense flavor."
     },
     {
-      "question": "How is the term 'a pain to do' used in the episode?",
+      "question": "How does Bags of Taste help people cook healthy meals on a budget?",
       "choices": [
-        "To describe an easy task",
-        "To describe a difficult or annoying task",
-        "To describe a fun activity",
-        "..."
+        "By providing ready-made meals",
+        "By delivering ingredients and recipes",
+        "By offering cooking classes"
       ],
-      "answer": "To describe a difficult or annoying task",
-      "explanation": "In the episode, 'a pain to do' is used to describe the difficulty or annoyance of chopping onions."
+      "answer": "By delivering ingredients and recipes",
+      "explanation": "Bags of Taste delivers ingredients and recipes to people's doors, helping them learn new recipes and cook healthy food affordably."
     }
   ]
 }
