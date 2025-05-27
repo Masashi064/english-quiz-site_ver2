@@ -36,6 +36,7 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
   const [completionFilter, setCompletionFilter] = useState<'all' | 'completed' | 'uncompleted'>('all')
   const [completedSlugs, setCompletedSlugs] = useState<string[]>([])
 
+
   // 🔁 クイズ履歴の取得
   useEffect(() => {
     const fetchCompletedSlugs = async () => {
@@ -165,10 +166,15 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
       <div className="grid md:grid-cols-2 gap-6">
         {filtered.map((a, index) => {
           const isCompleted = completedSlugs.includes(a.slug)
+
+          const cardStyle = isCompleted
+            ? 'p-4 border rounded relative shadow hover:shadow-lg bg-green-100 border-green-500 dark:bg-green-500/30 dark:border-green-400 text-black dark:text-white'
+            : 'p-4 border rounded relative shadow hover:shadow-lg bg-white dark:bg-gray-800 text-black dark:text-white'
+
           return (
-            <div key={a.slug} className="p-4 border rounded relative shadow hover:shadow-lg bg-white dark:bg-gray-800 text-black dark:text-white">
+            <div key={a.slug} className={cardStyle}>
               {isCompleted && (
-                <div className="absolute top-2 right-2 bg-green-600 text-white text-xs px-2 py-1 rounded">
+                <div className="absolute bottom-0 right-0 bg-green-600 text-white px-2">
                   ✅ Completed
                 </div>
               )}

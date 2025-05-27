@@ -1,0 +1,65 @@
+{
+  "slug": "7bdbd1bd",
+  "video_id": "rxtKej7KtQg",
+  "movie_title": "experience - English Word of the Day",
+  "movie_url": "https://youtu.be/rxtKej7KtQg",
+  "published_at": "2025-05-24T09:30:24Z",
+  "duration": "PT1M35S",
+  "tags": [
+    "#English #learnEnglish #shorts #Englishlesson #wordoftheday #wotd"
+  ],
+  "introduction": "Learn EnglishClass101's word of the day #shorts #English #EnglishClass101",
+  "lead_intro": "Let's dive into learning about the word 'experience' and test your understanding with a fun quiz!",
+  "quiz": [
+    {
+      "question": "What does the word 'experience' mean?",
+      "choices": [
+        "things you hear",
+        "things you see, do, or feel",
+        "things you taste"
+      ],
+      "answer": "things you see, do, or feel",
+      "explanation": "The word 'experience' refers to the things you see, do, or feel when you are involved in something."
+    },
+    {
+      "question": "In the example provided, where was the incredible experience?",
+      "choices": [
+        "working at home",
+        "working abroad",
+        "working with family"
+      ],
+      "answer": "working abroad",
+      "explanation": "The incredible experience mentioned in the example was from working abroad."
+    },
+    {
+      "question": "What is the speaker encouraging you to do in the lesson?",
+      "choices": [
+        "be quiet",
+        "say the word 'experience' out loud",
+        "whisper the word 'incredible'"
+      ],
+      "answer": "say the word 'experience' out loud",
+      "explanation": "The speaker in the lesson encourages you to say the word 'experience' out loud for practice."
+    },
+    {
+      "question": "According to the lesson, why did the person come back from working abroad so soon?",
+      "choices": [
+        "to travel more",
+        "to learn a new language",
+        "unknown"
+      ],
+      "answer": "unknown",
+      "explanation": "The reason for coming back from working abroad so soon is unknown based on the provided content."
+    },
+    {
+      "question": "Where can you find more English lessons like this one?",
+      "choices": [
+        "English class 101",
+        "Science class 101",
+        "Math class 101"
+      ],
+      "answer": "English class 101",
+      "explanation": "You can find more English lessons by following English class 101, as suggested in the lesson."
+    }
+  ]
+}
