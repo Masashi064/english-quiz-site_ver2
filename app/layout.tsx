@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   title: "SABACAN",
   description: "Learn English through fun quizzes — new content added daily on SABACAN!",
   icons: {
-    icon: '/img/favicon.ico',
-  },
+    icon: '/favicon.ico',
+  }
 };
 
 export default function RootLayout({
