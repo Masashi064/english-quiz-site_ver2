@@ -35,23 +35,43 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc')
   const [completionFilter, setCompletionFilter] = useState<'all' | 'completed' | 'uncompleted'>('all')
   const [completedSlugs, setCompletedSlugs] = useState<string[]>([])
-
+  const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({})
+  const [levelCounts, setLevelCounts] = useState<Record<string, number>>({})
+  const [completedCount, setCompletedCount] = useState(0)
+  const [uncompletedCount, setUncompletedCount] = useState(0)
 
   // 🔁 クイズ履歴の取得
   useEffect(() => {
-    const fetchCompletedSlugs = async () => {
-      if (!user) return
-      const quizRef = collection(db, 'users', user.uid, 'quizResults')
-      const quizSnap = await getDocs(quizRef)
-      const completed: string[] = []
-      quizSnap.forEach(doc => {
-        const data = doc.data()
-        if (data.slug) completed.push(data.slug)
+    Promise.all(
+      slugs.map((slug) =>
+        fetch(`/data/category/category-${slug}.json`)
+          .then((res) => res.json())
+          .catch(() => null)
+      )
+    ).then((results) => {
+      const loaded = results.filter((a): a is CategoryItem => !!a)
+      setArticles(loaded)
+
+      // 🔢 カテゴリ・レベルごとの件数をカウント
+      const catCounts: Record<string, number> = {}
+      const lvlCounts: Record<string, number> = {}
+
+      loaded.forEach((a) => {
+        catCounts[a.assigned_category] = (catCounts[a.assigned_category] || 0) + 1
+        lvlCounts[a.assigned_level] = (lvlCounts[a.assigned_level] || 0) + 1
       })
-      setCompletedSlugs(completed)
-    }
-    fetchCompletedSlugs()
-  }, [user])
+
+      setCategoryCounts(catCounts)
+      setLevelCounts(lvlCounts)
+
+      // ✅ ここが今回追加する completed/uncompleted カウント処理
+      const completed = loaded.filter((a) => completedSlugs.includes(a.slug)).length
+      const uncompleted = loaded.length - completed
+      setCompletedCount(completed)
+      setUncompletedCount(uncompleted)
+    })
+  }, [slugs, completedSlugs])
+
 
   // 🔁 記事データの読み込み
   useEffect(() => {
@@ -63,6 +83,45 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
       setArticles(results.filter((a): a is CategoryItem => !!a))
     })
   }, [slugs])
+
+  useEffect(() => {
+  Promise.all(
+    slugs.map((slug) =>
+      fetch(`/data/category/category-${slug}.json`).then((res) => res.json()).catch(() => null)
+    )
+  ).then((results) => {
+    const loaded = results.filter((a): a is CategoryItem => !!a)
+    setArticles(loaded)
+
+    // 🔢 件数カウント
+    const catCounts: Record<string, number> = {}
+    const lvlCounts: Record<string, number> = {}
+
+    loaded.forEach(a => {
+      catCounts[a.assigned_category] = (catCounts[a.assigned_category] || 0) + 1
+      lvlCounts[a.assigned_level] = (lvlCounts[a.assigned_level] || 0) + 1
+    })
+
+    setCategoryCounts(catCounts)
+    setLevelCounts(lvlCounts)
+  })
+}, [slugs])
+
+useEffect(() => {
+  const fetchCompletedSlugs = async () => {
+    if (!user) return
+    const quizRef = collection(db, 'users', user.uid, 'quizResults')
+    const quizSnap = await getDocs(quizRef)
+    const completed: string[] = []
+    quizSnap.forEach(doc => {
+      const data = doc.data()
+      if (data.slug) completed.push(data.slug)
+    })
+    setCompletedSlugs(completed)
+  }
+  fetchCompletedSlugs()
+}, [user])
+
 
   const parseDuration = (iso: string): number => {
     const match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/)
@@ -110,31 +169,40 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 appearance-none"
+          className="h-10 px-3 border rounded text-sm bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-300 appearance-none"
         >
-          <option value="all">All Categories</option>
-          {allCategories.map((c) => <option key={c} value={c}>{c}</option>)}
+          <option value="all">All Categories ({articles.length})</option>
+          {allCategories.map((c) => (
+            <option key={c} value={c}>
+              {c} ({categoryCounts[c] || 0})
+            </option>
+          ))}
         </select>
 
         <select
           value={level}
           onChange={(e) => setLevel(e.target.value)}
-          className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 appearance-none"
+          className="h-10 px-3 border rounded text-sm bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-300 appearance-none"
         >
-          <option value="all">All Levels</option>
-          {allLevels.map((l) => <option key={l} value={l}>{l}</option>)}
+          <option value="all">All Levels ({articles.length})</option>
+          {allLevels.map((l) => (
+            <option key={l} value={l}>
+              {l} ({levelCounts[l] || 0})
+            </option>
+          ))}
         </select>
 
         <select
           value={completionFilter}
           onChange={(e) => setCompletionFilter(e.target.value as any)}
-          className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 appearance-none"
+          className="h-10 px-3 border rounded text-sm bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-300 appearance-none"
         >
-          <option value="all">All</option>
-          <option value="uncompleted">Not attempted</option>
-          <option value="completed">Completed</option>
+          <option value="all">All Status ({articles.length})</option>
+          <option value="uncompleted">Not attempted ({uncompletedCount})</option>
+          <option value="completed">Completed ({completedCount})</option>
         </select>
 
+        
         <input
           type="text"
           value={search}
@@ -160,6 +228,21 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
           <option value="desc">↓ Desc</option>
           <option value="asc">↑ Asc</option>
         </select>
+
+        <button
+          onClick={() => {
+            setCategory('all')
+            setLevel('all')
+            setCompletionFilter('all')
+            setSearch('')
+            setSortKey('published_at')
+            setSortOrder('desc')
+          }}
+          className="h-10 px-4 rounded text-sm bg-gray-200 text-black dark:bg-gray-700 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600"
+        >
+          Reset Filters
+        </button>
+
 
       </div>
 

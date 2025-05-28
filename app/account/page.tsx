@@ -6,6 +6,7 @@ import { useAuth } from '@/context/AuthContext';
 import { useRouter } from 'next/navigation';
 import { db } from '@/lib/firebase';
 import { collection, doc, getDoc, getDocs } from 'firebase/firestore';
+import VocabularyCard from '@/components/VocabularyCard' 
 
 interface QuizRecord {
   date: { seconds: number };
@@ -15,6 +16,7 @@ interface QuizRecord {
   category: string;
   level: string;
   score: string;
+  slug: string;
 }
 
 interface FavoriteWord {
@@ -34,6 +36,9 @@ export default function AccountPage() {
   const [quizHistory, setQuizHistory] = useState<QuizRecord[]>([]);
   const [favoriteWords, setFavoriteWords] = useState<FavoriteWord[]>([]);
   const [fetching, setFetching] = useState(true);
+
+  const sortedHistory = [...quizHistory].sort((a, b) => b.date.seconds - a.date.seconds)
+
 
   useEffect(() => {
     if (!loading && !user) {
@@ -56,7 +61,6 @@ useEffect(() => {
       }
     }
 
-    // 🔄 クイズ履歴の読み込み（quizResults に修正）
     const quizRef = collection(db, 'users', user.uid, 'quizResults');
     const quizSnap = await getDocs(quizRef);
     const history: QuizRecord[] = [];
@@ -65,16 +69,16 @@ useEffect(() => {
       history.push({
         date: q.timestamp || { seconds: 0 },
         title: q.movieTitle,
-        url: `https://youtube.com/watch?v=${q.videoId}`,
+        url: `/article/${q.slug}`,
         channel: q.channelName,
         category: q.category,
         level: q.level,
         score: `${q.score}/${q.total}`,
+        slug: q.slug
       });
     });
     setQuizHistory(history);
 
-    // 🔄 お気に入り単語（favoriteWords に修正）
     const favRef = collection(db, 'users', user.uid, 'favoriteWords');
     const favSnap = await getDocs(favRef);
     const favs: FavoriteWord[] = [];
@@ -89,9 +93,9 @@ useEffect(() => {
     setFavoriteWords(favs);
 
     setFetching(false);
-  }
+  };
 
-  fetchData();
+  fetchData(); // ← useEffect の中に正しく配置
 }, [user]);
 
 
@@ -148,7 +152,7 @@ useEffect(() => {
                   </tr>
                 </thead>
                 <tbody>
-                  {quizHistory.map((quiz, i) => (
+                  {sortedHistory.map((quiz, i) => (
                     <tr key={i} className="border-b dark:border-gray-700">
                       <td className="p-2">{new Date(quiz.date.seconds * 1000).toLocaleDateString()}</td>
                       <td className="p-2">
@@ -175,15 +179,14 @@ useEffect(() => {
           ) : (
             <div className="grid gap-4 md:grid-cols-2">
               {favoriteWords.map((word, i) => (
-                <div key={i} className="bg-gray-100 dark:bg-gray-700 p-4 rounded shadow-sm">
-                  <div className="font-bold text-lg">{word.word}</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-300">
-                    {word.meaning}
-                  </div>
-                  <div className="text-xs mt-1 italic text-gray-500 dark:text-gray-400">
-                    {word.example}
-                  </div>
-                </div>
+                <VocabularyCard
+                  key={i}
+                  item={{
+                    word: word.word,
+                    definition: word.meaning,
+                    example: word.example,
+                  }}
+                />
               ))}
             </div>
           )}

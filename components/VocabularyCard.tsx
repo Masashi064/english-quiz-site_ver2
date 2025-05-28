@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
 import { db } from '@/lib/firebase'
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
+import { collection, addDoc, serverTimestamp, query, where, getDocs, deleteDoc } from 'firebase/firestore'
 import { useAuth } from '@/context/AuthContext'
+
+
 
 type VocabItem = {
   word: string
@@ -24,28 +26,31 @@ export default function VocabularyCard({ item }: Props) {
   }
 
   const toggleFavorite = async () => {
-    //alert("🟡 toggleFavorite 実行")
-    //alert("🧠 単語: " + item.word)
-    //alert("👤 user: " + JSON.stringify(user))
-
     const key = `favorite-${item.word}`
     const newState = !isFavorite
     setIsFavorite(newState)
     localStorage.setItem(key, JSON.stringify(newState))
 
-    if (user && newState) {
-      try {
-        await addDoc(collection(db, `users/${user.uid}/favoriteWords`), {
+    if (!user) return
+
+    const favRef = collection(db, `users/${user.uid}/favoriteWords`)
+    const q = query(favRef, where('word', '==', item.word))
+    const snap = await getDocs(q)
+
+    if (newState) {
+      if (snap.empty) {
+        await addDoc(favRef, {
           userId: user.uid,
           word: item.word,
           definition: item.definition,
           example: item.example,
           timestamp: serverTimestamp(),
         })
-        //alert("✅ Firestoreに保存しました！")
-      } catch (error) {
-        //alert("❌ Firestore保存失敗！")
-        console.error('Firestore保存エラー:', error)
+      }
+    } else {
+      // 🔴 Firestoreから削除
+      for (const doc of snap.docs) {
+        await deleteDoc(doc.ref)
       }
     }
   }
@@ -57,12 +62,30 @@ export default function VocabularyCard({ item }: Props) {
   }
 
   useEffect(() => {
-    if (!item || !item.word) return
-    const saved = localStorage.getItem(`favorite-${item.word}`)
-    if (saved) {
-      setIsFavorite(JSON.parse(saved))
+    const checkFavorite = async () => {
+      if (!item?.word) return
+
+      const saved = localStorage.getItem(`favorite-${item.word}`)
+      if (saved !== null) {
+        setIsFavorite(JSON.parse(saved))
+        return
+      }
+
+      if (user?.uid) {
+        const favRef = collection(db, `users/${user.uid}/favoriteWords`)
+        const q = query(favRef, where('word', '==', item.word))
+        const snap = await getDocs(q)
+        if (!snap.empty) {
+          setIsFavorite(true)
+          localStorage.setItem(`favorite-${item.word}`, 'true')
+        }
+      }
     }
-  }, [item])
+
+    checkFavorite()
+  }, [item?.word, user?.uid])  
+
+
 
 
   return (
@@ -74,7 +97,7 @@ export default function VocabularyCard({ item }: Props) {
         className={`flip-inner relative w-full h-full rounded-2xl shadow-xl ${flipped ? 'rotate-y-180' : ''}`}
       >
         {/* Front */}
-        <div className="flip-front absolute inset-0 h-full w-full bg-gray-100 dark:bg-gray-800 rounded-2xl flex flex-col justify-between items-center p-4 relative">
+        <div className="flip-front absolute inset-0 h-full w-full bg-gray-100 dark:bg-gray-700 border dark:border-gray-600 rounded-2xl flex flex-col justify-between items-center p-4 relative shadow-lg">
           <div
             onClick={(e) => {
               e.stopPropagation()
@@ -109,7 +132,7 @@ export default function VocabularyCard({ item }: Props) {
         </div>
 
         {/* Back */}
-        <div className="flip-back absolute inset-0 h-full w-full bg-white dark:bg-gray-900 rounded-2xl flex flex-col items-center justify-center px-4 text-center">
+        <div className="flip-back absolute inset-0 h-full w-full bg-white dark:bg-gray-800 border dark:border-gray-600 rounded-2xl flex flex-col items-center justify-center px-4 text-center shadow-lg">
           <div className="text-lg font-bold text-gray-800 dark:text-white">{item.definition}</div>
           <div className="text-sm mt-2 italic text-gray-600 dark:text-gray-400">"{item.example}"</div>
         </div>

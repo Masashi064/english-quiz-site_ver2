@@ -1,0 +1,63 @@
+{
+  "slug": "be9c362b",
+  "video_id": "5sVfTPaxRwk",
+  "movie_title": "If You Eat Meat You Should Know This",
+  "movie_url": "https://youtu.be/5sVfTPaxRwk",
+  "published_at": "2025-02-25T15:00:01Z",
+  "duration": "PT15M30S",
+  "tags": [],
+  "introduction": "Are you getting the full story? Go to https://ground.news/KiN to access world-wide sources and compa",
+  "lead_intro": "Are you aware of the costs associated with animal welfare in the meat industry? Let's test your knowledge with some insightful questions!",
+  "quiz": [
+    {
+      "question": "What percentage of people in the EU and US do not eat meat?",
+      "choices": [
+        "1%",
+        "10%",
+        "20%"
+      ],
+      "answer": "1%",
+      "explanation": "The transcript mentions that only between 1% and 6% of people in the EU and US do not eat meat."
+    },
+    {
+      "question": "What is the main alternative to cages for laying hens?",
+      "choices": [
+        "Barn systems",
+        "Pasture access",
+        "Concrete floors"
+      ],
+      "answer": "Barn systems",
+      "explanation": "The main alternative to cages for laying hens, according to the text, are 'barn systems' which provide more space and freedom for the hens."
+    },
+    {
+      "question": "How much does it cost to give pigs more straw and bedding material, along with 30% more space?",
+      "choices": [
+        "20 cents per serving",
+        "50 cents per serving",
+        "80 cents per serving"
+      ],
+      "answer": "20 cents per serving",
+      "explanation": "Providing pigs with more straw, bedding material, and additional space would increase the price per serving by about 20 cents."
+    },
+    {
+      "question": "What percentage of beef cattle in the US have lifelong access to outdoor pasture?",
+      "choices": [
+        "Less than 5%",
+        "Around 20%",
+        "Over 50%"
+      ],
+      "answer": "Less than 5%",
+      "explanation": "The transcript states that probably less than 5% of beef cattle in the US have lifelong access to outdoor pasture."
+    },
+    {
+      "question": "How much more expensive is organic milk compared to regular milk in Germany?",
+      "choices": [
+        "5 cents per liter",
+        "10 cents per liter",
+        "20 cents per liter"
+      ],
+      "answer": "10 cents per liter",
+      "explanation": "In Germany, outdoor pasture increases the price of organic milk by about 10 cents per liter compared to regular milk."
+    }
+  ]
+}

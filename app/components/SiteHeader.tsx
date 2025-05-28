@@ -6,10 +6,29 @@ import { signOut } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import { doc, getDoc } from 'firebase/firestore'
+import { db } from '@/lib/firebase'
+import { useEffect, useState } from 'react'
+
 
 export default function SiteHeader() {
   const { user, loading } = useAuth();
   const router = useRouter();
+  const [nickname, setNickname] = useState('');
+
+  useEffect(() => {
+    const fetchNickname = async () => {
+      if (!user) return;
+      const userRef = doc(db, 'users', user.uid);
+      const snap = await getDoc(userRef);
+      if (snap.exists()) {
+        const data = snap.data();
+        setNickname(data.nickname || '');
+      }
+    };
+
+    fetchNickname();
+  }, [user]);
 
   const handleSignOut = async () => {
     await signOut(auth);
@@ -41,7 +60,7 @@ export default function SiteHeader() {
         <div className="flex gap-4 items-center text-sm">
           {user ? (
             <>
-              <span>Hello, {user.displayName || user.email}</span>
+              <p>Hi, {nickname || 'user'}</p>
               <Link href="/account">Account</Link>
               <button onClick={handleSignOut}>Sign out</button>
             </>
