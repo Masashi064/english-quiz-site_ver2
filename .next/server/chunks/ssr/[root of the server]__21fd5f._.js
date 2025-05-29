@@ -218,7 +218,7 @@ const metadata = {
     title: "SABACAN",
     description: "Learn English through fun quizzes — new content added daily on SABACAN!",
     icons: {
-        icon: '/favicon.ico'
+        icon: '/favicon-v2.ico'
     }
 };
 function RootLayout({ children }) {
