@@ -1,0 +1,63 @@
+{
+  "slug": "e4262ad7",
+  "video_id": "bgo7rm5Maqg",
+  "movie_title": "We Fell For The Oldest Lie On The Internet",
+  "movie_url": "https://youtu.be/bgo7rm5Maqg",
+  "published_at": "2024-10-29T15:00:09Z",
+  "duration": "PT13M8S",
+  "tags": [],
+  "introduction": "To get started planning a fulfilling career that does a lot of good, go to https://80000hours.org/in",
+  "lead_intro": "Ever wondered how long your blood vessels would be if you stretched them out? Dive into the intriguing journey of uncovering the truth behind a fascinating fact!",
+  "quiz": [
+    {
+      "question": "Where did the number of 100,000 kilometers for the total length of blood vessels come from?",
+      "choices": [
+        "August Krogh's book",
+        "David Suzuki's book",
+        "Steven Vogel's book"
+      ],
+      "answer": "August Krogh's book",
+      "explanation": "The original source of the 100,000 kilometers number for the total length of blood vessels was August Krogh's book."
+    },
+    {
+      "question": "What was the number range for the more accurate estimate of the length of all the capillaries in a human according to the newest science?",
+      "choices": [
+        "5000 - 9000 km",
+        "9000 - 19,000 km",
+        "20,000 - 30,000 km"
+      ],
+      "answer": "9000 - 19,000 km",
+      "explanation": "The latest science estimates the length of all the capillaries in a human to be between 9000 and 19,000 km."
+    },
+    {
+      "question": "What was the profession of Dr. David Suzuki, who was a potential original source for the blood vessel length fact?",
+      "choices": [
+        "Zoologist",
+        "Biomechanics professor",
+        "Medical researcher"
+      ],
+      "answer": "Zoologist",
+      "explanation": "Dr. David Suzuki, a potential original source for the blood vessel length fact, was a zoologist and science communicator."
+    },
+    {
+      "question": "Why was it challenging to verify the accuracy of the 100,000 kilometers blood vessel length fact?",
+      "choices": [
+        "Inconsistent information from various sources",
+        "Absence of the original source reference",
+        "Lack of interest in the scientific community"
+      ],
+      "answer": "Absence of the original source reference",
+      "explanation": "Verifying the accuracy of the 100,000 kilometers blood vessel length fact was difficult due to the absence of the original source reference in various publications."
+    },
+    {
+      "question": "What was the profession of August Krogh, the original source of the blood vessel length fact?",
+      "choices": [
+        "Biologist",
+        "Physicist",
+        "Nobel Prize winner"
+      ],
+      "answer": "Nobel Prize winner",
+      "explanation": "August Krogh, the original source of the blood vessel length fact, was a Nobel Prize winner known for his contributions to physiology and medicine."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "bb631439",
+  "video_id": "E55uSCO5D2w",
+  "movie_title": "The Most Insane Weapon You Never Heard About",
+  "movie_url": "https://youtu.be/E55uSCO5D2w",
+  "published_at": "2024-11-05T15:00:02Z",
+  "duration": "PT13M56S",
+  "tags": [],
+  "introduction": "Get 50% off your first month of a monthly club with code KURZGESAGT at https://www.kiwico.com/kurzge",
+  "lead_intro": "Discover the chilling tale of Project Sundial and the race for ultimate destructive power in this mind-bending journey through history and science.",
+  "quiz": [
+    {
+      "question": "What was the goal of Project Sundial?",
+      "choices": [
+        "create a supercomputer",
+        "develop a new type of aircraft",
+        "build a single nuclear bomb to destroy all human civilization"
+      ],
+      "answer": "build a single nuclear bomb to destroy all human civilization",
+      "explanation": "Project Sundial aimed to create a single nuclear bomb so powerful that it could eradicate all human civilization."
+    },
+    {
+      "question": "Who proposed the Baruch Plan in 1946?",
+      "choices": [
+        "Edward Teller",
+        "Soviet Union",
+        "United States"
+      ],
+      "answer": "United States",
+      "explanation": "The United States proposed the Baruch Plan in 1946, which involved getting rid of their atom bombs, sharing nuclear technology, and establishing an international authority to prevent the construction of such weapons."
+    },
+    {
+      "question": "What did Edward Teller help to develop in the 1950s?",
+      "choices": [
+        "nuclear submarines",
+        "Hydrogen bomb",
+        "space rockets"
+      ],
+      "answer": "Hydrogen bomb",
+      "explanation": "Edward Teller, a theoretical physicist, contributed to the development of the Hydrogen bomb in the 1950s, which was far more powerful than regular atom bombs."
+    },
+    {
+      "question": "How many nuclear bombs were there in the world in 1960?",
+      "choices": [
+        "200",
+        "20,000",
+        "100,000"
+      ],
+      "answer": "20,000",
+      "explanation": "In 1960, the number of nuclear bombs in the world had grown to 20,000, illustrating the rapid escalation of the nuclear arms race during that period."
+    },
+    {
+      "question": "What is the main difference between Sundial and the nuclear weapons built during the Cold War?",
+      "choices": [
+        "size",
+        "cost",
+        "quantity"
+      ],
+      "answer": "size",
+      "explanation": "While the superpowers built tens of thousands of nuclear weapons during the Cold War, Sundial was conceived as a single massive bomb capable of causing unprecedented destruction."
+    }
+  ]
+}

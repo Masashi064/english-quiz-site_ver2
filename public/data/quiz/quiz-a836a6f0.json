@@ -1,0 +1,63 @@
+{
+  "slug": "a836a6f0",
+  "video_id": "BmUZ2wp1lM8",
+  "movie_title": "Black Hole's Evil Twin - Gravastars Explained",
+  "movie_url": "https://youtu.be/BmUZ2wp1lM8",
+  "published_at": "2024-12-03T15:00:04Z",
+  "duration": "PT13M31S",
+  "tags": [],
+  "introduction": "Go to https://brilliant.org/nutshell/ to dive deeper into these topics and more with a free 30-day t",
+  "lead_intro": "Explore the fascinating world of gravastars, the extreme objects that challenge our understanding of the universe. Let's dive into the mysteries of these cosmic entities!",
+  "quiz": [
+    {
+      "question": "What happens to a very massive star during a supernova?",
+      "choices": [
+        "collapses into a superdense neutron star",
+        "expands into a white dwarf",
+        "transforms into a black hole"
+      ],
+      "answer": "collapses into a superdense neutron star",
+      "explanation": "During a supernova, a very massive star collapses under its extreme gravity and can either compress into a superdense neutron star or collapse into a singularity."
+    },
+    {
+      "question": "How is a gravastar different from a black hole?",
+      "choices": [
+        "Has a physical shell made of matter",
+        "Has an event horizon",
+        "Is infinitely dense"
+      ],
+      "answer": "Has a physical shell made of matter",
+      "explanation": "A key difference is that gravastars have a physical shell made of matter, while black holes have an event horizon."
+    },
+    {
+      "question": "What is the interior of a gravastar like?",
+      "choices": [
+        "Empty vacuum without atoms or particles",
+        "Filled with exotic matter",
+        "Contains quarks and photons"
+      ],
+      "answer": "Empty vacuum without atoms or particles",
+      "explanation": "The interior of a gravastar is described as a perfectly empty vacuum without a single atom, particle, or wave, but it contains fundamental energy."
+    },
+    {
+      "question": "How do gravastars and black holes behave similarly?",
+      "choices": [
+        "Both massively curve space around them",
+        "Reflect all light that hits them",
+        "Rotate at extremely high speeds"
+      ],
+      "answer": "Both massively curve space around them",
+      "explanation": "Gravastars and black holes both massively curve space around them and exhibit similar gravitational effects."
+    },
+    {
+      "question": "What potential do gravastars have in the field of physics?",
+      "choices": [
+        "Answer some of the biggest problems in physics",
+        "Create more mysteries than black holes",
+        "Violate the laws of physics"
+      ],
+      "answer": "Answer some of the biggest problems in physics",
+      "explanation": "Gravastars have the potential to answer significant questions in physics without the issues associated with singularities found in black holes."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "99f02142",
+  "video_id": "RS4MrptnnP8",
+  "movie_title": "Tech that refuses to die ⏲️ 6 Minute English",
+  "movie_url": "https://youtu.be/RS4MrptnnP8",
+  "published_at": "2024-10-17T08:12:28Z",
+  "duration": "PT6M19S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "bbc",
+    "bbc learning english",
+    "English class",
+    "6 minute",
+    "English speaking practice",
+    "English words",
+    "English podcast",
+    "podcast English"
+  ],
+  "introduction": "Technology is always changing! Or is it...? Why is some old technology still used? For audio and tra",
+  "lead_intro": "Are you ready to test your knowledge on old technology and vocabulary? Let's dive into a quiz based on the latest 6 Minute English episode!",
+  "quiz": [
+    {
+      "question": "What was the name of the first home computer released in the UK?",
+      "choices": [
+        "the Commodore 64",
+        "the Sinclair ZX80",
+        "the BBC Micro"
+      ],
+      "answer": "the Sinclair ZX80",
+      "explanation": "The first home computer released in the UK was the Sinclair ZX80, not the Commodore 64 or the BBC Micro."
+    },
+    {
+      "question": "What does the idiom 'if it ain't broke, don't fix it' mean?",
+      "choices": [
+        "If something is working, there's no reason to try to change it",
+        "Always fix things even if they are working well",
+        "Change everything even if it's not necessary"
+      ],
+      "answer": "If something is working, there's no reason to try to change it",
+      "explanation": "The idiom 'if it ain't broke, don't fix it' means that if something is working well, there's no need to change it."
+    },
+    {
+      "question": "What technology did NASA engineer Jonathan Sauder use for the mechanical rover designed to survive Venus's conditions?",
+      "choices": [
+        "Electronic sensors",
+        "Hydraulic systems",
+        "Clockwork technology"
+      ],
+      "answer": "Clockwork technology",
+      "explanation": "To survive Venus's conditions, Jonathan Sauder used clockwork technology for the mechanical rover, as ordinary electronics wouldn't work."
+    },
+    {
+      "question": "What is QWERTY in reference to?",
+      "choices": [
+        "A type of music",
+        "A traditional typewriter keyboard layout",
+        "A famous scientist"
+      ],
+      "answer": "A traditional typewriter keyboard layout",
+      "explanation": "QWERTY refers to the traditional typewriter arrangement of keys, starting with Q, W, E, R, T, and Y."
+    },
+    {
+      "question": "What does it mean to 'stick with something'?",
+      "choices": [
+        "To throw something away",
+        "To continue using or doing something",
+        "To try something new"
+      ],
+      "answer": "To continue using or doing something",
+      "explanation": "To 'stick with something' means to continue using or doing it, as mentioned when discussing the QWERTY keyboard."
+    }
+  ]
+}
