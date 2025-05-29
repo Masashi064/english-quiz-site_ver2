@@ -93,8 +93,8 @@ export default function QuizLayout({
         <h2 className="text-xl font-semibold mt-10 mb-2">📺 Watch the Video</h2>
         <div className="aspect-video mb-4">
           <iframe
-            className="w-full h-full rounded"
-            src={`https://www.youtube.com/embed/${videoId}`}
+            className="w-full h-[315px] rounded"
+            src={`https://www.youtube.com/embed/${videoId}?cc_load_policy=1&rel=0&modestbranding=1`}
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
