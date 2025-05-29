@@ -17,13 +17,14 @@ type CategoryItem = {
   thumbnail_url: string
   duration: string
   published_at: string
+  published_date?: string
 }
 
 const allCategories = [
   'science', 'conversation', 'news', 'technology', 'education',
-  'psychology', 'culture', 'history', 'lifestyle'
+  'psychology', 'culture', 'history', 'lifestyle','kids'
 ]
-const allLevels = ['beginner', 'intermediate', 'upper-intermediate', 'advanced']
+const allLevels = ['beginner', 'intermediate', 'advanced']
 
 export default function ArticleList({ slugs }: { slugs: string[] }) {
   const { user } = useAuth()
@@ -31,14 +32,17 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
   const [category, setCategory] = useState('all')
   const [level, setLevel] = useState('all')
   const [search, setSearch] = useState('')
-  const [sortKey, setSortKey] = useState<'duration' | 'published_at'>('published_at')
+  const [sortKey, setSortKey] = useState<'duration' | 'published_at' | 'published_date'>('published_date')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc')
-  const [completionFilter, setCompletionFilter] = useState<'all' | 'completed' | 'uncompleted'>('all')
+  const [completionFilter, setCompletionFilter] = useState<'all' | 'completed' | 'uncompleted'>('uncompleted')
   const [completedSlugs, setCompletedSlugs] = useState<string[]>([])
   const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({})
   const [levelCounts, setLevelCounts] = useState<Record<string, number>>({})
   const [completedCount, setCompletedCount] = useState(0)
   const [uncompletedCount, setUncompletedCount] = useState(0)
+  const [currentPage, setCurrentPage] = useState(1)
+  const itemsPerPage = 10
+
 
   // 🔁 クイズ履歴の取得
   useEffect(() => {
@@ -158,10 +162,29 @@ useEffect(() => {
       return matchCategory && matchLevel && matchSearch && matchCompletion
     })
     .sort((a, b) => {
-      const aVal = sortKey === 'duration' ? parseDuration(a.duration) : new Date(a.published_at).getTime()
-      const bVal = sortKey === 'duration' ? parseDuration(b.duration) : new Date(b.published_at).getTime()
+      let aVal: number, bVal: number
+
+      if (sortKey === 'duration') {
+        aVal = parseDuration(a.duration)
+        bVal = parseDuration(b.duration)
+      } else if (sortKey === 'published_date') {
+        // ✅ 記事の更新日
+        aVal = new Date(a.published_date || a.published_at).getTime()
+        bVal = new Date(b.published_date || b.published_at).getTime()
+      } else if (sortKey === 'published_at') {
+        // ✅ 動画の公開日
+        aVal = new Date(a.published_at).getTime()
+        bVal = new Date(b.published_at).getTime()
+      } else {
+        aVal = 0
+        bVal = 0
+      }
+
       return sortOrder === 'asc' ? aVal - bVal : bVal - aVal
     })
+
+  const paginated = filtered.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+  const totalPages = Math.ceil(filtered.length / itemsPerPage)
 
   return (
     <main className="p-6 max-w-5xl mx-auto text-black dark:text-white bg-white dark:bg-black min-h-screen">
@@ -216,8 +239,9 @@ useEffect(() => {
           onChange={(e) => setSortKey(e.target.value as any)}
           className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 appearance-none"
         >
-          <option value="published_at">Sort by: Date</option>
-          <option value="duration">Sort by: Duration</option>
+          <option value="published_date">Sort by: Article Updated Date</option>
+          <option value="published_at">Sort by: Video Published Date</option>
+          <option value="duration">Sort by: Video Duration</option>
         </select>
 
         <select
@@ -235,7 +259,7 @@ useEffect(() => {
             setLevel('all')
             setCompletionFilter('all')
             setSearch('')
-            setSortKey('published_at')
+            setSortKey('published_date')
             setSortOrder('desc')
           }}
           className="h-10 px-4 rounded text-sm bg-gray-200 text-black dark:bg-gray-700 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600"
@@ -247,7 +271,7 @@ useEffect(() => {
       </div>
 
       <div className="grid md:grid-cols-2 gap-6">
-        {filtered.map((a, index) => {
+        {paginated.map((a, index) => {
           const isCompleted = completedSlugs.includes(a.slug)
 
           const cardStyle = isCompleted
@@ -284,6 +308,21 @@ useEffect(() => {
             </div>
           )
         })}
+      </div>
+      <div className="flex justify-center mt-10 gap-2">
+        {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+          <button
+            key={page}
+            onClick={() => setCurrentPage(page)}
+            className={`px-3 py-1 border rounded ${
+              currentPage === page
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white'
+            }`}
+          >
+            {page}
+          </button>
+        ))}
       </div>
     </main>
   )

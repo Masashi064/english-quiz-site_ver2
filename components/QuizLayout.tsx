@@ -102,7 +102,8 @@ export default function QuizLayout({
           ></iframe>
         </div>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          Channel: {channelName} / 📂 {category} / 🎯 {level}
+          Channel: {channelName} / 📂 {category} / 🎯 {level}<br />
+          ⏱ Duration: {duration} / 📅 Published: {publishedAt ? new Date(publishedAt).toLocaleDateString() : 'N/A'}
         </p>
       </section>
 
@@ -141,9 +142,19 @@ export default function QuizLayout({
           )
         })}
         {allAnswered && (
-          <p className="text-lg font-bold text-center text-blue-700 dark:text-blue-300 mt-4">
-            ✅ Your Score: {score} / {quiz.length}
-          </p>
+          <>
+            <p className="text-lg font-bold text-center text-blue-700 dark:text-blue-300 mt-4">
+              ✅ Your Score: {score} / {quiz.length}
+            </p>
+            <div className="text-center mt-4">
+              <a
+                href="/"
+                className="text-blue-600 dark:text-blue-400 underline font-semibold"
+              >
+                👉 Try the next quiz!
+              </a>
+            </div>
+          </>
         )}
       </section>
 
@@ -155,6 +166,14 @@ export default function QuizLayout({
             .map((v, i) => (
               <VocabularyCard key={i} item={v} />
             ))}
+        </div>
+                <div className="text-center mt-6">
+          <a
+            href="/"
+            className="text-blue-600 dark:text-blue-400 underline font-semibold"
+          >
+            👉 Ready for another quiz?
+          </a>
         </div>
       </section>
     </main>

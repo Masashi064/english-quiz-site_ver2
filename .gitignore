@@ -1,4 +1,21 @@
-node_modules
-.next
+# 機密ファイル類
 .env
+*.json
+scripts/old/
+
+# VSCode 設定
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OSゴミ
 .DS_Store
+Thumbs.db
