@@ -1,0 +1,63 @@
+{
+  "slug": "f1e31c24",
+  "video_id": "Pkbhn8sIWuw",
+  "movie_title": "How EXACTLY Does Beaming Work?",
+  "movie_url": "https://youtu.be/Pkbhn8sIWuw",
+  "published_at": "2024-12-26T15:00:34Z",
+  "duration": "PT55S",
+  "tags": [],
+  "introduction": "🗣️USAGE OF SERVICE AT YOUR OWN RISK 🗣️ Kurzgesagt is not liable for any loss or deletion of consci",
+  "lead_intro": "Imagine traveling to a beach on the other side of the globe in an instant without spending a penny. Let's explore the futuristic concept of teleportation!",
+  "quiz": [
+    {
+      "question": "What does the powerful scanner do to your body?",
+      "choices": [
+        "disintegrate your body into tiny atoms",
+        "magnify the particles in your body",
+        "send you to the other side of the globe"
+      ],
+      "answer": "disintegrate your body into tiny atoms",
+      "explanation": "The scanner breaks down your body into tiny atoms for teleportation."
+    },
+    {
+      "question": "How long would it take to transmit your blueprint with current satellite bandwidth?",
+      "choices": [
+        "80,000 years",
+        "1 second",
+        "1 day"
+      ],
+      "answer": "80,000 years",
+      "explanation": "With current satellite bandwidth, it would take 80,000 years to transmit your blueprint for teleportation."
+    },
+    {
+      "question": "What may happen to your consciousness according to the terms and conditions?",
+      "choices": [
+        "interrupted or deleted",
+        "enhanced",
+        "transferred to a new body"
+      ],
+      "answer": "interrupted or deleted",
+      "explanation": "According to the terms and conditions, you may suffer Consciousness interruption or deletion during the teleportation process."
+    },
+    {
+      "question": "How large is the data package representing your blueprint?",
+      "choices": [
+        "more than 150 million times larger than the yearly Digital Data output of all of humanity",
+        "1/10 the size of the yearly Digital Data output of all of humanity",
+        "exactly the same size as the yearly Digital Data output of all of humanity"
+      ],
+      "answer": "more than 150 million times larger than the yearly Digital Data output of all of humanity",
+      "explanation": "The data package representing your blueprint is more than 150 million times larger than the yearly Digital Data output of all of humanity."
+    },
+    {
+      "question": "What is the role of the receiver device in the teleportation process?",
+      "choices": [
+        "a big 3D printer to recreate your new body",
+        "a time machine",
+        "a teleportation portal"
+      ],
+      "answer": "a big 3D printer to recreate your new body",
+      "explanation": "The receiver device acts as a big 3D printer that takes your blueprint and recreates your new body for the teleportation process."
+    }
+  ]
+}

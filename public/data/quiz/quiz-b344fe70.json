@@ -1,0 +1,63 @@
+{
+  "slug": "b344fe70",
+  "video_id": "mCAm38dSD78",
+  "movie_title": "Lightning: Nature’s Plasma Highway",
+  "movie_url": "https://youtu.be/mCAm38dSD78",
+  "published_at": "2025-01-02T15:00:56Z",
+  "duration": "PT1M",
+  "tags": [],
+  "introduction": "Lightning is like a super hero movie. The best scenes come when the positive and negative forces fin",
+  "lead_intro": "Have you ever wondered how lightning works? Let's dive into the fascinating process step by step!",
+  "quiz": [
+    {
+      "question": "What gets negatively charged inside a thundercloud during the lightning process?",
+      "choices": [
+        "snowflakes",
+        "hail",
+        "winds"
+      ],
+      "answer": "snowflakes",
+      "explanation": "The soft hail bumps into snowflakes and gets negatively charged by snatching an electron from a snowflake."
+    },
+    {
+      "question": "What is the invisible channel of conductive air called that extends towards the ground?",
+      "choices": [
+        "leader",
+        "Street",
+        "Channel"
+      ],
+      "answer": "leader",
+      "explanation": "An invisible channel of conductive air called a leader extends towards the ground in search of an electron disposal site."
+    },
+    {
+      "question": "What reaches for the leader from the positively charged ground during a lightning strike?",
+      "choices": [
+        "electric arms",
+        "snowflakes",
+        "hail"
+      ],
+      "answer": "electric arms",
+      "explanation": "Small electric arms sprout from the positively charged ground reaching for the leader during a lightning strike."
+    },
+    {
+      "question": "What speed does the plasma Highway run up the leader into the cloud with during a lightning bolt?",
+      "choices": [
+        "1/3 of the speed of light",
+        "lightning speed",
+        "slow pace"
+      ],
+      "answer": "1/3 of the speed of light",
+      "explanation": "The plasma Highway of 50,000 degrees Celsius runs up the leader into the cloud at 1/3 of the speed of light during a lightning bolt."
+    },
+    {
+      "question": "How much energy can be transferred to the ground in a lightning strike?",
+      "choices": [
+        "5 gigajoules",
+        "5 megajoules",
+        "5 kilojoules"
+      ],
+      "answer": "5 gigajoules",
+      "explanation": "In a matter of milliseconds, up to 5 gigajoules of energy are transferred to the ground during a lightning strike, which is enough to power an average American household for over a month."
+    }
+  ]
+}

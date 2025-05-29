@@ -1,0 +1,76 @@
+{
+  "slug": "6bc6d196",
+  "video_id": "RLEvo3I5C6w",
+  "movie_title": "How Chicken Heads Stopped Rabies",
+  "movie_url": "https://youtu.be/RLEvo3I5C6w",
+  "published_at": "2025-01-30T15:00:35Z",
+  "duration": "PT1M35S",
+  "tags": [
+    "inanutshell",
+    "kurzgesagt",
+    "kurzgesagt_inanutshell",
+    "learnwithshorts",
+    "interestingfact",
+    "kurzgesagt - in a nutshell",
+    "in a nutshell",
+    "science facts",
+    "Learn with Shorts",
+    "science",
+    "YouTube university",
+    "YouTube MBA"
+  ],
+  "introduction": "Imagine solving a rabies outbreak with chicken heads.\n\n#kurzgesagt\n#inanutshell #kurzgesagt_inanutsh",
+  "lead_intro": "Discover the unconventional method that helped combat a rabies epidemic since the 1930s.",
+  "quiz": [
+    {
+      "question": "What were the main carriers of the rabies virus?",
+      "choices": [
+        "red foxes",
+        "brown bears",
+        "gray wolves"
+      ],
+      "answer": "red foxes",
+      "explanation": "Red foxes were the main carriers of the rabies virus during the epidemic."
+    },
+    {
+      "question": "How was the rabies virus mainly transmitted to humans?",
+      "choices": [
+        "through contaminated water",
+        "through infected pets",
+        "through polluted air"
+      ],
+      "answer": "through infected pets",
+      "explanation": "The rabies virus was mainly transmitted to humans through infected pets."
+    },
+    {
+      "question": "What method was initially used to hunt the red foxes carrying the virus?",
+      "choices": [
+        "releasing poisonous gas",
+        "setting traps",
+        "using tranquilizer darts"
+      ],
+      "answer": "releasing poisonous gas",
+      "explanation": "Initially, red foxes carrying the virus were hunted excessively by releasing poisonous gas into their burrows."
+    },
+    {
+      "question": "What was the outcome of hunting foxes excessively during the epidemic?",
+      "choices": [
+        "reduced fox population",
+        "increased virus spread",
+        "elimination of the virus"
+      ],
+      "answer": "increased virus spread",
+      "explanation": "Excessive hunting caused the fox populations to migrate, resulting in the increased spread of the virus."
+    },
+    {
+      "question": "How were the rabies vaccines distributed after 1991?",
+      "choices": [
+        "via chicken heads",
+        "through water supply",
+        "by air-dropping pills"
+      ],
+      "answer": "via chicken heads",
+      "explanation": "Rabies vaccines were distributed via chicken heads in Europe as an effective method against the virus."
+    }
+  ]
+}

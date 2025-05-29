@@ -1,7 +1,5 @@
 # 機密ファイル類
 .env
-*.json
-scripts/old/
 
 # VSCode 設定
 .vscode/

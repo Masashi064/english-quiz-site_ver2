@@ -1,0 +1,63 @@
+{
+  "slug": "4edf708c",
+  "video_id": "dCiMUWw1BBc",
+  "movie_title": "What Actual Aliens Might Look Like",
+  "movie_url": "https://youtu.be/dCiMUWw1BBc",
+  "published_at": "2025-02-04T15:00:01Z",
+  "duration": "PT15M53S",
+  "tags": [],
+  "introduction": "Go to https://brilliant.org/nutshell/ to dive deeper into these topics and more with a free 30-day t",
+  "lead_intro": "Are you ready to explore alien worlds filled with bizarre creatures and ecosystems? Join us as we journey through three unique planets in the cosmos!",
+  "quiz": [
+    {
+      "question": "What color are the plants in the underwater jungle of the Eye of Ipa?",
+      "choices": [
+        "Green",
+        "Black",
+        "Purple"
+      ],
+      "answer": "Black",
+      "explanation": "On the planet Eye of Ipa, the plants in the underwater jungle are black to absorb the weak infrared light from the dim star Oculus."
+    },
+    {
+      "question": "What is the primary source of lift for the Sky Whales on the planet Nimbus?",
+      "choices": [
+        "Gases trapped in their bodies",
+        "Buoyancy from ocean currents",
+        "Electrostatic threads"
+      ],
+      "answer": "Gases trapped in their bodies",
+      "explanation": "Sky Whales on Nimbus stay afloat by heating up trapped gases in their bodies, making them less dense than the surrounding air, providing buoyancy."
+    },
+    {
+      "question": "How do the Skaters on the moon Monnier travel along its surface?",
+      "choices": [
+        "Using rocket-like bursts of gas",
+        "Floating in the air",
+        "Dragging magnetic threads"
+      ],
+      "answer": "Dragging magnetic threads",
+      "explanation": "The Skaters on Monnier move along the surface by extending two long, electrically-conductive stalks that merge at the top, forming a magnetic kite that drags them along."
+    },
+    {
+      "question": "In what way does life on Monnier differ from life on Earth in terms of water usage?",
+      "choices": [
+        "It uses ammonia instead of water",
+        "It relies on heavy water for survival",
+        "It has no need for water"
+      ],
+      "answer": "It uses ammonia instead of water",
+      "explanation": "Life on Monnier uses ammonia instead of water to avoid freezing in the cold nights, adapting uniquely to the environment of the moon."
+    },
+    {
+      "question": "What will happen to life on the planet Nimbus as its star approaches the end of its life cycle?",
+      "choices": [
+        "It will thrive indefinitely",
+        "It will face extinction",
+        "It will evolve into a new form"
+      ],
+      "answer": "It will face extinction",
+      "explanation": "Life on Nimbus, as the star Caeruleus reaches the end of its life cycle, only has around ten million years left before the system is destroyed, marking the eventual extinction of the unique ecosystem."
+    }
+  ]
+}

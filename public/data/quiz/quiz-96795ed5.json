@@ -1,0 +1,63 @@
+{
+  "slug": "96795ed5",
+  "video_id": "vC9BeyIlcYo",
+  "movie_title": "Do We See the Same Colors?",
+  "movie_url": "https://youtu.be/vC9BeyIlcYo",
+  "published_at": "2024-12-19T15:01:08Z",
+  "duration": "PT55S",
+  "tags": [],
+  "introduction": "Is the red you see the same as the red your buddy Eric sees? Let's find out! \n\n#kurzgesagt\n#inanutsh",
+  "lead_intro": "Have you ever wondered if we all see colors the same way? Let's dive into the fascinating world of color perception!",
+  "quiz": [
+    {
+      "question": "According to the passage, what are colors basically made of?",
+      "choices": [
+        "Light and photons",
+        "Water and molecules",
+        "Sound and waves"
+      ],
+      "answer": "Light and photons",
+      "explanation": "The passage mentions that color is basically light, a bunch of photons with different wavelengths."
+    },
+    {
+      "question": "What are the three types of light-sensitive cells mentioned in the text?",
+      "choices": [
+        "Red, yellow, and blue",
+        "Blue, green, and purple",
+        "Red, green, and blue"
+      ],
+      "answer": "Red, green, and blue",
+      "explanation": "The passage explains that there are three types of cells tuned into stations for red, green, and blue."
+    },
+    {
+      "question": "Where does the process of perceiving colors start according to the text?",
+      "choices": [
+        "In the ears",
+        "In the fingers",
+        "In the back of your eyeballs"
+      ],
+      "answer": "In the back of your eyeballs",
+      "explanation": "The text states that the process of perceiving colors starts in the back of your eyeballs with light-sensitive cells."
+    },
+    {
+      "question": "How many colors can humans roughly see?",
+      "choices": [
+        "100,000 colors",
+        "1 million colors",
+        "10 million colors"
+      ],
+      "answer": "1 million colors",
+      "explanation": "The passage mentions that humans can see roughly 1 million colors."
+    },
+    {
+      "question": "Why is it unlikely that we all see the exact same set of colors?",
+      "choices": [
+        "Because of different brain structures",
+        "Because of different wavelengths",
+        "Because of how we perceive them"
+      ],
+      "answer": "Because of how we perceive them",
+      "explanation": "The text explains that even though the wavelengths we receive are the same, how we perceive colors varies, leading to the likelihood that we all see colors differently."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "f8152413",
+  "video_id": "9zCH37330f8",
+  "movie_title": "The Real Reason Why You Have Allergies",
+  "movie_url": "https://youtu.be/9zCH37330f8",
+  "published_at": "2024-12-12T15:00:04Z",
+  "duration": "PT12M30S",
+  "tags": [],
+  "introduction": "This video was sponsored by GiveWell. \nFirst-time donors will have their donation matched up to $100",
+  "lead_intro": "Are you curious about how allergies work and why some people develop them? Let's dive into the fascinating world of allergies and the role parasites may have played in their evolution.",
+  "quiz": [
+    {
+      "question": "What is one of the wildest things about allergies mentioned in the video?",
+      "choices": [
+        "They make you immune to all parasites",
+        "They develop slowly over time",
+        "They can break out suddenly and violently"
+      ],
+      "answer": "They can break out suddenly and violently",
+      "explanation": "The video mentions that one of the wildest things about allergies is how fast they can break out suddenly and violently."
+    },
+    {
+      "question": "What are mast cells filled with, making them like angry Hedgehog Grenades?",
+      "choices": [
+        "Water",
+        "Histamine and other nasty chemicals",
+        "Antibodies"
+      ],
+      "answer": "Histamine and other nasty chemicals",
+      "explanation": "Mast cells are described as being filled with histamine and other nasty chemicals, which liken them to angry Hedgehog Grenades."
+    },
+    {
+      "question": "What is the main culprit responsible for the symptoms of allergies?",
+      "choices": [
+        "Diverse microbiomes",
+        "Increased pollution",
+        "Cells that evolve to fight worms"
+      ],
+      "answer": "Cells that evolve to fight worms",
+      "explanation": "The video suggests that the cells that evolve to fight worms are responsible for the symptoms of allergies."
+    },
+    {
+      "question": "What happens when your immune system produces IgE antibodies against shrimp proteins?",
+      "choices": [
+        "Your skin turns blue",
+        "Mast cells turn into bombs",
+        "You gain immunity to shrimp"
+      ],
+      "answer": "Mast cells turn into bombs",
+      "explanation": "When your immune system produces IgE antibodies against shrimp proteins, mast cells in your body turn into bombs."
+    },
+    {
+      "question": "What did the separation of poop and drinking water lead to in terms of parasitic worms?",
+      "choices": [
+        "Increased worm infections",
+        "Eradication by modern medicine",
+        "Water pollution"
+      ],
+      "answer": "Eradication by modern medicine",
+      "explanation": "The separation of poop and drinking water led to the eradication of parasitic worms by modern medicine."
+    }
+  ]
+}
