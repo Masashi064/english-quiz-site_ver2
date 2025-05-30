@@ -166,36 +166,27 @@ export default function AccountPage() {
 
             <h3 className="mt-4 font-semibold">Category Stats:</h3>
             <ul className="list-disc list-inside">
-              {(Object.entries(quizStats.categoryStats) as [string, { count: number; correct: number }][]).map(
-                ([category, data]) => (
-                  <li key={category}>{category}: {data.correct} correct out of {data.count} quizzes</li>
-                )
-              )}
+              {Object.entries(quizStats.categoryStats).map(([category, data]) => {
+                const typedData = data as { count: number; correct: number }
+                return (
+                  <li key={category}>
+                    {category}: {typedData.correct} correct out of {typedData.count} quizzes
+                  </li>
+                );
+              })}
             </ul>
 
-            <h3 className="mt-4 font-semibold">Category Stats:</h3>
-              <ul className="list-disc list-inside">
-                {Object.entries(quizStats.categoryStats).map(([category, data]) => {
-                  const typedData = data as { count: number; correct: number }
-                  return (
-                    <li key={category}>
-                      {category}: {typedData.correct} correct out of {typedData.count} quizzes
-                    </li>
-                  );
-                })}
-              </ul>
-
-              <h3 className="mt-4 font-semibold">Level Stats:</h3>
-              <ul className="list-disc list-inside">
-                {Object.entries(quizStats.levelStats).map(([level, data]) => {
-                  const typedData = data as { count: number; correct: number }
-                  return (
-                    <li key={level}>
-                      {level}: {typedData.correct} correct answers from {typedData.count} quizzes
-                    </li>
-                  );
-                })}
-              </ul>
+            <h3 className="mt-4 font-semibold">Level Stats:</h3>
+            <ul className="list-disc list-inside">
+              {Object.entries(quizStats.levelStats).map(([level, data]) => {
+                const typedData = data as { count: number; correct: number }
+                return (
+                  <li key={level}>
+                    {level}: {typedData.correct} correct answers from {typedData.count} quizzes
+                  </li>
+                );
+              })}
+            </ul>
           </section>
         )}
 
