@@ -173,14 +173,29 @@ export default function AccountPage() {
               )}
             </ul>
 
-            <h3 className="mt-4 font-semibold">Level Stats:</h3>
-            <ul className="list-disc list-inside">
-              {(Object.entries(quizStats.levelStats) as [string, { count: number; correct: number }][]).map(
-                ([level, data]) => (
-                  <li key={level}>{level}: {data.correct} correct answers from {data.count} quizzes</li>
-                )
-              )}
-            </ul>
+            <h3 className="mt-4 font-semibold">Category Stats:</h3>
+              <ul className="list-disc list-inside">
+                {Object.entries(quizStats.categoryStats).map(([category, data]) => {
+                  const typedData = data as { count: number; correct: number }
+                  return (
+                    <li key={category}>
+                      {category}: {typedData.correct} correct out of {typedData.count} quizzes
+                    </li>
+                  );
+                })}
+              </ul>
+
+              <h3 className="mt-4 font-semibold">Level Stats:</h3>
+              <ul className="list-disc list-inside">
+                {Object.entries(quizStats.levelStats).map(([level, data]) => {
+                  const typedData = data as { count: number; correct: number }
+                  return (
+                    <li key={level}>
+                      {level}: {typedData.correct} correct answers from {typedData.count} quizzes
+                    </li>
+                  );
+                })}
+              </ul>
           </section>
         )}
 
