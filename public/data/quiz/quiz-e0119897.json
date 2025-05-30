@@ -1,0 +1,78 @@
+{
+  "slug": "e0119897",
+  "video_id": "3epU697sU9E",
+  "movie_title": "Inside Air Force One During 9/11",
+  "movie_url": "https://youtu.be/3epU697sU9E",
+  "published_at": "2024-06-04T21:00:02Z",
+  "duration": "PT18M58S",
+  "tags": [
+    "september 11",
+    "documentary",
+    "usa",
+    "george bush",
+    "air force one",
+    "aviation",
+    "new york city",
+    "washington",
+    "white house",
+    "explained",
+    "why",
+    "neo",
+    "understanding",
+    "how"
+  ],
+  "introduction": "Compare news coverage. Spot media bias. Avoid algorithms. Try Ground News today and get 40% off your",
+  "lead_intro": "Join us in a gripping recount of the events surrounding September 11, 2001, as we delve into the dramatic journey of Air Force One and the crucial decisions made amidst chaos and uncertainty.",
+  "quiz": [
+    {
+      "question": "What time did Flight 11 crash into the North Tower of the World Trade Center?",
+      "choices": [
+        "8:32 AM",
+        "8:46 AM",
+        "9:03 AM"
+      ],
+      "answer": "8:46 AM",
+      "explanation": "At 8:46 AM, Flight 11 crashed into the North Tower of the World Trade Center, marking the beginning of a series of tragic events."
+    },
+    {
+      "question": "Where did Air Force One unexpectedly have to turn around before takeoff due to a security concern?",
+      "choices": [
+        "A nearby airport",
+        "The Pentagon",
+        "The North Tower of the World Trade Center"
+      ],
+      "answer": "A nearby airport",
+      "explanation": "Air Force One had to turn around at the runway due to reports of a person with a suspicious device, which later turned out to be a camera."
+    },
+    {
+      "question": "What was the internal code word for Air Force One that led to heightened security concerns during the flight?",
+      "choices": [
+        "Eagle",
+        "Phoenix",
+        "Angel"
+      ],
+      "answer": "Angel",
+      "explanation": "The code word 'Angel' for Air Force One caused alarm and led to Secret Service agents being stationed to protect the President and the aircraft."
+    },
+    {
+      "question": "At what time did Vice President Cheney give the order to shoot down a commercial plane if it posed a threat?",
+      "choices": [
+        "10:03 AM",
+        "10:12 AM",
+        "10:18 AM"
+      ],
+      "answer": "10:12 AM",
+      "explanation": "Between 10:12 and 10:18 AM, Vice President Cheney gave the order to shoot down a commercial plane if it posed a threat, a decision that sparked controversy."
+    },
+    {
+      "question": "Where did Air Force One finally land before the President addressed the nation from the Oval Office?",
+      "choices": [
+        "Washington D.C.",
+        "Louisiana",
+        "Nebraska"
+      ],
+      "answer": "Nebraska",
+      "explanation": "Air Force One landed at Offut Air Force Base in Nebraska, where the President addressed the nation from the US STRATCOM bunker before heading to the White House."
+    }
+  ]
+}

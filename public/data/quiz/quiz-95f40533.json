@@ -1,0 +1,73 @@
+{
+  "slug": "95f40533",
+  "video_id": "JGiXuXc3cao",
+  "movie_title": "How the Titanic Was Found",
+  "movie_url": "https://youtu.be/JGiXuXc3cao",
+  "published_at": "2024-07-08T16:15:00Z",
+  "duration": "PT22M19S",
+  "tags": [
+    "titanic",
+    "robert ballard",
+    "discovery",
+    "history",
+    "how",
+    "why",
+    "understanding",
+    "explained",
+    "ship"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch \"The Ra",
+  "lead_intro": "The story of how the Titanic was found is a fascinating journey filled with challenges and unexpected discoveries. Let's dive into the details of this historic search!",
+  "quiz": [
+    {
+      "question": "Who rescued all the survivors of the Titanic?",
+      "choices": [
+        "Carpathia",
+        "Beasley",
+        "Grim"
+      ],
+      "answer": "Carpathia",
+      "explanation": "The nearby ship Carpathia quickly headed towards the distress signal sent by the Titanic and rescued all survivors."
+    },
+    {
+      "question": "What was the first serious expedition back to the Titanic's last known location?",
+      "choices": [
+        "1953",
+        "1977",
+        "1983"
+      ],
+      "answer": "1953",
+      "explanation": "In 1953, the first serious expedition, led by Risten Beasley, ventured back to the Titanic's last known location in an attempt to find the wreckage."
+    },
+    {
+      "question": "What was the name of the deep toad sled remotely navigated above the ocean floor to locate the Titanic?",
+      "choices": [
+        "Argo",
+        "Carpathia",
+        "Titan"
+      ],
+      "answer": "Argo",
+      "explanation": "Argo, a deep toad sled remotely navigated above the ocean floor, equipped with scanning sonar and cameras, was used to search for the Titanic."
+    },
+    {
+      "question": "Who approached the US Navy with a proposal to design a submersible for locating the Titanic?",
+      "choices": [
+        "Ballard",
+        "Grim",
+        "Beasley"
+      ],
+      "answer": "Ballard",
+      "explanation": "Robert Ballard approached the US Navy with a proposal to design a new submersible to locate the Titanic, leveraging his ties with the Navy for the project."
+    },
+    {
+      "question": "What technique was commonly referred to as 'mowing the lawn' during the search for the Titanic?",
+      "choices": [
+        "Towing the sonar in overlapping lines",
+        "Using drones for aerial mapping",
+        "Deploying divers for manual search"
+      ],
+      "answer": "Towing the sonar in overlapping lines",
+      "explanation": "During the search for the Titanic, the crew used a technique known as 'mowing the lawn,' where they towed the sonar in overlapping lines to cover the search area methodically."
+    }
+  ]
+}
