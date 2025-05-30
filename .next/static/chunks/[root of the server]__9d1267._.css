@@ -575,6 +575,10 @@ img, video {
   width: 100%;
 }
 
+.min-w-full {
+  min-width: 100%;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -1279,6 +1283,12 @@ img, video {
 .dark\:focus\:ring-blue-300:focus:is(.dark *) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(147 197 253 / var(--tw-ring-opacity, 1));
+}
+
+@media (width >= 640px) {
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
 }
 
 @media (width >= 768px) {

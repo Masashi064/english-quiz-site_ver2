@@ -85,7 +85,7 @@ export default function QuizLayout({
   const allAnswered = answers.every((a) => a !== null)
 
   return (
-    <main className="p-10 max-w-3xl mx-auto space-y-10 text-black dark:text-white bg-white dark:bg-black">
+    <main className="+ px-4 py-10 max-w-3xl mx-auto space-y-10 text-black dark:text-white bg-white dark:bg-black">
       <h1 className="text-3xl font-bold">{movieTitle}</h1>
       <p className="text-gray-600 dark:text-gray-300">{leadIntro}</p>
 

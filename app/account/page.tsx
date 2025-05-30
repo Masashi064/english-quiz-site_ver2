@@ -132,9 +132,9 @@ export default function AccountPage() {
   const tabs = ['My Account', 'Summary', 'Quiz History', 'Favorite Words'];
 
     return (
-    <div className="min-h-screen px-6 py-10">
-      <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
-        <ul className="flex gap-4 border-b mb-6">
+    <div className="min-h-screen px-2 py-10">
+      <div className="w-full max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-4 sm:p-6">
+        <ul className="flex flex-wrap justify-center gap-2 border-b mb-6">
           {tabs.map((tab) => (
             <li key={tab}>
               <button
@@ -191,7 +191,7 @@ export default function AccountPage() {
               <p>No quiz history yet.</p>
             ) : (
               <div className="overflow-x-auto">
-                <table className="table-auto w-full text-sm">
+                <table className="min-w-full table-auto text-sm">
                   <thead>
                     <tr className="border-b dark:border-gray-700">
                       <th className="text-left p-2">Date</th>

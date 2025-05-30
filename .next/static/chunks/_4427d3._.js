@@ -77,8 +77,7 @@ const allCategories = [
     'psychology',
     'culture',
     'history',
-    'lifestyle',
-    'kids'
+    'lifestyle'
 ];
 const allLevels = [
     'beginner',

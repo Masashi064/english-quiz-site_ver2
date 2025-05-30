@@ -284,7 +284,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
     const score = answers.filter((a, i)=>a === quiz[i].answer).length;
     const allAnswered = answers.every((a)=>a !== null);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "p-10 max-w-3xl mx-auto space-y-10 text-black dark:text-white bg-white dark:bg-black",
+        className: "+ px-4 py-10 max-w-3xl mx-auto space-y-10 text-black dark:text-white bg-white dark:bg-black",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-3xl font-bold",

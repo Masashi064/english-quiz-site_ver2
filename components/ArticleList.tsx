@@ -22,7 +22,7 @@ type CategoryItem = {
 
 const allCategories = [
   'science', 'conversation', 'news', 'technology', 'education',
-  'psychology', 'culture', 'history', 'lifestyle','kids'
+  'psychology', 'culture', 'history', 'lifestyle',
 ]
 const allLevels = ['beginner', 'intermediate', 'advanced']
 
