@@ -1,0 +1,74 @@
+{
+  "slug": "6c876165",
+  "video_id": "EpqarCB9UD8",
+  "movie_title": "How Minecraft Was Made",
+  "movie_url": "https://youtu.be/EpqarCB9UD8",
+  "published_at": "2025-01-10T15:01:26Z",
+  "duration": "PT22M3S",
+  "tags": [
+    "minecraft",
+    "notch",
+    "microsoft",
+    "gaming",
+    "documentary",
+    "studio",
+    "explained",
+    "why",
+    "understanding",
+    "Markus Persson"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nThe best-sell",
+  "lead_intro": "Discover the fascinating journey of Markus Persson, the creator of 'Minecraft,' from a passion project to a billion-dollar empire.",
+  "quiz": [
+    {
+      "question": "What was the original name of the game Markus Persson was creating before it became 'Minecraft'?",
+      "choices": [
+        "RubyDung",
+        "PixelCraft",
+        "BlockWorld"
+      ],
+      "answer": "RubyDung",
+      "explanation": "The original name of the game Markus Persson was creating was 'RubyDung,' based on the Ruby Lands and the Dungeons."
+    },
+    {
+      "question": "What was the name of the game that inspired Markus Persson to work on 'Minecraft'?",
+      "choices": [
+        "Infiniminer",
+        "CraftWorld",
+        "PixelMiner"
+      ],
+      "answer": "Infiniminer",
+      "explanation": "The game that inspired Markus Persson to work on 'Minecraft' was 'Infiniminer,' a multiplayer game where players dig blocks in search of minerals."
+    },
+    {
+      "question": "What major feature was added to 'Minecraft' after nearly a month of constant updates and debugging?",
+      "choices": [
+        "Multiplayer",
+        "Virtual Reality",
+        "Mini-games"
+      ],
+      "answer": "Multiplayer",
+      "explanation": "After nearly a month of updates, fine-tuning, and debugging, multiplayer was added to 'Minecraft.'"
+    },
+    {
+      "question": "Who collaborated with Markus Persson to provide sound effects and the iconic soundtrack for 'Minecraft'?",
+      "choices": [
+        "Daniel Rosenfeld",
+        "Carl Manneh",
+        "Jakob Porser"
+      ],
+      "answer": "Daniel Rosenfeld",
+      "explanation": "Daniel Rosenfeld, a musician and sound engineer, collaborated with Markus Persson to provide sound effects and the iconic soundtrack for 'Minecraft.'"
+    },
+    {
+      "question": "What event marked the official release of 'Minecraft' in 2011?",
+      "choices": [
+        "MineCon",
+        "E3 Expo",
+        "Game Awards"
+      ],
+      "answer": "MineCon",
+      "explanation": "The official release of 'Minecraft' in 2011 was marked by hosting an official MineCon with 4,500 attendees."
+    }
+  ]
+}

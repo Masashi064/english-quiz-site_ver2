@@ -1,0 +1,70 @@
+{
+  "slug": "33ad284e",
+  "video_id": "BwziJOvqFE0",
+  "movie_title": "How the U.S. Found Saddam Hussein",
+  "movie_url": "https://youtu.be/BwziJOvqFE0",
+  "published_at": "2025-04-14T16:16:00Z",
+  "duration": "PT21M16S",
+  "tags": [
+    "iraq",
+    "saddam",
+    "explained",
+    "why",
+    "maps",
+    "mapped"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch my vide",
+  "lead_intro": "Join me on a journey to uncover the full story of how Saddam Hussein was found. From underground holes to hidden trap doors, let's explore the fascinating hunt for the Iraqi president.",
+  "quiz": [
+    {
+      "question": "What was the reason presented by the U.S. for overthrowing Saddam Hussein?",
+      "choices": [
+        "hiding weapons of mass destruction",
+        "supporting terrorism",
+        "seeking asylum"
+      ],
+      "answer": "hiding weapons of mass destruction",
+      "explanation": "The U.S. claimed that Saddam was hiding weapons of mass destruction as the reason for overthrowing him."
+    },
+    {
+      "question": "What was the bounty placed on Saddam Hussein?",
+      "choices": [
+        "$30 million",
+        "$15 million",
+        "$10 million"
+      ],
+      "answer": "$25 million",
+      "explanation": "A $25 million bounty was placed on Saddam Hussein, in addition to rewards for his sons, to gather more information about their whereabouts."
+    },
+    {
+      "question": "Where were Saddam's sons, Uday and Qusay, found?",
+      "choices": [
+        "Mosul",
+        "Baghdad",
+        "Basra"
+      ],
+      "answer": "Mosul",
+      "explanation": "Saddam's sons, Uday and Qusay, were found hiding in Mosul, the second largest city in Iraq, leading to a confrontation with U.S. troops."
+    },
+    {
+      "question": "What was the role of Staff Sergeant Eric Maddox in finding Saddam Hussein?",
+      "choices": [
+        "Interrogating Saddam",
+        "Focusing on Saddam's bodyguards",
+        "Leading the U.S. troops"
+      ],
+      "answer": "Focusing on Saddam's bodyguards",
+      "explanation": "Staff Sergeant Eric Maddox focused on Saddam's bodyguards, realizing they were the key to finding Saddam's hiding place, which led to significant breakthroughs in the search."
+    },
+    {
+      "question": "Where was Saddam Hussein finally found?",
+      "choices": [
+        "Ad-Dawr",
+        "Baghdad",
+        "Kuwait City"
+      ],
+      "answer": "Ad-Dawr",
+      "explanation": "Saddam Hussein was finally found in the small farming village of Ad-Dawr after a series of leads and raids led the U.S. troops to his hiding place."
+    }
+  ]
+}

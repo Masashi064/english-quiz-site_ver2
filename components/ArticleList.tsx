@@ -187,7 +187,7 @@ useEffect(() => {
   const totalPages = Math.ceil(filtered.length / itemsPerPage)
 
   return (
-    <main className="p-6 max-w-5xl mx-auto text-black dark:text-white bg-white dark:bg-black min-h-screen">
+    <main className="px-2 sm:px-4 md:px-6 py-6 max-w-5xl mx-auto text-black dark:text-white bg-white dark:bg-black min-h-screen">
       <div className="flex flex-wrap gap-4 mb-6">
         <select
           value={category}

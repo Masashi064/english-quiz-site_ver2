@@ -1,0 +1,75 @@
+{
+  "slug": "a4ae7b1f",
+  "video_id": "-lyyIvxy2Z4",
+  "movie_title": "The Deepwater Horizon Disaster",
+  "movie_url": "https://youtu.be/-lyyIvxy2Z4",
+  "published_at": "2025-05-12T20:22:01Z",
+  "duration": "PT23M34S",
+  "tags": [
+    "oil",
+    "disaster",
+    "BP",
+    "British Petroleum",
+    "Oil Spill",
+    "Understanding",
+    "why",
+    "explained",
+    "neo",
+    "under exposure",
+    "gulf of mexico"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch my vide",
+  "lead_intro": "Join us as we delve into the dramatic events surrounding the Deepwater Horizon oil spill in the Gulf of Mexico. Test your understanding with the following quiz!",
+  "quiz": [
+    {
+      "question": "What was the cause of the Deepwater Horizon oil spill?",
+      "choices": [
+        "natural disaster",
+        "equipment failure",
+        "human error"
+      ],
+      "answer": "equipment failure",
+      "explanation": "The Deepwater Horizon oil spill was caused by equipment failure on the oil drilling platform."
+    },
+    {
+      "question": "How many gallons of oil were conservatively estimated to have been lost in the Gulf of Mexico during the spill?",
+      "choices": [
+        "134 million gallons",
+        "210 million gallons",
+        "50 million gallons"
+      ],
+      "answer": "134 million gallons",
+      "explanation": "Approximately 134 million gallons of oil were conservatively estimated to have been lost during the Deepwater Horizon oil spill."
+    },
+    {
+      "question": "What was one method attempted to stop the oil leak during the Deepwater Horizon crisis?",
+      "choices": [
+        "junk shot",
+        "blowout preventer failure",
+        "explosive demolition"
+      ],
+      "answer": "junk shot",
+      "explanation": "The 'junk shot' method involved pumping heavy drilling mud and various materials into the well to try to force the oil back down and seal it with cement."
+    },
+    {
+      "question": "What was the purpose of the Cofferdam in the context of the Deepwater Horizon oil spill?",
+      "choices": [
+        "containment",
+        "drilling",
+        "extraction"
+      ],
+      "answer": "containment",
+      "explanation": "The Cofferdam was designed to contain the oil leak by covering the broken pipe and directing the oil flow to a collection point."
+    },
+    {
+      "question": "How was the oil flow eventually stopped in the Deepwater Horizon crisis?",
+      "choices": [
+        "pipe insertion",
+        "capping the well",
+        "junk shot"
+      ],
+      "answer": "capping the well",
+      "explanation": "The oil flow was finally stopped by successfully capping the damaged well after several attempts with different methods."
+    }
+  ]
+}
