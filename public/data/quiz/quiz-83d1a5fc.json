@@ -1,0 +1,63 @@
+{
+  "slug": "83d1a5fc",
+  "video_id": "E5g_gXcZqRI",
+  "movie_title": "Is your guy playing this Sunday? Watch #SuperBowlLVIII on CBS, Paramount+ and Nickelodeon. #SBLVIII",
+  "movie_url": "https://youtu.be/E5g_gXcZqRI",
+  "published_at": "2024-02-09T17:00:13Z",
+  "duration": "PT55S",
+  "tags": [],
+  "introduction": "Is your favorite playing this Sunday?! Don’t miss #SuperBowlLVIII on CBS, Paramount+ and Nickelodeon",
+  "lead_intro": "Join us in this quiz based on a mix of universities and names to test your attention to detail!",
+  "quiz": [
+    {
+      "question": "Which university is located in Texas?",
+      "choices": [
+        "Texas A&M",
+        "University of Wisconsin",
+        "San Jose State University"
+      ],
+      "answer": "Texas A&M",
+      "explanation": "Texas A&M is the university mentioned in the text as being in Texas."
+    },
+    {
+      "question": "Which university is associated with Quatro Quatro San?",
+      "choices": [
+        "Saskatchewan University",
+        "Stanford University",
+        "University of Northern Arizona"
+      ],
+      "answer": "Saskatchewan University",
+      "explanation": "Quatro Quatro San is linked to Saskatchewan University in the text."
+    },
+    {
+      "question": "Who is affiliated with Missouri Western State University?",
+      "choices": [
+        "Wayne",
+        "Adam",
+        "Shakira"
+      ],
+      "answer": "Wayne",
+      "explanation": "Wayne is mentioned alongside Missouri Western State University."
+    },
+    {
+      "question": "Which university is located in South Dakota?",
+      "choices": [
+        "South Dakota State University",
+        "San Diego State University",
+        "University of Wisconsin"
+      ],
+      "answer": "South Dakota State University",
+      "explanation": "South Dakota State University is the one situated in South Dakota."
+    },
+    {
+      "question": "Which university has the initials TG?",
+      "choices": [
+        "Jones college",
+        "University of Northern Arizona",
+        "Missouri Western State University"
+      ],
+      "answer": "Jones college",
+      "explanation": "The university with the initials TG is Jones college according to the text."
+    }
+  ]
+}

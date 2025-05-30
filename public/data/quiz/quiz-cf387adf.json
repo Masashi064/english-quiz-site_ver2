@@ -1,0 +1,63 @@
+{
+  "slug": "cf387adf",
+  "video_id": "Kn4ri4gembs",
+  "movie_title": "Drop the name of your MVP! 👇 Watch #SuperBowlLVIII tonight on CBS, Paramount+ & Nickelodeon #SBLVIII",
+  "movie_url": "https://youtu.be/Kn4ri4gembs",
+  "published_at": "2024-02-11T23:00:09Z",
+  "duration": "PT53S",
+  "tags": [],
+  "introduction": "Drop the name of your MVP! 👇 Watch #SuperBowlLVIII tonight on CBS, Paramount Plus and Nickelodeon.",
+  "lead_intro": "Let's test your listening skills with a fun quiz based on the transcript!",
+  "quiz": [
+    {
+      "question": "Which university is mentioned after 'ducklings Indiana University Purdue University Indianapolis'?",
+      "choices": [
+        "Utah State University",
+        "Oklahoma State University",
+        "Baylor University"
+      ],
+      "answer": "Utah State University",
+      "explanation": "The correct answer is 'Utah State University' as it comes right after the mentioned phrase."
+    },
+    {
+      "question": "What team is listed after 'Exquisite team bé schwisow University of Nebraska'?",
+      "choices": [
+        "Junior steam Oklahoma State University",
+        "King Prince chamber made Baylor University",
+        "Army baby Surplus Store"
+      ],
+      "answer": "Junior steam Oklahoma State University",
+      "explanation": "The correct answer is 'Junior steam Oklahoma State University' following the mentioned phrase."
+    },
+    {
+      "question": "Which university is named after 'nen jadan University of Colorado'?",
+      "choices": [
+        "University of Arizona",
+        "Harvard University",
+        "University of Hawaii"
+      ],
+      "answer": "University of Arizona",
+      "explanation": "The correct answer is 'University of Arizona' as it appears in the list after the mentioned phrase."
+    },
+    {
+      "question": "What is the last entry after 'University Army baby Surplus Store'?",
+      "choices": [
+        "Utah State University",
+        "Baylor University",
+        "Harvard University"
+      ],
+      "answer": "Baylor University",
+      "explanation": "The correct answer is 'Baylor University' as it is the last university mentioned in the transcript."
+    },
+    {
+      "question": "Which university is right after 'D University'?",
+      "choices": [
+        "Baylor University",
+        "University of Arizona",
+        "Harvard University"
+      ],
+      "answer": "Harvard University",
+      "explanation": "The correct answer is 'Harvard University' as it follows the mentioned 'D University' in the list."
+    }
+  ]
+}

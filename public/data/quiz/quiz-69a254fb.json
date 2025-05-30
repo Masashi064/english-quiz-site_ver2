@@ -1,0 +1,75 @@
+{
+  "slug": "69a254fb",
+  "video_id": "7r0CHuqRkI8",
+  "movie_title": "Why This Japanese Island is Abandoned",
+  "movie_url": "https://youtu.be/7r0CHuqRkI8",
+  "published_at": "2025-03-11T22:01:00Z",
+  "duration": "PT18M25S",
+  "tags": [
+    "hashima",
+    "japan",
+    "ghost town",
+    "abandoned",
+    "geography",
+    "mapped",
+    "understanding",
+    "why",
+    "Abe",
+    "korea",
+    "china"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch my excl",
+  "lead_intro": "Explore the intriguing history of Hashima Island and its ties to global conflicts and industrialization in Japan.",
+  "quiz": [
+    {
+      "question": "What is another name for Hashima Island?",
+      "choices": [
+        "Ship Island",
+        "Battleship Island",
+        "Coal Island"
+      ],
+      "answer": "Battleship Island",
+      "explanation": "Hashima Island is commonly referred to as Battleship Island due to its resemblance to a large gray ship when viewed from land."
+    },
+    {
+      "question": "Which corporation bought the entire island of Hashima for coal mining?",
+      "choices": [
+        "Toyota",
+        "Mitsubishi",
+        "Honda"
+      ],
+      "answer": "Mitsubishi",
+      "explanation": "The rapidly growing Mitsubishi Corporation bought the entire island of Hashima to mine coal for its expanding fleet of steamships."
+    },
+    {
+      "question": "What event led to the closure of the Hashima mine in 1974?",
+      "choices": [
+        "Petroleum replacing coal",
+        "A volcanic eruption",
+        "Labor strikes"
+      ],
+      "answer": "Petroleum replacing coal",
+      "explanation": "The decline in coal demand due to petroleum replacing coal as the primary fuel source led to the closure of the Hashima mine in 1974."
+    },
+    {
+      "question": "Which countries opposed the proposal to have Hashima Island recognized as a world heritage site?",
+      "choices": [
+        "South Korea, North Korea, China",
+        "United States, Russia, Japan",
+        "Germany, France, Italy"
+      ],
+      "answer": "South Korea, North Korea, China",
+      "explanation": "South Korea, North Korea, and China opposed the proposal to have Hashima Island recognized as a world heritage site due to the darker history of forced labor on the island."
+    },
+    {
+      "question": "What agreement did Japan reach with South Korea in relation to Hashima Island becoming a UNESCO World Heritage Site?",
+      "choices": [
+        "Information display about forced labor",
+        "Complete denial of forced labor history",
+        "Increased tourism restrictions"
+      ],
+      "answer": "Information display about forced labor",
+      "explanation": "As part of the agreement with South Korea, Japan agreed to display information about the forced labor history at Hashima Island for all tourists visiting."
+    }
+  ]
+}
