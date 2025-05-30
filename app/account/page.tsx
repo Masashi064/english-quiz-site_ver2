@@ -131,7 +131,7 @@ export default function AccountPage() {
 
   const tabs = ['My Account', 'Summary', 'Quiz History', 'Favorite Words'];
 
-  return (
+    return (
     <div className="min-h-screen px-6 py-10">
       <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
         <ul className="flex gap-4 border-b mb-6">
@@ -166,16 +166,20 @@ export default function AccountPage() {
 
             <h3 className="mt-4 font-semibold">Category Stats:</h3>
             <ul className="list-disc list-inside">
-              {Object.entries(quizStats.categoryStats).map(([category, data]) => (
-                <li key={category}>{category}: {data.correct} correct out of {data.count} quizzes</li>
-              ))}
+              {(Object.entries(quizStats.categoryStats) as [string, { count: number; correct: number }][]).map(
+                ([category, data]) => (
+                  <li key={category}>{category}: {data.correct} correct out of {data.count} quizzes</li>
+                )
+              )}
             </ul>
 
             <h3 className="mt-4 font-semibold">Level Stats:</h3>
             <ul className="list-disc list-inside">
-              {Object.entries(quizStats.levelStats).map(([level, data]) => (
-                <li key={level}>{level}: {data.correct} correct answers from {data.count} quizzes</li>
-              ))}
+              {(Object.entries(quizStats.levelStats) as [string, { count: number; correct: number }][]).map(
+                ([level, data]) => (
+                  <li key={level}>{level}: {data.correct} correct answers from {data.count} quizzes</li>
+                )
+              )}
             </ul>
           </section>
         )}
