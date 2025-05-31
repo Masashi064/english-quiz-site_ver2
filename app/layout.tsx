@@ -4,6 +4,7 @@ import "./globals.css";
 import { AuthProvider } from '@/context/AuthContext';
 import { ThemeProvider } from '@/context/ThemeContext';
 import SiteHeader from '@/app/components/SiteHeader';
+import Footer from '@/app/components/Footer'; //
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +37,8 @@ export default function RootLayout({
         <ThemeProvider>
           <AuthProvider>
             <SiteHeader />
-            {children}
+            <main>{children}</main> {/* 👈 明示的に main を使うと可読性が向上 */}
+            <Footer /> {/* 👈 フッターをここに追加 */}
           </AuthProvider>
         </ThemeProvider>
       </body>

@@ -1,0 +1,81 @@
+{
+  "slug": "a3c34d49",
+  "video_id": "-mzqQ_vNiKg",
+  "movie_title": "The Incredible Thai Cave Rescue",
+  "movie_url": "https://youtu.be/-mzqQ_vNiKg",
+  "published_at": "2023-04-05T12:01:00Z",
+  "duration": "PT23M30S",
+  "tags": [
+    "thai",
+    "cave rescue",
+    "thailand",
+    "story",
+    "documentary",
+    "explained",
+    "understanding",
+    "why",
+    "chiang rai",
+    "scuba diving",
+    "cave diving",
+    "john volanthen",
+    "rescue",
+    "animation",
+    "scuba",
+    "heartwarming",
+    "wholesome"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch me excl",
+  "lead_intro": "In a daring rescue mission, a group of boys and their coach are trapped in a cave. Let's test your understanding of this thrilling story with the following quiz!",
+  "quiz": [
+    {
+      "question": "What was Sangpol's age?",
+      "choices": [
+        "11 years old",
+        "13 years old",
+        "15 years old"
+      ],
+      "answer": "13 years old",
+      "explanation": "Sangpol, the team member who received the call from the coach, was 13 years old."
+    },
+    {
+      "question": "Who was the experienced caver that connected Thai authorities with the British Cave Rescue Council?",
+      "choices": [
+        "John Volanthen",
+        "Rick Stanton",
+        "Vernon Unsworth"
+      ],
+      "answer": "Vernon Unsworth",
+      "explanation": "Vernon Unsworth was the experienced caver who played a crucial role in connecting authorities for the rescue mission."
+    },
+    {
+      "question": "What was the major challenge faced by Rick and John during their first dive through the cave?",
+      "choices": [
+        "Strong current",
+        "Poor visibility",
+        "Lack of oxygen"
+      ],
+      "answer": "Strong current",
+      "explanation": "Rick and John faced a significant challenge of a strong current during their initial dive inside the cave."
+    },
+    {
+      "question": "What was the plan considered to get the boys out of the cave?",
+      "choices": [
+        "Teaching them to dive",
+        "Using an emergency elevator",
+        "Waiting until the end of the rainy season"
+      ],
+      "answer": "Using an emergency elevator",
+      "explanation": "One of the considered plans was to rescue the team using an emergency elevator in a newly drilled shaft."
+    },
+    {
+      "question": "What happened to the last boy during the rescue operation?",
+      "choices": [
+        "Got lost in the cave",
+        "Positive pressure mask didn't fit",
+        "Refused to leave the cave"
+      ],
+      "answer": "Positive pressure mask didn't fit",
+      "explanation": "The last boy faced difficulty as the positive pressure mask did not fit his small face during the rescue operation."
+    }
+  ]
+}

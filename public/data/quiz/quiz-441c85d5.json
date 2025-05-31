@@ -1,0 +1,76 @@
+{
+  "slug": "441c85d5",
+  "video_id": "oRt5NPY7yYA",
+  "movie_title": "How Nukes Are Transported",
+  "movie_url": "https://youtu.be/oRt5NPY7yYA",
+  "published_at": "2024-01-21T15:00:40Z",
+  "duration": "PT9M50S",
+  "tags": [
+    "nukes",
+    "transportation",
+    "explainer",
+    "understanding",
+    "why",
+    "logistics",
+    "transporter",
+    "government",
+    "usa",
+    "united states",
+    "vehicles",
+    "security"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch my excl",
+  "lead_intro": "Discover the intricate security measures involved in transporting nuclear weapons, ensuring they remain safeguarded at all times.",
+  "quiz": [
+    {
+      "question": "What kind of vehicles are typically used for the transport of nuclear materials?",
+      "choices": [
+        "trucks",
+        "tanks",
+        "submarines"
+      ],
+      "answer": "trucks",
+      "explanation": "The passage mentions that the convoy consists of several armored vehicles close to the truck, which are called Bearcats, for transporting nuclear materials."
+    },
+    {
+      "question": "How often does the commander of the convoy contact the remote agents positioned ahead?",
+      "choices": [
+        "every hour",
+        "every 30 minutes",
+        "every 15 minutes"
+      ],
+      "answer": "every 30 minutes",
+      "explanation": "The passage states that the commander calls the remote agents every 30 minutes to receive updates about potential threats along the route."
+    },
+    {
+      "question": "Where is the transportation and emergency control center located for coordinating nuclear transports within the United States?",
+      "choices": [
+        "Washington D.C.",
+        "Los Angeles, California",
+        "Albuquerque, New Mexico"
+      ],
+      "answer": "Albuquerque, New Mexico",
+      "explanation": "The text mentions that the transportation and emergency control center is located in Albuquerque, New Mexico, and it coordinates all nuclear transports within the United States."
+    },
+    {
+      "question": "What security measure is employed to prevent enemies from gaining access to the nuclear cargo by posing as police?",
+      "choices": [
+        "hand signals",
+        "passwords",
+        "facial recognition"
+      ],
+      "answer": "passwords",
+      "explanation": "The passage describes a set protocol where the control center establishes passwords transmitted to the crew of the convoy and local police to ensure that enemies cannot pose as police to access the nuclear cargo."
+    },
+    {
+      "question": "How is the cargo hold of the Safeguard transporter designed to deter intruders?",
+      "choices": [
+        "sprays foam",
+        "sends electric shocks",
+        "releases gas"
+      ],
+      "answer": "sprays foam",
+      "explanation": "The text explains that the cargo hold can automatically spray a thick foam on any intruders, impairing their movement and effectively immobilizing them if they attempt to gain access."
+    }
+  ]
+}

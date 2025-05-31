@@ -1,0 +1,89 @@
+{
+  "slug": "5d05c11c",
+  "video_id": "mIiPt1YVkP8",
+  "movie_title": "The Worst Crash That Never Happened",
+  "movie_url": "https://youtu.be/mIiPt1YVkP8",
+  "published_at": "2023-05-08T14:27:00Z",
+  "duration": "PT21M45S",
+  "tags": [
+    "airplane",
+    "plane",
+    "aviation",
+    "airport",
+    "close call",
+    "close-call",
+    "atc",
+    "safety",
+    "callsign",
+    "tenerife disaster",
+    "1977",
+    "mayday",
+    "documentary",
+    "explained",
+    "why",
+    "3d animation",
+    "understanding",
+    "neo",
+    "747",
+    "boeing",
+    "airbus",
+    "embraer",
+    "SFO",
+    "JFK",
+    "Air Canada"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch my excl",
+  "lead_intro": "Join us as we delve into the world of aviation mishaps and learn about the importance of clear communication and following protocols to avoid disaster.",
+  "quiz": [
+    {
+      "question": "What does NOTAM stand for in aviation terminology?",
+      "choices": [
+        "Notice to Airmen",
+        "National Airport Traffic Management",
+        "Navigation of Air Traffic"
+      ],
+      "answer": "Notice to Airmen",
+      "explanation": "NOTAM stands for Notice to Airmen, which provides essential information to pilots and other personnel about potential hazards along a flight route or at an airport."
+    },
+    {
+      "question": "What system could the Air Canada Flight 759 crew have used to confirm they were on the correct path?",
+      "choices": [
+        "Instrument Landing System (ILS)",
+        "Global Positioning System (GPS)",
+        "Air Traffic Control System (ATC)"
+      ],
+      "answer": "Instrument Landing System (ILS)",
+      "explanation": "The crew of Air Canada Flight 759 could have used the Instrument Landing System (ILS) to confirm they were on the correct path, but it was not activated manually in this instance."
+    },
+    {
+      "question": "What category was the JFK incident classified as by the US Federal Aviation Administration?",
+      "choices": [
+        "Category B",
+        "Category A",
+        "Category C"
+      ],
+      "answer": "Category B",
+      "explanation": "The JFK incident was classified as Category B by the US Federal Aviation Administration, signifying a serious incident where a collision was narrowly avoided."
+    },
+    {
+      "question": "What procedure did FedEx 1432 have to execute due to low visibility during landing?",
+      "choices": [
+        "Category three instrument approach",
+        "Visual approach",
+        "Manual approach"
+      ],
+      "answer": "Category three instrument approach",
+      "explanation": "FedEx 1432 had to execute a Category three instrument approach due to low visibility, using the auto land system while monitoring all systems for correct operations."
+    },
+    {
+      "question": "What was the primary reason for the near collision between FedEx 1432 and Southwest 708 at Austin Airport?",
+      "choices": [
+        "Southwest plane delayed takeoff",
+        "Miscommunication between tower and pilots",
+        "Low visibility due to fog"
+      ],
+      "answer": "Southwest plane delayed takeoff",
+      "explanation": "The primary reason for the near collision was the delayed takeoff of the Southwest plane, leading to a tense situation as FedEx 1432 was about to land on the same runway."
+    }
+  ]
+}

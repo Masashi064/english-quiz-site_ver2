@@ -1,0 +1,74 @@
+{
+  "slug": "9bcd5857",
+  "video_id": "4YuNvIfM-YA",
+  "movie_title": "The Densest City on Earth",
+  "movie_url": "https://youtu.be/4YuNvIfM-YA",
+  "published_at": "2023-07-24T14:02:00Z",
+  "duration": "PT17M49S",
+  "tags": [
+    "kowloon walled city",
+    "kowloon",
+    "walled",
+    "city",
+    "hongkong",
+    "hong kong",
+    "architecture",
+    "urbanism",
+    "china",
+    "construction"
+  ],
+  "introduction": "Get Nebula for 40% off an annual subscription using my link: https://go.nebula.tv/neo\n\nWatch my excl",
+  "lead_intro": "Discover the intriguing history of Kowloon Walled City, a densely populated urban maze with a unique past and vibrant community spirit.",
+  "quiz": [
+    {
+      "question": "In what city was Kowloon Walled City located?",
+      "choices": [
+        "Hong Kong",
+        "Tokyo",
+        "Shanghai"
+      ],
+      "answer": "Hong Kong",
+      "explanation": "Kowloon Walled City was located in Hong Kong, and it had its own legal status separate from the rest of Hong Kong."
+    },
+    {
+      "question": "How did the British gain control of Hong Kong?",
+      "choices": [
+        "Negotiation",
+        "War",
+        "Trade"
+      ],
+      "answer": "War",
+      "explanation": "Britain won the First Opium War against the Chinese Empire and subsequently occupied Hong Kong in 1841."
+    },
+    {
+      "question": "What restriction was in place for buildings in Kowloon Walled City due to its proximity to the airport?",
+      "choices": [
+        "Height limit of 14 stories",
+        "No windows allowed",
+        "No electricity allowed"
+      ],
+      "answer": "Height limit of 14 stories",
+      "explanation": "Due to its location near Kai Tak Airport, a strict height limit of 14 stories was enforced for buildings in Kowloon Walled City."
+    },
+    {
+      "question": "What illegal activity were the triads notorious for in Kowloon Walled City?",
+      "choices": [
+        "Prostitution",
+        "Drug trafficking",
+        "Human trafficking"
+      ],
+      "answer": "Drug trafficking",
+      "explanation": "The triads engaged in illegal businesses like drug trafficking, soliciting prostitution, and running opium dens within Kowloon Walled City."
+    },
+    {
+      "question": "How did the story of Kowloon Walled City end?",
+      "choices": [
+        "Natural disaster",
+        "Evacuation and demolition",
+        "Government takeover"
+      ],
+      "answer": "Evacuation and demolition",
+      "explanation": "The city came to an end with a complete evacuation and demolition process that started in 1993, leading to the disappearance of Kowloon Walled City."
+    }
+  ]
+}
