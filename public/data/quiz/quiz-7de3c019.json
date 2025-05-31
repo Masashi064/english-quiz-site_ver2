@@ -1,0 +1,63 @@
+{
+  "slug": "7de3c019",
+  "video_id": "PHI07XtbfVA",
+  "movie_title": "Bird Flu Simulator",
+  "movie_url": "https://youtu.be/PHI07XtbfVA",
+  "published_at": "2025-03-27T15:00:36Z",
+  "duration": "PT1M10S",
+  "tags": [],
+  "introduction": "We got a bird flu simulator before GTA 6... 🐔 \n\nBut seriously – why does bird flu spread so quickly",
+  "lead_intro": "Join the twisted narrative of a chicken infected with bird flu as it spreads its deadly contagion with ruthless efficiency.",
+  "quiz": [
+    {
+      "question": "Which strain of bird flu is mentioned as the deadliest for humans?",
+      "choices": [
+        "H1N1",
+        "H5N1",
+        "H7N9"
+      ],
+      "answer": "H5N1",
+      "explanation": "The text highlights H5N1 as the deadliest strain of bird flu for humans."
+    },
+    {
+      "question": "What is suggested as a perfect mixing vessel for creating a deadlier flu strain?",
+      "choices": [
+        "Ducks",
+        "Cows",
+        "Pigs"
+      ],
+      "answer": "Pigs",
+      "explanation": "Pigs are mentioned as the perfect mixing vessel as they can catch both bird and human flu."
+    },
+    {
+      "question": "Why are migrating birds mentioned as a target for infection?",
+      "choices": [
+        "To protect polar bears",
+        "To create a stronger immune system",
+        "To spread the virus further"
+      ],
+      "answer": "To spread the virus further",
+      "explanation": "Infecting migrating birds is suggested to spread the virus more extensively."
+    },
+    {
+      "question": "What happens to most of the flock within 48 hours of infection?",
+      "choices": [
+        "They become immune",
+        "They recover completely",
+        "They die"
+      ],
+      "answer": "They die",
+      "explanation": "Within 48 hours, most of the flock is likely to be dead due to the lethal virus."
+    },
+    {
+      "question": "Who poses a threat to the infected birds' killing spree?",
+      "choices": [
+        "Polar bears",
+        "Beady-eyed farmers",
+        "Migrating birds"
+      ],
+      "answer": "Beady-eyed farmers",
+      "explanation": "Beady-eyed farmers are mentioned as a threat, removing infected birds to stop the spread of the virus."
+    }
+  ]
+}

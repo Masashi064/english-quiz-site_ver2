@@ -1,0 +1,66 @@
+{
+  "slug": "856bf171",
+  "video_id": "VD6xJq8NguY",
+  "movie_title": "There Is Life Hiding Inside Earth",
+  "movie_url": "https://youtu.be/VD6xJq8NguY",
+  "published_at": "2024-10-03T13:59:15Z",
+  "duration": "PT11M28S",
+  "tags": [
+    "deep biosphere",
+    "subsurface life"
+  ],
+  "introduction": "Get 50% off your first month of a monthly club with code KURZGESAGT at https://www.kiwico.com/kurzge",
+  "lead_intro": "Have you ever wondered about the extreme beings thriving in the deep biosphere inside the Earth's crust? Let's dive into this fascinating world of microbes and their survival strategies!",
+  "quiz": [
+    {
+      "question": "Where is the deep biosphere located?",
+      "choices": [
+        "inside the Earth's crust",
+        "on the surface of Venus",
+        "in the Earth's atmosphere"
+      ],
+      "answer": "inside the Earth's crust",
+      "explanation": "The deep biosphere, home to extreme beings, is located inside the Earth's crust."
+    },
+    {
+      "question": "What is the deep biosphere's volume compared to Earth's oceans?",
+      "choices": [
+        "twice as large",
+        "half the size",
+        "equal in volume"
+      ],
+      "answer": "twice as large",
+      "explanation": "The volume of the deep biosphere is at least twice as large as all of Earth's oceans."
+    },
+    {
+      "question": "Where does the journey into the deep biosphere begin?",
+      "choices": [
+        "on land, in the soil",
+        "under the ocean",
+        "in the Earth's mantle"
+      ],
+      "answer": "on land, in the soil",
+      "explanation": "The journey into the deep biosphere starts on land, in the soil, the top layer of the Earth, rich in air, water, minerals, and organic matter."
+    },
+    {
+      "question": "What is a characteristic of microbes living in the deep biosphere?",
+      "choices": [
+        "consume very little and conserve energy",
+        "rapid metabolism",
+        "high oxygen requirement"
+      ],
+      "answer": "consume very little and conserve energy",
+      "explanation": "Microbes in the deep biosphere have a slow metabolism, consuming very little and conserving energy to survive in harsh conditions."
+    },
+    {
+      "question": "What is a survival strategy of microbes in the deep biosphere?",
+      "choices": [
+        "forming consortia to share work",
+        "constant reproduction",
+        "high consumption of resources"
+      ],
+      "answer": "forming consortia to share work",
+      "explanation": "Microbes in the deep biosphere form consortia, working together in biofilms to shield against extremes and share tasks like methane consumption and electron conversion."
+    }
+  ]
+}

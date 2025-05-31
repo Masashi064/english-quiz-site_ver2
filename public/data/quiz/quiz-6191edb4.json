@@ -1,0 +1,63 @@
+{
+  "slug": "6191edb4",
+  "video_id": "c1nYtX-NUsc",
+  "movie_title": "Tired of Doomscrolling?",
+  "movie_url": "https://youtu.be/c1nYtX-NUsc",
+  "published_at": "2024-10-08T13:59:36Z",
+  "duration": "PT9M14S",
+  "tags": [],
+  "introduction": "Being a human in the 21st century often feels frustrating. We are clearly at the high point of our s",
+  "lead_intro": "Exploring the human journey through time and evolution sheds light on our potential for creating a better world. Let's dive into the story of humanity's past and opportunities for the future.",
+  "quiz": [
+    {
+      "question": "According to the passage, approximately how many children died yesterday?",
+      "choices": [
+        "15 thousand",
+        "700 million",
+        "250,000"
+      ],
+      "answer": "15 thousand",
+      "explanation": "The passage mentions that more than 15 thousand children died yesterday."
+    },
+    {
+      "question": "What event marked the beginning of the universe's growth and evolution?",
+      "choices": [
+        "Formation of stars",
+        "Emergence of life on Earth",
+        "First moment of time and space"
+      ],
+      "answer": "First moment of time and space",
+      "explanation": "The passage states that 14 billion years ago, time and space began from some kind of state of pure energy, marking the beginning of the universe's growth and evolution."
+    },
+    {
+      "question": "Approximately how many years ago did humanity, as we know it today, arrive?",
+      "choices": [
+        "6 million years ago",
+        "200,000 years ago",
+        "10,000 years ago"
+      ],
+      "answer": "200,000 years ago",
+      "explanation": "Humanity as we know it arrived approximately 200,000 years ago, as mentioned in the passage."
+    },
+    {
+      "question": "What technological advancement snowballed into civilization according to the passage?",
+      "choices": [
+        "Astronomy",
+        "Writing",
+        "Agriculture"
+      ],
+      "answer": "Agriculture",
+      "explanation": "The passage highlights that agriculture and the first villages and temples snowballed into civilization."
+    },
+    {
+      "question": "What may enable humanity to create a better world according to the passage?",
+      "choices": [
+        "Instincts",
+        "Technological wonders",
+        "Mindset of a scarce world"
+      ],
+      "answer": "Technological wonders",
+      "explanation": "The passage suggests that humanity's potential to create a better world lies in technological wonders and changing the narrative about who we are and could be."
+    }
+  ]
+}
