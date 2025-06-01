@@ -1,0 +1,63 @@
+{
+  "slug": "4590226d",
+  "video_id": "dBxxi5XAm3U",
+  "movie_title": "We Traveled Back in Time. Now Physicists Are Angry.",
+  "movie_url": "https://youtu.be/dBxxi5XAm3U",
+  "published_at": "2024-08-27T14:00:00Z",
+  "duration": "PT11M20S",
+  "tags": [],
+  "introduction": "Go to https://brilliant.org/nutshell/ to dive deeper into these topics and more with a free 30-day t",
+  "lead_intro": "Ever dreamed of riding dinosaurs and high-fiving Einstein through time travel? Dive into the fascinating world of spacetime and the bizarre rules of time with this mind-bending adventure!",
+  "quiz": [
+    {
+      "question": "According to the text, how many dimensions make up our universe?",
+      "choices": [
+        "two",
+        "three",
+        "four"
+      ],
+      "answer": "four",
+      "explanation": "The text mentions that our universe is believed to be four-dimensional, consisting of three spatial dimensions and one time dimension."
+    },
+    {
+      "question": "What is the term used for particles that could potentially move faster than light and travel backwards in time?",
+      "choices": [
+        "luminons",
+        "tachyons",
+        "gravitons"
+      ],
+      "answer": "tachyons",
+      "explanation": "Scientists have theorized the existence of particles called 'tachyons' that could travel faster than light and move backwards in time."
+    },
+    {
+      "question": "What phenomenon causes time to pass slower near massive objects like black holes?",
+      "choices": [
+        "time dilation",
+        "gravity fluctuation",
+        "event horizon effect"
+      ],
+      "answer": "time dilation",
+      "explanation": "Time dilation is the effect where time passes slower near massive objects, like black holes, due to the bending of spacetime by gravity."
+    },
+    {
+      "question": "What is the name of the paradox involving twins aging differently due to one traveling at high speed in space?",
+      "choices": [
+        "space paradox",
+        "twin paradox",
+        "time divergence"
+      ],
+      "answer": "twin paradox",
+      "explanation": "The scenario where one twin travels at high speed through space while the other remains on Earth, resulting in different aging rates, is known as the 'twin paradox'."
+    },
+    {
+      "question": "What is the speed at which photons move through space?",
+      "choices": [
+        "speed of sound",
+        "speed of light",
+        "speed of darkness"
+      ],
+      "answer": "speed of light",
+      "explanation": "Photons, which are light particles, move at the speed of light through space, experiencing no passage of time in their frame of reference."
+    }
+  ]
+}
