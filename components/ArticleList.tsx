@@ -240,7 +240,10 @@ useEffect(() => {
       <div className="flex flex-wrap gap-4 mb-6">
         <select
           value={category}
-          onChange={(e) => setCategory(e.target.value)}
+          onChange={(e) => {
+            setCategory(e.target.value)
+            setCurrentPage(1) 
+          }}
           className="h-10 px-3 border rounded text-sm bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-300 appearance-none"
         >
           <option value="all">All Categories ({articles.length})</option>
@@ -253,7 +256,10 @@ useEffect(() => {
 
         <select
           value={level}
-          onChange={(e) => setLevel(e.target.value)}
+          onChange={(e) => {
+            setLevel(e.target.value)
+            setCurrentPage(1) 
+          }}
           className="h-10 px-3 border rounded text-sm bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-300 appearance-none"
         >
           <option value="all">All Levels ({articles.length})</option>
@@ -266,7 +272,10 @@ useEffect(() => {
 
         <select
           value={completionFilter}
-          onChange={(e) => setCompletionFilter(e.target.value as any)}
+          onChange={(e) => {
+            setCompletionFilter(e.target.value as any)
+            setCurrentPage(1) 
+          }}
           className="h-10 px-3 border rounded text-sm bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-300 appearance-none"
         >
           <option value="all">All Status ({articles.length})</option>
@@ -278,14 +287,20 @@ useEffect(() => {
         <input
           type="text"
           value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          onChange={(e) => {
+            setSearch(e.target.value)
+            setCurrentPage(1) 
+          }}
           placeholder="Search by title or channel"
           className="p-2 border rounded flex-grow bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600"
         />
 
         <select
           value={sortKey}
-          onChange={(e) => setSortKey(e.target.value as any)}
+          onChange={(e) => {
+            setSortKey(e.target.value as any)
+            setCurrentPage(1) 
+          }}
           className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 appearance-none"
         >
           <option value="published_date">Sort by: Article Updated Date</option>
@@ -295,7 +310,10 @@ useEffect(() => {
 
         <select
           value={sortOrder}
-          onChange={(e) => setSortOrder(e.target.value as any)}
+          onChange={(e) => {
+            setSortOrder(e.target.value as any)
+            setCurrentPage(1) 
+          }}
           className="p-2 border rounded bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 appearance-none"
         >
           <option value="desc">↓ Desc</option>
