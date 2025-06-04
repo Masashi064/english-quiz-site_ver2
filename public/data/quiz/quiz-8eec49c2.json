@@ -1,0 +1,95 @@
+{
+  "slug": "8eec49c2",
+  "video_id": "tD-6xHAHrQ4",
+  "movie_title": "What makes a great library?  ⏲️ 6 Minute English",
+  "movie_url": "https://youtu.be/tD-6xHAHrQ4",
+  "published_at": "2024-03-14T15:07:37Z",
+  "duration": "PT6M23S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "bbc",
+    "bbc learning english",
+    "English class",
+    "6 minute",
+    "English speaking practice",
+    "English words",
+    "English podcast",
+    "podcast English"
+  ],
+  "introduction": "What makes a good library? Neil and Beth discuss this and teach you some useful English vocabulary.",
+  "lead_intro": "Libraries are more than just places for books. Join us in exploring the hidden life of libraries, from ancient collections to modern-day soft power.",
+  "quiz": [
+    {
+      "question": "Which famous text can be found in The British Library?",
+      "choices": [
+        "the earliest known printing of the Bible",
+        "the first edition of 'The Times' newspaper from 1788",
+        "the original manuscripts of the Harry Potter books"
+      ],
+      "answer": "the first edition of 'The Times' newspaper from 1788",
+      "explanation": "The British Library contains the first edition of 'The Times' newspaper, among other famous texts."
+    },
+    {
+      "question": "What does 'painstakingly' mean?",
+      "choices": [
+        "quickly",
+        "carelessly",
+        "with lots of care and effort"
+      ],
+      "answer": "with lots of care and effort",
+      "explanation": "'Painstakingly' means doing something with a lot of care and effort."
+    },
+    {
+      "question": "What does the expression 'knowledge equals power' imply?",
+      "choices": [
+        "the more you know, the less power you have",
+        "the more you know, the more you're able to control events",
+        "knowledge is not important"
+      ],
+      "answer": "the more you know, the more you're able to control events",
+      "explanation": "The expression 'knowledge equals power' suggests that having more knowledge allows one to have more control over events."
+    },
+    {
+      "question": "What is a paperback?",
+      "choices": [
+        "a digital book",
+        "a type of book with a thin cover",
+        "a type of book with a cover made of thick paper"
+      ],
+      "answer": "a type of book with a cover made of thick paper",
+      "explanation": "A paperback is a type of book with a cover made of thick paper and sold relatively cheaply."
+    },
+    {
+      "question": "What is soft power?",
+      "choices": [
+        "using military power to influence events",
+        "using cultural or political means to influence events",
+        "using technology to influence events"
+      ],
+      "answer": "using cultural or political means to influence events",
+      "explanation": "Soft power involves using political or cultural means, rather than military power, to achieve goals."
+    }
+  ]
+}
