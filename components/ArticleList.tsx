@@ -185,6 +185,55 @@ useEffect(() => {
 
   const paginated = filtered.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
   const totalPages = Math.ceil(filtered.length / itemsPerPage)
+  const renderPagination = () => {
+    const pageNumbers: (number | string)[] = []
+
+    if (totalPages <= 7) {
+      // 全部表示（ページが少ない場合）
+      for (let i = 1; i <= totalPages; i++) pageNumbers.push(i)
+    } else {
+      pageNumbers.push(1)
+
+      if (currentPage > 3) pageNumbers.push('...')
+
+      const startPage = Math.max(2, currentPage - 1)
+      const endPage = Math.min(totalPages - 1, currentPage + 1)
+
+      for (let i = startPage; i <= endPage; i++) {
+        pageNumbers.push(i)
+      }
+
+      if (currentPage < totalPages - 2) pageNumbers.push('...')
+
+      pageNumbers.push(totalPages)
+    }
+
+    return pageNumbers.map((page, index) => {
+      if (page === '...') {
+        return (
+          <span key={`ellipsis-${index}`} className="px-2 py-1 text-gray-500 dark:text-gray-400">
+            ...
+          </span>
+        )
+      }
+
+      return (
+        <button
+          key={`page-${page}`}
+          onClick={() => setCurrentPage(Number(page))}
+          className={`px-3 py-1 border rounded ${
+            currentPage === page
+              ? 'bg-blue-600 text-white'
+              : 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white'
+          }`}
+        >
+          {page}
+        </button>
+      )
+    })
+
+  }
+
 
   return (
     <main className="px-2 sm:px-4 md:px-6 py-6 max-w-5xl mx-auto text-black dark:text-white bg-white dark:bg-black min-h-screen">
@@ -309,21 +358,10 @@ useEffect(() => {
           )
         })}
       </div>
-      <div className="flex justify-center mt-10 gap-2">
-        {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-          <button
-            key={page}
-            onClick={() => setCurrentPage(page)}
-            className={`px-3 py-1 border rounded ${
-              currentPage === page
-                ? 'bg-blue-600 text-white'
-                : 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white'
-            }`}
-          >
-            {page}
-          </button>
-        ))}
+      <div className="flex flex-wrap justify-center mt-10 mb-20 gap-2">
+        {renderPagination()}
       </div>
+
     </main>
   )
 }
