@@ -1,0 +1,87 @@
+{
+  "slug": "27484eca",
+  "video_id": "IXxZRZxafEQ",
+  "movie_title": "What Is Light?",
+  "movie_url": "https://youtu.be/IXxZRZxafEQ",
+  "published_at": "2015-10-15T13:15:46Z",
+  "duration": "PT4M39S",
+  "tags": [
+    "light",
+    "physics",
+    "photon",
+    "wave",
+    "visible light",
+    "universe",
+    "sun",
+    "star",
+    "speed of light",
+    "particle",
+    "energy",
+    "funny",
+    "earth",
+    "magnet",
+    "electromagnetism",
+    "electron",
+    "magnet field",
+    "electric field",
+    "science",
+    "lights",
+    "infographic",
+    "kurzgesagt",
+    "in a nutshell"
+  ],
+  "introduction": "We are so used to some things that we stopped wondering about them. Like light. What is light? Some",
+  "lead_intro": "Light, the essence connecting us to the universe, holds the key to unraveling the mysteries of existence. Let's journey through the fascinating world of light and its profound impact on our perception of the cosmos.",
+  "quiz": [
+    {
+      "question": "What is light in a nutshell?",
+      "choices": [
+        "An elementary particle with real size",
+        "The smallest quantity of energy that can be transported",
+        "A form of solid matter"
+      ],
+      "answer": "The smallest quantity of energy that can be transported",
+      "explanation": "In a nutshell, light is described as the smallest quantity of energy that can be transported."
+    },
+    {
+      "question": "What are gamma rays known for?",
+      "choices": [
+        "Longest wavelengths",
+        "Smallest wavelengths",
+        "Moderate energy levels"
+      ],
+      "answer": "Smallest wavelengths",
+      "explanation": "Gamma rays are characterized by having the smallest wavelengths, making them high-energy photons."
+    },
+    {
+      "question": "What is the approximate size range of visible light in the electromagnetic spectrum?",
+      "choices": [
+        "200 nanometers to 500 nanometers",
+        "400 nanometers to 700 nanometers",
+        "800 nanometers to 1000 nanometers"
+      ],
+      "answer": "400 nanometers to 700 nanometers",
+      "explanation": "Visible light falls within the range of approximately 400 nanometers to 700 nanometers in the electromagnetic spectrum."
+    },
+    {
+      "question": "Why is visible light considered special to humans?",
+      "choices": [
+        "Due to its ability to penetrate solid objects",
+        "Because it is the only form of radiation with wave-particle duality",
+        "Evolution of eyes that are sensitive to it"
+      ],
+      "answer": "Evolution of eyes that are sensitive to it",
+      "explanation": "Visible light is not inherently special, but humans have evolved eyes that are particularly adept at perceiving this part of the electromagnetic spectrum."
+    },
+    {
+      "question": "What is the speed of light in a vacuum?",
+      "choices": [
+        "299,792,458 meters per second",
+        "150,000,000 meters per second",
+        "450,000,000 meters per second"
+      ],
+      "answer": "299,792,458 meters per second",
+      "explanation": "The speed of light in a vacuum is precisely 299,792,458 meters per second, making it the fastest way to travel through space in the universe."
+    }
+  ]
+}
