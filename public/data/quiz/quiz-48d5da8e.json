@@ -1,0 +1,69 @@
+{
+  "slug": "48d5da8e",
+  "video_id": "j70SWqb-h5g",
+  "movie_title": "Turkeys New Constitution explained in 3 Minutes",
+  "movie_url": "https://youtu.be/j70SWqb-h5g",
+  "published_at": "2017-04-18T21:50:14Z",
+  "duration": "PT3M35S",
+  "tags": [
+    "turkey",
+    "referendum",
+    "democracy",
+    "erdogan",
+    "recep tayip"
+  ],
+  "introduction": "Support me and get access to my exclusive videos:\nhttps://nebula.tv/videos/neo-how-the-twin-towers-w",
+  "lead_intro": "Discover the implications of the Turkish referendum and the shift to a presidential system. Are you ready to test your understanding?",
+  "quiz": [
+    {
+      "question": "In the old system, how long is the term for the President of Turkey?",
+      "choices": [
+        "4 years",
+        "5 years",
+        "6 years"
+      ],
+      "answer": "5 years",
+      "explanation": "In the old system, the President of Turkey served a 5-year term."
+    },
+    {
+      "question": "What major change will occur in Turkey's elections after the referendum?",
+      "choices": [
+        "The President and Parliament will be elected on different days",
+        "The President and Parliament will be elected on the same day",
+        "The President will be appointed by the Parliament"
+      ],
+      "answer": "The President and Parliament will be elected on the same day",
+      "explanation": "Following the referendum, Turkey's President and Parliament will be elected on the same day."
+    },
+    {
+      "question": "How does the new constitution impact the position of Prime Minister in Turkey?",
+      "choices": [
+        "The Prime Minister will have more power",
+        "The Prime Minister will be appointed by the President",
+        "There will be no Prime Minister"
+      ],
+      "answer": "There will be no Prime Minister",
+      "explanation": "Under the new constitution, the position of Prime Minister will be eliminated in Turkey."
+    },
+    {
+      "question": "What is one concern critics have about the shift to a presidential system in Turkey?",
+      "choices": [
+        "The President will have too little power",
+        "The balance of powers will be compromised",
+        "Laws will be approved more efficiently"
+      ],
+      "answer": "The balance of powers will be compromised",
+      "explanation": "Critics fear that the shift to a presidential system in Turkey may compromise the balance of powers."
+    },
+    {
+      "question": "How will the composition of the Turkish Supreme Board of judges and prosecutors change in the future?",
+      "choices": [
+        "Remain the same",
+        "More members appointed by the Parliament",
+        "More members appointed by the President"
+      ],
+      "answer": "More members appointed by the President",
+      "explanation": "In the future, the Turkish Supreme Board of judges and prosecutors will have more members appointed by the President."
+    }
+  ]
+}
