@@ -5,7 +5,8 @@ export default function Footer() {
       <p>&copy; {new Date().getFullYear()} SABACAN365. All rights reserved.</p>
       <p>
         <a href="/privacy" className="underline hover:text-blue-500">Privacy Policy</a> |{' '}
-        <a href="/terms" className="underline hover:text-blue-500">Terms of Use</a>
+        <a href="/terms" className="underline hover:text-blue-500">Terms of Use</a> |{' '}
+        <a href="/about" className="underline hover:text-blue-500">About</a>
       </p>
     </footer>
   );

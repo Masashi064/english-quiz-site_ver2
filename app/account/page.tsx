@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import { db } from '@/lib/firebase';
 import { collection, doc, getDoc, getDocs } from 'firebase/firestore';
 import VocabularyCard from '@/components/VocabularyCard';
+import { updateDoc } from 'firebase/firestore';
 
 interface QuizRecord {
   date: { seconds: number };
@@ -38,6 +39,9 @@ export default function AccountPage() {
   const [fetching, setFetching] = useState(true);
   const [activeTab, setActiveTab] = useState('My Account');
 
+  const [editingNickname, setEditingNickname] = useState(false);
+  const [nicknameInput, setNicknameInput] = useState('');
+
   const sortedHistory = [...quizHistory].sort((a, b) => b.date.seconds - a.date.seconds);
 
   useEffect(() => {
@@ -45,6 +49,10 @@ export default function AccountPage() {
       router.push('/login');
     }
   }, [user, loading, router]);
+
+  useEffect(() => {
+    if (nickname) setNicknameInput(nickname);
+  }, [nickname]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -125,6 +133,14 @@ export default function AccountPage() {
     setQuizStats(stats);
   }
 
+const handleNicknameSave = async () => {
+  if (!user) return;
+  const userRef = doc(db, 'users', user.uid);
+  await updateDoc(userRef, { nickname: nicknameInput });
+  setNickname(nicknameInput);
+  setEditingNickname(false);
+};
+
   if (loading || fetching) {
     return <div className="flex justify-center items-center min-h-screen">Loading account...</div>;
   }
@@ -148,13 +164,48 @@ export default function AccountPage() {
         </ul>
 
         {activeTab === 'My Account' && (
-          <section className="mb-6">
-            <p><strong>Nickname:</strong> {nickname}</p>
+          <section className="mb-6 space-y-4">
+            <div>
+              <strong>Nickname:</strong>{' '}
+              {editingNickname ? (
+                <>
+                  <input
+                    type="text"
+                    value={nicknameInput}
+                    onChange={(e) => setNicknameInput(e.target.value)}
+                    className="border px-2 py-1 rounded mr-2 bg-white text-black dark:bg-gray-100 dark:text-black"
+                  />
+                  <button
+                    onClick={handleNicknameSave}
+                    className="text-sm bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
+                  >
+                    Save
+                  </button>
+                </>
+              ) : (
+                <>
+                  {nickname}
+                  <button onClick={() => setEditingNickname(true)} className="ml-2 text-blue-500 hover:text-blue-700">
+                    ✏️
+                  </button>
+                </>
+              )}
+            </div>
             <p><strong>Email:</strong> {user?.email}</p>
             <p><strong>User ID:</strong> {user?.uid}</p>
             <p><strong>Created At:</strong> {createdAt || '—'}</p>
+
+            <div className="mt-4">
+              <button
+                onClick={toggleTheme}
+                className="text-sm bg-gray-200 dark:bg-gray-700 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600"
+              >
+                Toggle {theme === 'dark' ? 'Light' : 'Dark'} Mode
+              </button>
+            </div>
           </section>
         )}
+
 
         {activeTab === 'Summary' && quizStats && (
           <section className="mb-6">
