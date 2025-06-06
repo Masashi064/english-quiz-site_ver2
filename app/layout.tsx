@@ -6,6 +6,44 @@ import { ThemeProvider } from '@/context/ThemeContext';
 import SiteHeader from '@/app/components/SiteHeader';
 import Footer from '@/app/components/Footer'; //
 
+// app/layout.tsx
+import Script from 'next/script';
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en" className="dark">
+      <head>
+        {/* Google Analytics GA4 */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-4VQMLEWL7N"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4VQMLEWL7N');
+          `}
+        </Script>
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black dark:bg-black dark:text-white`}>
+        <ThemeProvider>
+          <AuthProvider>
+            <SiteHeader />
+            <main>{children}</main>
+            <Footer />
+          </AuthProvider>
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,26 +61,4 @@ export const metadata: Metadata = {
     icon: '/favicon-v2.ico',
   }
 };
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black dark:bg-black dark:text-white`}
-      >
-        <ThemeProvider>
-          <AuthProvider>
-            <SiteHeader />
-            <main>{children}</main> {/* 👈 明示的に main を使うと可読性が向上 */}
-            <Footer /> {/* 👈 フッターをここに追加 */}
-          </AuthProvider>
-        </ThemeProvider>
-      </body>
-    </html>
-  );
-}
 
