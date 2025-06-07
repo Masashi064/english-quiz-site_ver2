@@ -1,0 +1,74 @@
+{
+  "slug": "c5339195",
+  "video_id": "Mr7b_k4W21o",
+  "movie_title": "12 Minutes of Japan Facts You (Probably) Didn't Know",
+  "movie_url": "https://youtu.be/Mr7b_k4W21o",
+  "published_at": "2024-05-20T00:15:29Z",
+  "duration": "PT12M16S",
+  "tags": [
+    "japanese",
+    "analysis",
+    "japan",
+    "japon",
+    "meme",
+    "explained",
+    "viral",
+    "subbed",
+    "subtitled",
+    "ensub"
+  ],
+  "introduction": "I asked my Japanese friends for interesting lore about Japan and they gave me some pretty interestin",
+  "lead_intro": "Discover fascinating and quirky facts about Japan with insights into its culture and traditions.",
+  "quiz": [
+    {
+      "question": "What is the name of the clapping pattern that Japanese people use to end their meetings?",
+      "choices": [
+        "Sanbonjime",
+        "Nijime",
+        "Yonjime"
+      ],
+      "answer": "Sanbonjime",
+      "explanation": "In the text, it is mentioned that Sanbonjime is the most formal clapping pattern used for big celebrations."
+    },
+    {
+      "question": "Which city in Japan has a unique way of riding escalators compared to the rest of the country?",
+      "choices": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka"
+      ],
+      "answer": "Osaka",
+      "explanation": "The text states that in Osaka, people stand on the right side of escalators, which is different from the standard practice in Japan."
+    },
+    {
+      "question": "What is the belief behind the baby sumo wrestling tradition in Japan?",
+      "choices": [
+        "Healthy babies cry more",
+        "Laughing babies grow up strong",
+        "Crying babies grow up healthy"
+      ],
+      "answer": "Crying babies grow up healthy",
+      "explanation": "The text explains that the tradition of baby sumo wrestling is based on the belief that 'crying babies grow up healthy.'"
+    },
+    {
+      "question": "Who was the individual who mapped Japan on foot in the 1700s?",
+      "choices": [
+        "Ino Tadataka",
+        "Tsunayoshi Tokugawa",
+        "Kanehiro Takaki"
+      ],
+      "answer": "Ino Tadataka",
+      "explanation": "Ino Tadataka is mentioned in the text as the person who walked around Japan for 17 years to create detailed maps of the country."
+    },
+    {
+      "question": "What disease ravaged Japan during the Edo period due to a diet high in white rice?",
+      "choices": [
+        "Beriberi",
+        "Scurvy",
+        "Rickets"
+      ],
+      "answer": "Beriberi",
+      "explanation": "The text explains that the deficiency caused by a diet lacking thiamine in white rice led to what was known as the Edo disease, now recognized as beriberi."
+    }
+  ]
+}
