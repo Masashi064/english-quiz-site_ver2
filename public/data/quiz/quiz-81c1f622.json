@@ -1,0 +1,63 @@
+{
+  "slug": "81c1f622",
+  "video_id": "cRZOUcpiOxY",
+  "movie_title": "Fever Feels Horrible, but is Actually Awesome!",
+  "movie_url": "https://youtu.be/cRZOUcpiOxY",
+  "published_at": "2024-08-13T14:00:01Z",
+  "duration": "PT11M8S",
+  "tags": [],
+  "introduction": "To get started planning a fulfilling career that does a lot of good, go to https://80000hours.org/in",
+  "lead_intro": "Have you ever wondered about the purpose of fever in the body's defense system? Test your knowledge with these quiz questions based on the video!",
+  "quiz": [
+    {
+      "question": "What is one of the oldest defenses against disease?",
+      "choices": [
+        "fever",
+        "medication",
+        "pain"
+      ],
+      "answer": "fever",
+      "explanation": "The video explains that fever is one of the oldest defenses against disease."
+    },
+    {
+      "question": "What triggers the body's first line of defense against invading microbes?",
+      "choices": [
+        "pyrogens",
+        "antibiotics",
+        "enzymes"
+      ],
+      "answer": "pyrogens",
+      "explanation": "The body's first line of defense is triggered by a diverse group of chemicals called pyrogens."
+    },
+    {
+      "question": "What effect does fever have on the body's immune cells?",
+      "choices": [
+        "boosts their activity",
+        "suppresses their activity",
+        "no effect"
+      ],
+      "answer": "boosts their activity",
+      "explanation": "Fever animates the immune cells to gobble up critical resources needed by enemies, boosting their activity."
+    },
+    {
+      "question": "At what temperature is fever considered dangerous?",
+      "choices": [
+        "over 40°C or 104°F",
+        "below 37°C or 98.6°F",
+        "at 38°C or 100.4°F"
+      ],
+      "answer": "over 40°C or 104°F",
+      "explanation": "Fever over 40°C or 104°F is considered dangerous and may be caused by internal issues."
+    },
+    {
+      "question": "What is the recommended action if a fever is not dangerously high?",
+      "choices": [
+        "let it run its course",
+        "take anti-fever medication",
+        "ignore it"
+      ],
+      "answer": "let it run its course",
+      "explanation": "If a fever is not dangerously high, it is generally recommended to let it run its course to support the body's defenses."
+    }
+  ]
+}

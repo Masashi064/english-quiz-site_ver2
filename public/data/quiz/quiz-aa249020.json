@@ -39,57 +39,57 @@
     "podcast English"
   ],
   "introduction": "Is it OK to farm octopus when they have been shown to experience feelings? Beth and Neil discuss thi",
-  "lead_intro": "Are you curious about the ethical implications of farming octopus? Dive into this BBC Learning English video to explore the debate around octopus farming.",
+  "lead_intro": "Are octopuses sentient creatures capable of feeling emotions? Join us in exploring the ethics of farming octopus in this BBC Learning English video!",
   "quiz": [
     {
-      "question": "What is the flavour associated with octopus that is described as savoury?",
+      "question": "What is one of the five basic tastes that octopus flavor is often described as?",
       "choices": [
-        "b) umami",
-        "a) sweet",
-        "c) bitter"
+        "Sour",
+        "Savoury",
+        "Sweet"
       ],
-      "answer": "umami",
-      "explanation": "In the video, umami is mentioned as the flavour associated with octopus, described as savoury."
+      "answer": "Savoury",
+      "explanation": "In the video, it is mentioned that octopus flavor is often described as 'umami,' which is a savoury flavor and one of the five basic tastes."
     },
     {
-      "question": "What is the term used to describe an animal that experiences feelings like pleasure and pain?",
+      "question": "Why are octopuses difficult to farm in captivity?",
       "choices": [
-        "a) sentient",
-        "b) herbivore",
-        "c) nocturnal"
+        "They are social animals",
+        "They have a complex life cycle",
+        "They require a lot of food"
       ],
-      "answer": "sentient",
-      "explanation": "The video explains that octopuses are sentient creatures, meaning they experience feelings like pleasure and pain."
+      "answer": "They are solitary animals",
+      "explanation": "Octopuses are solitary animals, meaning they prefer to live alone, making it challenging to keep them in captivity where they need space."
     },
     {
-      "question": "What is the term for the series of changes an animal goes through from birth to death?",
+      "question": "What does the term 'sentient' mean in the context of the video?",
       "choices": [
-        "b) life cycle",
-        "a) food chain",
-        "c) ecosystem"
+        "Capable of feeling emotions",
+        "Capable of camouflage",
+        "Capable of fast swimming"
       ],
-      "answer": "life cycle",
-      "explanation": "The video mentions the life cycle of octopuses, which refers to the series of changes they go through from birth to death."
+      "answer": "Capable of feeling emotions",
+      "explanation": "In the video, it is explained that being sentient means experiencing feelings like pleasure and pain, which octopuses, as well as many other animals, are known to do."
     },
     {
-      "question": "What does the term 'solitary' mean in the context of octopuses?",
+      "question": "What did the scientific researcher study regarding octopuses' sentience?",
       "choices": [
-        "c) likes to live alone",
-        "a) enjoys social gatherings",
-        "b) prefers crowded spaces"
+        "Nerve connections",
+        "Specific kinds of brains",
+        "Trade-off behaviors"
       ],
-      "answer": "likes to live alone",
-      "explanation": "In the video, it is mentioned that octopuses are solitary creatures, meaning they like to live alone."
+      "answer": "Trade-off behaviors",
+      "explanation": "The scientist studied if octopuses exhibited certain behaviors like trade-off behaviors, which involve giving up one thing for another, indicating a level of sentience."
     },
     {
-      "question": "What does 'trade-off' mean in the discussion about octopuses?",
+      "question": "Where did Inky the octopus go when he escaped his tank at the New Zealand National Aquarium?",
       "choices": [
-        "c) exchange one thing for another",
-        "a) keep everything for oneself",
-        "b) give up without gain"
+        "Down a drain into the Pacific Ocean",
+        "To the tank of a female octopus",
+        "To the aquarium car park"
       ],
-      "answer": "exchange one thing for another",
-      "explanation": "The video explains that trade-off means to exchange one thing for another, such as giving up shelter for food."
+      "answer": "Down a drain into the Pacific Ocean",
+      "explanation": "Contrary to the guess made in the video, Inky the octopus found a drain that led straight to the Pacific Ocean when he escaped his tank."
     }
   ]
 }
