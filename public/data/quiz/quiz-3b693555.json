@@ -1,0 +1,81 @@
+{
+  "slug": "3b693555",
+  "video_id": "UFlCiLaiTlA",
+  "movie_title": "2b2t: Making Rushers Rage (w/commentary)",
+  "movie_url": "https://youtu.be/UFlCiLaiTlA",
+  "published_at": "2016-06-14T18:20:50Z",
+  "duration": "PT6M7S",
+  "tags": [
+    "2b2t",
+    "anarchy",
+    "spawn",
+    "server",
+    "thecampingrusher",
+    "camping",
+    "rusher",
+    "base",
+    "sanctuary",
+    "popbob",
+    "rage",
+    "incursion",
+    "stealth",
+    "sneak",
+    "grief",
+    "farm",
+    "fortress"
+  ],
+  "introduction": "The real bad rage starts in the middle of the video. This never gets old.",
+  "lead_intro": "Join the rusher in their natural habitat and test your knowledge with this quiz based on the video!",
+  "quiz": [
+    {
+      "question": "What is the rusher observing in the video?",
+      "choices": [
+        "lions",
+        "wolves",
+        "bears"
+      ],
+      "answer": "lions",
+      "explanation": "The rusher is observing and following a player (referred to as a 'rusher') in the game."
+    },
+    {
+      "question": "What does the rusher find in a chest?",
+      "choices": [
+        "diamonds",
+        "emerald",
+        "iron ingots"
+      ],
+      "answer": "emerald",
+      "explanation": "The rusher discovers an emerald and some items in the chest during the gameplay."
+    },
+    {
+      "question": "What does the rusher mention about the water slide?",
+      "choices": [
+        "funny",
+        "scary",
+        "exciting"
+      ],
+      "answer": "funny",
+      "explanation": "The rusher humorously comments that the player, Chad, could not go down the water slide in the game."
+    },
+    {
+      "question": "How does the rusher react to players who rage in chat?",
+      "choices": [
+        "be polite",
+        "ignore them",
+        "taunt them"
+      ],
+      "answer": "be polite",
+      "explanation": "The rusher states that when someone rages in chat, it's best to be polite and handle the situation calmly."
+    },
+    {
+      "question": "What does the rusher mention about hunting new players in the game?",
+      "choices": [
+        "it's boring",
+        "it's challenging",
+        "it's fun"
+      ],
+      "answer": "it's fun",
+      "explanation": "The rusher expresses that hunting new players is not boring but actually fun and compares it to a challenging game."
+    }
+  ]
+}
