@@ -1,0 +1,95 @@
+{
+  "slug": "b00eabce",
+  "video_id": "21eFwbb48sE",
+  "movie_title": "Who Invented the Internet? And Why?",
+  "movie_url": "https://youtu.be/21eFwbb48sE",
+  "published_at": "2014-04-10T12:00:04Z",
+  "duration": "PT6M33S",
+  "tags": [
+    "Internet",
+    "web",
+    "funny",
+    "funny video",
+    "google",
+    "cats",
+    "universe",
+    "humans",
+    "communication",
+    "evolution",
+    "technology",
+    "computers",
+    "connections",
+    "world wide web",
+    "invention",
+    "inventor",
+    "Berners lee",
+    "browser",
+    "low",
+    "cern",
+    "procrastination",
+    "opera",
+    "chrome",
+    "internet explorer",
+    "science",
+    "infographics",
+    "flat design",
+    "kurzgesagt",
+    "nsa",
+    "The Internet (Issue)",
+    "Tim Berners-Lee (Author)"
+  ],
+  "introduction": "Nuclear war, cat gifs and reddit?  Wait, what?\n\nWho was the genius who came up with all of that? The",
+  "lead_intro": "Have you ever wondered about the origins of the Internet and who deserves credit for its invention? Let's dive into the fascinating history behind the creation of this revolutionary tool!",
+  "quiz": [
+    {
+      "question": "What was the purpose of the first network experiment, arpanet, in the 1960s?",
+      "choices": [
+        "optimizing processor usage",
+        "communication",
+        "data sharing"
+      ],
+      "answer": "optimizing processor usage",
+      "explanation": "The arpanet experiment in the 1960s was about optimizing processor usage, not communication."
+    },
+    {
+      "question": "Which key Concepts were developed in Britain to avoid congestion in busy networks?",
+      "choices": [
+        "packet switching",
+        "direct connections",
+        "gateway computers"
+      ],
+      "answer": "packet switching",
+      "explanation": "Britain developed the idea of packet switching to avoid congestion in busy networks."
+    },
+    {
+      "question": "Who is credited with inventing the interface that made internet browsers possible?",
+      "choices": [
+        "Timothy Berners-Lee",
+        "Al Gore",
+        "CERN"
+      ],
+      "answer": "Timothy Berners-Lee",
+      "explanation": "Timothy Berners-Lee invented the interface using HTTP, HTML, and URLs that enabled internet browsers."
+    },
+    {
+      "question": "What technology formed the basic communication language of the internet?",
+      "choices": [
+        "TCP IP",
+        "HTTP",
+        "HTML"
+      ],
+      "answer": "TCP IP",
+      "explanation": "The TCP IP protocols formed the basic communication language of the internet."
+    },
+    {
+      "question": "In which year did the internet begin to see networks communicating with each other?",
+      "choices": [
+        "1975",
+        "1960",
+        "1980"
+      ],
+      "answer": "1975",
+      "explanation": "The year 1975 marked the point when networks began communicating with each other."
+    }
+  ]
+}
