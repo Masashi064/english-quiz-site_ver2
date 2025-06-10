@@ -39,57 +39,57 @@
     "podcast English"
   ],
   "introduction": "Is it OK to farm octopus when they have been shown to experience feelings? Beth and Neil discuss thi",
-  "lead_intro": "Are octopuses sentient creatures capable of feeling emotions? Join us in exploring the ethics of farming octopus in this BBC Learning English video!",
+  "lead_intro": "Are you curious about the ethical implications of farming octopus? Dive into this Six Minute English episode to explore the debate around octopus farming and test your knowledge with a quiz!",
   "quiz": [
     {
-      "question": "What is one of the five basic tastes that octopus flavor is often described as?",
+      "question": "Where did Inky the octopus go when he broke out of his tank at the New Zealand National Aquarium in 2016?",
       "choices": [
-        "Sour",
-        "Savoury",
-        "Sweet"
+        "down a drain into the Pacific Ocean",
+        "to the tank of a female octopus",
+        "to the aquarium car park"
       ],
-      "answer": "Savoury",
-      "explanation": "In the video, it is mentioned that octopus flavor is often described as 'umami,' which is a savoury flavor and one of the five basic tastes."
+      "answer": "down a drain into the Pacific Ocean",
+      "explanation": "Inky the octopus found a drain instead of the tank of a female octopus, which led straight to the Pacific Ocean."
     },
     {
-      "question": "Why are octopuses difficult to farm in captivity?",
+      "question": "What is the flavour of octopus known as?",
       "choices": [
-        "They are social animals",
-        "They have a complex life cycle",
-        "They require a lot of food"
+        "sweet",
+        "umami",
+        "sour"
       ],
-      "answer": "They are solitary animals",
-      "explanation": "Octopuses are solitary animals, meaning they prefer to live alone, making it challenging to keep them in captivity where they need space."
+      "answer": "umami",
+      "explanation": "Umami is the savoury flavour of octopus, which is one of the five basic tastes."
     },
     {
-      "question": "What does the term 'sentient' mean in the context of the video?",
+      "question": "What characteristic makes farming octopus challenging?",
       "choices": [
-        "Capable of feeling emotions",
-        "Capable of camouflage",
-        "Capable of fast swimming"
+        "social behavior",
+        "solitary nature",
+        "group living"
       ],
-      "answer": "Capable of feeling emotions",
-      "explanation": "In the video, it is explained that being sentient means experiencing feelings like pleasure and pain, which octopuses, as well as many other animals, are known to do."
+      "answer": "solitary nature",
+      "explanation": "Octopuses are solitary creatures, which makes it difficult to farm them due to their preference for living alone."
     },
     {
-      "question": "What did the scientific researcher study regarding octopuses' sentience?",
+      "question": "What does 'sentient' mean in relation to octopuses?",
       "choices": [
-        "Nerve connections",
-        "Specific kinds of brains",
-        "Trade-off behaviors"
+        "lack of emotions",
+        "experiencing feelings",
+        "no pain receptors"
       ],
-      "answer": "Trade-off behaviors",
-      "explanation": "The scientist studied if octopuses exhibited certain behaviors like trade-off behaviors, which involve giving up one thing for another, indicating a level of sentience."
+      "answer": "experiencing feelings",
+      "explanation": "Being sentient means octopuses can experience feelings such as pleasure and pain, similar to humans and other animals."
     },
     {
-      "question": "Where did Inky the octopus go when he escaped his tank at the New Zealand National Aquarium?",
+      "question": "What is the meaning of 'trade-off' in the context of octopuses?",
       "choices": [
-        "Down a drain into the Pacific Ocean",
-        "To the tank of a female octopus",
-        "To the aquarium car park"
+        "exchanging gifts",
+        "giving up one thing for another",
+        "sharing food"
       ],
-      "answer": "Down a drain into the Pacific Ocean",
-      "explanation": "Contrary to the guess made in the video, Inky the octopus found a drain that led straight to the Pacific Ocean when he escaped his tank."
+      "answer": "giving up one thing for another",
+      "explanation": "Trade-off refers to exchanging one thing for another, like giving up shelter for food, which is a behavior exhibited by sentient creatures like octopuses."
     }
   ]
 }
