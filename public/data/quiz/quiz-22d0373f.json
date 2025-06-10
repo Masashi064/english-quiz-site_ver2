@@ -1,0 +1,81 @@
+{
+  "slug": "22d0373f",
+  "video_id": "i981tDgvhPg",
+  "movie_title": "Will Europe Freeze over When the Gulf Stream Stops?",
+  "movie_url": "https://youtu.be/i981tDgvhPg",
+  "published_at": "2024-03-07T15:00:38Z",
+  "duration": "PT56S",
+  "tags": [
+    "inanutshell",
+    "kurzgesagt",
+    "kurzgesagt_inanutshell",
+    "learnwithshorts",
+    "interestingfact",
+    "kurzgesagt - in a nutshell",
+    "in a nutshell",
+    "science facts",
+    "science",
+    "gulf stream",
+    "climate change",
+    "AMOC",
+    "jet stream",
+    "earth",
+    "earth facts",
+    "ice age",
+    "europe's ice age"
+  ],
+  "introduction": "In the early 16th century, European explorers noticed something strange. Sailing down the east coast",
+  "lead_intro": "Have you ever wondered if Europe will freeze when the Gulf Stream collapses? Let's dive into the surprising answer!",
+  "quiz": [
+    {
+      "question": "What causes the Gulf Stream?",
+      "choices": [
+        "Wind",
+        "Tides",
+        "Earthquakes"
+      ],
+      "answer": "Wind",
+      "explanation": "The Gulf Stream is solely wind-driven, originating in the Gulf of Mexico."
+    },
+    {
+      "question": "What winds cause the Gulf Stream?",
+      "choices": [
+        "Jet stream",
+        "Trade winds",
+        "Polar easterlies"
+      ],
+      "answer": "Jet stream",
+      "explanation": "The winds that cause the Gulf Stream are part of the jet stream."
+    },
+    {
+      "question": "What is often confused with the Gulf Stream?",
+      "choices": [
+        "Atlantic meridional overturning circulation",
+        "Kuroshio current",
+        "California current"
+      ],
+      "answer": "Atlantic meridional overturning circulation",
+      "explanation": "The Gulf Stream is sometimes mistaken for the Atlantic meridional overturning circulation."
+    },
+    {
+      "question": "What could slow or stop the AMOC?",
+      "choices": [
+        "Global warming",
+        "Volcanic eruptions",
+        "Deforestation"
+      ],
+      "answer": "Global warming",
+      "explanation": "Continued global warming could possibly slow or stop the Atlantic meridional overturning circulation."
+    },
+    {
+      "question": "What might happen to Europe if the Gulf Stream weakens?",
+      "choices": [
+        "Cool up to 5°C",
+        "Experience a heatwave",
+        "No change in temperature"
+      ],
+      "answer": "Cool up to 5°C",
+      "explanation": "If the Gulf Stream weakens, Europe might cool up to 5°C due to the warmer water not drifting as far north."
+    }
+  ]
+}
