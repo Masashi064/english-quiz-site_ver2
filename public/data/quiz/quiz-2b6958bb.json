@@ -38,57 +38,57 @@
     "japan earthquake 2024"
   ],
   "introduction": "Celebrating my first New Year in Osaka, Japan!\n日本移住して記念すべき最初のお正月！\n\nNote: on 1/1/2024, there was a ma",
-  "lead_intro": "Experience a traditional Japanese New Year celebration through this video and test your understanding with the quiz below!",
+  "lead_intro": "Experience the New Year traditions in Japan through this insightful video journey!",
   "quiz": [
     {
-      "question": "What type of noodles did the speaker have as part of their New Year's celebration?",
+      "question": "What type of noodles did the speaker eat for the tradition of toos SOA length of the noodles?",
       "choices": [
         "soba",
         "udon",
         "ramen"
       ],
       "answer": "udon",
-      "explanation": "The speaker had 'kosi UD,' a thin type of udon, as part of their New Year's celebration."
+      "explanation": "The speaker had kosi UD, a type of thin udon noodles, for the New Year tradition."
     },
     {
-      "question": "Why did the speaker eat the specific foods in the 'oi' on New Year's?",
+      "question": "What is the common practice when visiting the first temple or shrine of the new year?",
       "choices": [
-        "For good luck",
-        "For long life",
-        "For happiness"
+        "buying souvenirs",
+        "throwing coins",
+        "praying for the upcoming year"
       ],
-      "answer": "For specific meanings",
-      "explanation": "Each specific food item in the 'oi' has a specific meaning, though the speaker admits not knowing all of them."
+      "answer": "praying for the upcoming year",
+      "explanation": "One common practice when visiting the first temple or shrine of the new year is to pray for the upcoming year."
     },
     {
-      "question": "What is a common form of prayer at shrines, especially involving 5 Yen coins?",
+      "question": "What is the significance of tossing a 5 Yen coin as an offering at the shrine?",
       "choices": [
-        "Burning incense",
-        "Tossing coins",
-        "Lighting candles"
+        "Good Luck",
+        "Good Health",
+        "Good Fortune"
       ],
-      "answer": "Tossing a 5 Yen coin",
-      "explanation": "Tossing a 5 Yen coin is a popular form of prayer at shrines because '5 yen' in Japanese sounds like 'Good Fortune.'"
+      "answer": "Good Fortune",
+      "explanation": "Tossing a 5 Yen coin at the shrine is a form of prayer for Good Fortune as '5 yen' in Japanese sounds like 'Good Fortune'."
     },
     {
-      "question": "What is the interpretation of receiving a 'bad fortune' at a shrine?",
+      "question": "What was the speaker's reaction to finding bad fortunes available at the shrine?",
       "choices": [
-        "It will get worse",
-        "It can only get worse",
-        "It can only get better"
+        "surprise",
+        "disappointment",
+        "joy"
       ],
-      "answer": "It can only get better",
-      "explanation": "Receiving a 'bad fortune' at a shrine is often interpreted as 'it can only get better from here,' which is a positive outlook."
+      "answer": "surprise",
+      "explanation": "The speaker was shocked to find bad fortunes available at the shrine, which was unexpected to them."
     },
     {
-      "question": "What unexpected event happens towards the end of the video?",
+      "question": "How did the speaker interpret receiving a bad fortune at the shrine?",
       "choices": [
-        "Fireworks display",
-        "Earthquake",
-        "Heavy rain"
+        "It can only get better from here",
+        "It's a sign of bad luck",
+        "It's a blessing in disguise"
       ],
-      "answer": "Earthquake",
-      "explanation": "An earthquake occurs towards the end of the video, adding an unexpected twist to the New Year's celebration."
+      "answer": "It can only get better from here",
+      "explanation": "Although receiving a bad fortune isn't ideal, it can be interpreted as 'it can only get better from here', a freeing perspective."
     }
   ]
 }
