@@ -16,7 +16,7 @@ function HowToUsePage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                 className: "text-2xl font-bold mb-4",
-                children: "How to Use SABACAN"
+                children: "SABACANの使い方"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 4,
@@ -25,15 +25,14 @@ function HowToUsePage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-4",
                 children: [
-                    "Welcome to ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                         children: "SABACAN"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 7,
-                        columnNumber: 20
+                        columnNumber: 9
                     }, this),
-                    " – your smart companion for learning English through real videos and AI-powered quizzes!"
+                    "へようこそ！SABACANは、実際のYouTube動画とAI生成クイズを使って、楽しく効率的に英語を学べるリスニング学習サイトです。"
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/how-to-use/page.tsx",
@@ -42,7 +41,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-4",
-                children: "Whether you're a student, a professional, or a lifelong learner, SABACAN makes English listening fun, fast, and practical. Here’s how to get started:"
+                children: "学生、社会人、学び直し中の方など、誰でも気軽に取り組めるように設計されています。ここでは、SABACANの使い方をわかりやすくご紹介します。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 10,
@@ -50,7 +49,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "text-xl font-semibold mt-6 mb-2",
-                children: "👭 Step-by-Step Guide"
+                children: "👭 ステップごとの使い方ガイド"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 14,
@@ -58,7 +57,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 className: "font-semibold mt-4",
-                children: "1. Choose a Video You Like"
+                children: "1. 興味のある動画を選ぶ"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 16,
@@ -66,7 +65,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-2",
-                children: "Browse the homepage or filter by topic (e.g., science, news, conversation) and level (beginner to advanced). Each post features a real YouTube video – no textbooks, no dry content."
+                children: "トップページから、自分の興味や英語レベル（初級〜上級）に合った動画を探してみましょう。各記事には、実際のYouTube動画が埋め込まれています。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 17,
@@ -74,7 +73,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "italic text-sm mb-4",
-                children: "🎥 Tip: You can preview the video and see basic info like difficulty, length, and topic before starting."
+                children: "🎥 ヒント：再生時間やジャンル、レベルも事前に確認できます。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 20,
@@ -82,7 +81,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 className: "font-semibold mt-4",
-                children: "2. Take the Listening Quiz"
+                children: "2. リスニングクイズに挑戦"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 22,
@@ -90,7 +89,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-2",
-                children: "Each video comes with a short 5-question quiz based on the content of the video."
+                children: "動画には、それに基づいた5問のリスニングクイズが用意されています。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 23,
@@ -100,21 +99,21 @@ function HowToUsePage() {
                 className: "list-disc list-inside mb-2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Multiple choice format"
+                        children: "3択の選択式問題"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Instant feedback with correct answers and explanations"
+                        children: "答えを選ぶとすぐに正解・解説が表示"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Your score will appear once you finish all questions"
+                        children: "全問回答後にスコアが表示されます"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 29,
@@ -128,7 +127,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "italic text-sm mb-4",
-                children: "💡 Don’t worry if you make mistakes — that’s how you learn!"
+                children: "💡 間違えても大丈夫！間違いから学ぶことが大切です。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 31,
@@ -136,7 +135,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 className: "font-semibold mt-4",
-                children: "3. Review Key Vocabulary"
+                children: "3. 単語帳で復習する"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 33,
@@ -144,7 +143,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-2",
-                children: "After the quiz, scroll down to the “Vocabulary” section."
+                children: "クイズの下には、その動画に出てくる重要単語をまとめた単語帳があります。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 34,
@@ -154,21 +153,21 @@ function HowToUsePage() {
                 className: "list-disc list-inside mb-2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Key words and phrases from the video"
+                        children: "重要な単語・表現をピックアップ"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Definitions in simple English"
+                        children: "わかりやすい英語の定義"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Example sentences to help you remember"
+                        children: "記憶に残る例文もついています"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 40,
@@ -182,7 +181,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "italic text-sm mb-4",
-                children: "📘 You can mark your favorite words for later review."
+                children: "📘 気になる単語は「お気に入り」に登録して、あとで復習できます。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 42,
@@ -190,7 +189,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 className: "font-semibold mt-4",
-                children: "4. Sign in to Track Your Progress"
+                children: "4. サインインして進捗を記録しよう"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 44,
@@ -198,7 +197,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-2",
-                children: "By creating a free account, you can:"
+                children: "無料のアカウントを作成すると、以下の機能が使えるようになります："
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 45,
@@ -208,28 +207,28 @@ function HowToUsePage() {
                 className: "list-disc list-inside mb-2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Save your quiz history"
+                        children: "自分のクイズ履歴の保存"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "See your scores over time"
+                        children: "過去のスコアを一覧で確認"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Collect favorite vocabulary"
+                        children: "お気に入り単語の管理"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 51,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: "Unlock new features (coming soon!)"
+                        children: "（近日公開）新機能の先行利用"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 52,
@@ -243,7 +242,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "italic text-sm mb-4",
-                children: "🔐 We don’t ask for much — just an email or social sign-in to get started."
+                children: "🔐 メールアドレスまたはSNSログインで簡単に始められます。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 54,
@@ -251,7 +250,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "text-xl font-semibold mt-6 mb-2",
-                children: "🔁 Learn Anytime, Anywhere"
+                children: "🔁 いつでもどこでも学習可能"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 56,
@@ -259,7 +258,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-4",
-                children: "SABACAN is mobile-friendly and constantly updated with fresh content. Make it part of your daily English routine — just 10 minutes a day makes a difference!"
+                children: "SABACANはスマホでも快適に使え、日々新しいコンテンツが追加されます。毎日の習慣に取り入れて、スキマ時間で英語力をアップしましょう！"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 57,
@@ -267,7 +266,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "text-xl font-semibold mt-6 mb-2",
-                children: "🌐 Want to view this page in Japanese?"
+                children: "🌐 英語版を見たいですか？"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 61,
@@ -275,7 +274,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mb-4",
-                children: "Click the language toggle at the top of the page to switch between English and Japanese."
+                children: "ページ上部の言語切り替えボタンから、英語版に切り替えることができます。"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 62,
@@ -283,7 +282,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                 className: "text-xl font-semibold mt-6 mb-2",
-                children: "💬 Still have questions?"
+                children: "💬 ご質問がある場合"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 66,
@@ -291,27 +290,26 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 children: [
-                    "Check out our ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
                         className: "text-blue-500 underline",
-                        children: "FAQ"
+                        children: "よくある質問（FAQ）"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 68,
-                        columnNumber: 23
+                        columnNumber: 9
                     }, this),
-                    " or ",
+                    " や ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#",
                         className: "text-blue-500 underline",
-                        children: "Contact Us"
+                        children: "お問い合わせ"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 68,
-                        columnNumber: 82
+                        columnNumber: 75
                     }, this),
-                    " page for help."
+                    " ページをご覧ください。"
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/how-to-use/page.tsx",
@@ -320,7 +318,7 @@ function HowToUsePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "mt-6",
-                children: "We hope you enjoy learning with SABACAN — let’s make English part of your daily life!"
+                children: "SABACANと一緒に、楽しく英語を学びましょう！"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
                 lineNumber: 71,
