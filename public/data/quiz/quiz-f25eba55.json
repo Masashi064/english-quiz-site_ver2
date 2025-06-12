@@ -1,0 +1,92 @@
+{
+  "slug": "f25eba55",
+  "video_id": "k-pl1DwhIFk",
+  "movie_title": "Angela Merkel - 6 Minute English",
+  "movie_url": "https://youtu.be/k-pl1DwhIFk",
+  "published_at": "2021-10-14T14:52:07Z",
+  "duration": "PT6M7S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "Online English",
+    "how to speak English",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "6 minutes",
+    "bbc",
+    "bbc learning english"
+  ],
+  "introduction": "Improve your English vocabulary and listening in just 6 minutes! Angela Merkel has often been referr",
+  "lead_intro": "Join us in learning about Angela Merkel and testing your knowledge about Germany's history and political vocabulary!",
+  "quiz": [
+    {
+      "question": "Who was Germany’s first ever chancellor?",
+      "choices": [
+        "Otto von Bismarck",
+        "Helmut Schmidt",
+        "Franz von Papen"
+      ],
+      "answer": "Otto von Bismarck",
+      "explanation": "Otto von Bismarck was Germany’s first ever chancellor."
+    },
+    {
+      "question": "What does the term 'mutti' mean in German?",
+      "choices": [
+        "Mother",
+        "Father",
+        "Sister"
+      ],
+      "answer": "Mother",
+      "explanation": "'Mutti' in German translates to 'mother'."
+    },
+    {
+      "question": "What does the term 'put down' mean?",
+      "choices": [
+        "An insult",
+        "A compliment",
+        "A joke"
+      ],
+      "answer": "An insult",
+      "explanation": "'Put down' is a term used to describe an insult meant to make someone feel stupid or embarrassed."
+    },
+    {
+      "question": "What does 'deadpan' mean?",
+      "choices": [
+        "Serious facial expression with no emotion",
+        "Smiling broadly",
+        "Crying uncontrollably"
+      ],
+      "answer": "Serious facial expression with no emotion",
+      "explanation": "'Deadpan' refers to a serious facial expression that shows no emotion."
+    },
+    {
+      "question": "What is the meaning of 'cliches'?",
+      "choices": [
+        "Phrases or ideas that have become meaningless due to overuse",
+        "New and innovative ideas",
+        "Jokes and puns"
+      ],
+      "answer": "Phrases or ideas that have become meaningless due to overuse",
+      "explanation": "'Cliches' are phrases or ideas that have become meaningless because they’ve been overused."
+    }
+  ]
+}
