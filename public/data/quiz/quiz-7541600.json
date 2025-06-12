@@ -30,34 +30,34 @@
   "lead_intro": "",
   "quiz": [
     {
-      "question": "What did Don reveal to his employees in the warehouse?",
+      "question": "What was the big reveal Don made to his employees in the warehouse?",
       "choices": [
-        "He is a new employee",
-        "He is the president of the company",
-        "He is a TV show host"
+        "a) He was actually a new employee",
+        "b) He was the president of the company",
+        "c) He was a contestant on a TV show"
       ],
-      "answer": "He is the president of the company",
-      "explanation": "Don revealed to his employees that he is actually the president of the company, not a new employee as they thought."
+      "answer": "b) He was the president of the company",
+      "explanation": "Don revealed that he was the president of the company, not a new employee as he had pretended to be."
     },
     {
-      "question": "What did Don promise to Bill?",
+      "question": "What unexpected gifts did Don offer to his employees?",
       "choices": [
-        "A new car",
-        "A college fund for his boys",
-        "A raise"
+        "a) New cars and college funds",
+        "b) Paid vacations and promotions",
+        "c) Cash bonuses and health insurance"
       ],
-      "answer": "A new car",
-      "explanation": "Don promised to get Bill a new Ford Explorer because his car had broken down and was not working right."
+      "answer": "a) New cars and college funds",
+      "explanation": "Don offered a new Ford Explorer to one employee whose car had broken down, and he started college funds for another employee's children with $10,000 for each."
     },
     {
-      "question": "What inappropriate topic did Joseph keep bringing up?",
+      "question": "What inappropriate and absurd stories did Joseph tell in response to Don's gifts?",
       "choices": [
-        "Car accidents",
-        "Family tragedies",
-        "Inappropriate body parts"
+        "a) Stories about his family tragedies",
+        "b) Stories about his body parts",
+        "c) Stories about his past as a prostitute"
       ],
-      "answer": "Inappropriate body parts",
-      "explanation": "Joseph repeatedly brought up inappropriate topics related to his body parts, making the situation uncomfortable and disrespectful."
+      "answer": "b) Stories about his body parts",
+      "explanation": "Joseph made wildly inappropriate and absurd claims about his body, including his chopped-up dick, in an attempt to get a raise from Don."
     }
   ]
 }
