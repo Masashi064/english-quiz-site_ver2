@@ -1,0 +1,78 @@
+{
+  "slug": "5ec7841d",
+  "video_id": "qsN1LglrX9s",
+  "movie_title": "The Last Light Before Eternal Darkness – White Dwarfs & Black Dwarfs",
+  "movie_url": "https://youtu.be/qsN1LglrX9s",
+  "published_at": "2017-05-04T12:17:32Z",
+  "duration": "PT6M29S",
+  "tags": [
+    "white dwarf",
+    "black dwarf",
+    "star",
+    "universe",
+    "space",
+    "family friendly",
+    "stars",
+    "earth",
+    "humans",
+    "humanity",
+    "space exploration",
+    "exoplanets",
+    "funny",
+    "animation"
+  ],
+  "introduction": "Everything will end. Even the universe. But in a future so far away that it defies description, ther",
+  "lead_intro": "Have you ever wondered what will happen to the universe in the far future? Explore the fascinating journey of stars turning into white dwarfs and eventually black dwarfs in this video.",
+  "quiz": [
+    {
+      "question": "What is the fate of 97% of all stars in the universe?",
+      "choices": [
+        "become white dwarfs",
+        "die in a supernova",
+        "turn into black dwarfs"
+      ],
+      "answer": "become white dwarfs",
+      "explanation": "The video explains that 97% of all stars will end their existence as white dwarfs, making this the most common fate for stars."
+    },
+    {
+      "question": "What process causes the sun to shed its outer layers and form a white dwarf?",
+      "choices": [
+        "burning hydrogen into helium",
+        "fusion of elements",
+        "converting into a black dwarf"
+      ],
+      "answer": "burning hydrogen into helium",
+      "explanation": "The video mentions that as the sun burns hydrogen into helium in its core through gravity, it eventually sheds its outer layers and forms a white dwarf."
+    },
+    {
+      "question": "What is the surface gravity of a white dwarf compared to Earth's?",
+      "choices": [
+        "over 100,000 times higher",
+        "about the same",
+        "10 times lower"
+      ],
+      "answer": "over 100,000 times higher",
+      "explanation": "The video states that the surface gravity of a white dwarf is over 100,000 times higher than Earth's, making it extremely dense."
+    },
+    {
+      "question": "How long might white dwarfs shine, according to some estimates?",
+      "choices": [
+        "as long as 100 billion billion years",
+        "10,000 years",
+        "1 million years"
+      ],
+      "answer": "as long as 100 billion billion years",
+      "explanation": "According to the video, white dwarfs might shine as long as 100 billion billion years, far exceeding the current age of the universe."
+    },
+    {
+      "question": "What might black dwarfs eventually turn into due to quantum tunneling?",
+      "choices": [
+        "spheres of pure iron",
+        "black holes",
+        "gas giants"
+      ],
+      "answer": "spheres of pure iron",
+      "explanation": "The video explains that if the proton does not decay, black dwarfs will likely turn into spheres of pure iron via quantum tunneling over an incredibly long time span."
+    }
+  ]
+}
