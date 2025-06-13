@@ -69,7 +69,6 @@ export default function SiteHeader() {
           {user ? (
             <>
               <Link href="/account">Account</Link>
-              <button onClick={handleSignOut}>Sign out</button>
             </>
           ) : (
             <>

@@ -160,7 +160,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 {
 const e = new Error(`Could not parse module '[project]/app/components/SiteHeader.tsx'
 
-Unexpected token `header`. Expected jsx identifier`);
+Unexpected eof`);
 e.code = 'MODULE_UNPARSEABLE';
 throw e;}}),
 "[project]/app/components/Footer.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {

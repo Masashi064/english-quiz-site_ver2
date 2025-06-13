@@ -8,6 +8,8 @@ import { db } from '@/lib/firebase';
 import { collection, doc, getDoc, getDocs } from 'firebase/firestore';
 import VocabularyCard from '@/components/VocabularyCard';
 import { updateDoc } from 'firebase/firestore';
+import { signOut } from 'firebase/auth';
+
 
 interface QuizRecord {
   date: { seconds: number };
@@ -27,7 +29,7 @@ interface FavoriteWord {
 }
 
 export default function AccountPage() {
-  const { user, loading } = useAuth();
+  const { user, loading, signOut } = useAuth();
   const router = useRouter();
   const { theme, toggleTheme } = useTheme();
 
@@ -201,6 +203,20 @@ const handleNicknameSave = async () => {
                 className="text-sm bg-gray-200 dark:bg-gray-700 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600"
               >
                 Toggle {theme === 'dark' ? 'Light' : 'Dark'} Mode
+              </button>
+            </div>
+
+            <div className="mt-6">
+              <button
+                onClick={() => {
+                  if (confirm('Sign out?')) {
+                    router.push('/');
+                    signOut();
+                  }
+                }}
+                className="text-sm bg-gray-200 dark:bg-gray-700 px-4 py-2 rounded hover:bg-gray-300 dark:hover:bg-gray-600"
+              >
+                Sign Out
               </button>
             </div>
           </section>
