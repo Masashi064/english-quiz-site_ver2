@@ -95,7 +95,12 @@ export default function AccountPage() {
       const favs: FavoriteWord[] = [];
       favSnap.forEach((doc) => {
         const d = doc.data();
-        favs.push({ word: d.word, meaning: d.definition, example: d.example });
+        favs.push({
+          id: doc.id, // ← Firestore のユニーク ID
+          word: d.word,
+          meaning: d.definition,
+          example: d.example,
+        });
       });
       setFavoriteWords(favs);
 
@@ -299,6 +304,15 @@ const handleNicknameSave = async () => {
 
         {activeTab === 'Favorite Words' && (
           <section>
+            <div className="mb-4">
+              <button
+                onClick={() => router.push('/word-review')}
+                className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              >
+                📚 start word review mode
+              </button>
+            </div>
+
             <h2 className="text-xl font-semibold mb-2">💡 Favorite Words</h2>
             {favoriteWords.length === 0 ? (
               <p>No favorite words yet.</p>
