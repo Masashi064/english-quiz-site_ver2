@@ -1,0 +1,63 @@
+{
+  "slug": "b45dc8ba",
+  "video_id": "Wno3lXbj6M0",
+  "movie_title": "The Fall of 2b2t's LARGEST End Base",
+  "movie_url": "https://youtu.be/Wno3lXbj6M0",
+  "published_at": "2024-07-31T13:57:03Z",
+  "duration": "PT10M18S",
+  "tags": [],
+  "introduction": "Today we're covering the rise and the fall of 2b2t's LARGEST end base ever built!\nhttps://wtplay.lin",
+  "lead_intro": "Explore the incredible story of the largest end base ever built on the oldest Anarchy server in Minecraft and the challenges faced by its builders.",
+  "quiz": [
+    {
+      "question": "What was the record that the base Donar 28 took in the server's history?",
+      "choices": [
+        "largest end base ever built",
+        "most diamonds mined",
+        "highest number of players"
+      ],
+      "answer": "largest end base ever built",
+      "explanation": "The base Donar 28 took the record of being the largest end base ever built in the server's history."
+    },
+    {
+      "question": "How many times did the builders die during the construction of the base?",
+      "choices": [
+        "27 times",
+        "37 times",
+        "47 times"
+      ],
+      "answer": "37 times",
+      "explanation": "The builders died a combined total of 37 times during the construction of the base."
+    },
+    {
+      "question": "What event caused the builders to destroy the base themselves?",
+      "choices": [
+        "Earthquake",
+        "Volcano eruption",
+        "Impending griefing by known Griefers"
+      ],
+      "answer": "Impending griefing by known Griefers",
+      "explanation": "To prevent known Griefers from destroying the base, the builders decided to destroy it themselves."
+    },
+    {
+      "question": "What did the builders wear to prevent Enderman from getting angry while building?",
+      "choices": [
+        "Pumpkin heads",
+        "Watermelon helmets",
+        "Diamond crowns"
+      ],
+      "answer": "Pumpkin heads",
+      "explanation": "The builders wore pumpkin heads to prevent Enderman from getting angry and knocking them into the void."
+    },
+    {
+      "question": "How did the builders transport materials millions of blocks to the base?",
+      "choices": [
+        "Teleportation",
+        "Ender chests",
+        "Stasis chambers"
+      ],
+      "answer": "Stasis chambers",
+      "explanation": "The builders used stasis chambers to transport materials from the Overworld to the end base, making construction in a remote location possible."
+    }
+  ]
+}
