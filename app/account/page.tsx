@@ -23,6 +23,7 @@ interface QuizRecord {
 }
 
 interface FavoriteWord {
+  id: string; // ← 🔧 この行を追加
   word: string;
   meaning: string;
   example: string;
