@@ -68,7 +68,6 @@ export default function SiteHeader() {
         <div className="flex gap-4 items-center text-sm">
           {user ? (
             <>
-              <p>Hi, {nickname || 'user'}</p>
               <Link href="/account">Account</Link>
               <button onClick={handleSignOut}>Sign out</button>
             </>
