@@ -133,7 +133,6 @@ export default function WordReviewPage() {
               {lastReviewedMessage}
             </div>
           )}
-
           {reviewWords.map((word) => (
             <div
               key={word.id}
