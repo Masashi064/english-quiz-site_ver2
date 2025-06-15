@@ -6,6 +6,8 @@ import { useAuth } from '@/context/AuthContext'
 
 import { useEffect, useState } from 'react'
 import VocabularyCard from './VocabularyCard'
+import { useMemo } from 'react'
+
 
 type QuizItem = {
   question: string
@@ -112,6 +114,14 @@ export default function QuizLayout({
         {quiz.map((q, i) => {
           const selected = answers[i]
           const isCorrect = selected === q.answer
+          const shuffledChoices = useMemo(() => {
+            const copy = [...q.choices];
+            for (let i = copy.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [copy[i], copy[j]] = [copy[j], copy[i]];
+            }
+            return copy;
+          }, [q.question]); // 問題が変わったときだけシャッフルされる
           const boxStyle = selected
             ? isCorrect
               ? 'bg-green-100 border-green-500 dark:bg-green-500/30 dark:border-green-400'
@@ -122,7 +132,7 @@ export default function QuizLayout({
             <div key={i} className={`mb-6 p-4 rounded shadow ${boxStyle}`}>
               <p className="font-bold mb-2">{i + 1}. {q.question}</p>
               <ul className="space-y-2">
-                {q.choices.map((c, j) => (
+               {shuffledChoices.map((c, j) => (
                   <li
                     key={j}
                     className="p-2 border rounded cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700"

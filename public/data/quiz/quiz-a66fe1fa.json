@@ -1,0 +1,63 @@
+{
+  "slug": "a66fe1fa",
+  "video_id": "UebSfjmQNvs",
+  "movie_title": "Do You Have a Free Will?",
+  "movie_url": "https://youtu.be/UebSfjmQNvs",
+  "published_at": "2024-06-11T14:00:01Z",
+  "duration": "PT12M18S",
+  "tags": [],
+  "introduction": "Take control over what occupies your mind with Ground News. Go to https://ground.news/nutshell to ge",
+  "lead_intro": "Have you ever wondered if you truly have free will or if your decisions are predetermined? Dive into the debate on free will with this thought-provoking video.",
+  "quiz": [
+    {
+      "question": "According to the video, the concept of free will is fundamentally incompatible with which laws?",
+      "choices": [
+        "quantum mechanics",
+        "laws of the universe",
+        "deterministic laws"
+      ],
+      "answer": "laws of the universe",
+      "explanation": "The video explains that one philosophical camp argues that the idea of free will is fundamentally incompatible with the laws of the universe."
+    },
+    {
+      "question": "What idea does the no-free-will camp propose regarding quantum processes?",
+      "choices": [
+        "Quantum processes make decisions for you",
+        "Quantum processes are deterministic",
+        "Quantum processes are predictable"
+      ],
+      "answer": "Quantum processes make decisions for you",
+      "explanation": "The no-free-will camp suggests that random quantum processes make decisions for you because they affect the fundamental components of your brain and body."
+    },
+    {
+      "question": "What concept does the video use to explain the formation of new fundamental traits that didn't exist before?",
+      "choices": [
+        "emergence",
+        "determinism",
+        "reductionism"
+      ],
+      "answer": "emergence",
+      "explanation": "The video discusses how emergence occurs when many small things together create new fundamental traits that couldn't be explained solely by looking at individual components."
+    },
+    {
+      "question": "According to the video, why does the reductionist view of the universe break down?",
+      "choices": [
+        "Due to the complexity ladder",
+        "Due to the layering of reality",
+        "Due to the independence of layers"
+      ],
+      "answer": "Due to emergence",
+      "explanation": "The reductionist view of the universe breaks down because of the emergence of entirely new properties that can't be explained by simply looking at the basic components."
+    },
+    {
+      "question": "What does the video suggest is the relevant layer of reality for understanding free will?",
+      "choices": [
+        "Quantum particles",
+        "Fundamental laws",
+        "80 billion interconnected neurons"
+      ],
+      "answer": "80 billion interconnected neurons",
+      "explanation": "The video argues that the layer of reality where 80 billion interconnected neurons operate is where relevant aspects such as decision-making and consciousness emerge."
+    }
+  ]
+}

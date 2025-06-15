@@ -1,0 +1,101 @@
+{
+  "slug": "9a86170f",
+  "video_id": "aOiuSsnWEik",
+  "movie_title": "What's your favourite kind of noodle? ⏲️ 6 Minute English",
+  "movie_url": "https://youtu.be/aOiuSsnWEik",
+  "published_at": "2025-05-29T08:29:26Z",
+  "duration": "PT6M16S",
+  "tags": [
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "Ingilizce",
+    "bbc",
+    "English class",
+    "6 minute",
+    "English speaking practice",
+    "English podcast",
+    "podcast English",
+    "6 minit",
+    "6 minitues",
+    "6 minute english bbc",
+    "speking english",
+    "english spek",
+    "6min",
+    "inglish",
+    "inglis",
+    "englis",
+    "news english",
+    "anglis",
+    "6 minutes english"
+  ],
+  "introduction": "Have you heard the story that Marco Polo brought noodles back to Italy, leading to the invention of",
+  "lead_intro": "Do you enjoy eating noodles? Noodles have a fascinating history of evolution and adaptation in different cultures. Let's test your knowledge with a quiz based on the video!",
+  "quiz": [
+    {
+      "question": "Which region of China is famous for its spicy flavours?",
+      "choices": [
+        "Shanghai",
+        "Sichuan",
+        "Guangzhou"
+      ],
+      "answer": "Sichuan",
+      "explanation": "Sichuan is known for its spicy food, including the famous Sichuan pepper and Sichuan hotpot."
+    },
+    {
+      "question": "What did pasta companies in the 1920s come up with to promote dried pasta?",
+      "choices": [
+        "A story about Marco Polo bringing noodles from China to Italy",
+        "A story about noodles being an American invention",
+        "A story about noodles being discovered in Europe"
+      ],
+      "answer": "A story about Marco Polo bringing noodles from China to Italy",
+      "explanation": "Pasta companies created a story about Marco Polo to promote dried pasta, leading to increased sales."
+    },
+    {
+      "question": "What does the phrase 'at one point or another' mean in the context of the video?",
+      "choices": [
+        "At a specific time in the future",
+        "At some unspecified time in the past",
+        "At the same time"
+      ],
+      "answer": "At some unspecified time in the past",
+      "explanation": "The phrase 'at one point or another' refers to an unspecified time in the past when chefs started to make noodle dishes more Japanese."
+    },
+    {
+      "question": "What makes ramen different from other traditional Japanese foods according to Frank Striegl?",
+      "choices": [
+        "It is more expensive",
+        "It is healthier",
+        "It continues to evolve"
+      ],
+      "answer": "It continues to evolve",
+      "explanation": "Frank Striegl mentions that unlike other Japanese foods, ramen continues to evolve, responding to new ideas and developments."
+    },
+    {
+      "question": "What does it mean to 'push the boundaries' in the context of the video?",
+      "choices": [
+        "Follow traditional recipes",
+        "Challenge normal behavior",
+        "Stay within limits"
+      ],
+      "answer": "Challenge normal behavior",
+      "explanation": "To 'push the boundaries' means to act in a way that challenges normal, acceptable behavior, as seen in the evolution of ramen."
+    }
+  ]
+}

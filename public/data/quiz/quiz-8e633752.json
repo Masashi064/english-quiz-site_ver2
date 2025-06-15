@@ -1,0 +1,63 @@
+{
+  "slug": "8e633752",
+  "video_id": "_rBPwu2uS-w",
+  "movie_title": "Smoking is Awesome",
+  "movie_url": "https://youtu.be/_rBPwu2uS-w",
+  "published_at": "2024-05-07T14:00:02Z",
+  "duration": "PT11M45S",
+  "tags": [],
+  "introduction": "Get the exclusive NordVPN deal + 4 months extra here: https://nordvpn.com/kurzgesagt \nIt's risk-free",
+  "lead_intro": "Have you ever wondered how smoking affects your body? Dive into the details of what happens inside your body when you smoke a cigarette.",
+  "quiz": [
+    {
+      "question": "What are the two main types of particles found in cigarette smoke?",
+      "choices": [
+        "carbon and nitrogen",
+        "oxygen and carbon dioxide",
+        "carbon monoxide and water vapour"
+      ],
+      "answer": "carbon and nitrogen",
+      "explanation": "The remaining 5% of cigarette smoke particles are called tar and they contain carbon or nitrogen compounds filled with nicotine."
+    },
+    {
+      "question": "What happens to the cilia cells in the lungs when exposed to tar particles?",
+      "choices": [
+        "They get paralyzed",
+        "They multiply rapidly",
+        "They become stronger"
+      ],
+      "answer": "They get paralyzed",
+      "explanation": "Tar particles in cigarette smoke land on the cilia cells in the lungs, turning into a sticky brown substance that paralyzes the cilia, allowing toxins to get deeper into the lungs."
+    },
+    {
+      "question": "How does nicotine primarily enter the bloodstream?",
+      "choices": [
+        "Through the thin walls of the alveoli",
+        "Through the stomach lining",
+        "Through the skin"
+      ],
+      "answer": "Through the thin walls of the alveoli",
+      "explanation": "Nicotine in cigarette smoke passes through the thin walls of the alveoli in the lungs and enters the bloodstream, reaching the brain almost instantly."
+    },
+    {
+      "question": "What effect does nicotine have on the heart rate and blood vessels?",
+      "choices": [
+        "Raises heart rate and constricts blood vessels",
+        "Lowers heart rate and dilates blood vessels",
+        "No effect on heart rate and blood vessels"
+      ],
+      "answer": "Raises heart rate and constricts blood vessels",
+      "explanation": "Nicotine causes the heart rate to increase and orders blood vessels all over the body to constrict, putting a lot of stress on the heart."
+    },
+    {
+      "question": "What impact does smoking have on the skin?",
+      "choices": [
+        "Breaks down collagen leading to folds and wrinkles",
+        "Increases collagen production for smoother skin",
+        "Has no effect on the skin"
+      ],
+      "answer": "Breaks down collagen leading to folds and wrinkles",
+      "explanation": "Chemicals in cigarettes trigger enzymes that break down collagen in the skin, leading to premature aging, folds, and wrinkles."
+    }
+  ]
+}
