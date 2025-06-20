@@ -21,8 +21,8 @@ type CategoryItem = {
 }
 
 const allCategories = [
-  'science', 'conversation', 'news', 'technology', 'education',
-  'psychology', 'culture', 'history', 'lifestyle',
+  'science', 'conversation', 'news', 'technology',
+  'psychology', 'culture', 'history', 'lifestyle','comedy',
 ]
 const allLevels = ['beginner', 'intermediate', 'advanced']
 
