@@ -1,0 +1,84 @@
+{
+  "slug": "bdf68fdf",
+  "video_id": "R13BD8qKeTg",
+  "movie_title": "The Bayesian Trap",
+  "movie_url": "https://youtu.be/R13BD8qKeTg",
+  "published_at": "2017-04-05T14:00:03Z",
+  "duration": "PT10M37S",
+  "tags": [
+    "veritasium",
+    "bayes",
+    "bayes theorem",
+    "rule",
+    "prior",
+    "probability",
+    "condition probability",
+    "statistics",
+    "thomas bayes",
+    "bayes rule",
+    "bayesian",
+    "inference",
+    "math",
+    "mathematics",
+    "richard price",
+    "nate silver",
+    "sharon mcgrayne",
+    "signal and the noise",
+    "theory that would not die",
+    "trap"
+  ],
+  "introduction": "Bayes' theorem explained with examples and implications for life.\nCheck out Audible: http://ve42.co/",
+  "lead_intro": "Have you ever wondered about the accuracy of medical tests? Dive into the world of Bayes' Theorem with this intriguing video to understand how to calculate probabilities in real-life scenarios.",
+  "quiz": [
+    {
+      "question": "What is the prior probability that the person in the video has the rare disease before taking the test?",
+      "choices": [
+        "0.1%",
+        "9%",
+        "99%"
+      ],
+      "answer": "0.1%",
+      "explanation": "The prior probability of having the rare disease is 0.1%, based on its frequency in the population."
+    },
+    {
+      "question": "After testing positive for the disease, what is the probability that the person in the video actually has the disease?",
+      "choices": [
+        "9%",
+        "91%",
+        "99%"
+      ],
+      "answer": "9%",
+      "explanation": "Using Bayes' Theorem, the probability of actually having the disease after testing positive is 9%."
+    },
+    {
+      "question": "What practical application of Bayes' Theorem is mentioned in the video?",
+      "choices": [
+        "Filtering spam emails",
+        "Detecting earthquakes",
+        "Weather forecasting"
+      ],
+      "answer": "Filtering spam emails",
+      "explanation": "Bayes' Theorem is used in filtering spam emails by calculating the probability of an email being spam based on certain words."
+    },
+    {
+      "question": "What analogy is made in the video to explain the iterative nature of Bayes' Theorem?",
+      "choices": [
+        "A man seeing the Sun rise every day",
+        "A scientist discovering a new theory",
+        "A mathematician solving complex equations"
+      ],
+      "answer": "A man seeing the Sun rise every day",
+      "explanation": "The analogy of a man seeing the Sun rise every day is used to illustrate how Bayes' Theorem is intended to be applied multiple times, updating beliefs with new evidence."
+    },
+    {
+      "question": "How does the video suggest one can avoid a self-fulfilling prophecy?",
+      "choices": [
+        "By experimenting and trying new things",
+        "By sticking to the same routine",
+        "By avoiding change"
+      ],
+      "answer": "By experimenting and trying new things",
+      "explanation": "The video emphasizes that a good understanding of Bayes' Theorem implies the importance of experimentation to avoid being stuck in a self-fulfilling prophecy."
+    }
+  ]
+}

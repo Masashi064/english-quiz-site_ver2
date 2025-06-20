@@ -1,0 +1,63 @@
+{
+  "slug": "de8bb933",
+  "video_id": "oTx-GSF3cts",
+  "movie_title": "This Video Might Save 58 Lives Next Week",
+  "movie_url": "https://youtu.be/oTx-GSF3cts",
+  "published_at": "2024-09-24T15:00:04Z",
+  "duration": "PT13M39S",
+  "tags": [],
+  "introduction": "Go to https://brilliant.org/nutshell/ to dive deeper into these topics and more with a free 30-day t",
+  "lead_intro": "Do you know what's most likely to kill you next week? Discover the surprising dangers you face in your daily life and how you can avoid them!",
+  "quiz": [
+    {
+      "question": "According to the video, what is the most dangerous activity you are currently doing?",
+      "choices": [
+        "Driving",
+        "Wingsuit flying",
+        "Motorcycle riding"
+      ],
+      "answer": "Driving",
+      "explanation": "The video highlights that driving is the most dangerous activity as 8 of you will die in a car crash next week."
+    },
+    {
+      "question": "What percentage of deadly car accidents are caused by speeding?",
+      "choices": [
+        "40%",
+        "30%",
+        "20%"
+      ],
+      "answer": "30%",
+      "explanation": "30% of deadly car accidents are caused by speeding, mainly because it reduces reaction time and awareness."
+    },
+    {
+      "question": "Which activity causes 25% of deadly car crashes?",
+      "choices": [
+        "Driving under the influence of alcohol",
+        "Texting while driving",
+        "Eating while driving"
+      ],
+      "answer": "Driving under the influence of alcohol",
+      "explanation": "Driving under the influence of alcohol is highlighted as a cause of 25% of deadly car crashes in the video."
+    },
+    {
+      "question": "What is the second most common cause of death by accident for kids in the US?",
+      "choices": [
+        "Drowning",
+        "Car crashes",
+        "Falling"
+      ],
+      "answer": "Drowning",
+      "explanation": "Drowning is mentioned as the second most common cause of death by accident for kids in the US, emphasizing the dangers of water."
+    },
+    {
+      "question": "What is almost entirely avoidable according to the video?",
+      "choices": [
+        "Melanoma",
+        "Breast cancer",
+        "Thyroid cancer"
+      ],
+      "answer": "Melanoma",
+      "explanation": "Melanoma, or skin cancer, is highlighted as almost entirely avoidable by using sunscreen, potentially saving lives."
+    }
+  ]
+}
