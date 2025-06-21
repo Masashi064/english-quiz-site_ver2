@@ -1,74 +1,152 @@
+export const metadata = {
+  title: 'How to Use | SABACAN',
+  description: 'Learn how to use SABACAN to improve your English with video-based quizzes, vocabulary, and listening practice.',
+};
+
+import fs from 'fs';
+import path from 'path';
+import Image from 'next/image';
+import Link from 'next/link';
+
+type QuizMeta = {
+  slug: string;
+  title: string;
+  channel: string;
+  publishedAt: string;
+  thumbnail: string;
+};
+
+function getLatestQuizzes(count: number): QuizMeta[] {
+  const dir = path.join(process.cwd(), 'public/data/category');
+  const files = fs.readdirSync(dir);
+
+  const items: QuizMeta[] = files
+    .filter((f) => f.endsWith('.json'))
+    .map((file) => {
+      const raw = fs.readFileSync(path.join(dir, file), 'utf-8');
+      const data = JSON.parse(raw);
+      return {
+        slug: data.slug,
+        title: data.movie_title,
+        channel: data.channel_name,
+        publishedAt: data.published_at,
+        thumbnail: `/img/img-${data.slug}.webp`,
+      };
+    })
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, count);
+
+  return items;
+}
+
 export default function HowToUsePage() {
+  const latest = getLatestQuizzes(3);
+
   return (
-    <main className="max-w-2xl mx-auto py-8 px-4">
-      <h1 className="text-2xl font-bold mb-4">SABACANの使い方</h1>
+    <main className="max-w-5xl mx-auto py-8 px-4 text-black dark:text-white">
+      <h1 className="text-2xl font-bold mb-4">How to Use SABACAN</h1>
 
       <p className="mb-4">
-        <strong>SABACAN</strong>へようこそ！SABACANは、実際のYouTube動画とAI生成クイズを使って、楽しく効率的に英語を学べるリスニング学習サイトです。
+        Welcome to <strong>SABACAN</strong>! SABACAN is a listening practice site where you can learn English effectively and enjoyably using real YouTube videos and AI-generated quizzes.
       </p>
 
       <p className="mb-4">
-        学生、社会人、学び直し中の方など、誰でも気軽に取り組めるように設計されています。ここでは、SABACANの使い方をわかりやすくご紹介します。
+        It's designed for everyone—students, working professionals, and those restarting their studies. This page will walk you through how to use SABACAN step by step.
       </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">👭 ステップごとの使い方ガイド</h2>
+      <h2 className="text-xl font-semibold mt-6 mb-2">👭 Step-by-Step Guide</h2>
 
-      <h3 className="font-semibold mt-4">1. 興味のある動画を選ぶ</h3>
+      <h3 className="font-semibold mt-4">1. Choose a Video</h3>
       <p className="mb-2">
-        トップページから、自分の興味や英語レベル（初級〜上級）に合った動画を探してみましょう。各記事には、実際のYouTube動画が埋め込まれています。
+        From the homepage, search for videos that match your interests and English level (beginner to advanced). Each article contains an embedded YouTube video.
       </p>
-      <p className="italic text-sm mb-4">🎥 ヒント：再生時間やジャンル、レベルも事前に確認できます。</p>
+      <p className="italic text-sm mb-4">🎥 Tip: You can preview the duration, category, and level beforehand.</p>
 
-      <h3 className="font-semibold mt-4">2. リスニングクイズに挑戦</h3>
+      <h3 className="font-semibold mt-4">2. Try the Listening Quiz</h3>
       <p className="mb-2">
-        動画には、それに基づいた5問のリスニングクイズが用意されています。
+        Each video comes with 5 listening quiz questions based on its content.
       </p>
       <ul className="list-disc list-inside mb-2">
-        <li>3択の選択式問題</li>
-        <li>答えを選ぶとすぐに正解・解説が表示</li>
-        <li>全問回答後にスコアが表示されます</li>
+        <li>3-choice multiple-choice questions</li>
+        <li>See the correct answer and explanation immediately</li>
+        <li>Score displayed after completing all questions</li>
       </ul>
-      <p className="italic text-sm mb-4">💡 間違えても大丈夫！間違いから学ぶことが大切です。</p>
+      <p className="italic text-sm mb-4">💡 Don't worry if you get it wrong—learning from mistakes is key!</p>
 
-      <h3 className="font-semibold mt-4">3. 単語帳で復習する</h3>
+      {/* ✅ Quiz Display Section */}
+      <h2 className="text-xl font-semibold mt-8 mb-2">🎯 Let’s try it now!</h2>
+      <p className="mb-4">Pick a quiz and see how it works in action:</p>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+        {latest.map((item, index) => (
+          <Link
+            key={item.slug}
+            href={`/article/${item.slug}`}
+            className="block border rounded shadow hover:shadow-lg overflow-hidden"
+          >
+            <Image
+              src={item.thumbnail}
+              alt={item.title}
+              width={480}
+              height={270}
+              priority={false}
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="w-full h-40 object-cover"
+            />
+            <div className="p-4">
+              <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
+              <p className="text-sm text-gray-500">Channel: {item.channel}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
+
+      <div className="text-center mb-8">
+        <Link href="/articles">
+          <button className="btn-primary">Browse All Quizzes ➜</button>
+        </Link>
+      </div>
+
+      {/* 続き */}
+      <h3 className="font-semibold mt-4">3. Review Vocabulary</h3>
       <p className="mb-2">
-        クイズの下には、その動画に出てくる重要単語をまとめた単語帳があります。
+        Below the quiz, you'll find a vocabulary section with key words from the video.
       </p>
       <ul className="list-disc list-inside mb-2">
-        <li>重要な単語・表現をピックアップ</li>
-        <li>わかりやすい英語の定義</li>
-        <li>記憶に残る例文もついています</li>
+        <li>Important words and phrases highlighted</li>
+        <li>Simple English definitions provided</li>
+        <li>Memorable example sentences included</li>
       </ul>
-      <p className="italic text-sm mb-4">📘 気になる単語は「お気に入り」に登録して、あとで復習できます。</p>
+      <p className="italic text-sm mb-4">📘 You can add words to your favorites and review them later.</p>
 
-      <h3 className="font-semibold mt-4">4. サインインして進捗を記録しよう</h3>
+      <h3 className="font-semibold mt-4">4. Sign In to Track Your Progress</h3>
       <p className="mb-2">
-        無料のアカウントを作成すると、以下の機能が使えるようになります：
+        Create a free account to unlock the following features:
       </p>
       <ul className="list-disc list-inside mb-2">
-        <li>自分のクイズ履歴の保存</li>
-        <li>過去のスコアを一覧で確認</li>
-        <li>お気に入り単語の管理</li>
-        <li>（近日公開）新機能の先行利用</li>
+        <li>Save your quiz history</li>
+        <li>View past scores in one place</li>
+        <li>Manage your favorite words</li>
+        <li>Access upcoming features early (coming soon)</li>
       </ul>
-      <p className="italic text-sm mb-4">🔐 メールアドレスまたはSNSログインで簡単に始められます。</p>
+      <p className="italic text-sm mb-4">🔐 You can sign up easily with an email or social login.</p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">🔁 いつでもどこでも学習可能</h2>
+      <h2 className="text-xl font-semibold mt-6 mb-2">🔁 Learn Anytime, Anywhere</h2>
       <p className="mb-4">
-        SABACANはスマホでも快適に使え、日々新しいコンテンツが追加されます。毎日の習慣に取り入れて、スキマ時間で英語力をアップしましょう！
+        SABACAN works great on smartphones too, with new content added regularly. Make it part of your daily routine and improve your English in your spare time!
       </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">🌐 英語版を見たいですか？</h2>
+      <h2 className="text-xl font-semibold mt-6 mb-2">🌐 Want to switch to Japanese?</h2>
       <p className="mb-4">
-        ページ上部の言語切り替えボタンから、英語版に切り替えることができます。
+        You can switch languages using the toggle button at the top of the page.
       </p>
 
-      <h2 className="text-xl font-semibold mt-6 mb-2">💬 ご質問がある場合</h2>
+      <h2 className="text-xl font-semibold mt-6 mb-2">💬 Need Help?</h2>
       <p>
-        <a href="#" className="text-blue-500 underline">よくある質問（FAQ）</a> や <a href="#" className="text-blue-500 underline">お問い合わせ</a> ページをご覧ください。
+        Check our <a href="#" className="text-blue-500 underline">FAQ</a> or <a href="#" className="text-blue-500 underline">Contact Us</a> page.
       </p>
 
-      <p className="mt-6">SABACANと一緒に、楽しく英語を学びましょう！</p>
+      <p className="mt-6 text-center">Start learning English with SABACAN today!</p>
     </main>
   );
 }
