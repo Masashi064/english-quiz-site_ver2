@@ -11,7 +11,7 @@ export default function ArticlesPage() {
     .map((name) => name.replace('category-', '').replace('.json', ''));
 
   return (
-    <main className="p-6 max-w-7xl mx-auto">
+    <main className="p-0">
       <ArticleList slugs={slugs} />
     </main>
   );

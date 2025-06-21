@@ -4,5 +4,6 @@
   "/how-to-use/page": "app/how-to-use/page.js",
   "/articles/page": "app/articles/page.js",
   "/word-review/page": "app/word-review/page.js",
-  "/account/page": "app/account/page.js"
+  "/account/page": "app/account/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
