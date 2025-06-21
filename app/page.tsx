@@ -42,7 +42,10 @@ export default function HomePage() {
       <h1 className="text-3xl font-bold mb-4">Learn English with SABACAN</h1>
       <p className="mb-2">Enjoy interactive quizzes based on real English videos. Choose a topic and start learning today!</p>
       <p className="mb-6">
-        <Link href="/how-to-use" className="text-blue-600 underline">
+        <Link
+          href="/how-to-use"
+          className="underline text-blue-800 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-300"
+        >
           Learn how it works →
         </Link>
       </p>
