@@ -85,7 +85,6 @@ export default function HomePage() {
                 priority={index === 0}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="w-full h-40 object-cover"
-                unoptimized={false}
               />
               <div className="p-4">
                 <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
