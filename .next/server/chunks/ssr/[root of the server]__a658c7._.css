@@ -723,6 +723,11 @@ img, video {
   border-radius: .5rem;
 }
 
+.rounded-t {
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -762,6 +767,11 @@ img, video {
 
 .border-transparent {
   border-color: #0000;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
 .bg-blue-50 {

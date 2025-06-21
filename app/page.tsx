@@ -77,21 +77,23 @@ export default function HomePage() {
               href={`/article/${item.slug}`}
               className="block border rounded shadow hover:shadow-lg overflow-hidden"
             >
-              <Image
-                src={`/img/img-${item.slug}.webp`}
-                alt={item.title}
-                width={480}
-                height={270}
-                priority={index === 0}
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="w-full h-40 object-cover"
-              />
+              <div className="relative w-full aspect-video">
+                <Image
+                  src={`/img/img-${item.slug}.webp`}
+                  alt={item.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority={index === 0}
+                  className="object-cover rounded-t"
+                />
+              </div>
               <div className="p-4">
                 <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-300">Channel: {item.channel}</p>
               </div>
             </Link>
           ))}
+
         </div>
 
         <div className="text-center mt-8">
