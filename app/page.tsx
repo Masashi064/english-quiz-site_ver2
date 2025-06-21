@@ -1,8 +1,8 @@
+import heroImage from './assets/top-img1.webp'; 
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
 import Link from 'next/link';
-import heroImage from './assets/top-img1.webp'; // ← 静的インポート
 
 type QuizMeta = {
   slug: string;
@@ -48,6 +48,7 @@ export default function HomePage() {
           fill
           placeholder="blur"
           priority
+          sizes="100vw"
           className="object-cover brightness-90"
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">

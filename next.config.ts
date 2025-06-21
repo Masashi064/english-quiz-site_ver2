@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+// next.config.ts
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    formats: ['image/webp'], // ✅ WebPを優先して使うよう指定
+  },
 };
 
 export default nextConfig;
