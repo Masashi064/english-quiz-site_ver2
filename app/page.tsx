@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
 import Link from 'next/link';
+import heroImage from './assets/top-img1.webp'; // ← 静的インポート
 
 type QuizMeta = {
   slug: string;
@@ -39,30 +40,31 @@ export default function HomePage() {
 
   return (
     <main className="text-black dark:text-white">
-      {/* 🖼️ Hero Section with Large Images */}
-        <section className="relative w-full h-[400px] sm:h-[500px]">
-          <Image
-            src="/img/top-img1.webp"
-            alt="Hero"
-            fill
-            className="object-cover brightness-90"
-            priority
-          />
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
-            <h1 className="text-3xl sm:text-5xl font-bold drop-shadow mb-4">
-              Learn Real English Through Fun Quizzes
-            </h1>
-            <p className="text-lg sm:text-xl drop-shadow mb-4">
-              Enjoy interactive quizzes based on real videos from YouTube and more.
-            </p>
-            <Link
-              href="/how-to-use"
-              className="inline-block bg-white text-blue-700 px-6 py-2 rounded-full text-sm sm:text-base font-semibold hover:bg-gray-100 shadow"
-            >
-              ➜ Learn how it works
-            </Link>
-          </div>
-        </section>
+      {/* ✅ Hero with overlay text */}
+      <section className="relative w-full h-[400px] sm:h-[500px]">
+        <Image
+          src={heroImage}
+          alt="Hero"
+          fill
+          placeholder="blur"
+          priority
+          className="object-cover brightness-90"
+        />
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
+          <h1 className="text-3xl sm:text-5xl font-bold drop-shadow mb-4">
+            Learn Real English Through Fun Quizzes
+          </h1>
+          <p className="text-lg sm:text-xl drop-shadow mb-4">
+            Enjoy interactive quizzes based on real videos from YouTube and more.
+          </p>
+          <Link
+            href="/how-to-use"
+            className="inline-block bg-white text-blue-700 px-6 py-2 rounded-full text-sm sm:text-base font-semibold hover:bg-gray-100 shadow"
+          >
+            ➜ Learn how it works
+          </Link>
+        </div>
+      </section>
 
       {/* 🆕 Latest Quizzes */}
       <section className="max-w-6xl mx-auto px-4 py-10">
