@@ -2,5 +2,7 @@
   "/page": "app/page.js",
   "/article/[slug]/page": "app/article/[slug]/page.js",
   "/how-to-use/page": "app/how-to-use/page.js",
-  "/articles/page": "app/articles/page.js"
+  "/articles/page": "app/articles/page.js",
+  "/word-review/page": "app/word-review/page.js",
+  "/account/page": "app/account/page.js"
 }

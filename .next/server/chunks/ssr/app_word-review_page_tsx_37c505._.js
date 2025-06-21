@@ -144,7 +144,7 @@ function WordReviewPage() {
                                     children: word.word
                                 }, void 0, false, {
                                     fileName: "[project]/app/word-review/page.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 141,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -152,7 +152,7 @@ function WordReviewPage() {
                                     children: word.meaning
                                 }, void 0, false, {
                                     fileName: "[project]/app/word-review/page.tsx",
-                                    lineNumber: 143,
+                                    lineNumber: 142,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -164,7 +164,7 @@ function WordReviewPage() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/word-review/page.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 143,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -182,12 +182,12 @@ function WordReviewPage() {
                                             children: score
                                         }, score, false, {
                                             fileName: "[project]/app/word-review/page.tsx",
-                                            lineNumber: 150,
+                                            lineNumber: 149,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/word-review/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 147,
                                     columnNumber: 15
                                 }, this),
                                 lastReviewedWord === word.word && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -195,13 +195,13 @@ function WordReviewPage() {
                                     children: "✅ Marked as reviewed!"
                                 }, void 0, false, {
                                     fileName: "[project]/app/word-review/page.tsx",
-                                    lineNumber: 163,
+                                    lineNumber: 162,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, word.id, true, {
                             fileName: "[project]/app/word-review/page.tsx",
-                            lineNumber: 138,
+                            lineNumber: 137,
                             columnNumber: 13
                         }, this))
                 ]

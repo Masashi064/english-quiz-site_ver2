@@ -35,49 +35,59 @@ export default function SiteHeader() {
   };
 
   return (
-    <header className="flex justify-between items-center px-4 py-2 border-b border-gray-700">
-      {/* 左側：ロゴとナビゲーション */}
-      <div className="flex items-center gap-6">
-        <Link href="/" className="flex items-center">
-          <Image
-            src="/img/logo-dark.png"
-            alt="SABACAN"
-            width={140}
-            height={60}
-            className="h-8 w-auto object-contain cursor-pointer dark:block hidden"
-            priority
-          />
-          <Image
-            src="/img/logo-light.png"
-            alt="SABACAN"
-            width={140}
-            height={60}
-            className="h-8 w-auto object-contain cursor-pointer dark:hidden block"
-            priority
-          />
-        </Link>
+    <>
+      {/* 第1ヘッダー */}
+      <header className="flex justify-between items-center px-4 py-2 border-b border-gray-700">
+        <div className="flex items-center gap-6">
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/img/logo-dark.png"
+              alt="SABACAN"
+              width={140}
+              height={60}
+              className="h-8 w-auto object-contain cursor-pointer dark:block hidden"
+              priority
+            />
+            <Image
+              src="/img/logo-light.png"
+              alt="SABACAN"
+              width={140}
+              height={60}
+              className="h-8 w-auto object-contain cursor-pointer dark:hidden block"
+              priority
+            />
+          </Link>
 
-        {/* ✅ How to Use リンク追加 */}
-        <Link href="/how-to-use" className="text-sm text-gray-700 dark:text-gray-300 hover:text-blue-500">
-          How to Use
-        </Link>
-      </div>
-
-      {/* 右側：ユーザー状態に応じたリンク */}
-      {!loading && (
-        <div className="flex gap-4 items-center text-sm">
-          {user ? (
-            <>
-              <Link href="/account">Account</Link>
-            </>
-          ) : (
-            <>
-              <Link href="/login">Log in</Link>
-              <Link href="/signup">Sign up</Link>
-            </>
-          )}
+          <Link href="/how-to-use" className="text-sm text-gray-700 dark:text-gray-300 hover:text-blue-500">
+            How to Use
+          </Link>
         </div>
-      )}
-    </header>
+
+        {!loading && (
+          <div className="flex gap-4 items-center text-sm">
+            {user ? (
+              <Link href="/account">Account</Link>
+            ) : (
+              <>
+                <Link href="/login">Log in</Link>
+                <Link href="/signup">Sign up</Link>
+              </>
+            )}
+          </div>
+        )}
+      </header>
+
+      {/* ✅ 第2ヘッダー（案内バー） */}
+      <div className="bg-blue-50 dark:bg-blue-900 text-sm py-2 border-b border-gray-300 dark:border-gray-700">
+        <div className="max-w-6xl mx-auto flex justify-center gap-6 text-blue-700 dark:text-blue-200">
+          <Link href="/articles" className="hover:underline">
+            📰 Articles
+          </Link>
+          <Link href="/word-review" className="hover:underline">
+            🧠 Word Review Mode
+          </Link>
+        </div>
+      </div>
+    </>
   );
 }
