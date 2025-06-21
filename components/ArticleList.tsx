@@ -359,7 +359,8 @@ useEffect(() => {
                   width={480}
                   height={270}
                   className="mb-3 w-full h-40 object-cover rounded"
-                  priority={index < 1}
+                  priority={index < 1} // ✅ 最初の画像だけ先読み
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw" // ✅ 画面幅に応じて最適化
                 />
                 <h2 className="text-xl font-semibold mb-1">{a.movie_title}</h2>
               </Link>
