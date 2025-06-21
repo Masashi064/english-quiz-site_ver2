@@ -57,13 +57,14 @@ export default function HomePage() {
               className="block border rounded shadow hover:shadow-lg overflow-hidden"
             >
               <Image
-                src={item.thumbnail}
+                src={`/img/img-${item.slug}.webp`} 
                 alt={item.title}
                 width={480}
                 height={270}
                 priority={index === 0}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="w-full h-40 object-cover"
+                unoptimized={false} 
               />
               <div className="p-4">
                 <h3 className="font-semibold text-lg mb-1">{item.title}</h3>

@@ -354,7 +354,7 @@ useEffect(() => {
               )}
               <Link href={`/article/${a.slug}`} className="block hover:opacity-80 transition">
                 <Image
-                  src={`/img/img-${a.slug}.jpg`}
+                  src={`/img/img-${item.slug}.webp`} 
                   alt="thumbnail"
                   width={480}
                   height={270}
