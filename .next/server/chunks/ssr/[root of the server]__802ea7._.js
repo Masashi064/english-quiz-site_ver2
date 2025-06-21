@@ -70,7 +70,7 @@ function HomePage() {
         slugs: slugs
     }, void 0, false, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 13,
+        lineNumber: 15,
         columnNumber: 10
     }, this);
 }

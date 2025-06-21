@@ -73,11 +73,11 @@ const allCategories = [
     'conversation',
     'news',
     'technology',
-    'education',
     'psychology',
     'culture',
     'history',
-    'lifestyle'
+    'lifestyle',
+    'comedy'
 ];
 const allLevels = [
     'beginner',
