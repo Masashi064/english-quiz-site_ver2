@@ -38,20 +38,35 @@ export default function HomePage() {
   const latest = getLatestQuizzes(3);
 
   return (
-    <main className="p-6 max-w-5xl mx-auto text-black dark:text-white">
-      <h1 className="text-3xl font-bold mb-4">Learn English with SABACAN</h1>
-      <p className="mb-2">Enjoy interactive quizzes based on real English videos. Choose a topic and start learning today!</p>
-      <p className="mb-6">
-        <Link
-          href="/how-to-use"
-          className="underline text-blue-800 dark:text-blue-400 hover:text-blue-900 dark:hover:text-blue-300"
-        >
-          Learn how it works →
-        </Link>
-      </p>
+    <main className="text-black dark:text-white">
+      {/* 🖼️ Hero Section with Large Images */}
+        <section className="relative w-full h-[400px] sm:h-[500px]">
+          <Image
+            src="/img/top-img1.webp"
+            alt="Hero"
+            fill
+            className="object-cover brightness-90"
+            priority
+          />
+          <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
+            <h1 className="text-3xl sm:text-5xl font-bold drop-shadow mb-4">
+              Learn Real English Through Fun Quizzes
+            </h1>
+            <p className="text-lg sm:text-xl drop-shadow mb-4">
+              Enjoy interactive quizzes based on real videos from YouTube and more.
+            </p>
+            <Link
+              href="/how-to-use"
+              className="inline-block bg-white text-blue-700 px-6 py-2 rounded-full text-sm sm:text-base font-semibold hover:bg-gray-100 shadow"
+            >
+              ➜ Learn how it works
+            </Link>
+          </div>
+        </section>
 
-      <section>
-        <h2 className="text-xl font-semibold mb-3">🆕 Latest Quizzes</h2>
+      {/* 🆕 Latest Quizzes */}
+      <section className="max-w-6xl mx-auto px-4 py-10">
+        <h2 className="text-2xl font-semibold mb-4 text-center">🆕 Latest Quizzes</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {latest.map((item, index) => (
             <Link
@@ -60,14 +75,14 @@ export default function HomePage() {
               className="block border rounded shadow hover:shadow-lg overflow-hidden"
             >
               <Image
-                src={`/img/img-${item.slug}.webp`} 
+                src={`/img/img-${item.slug}.webp`}
                 alt={item.title}
                 width={480}
                 height={270}
                 priority={index === 0}
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="w-full h-40 object-cover"
-                unoptimized={false} 
+                unoptimized={false}
               />
               <div className="p-4">
                 <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
