@@ -80,24 +80,25 @@ export default function HowToUsePage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
         {latest.map((item, index) => (
           <Link
-            key={item.slug}
-            href={`/article/${item.slug}`}
-            className="block border rounded shadow hover:shadow-lg overflow-hidden"
-          >
-            <Image
-              src={item.thumbnail}
-              alt={item.title}
-              width={480}
-              height={270}
-              priority={false}
-              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              className="w-full h-40 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
-              <p className="text-sm text-gray-500">Channel: {item.channel}</p>
-            </div>
-          </Link>
+              key={item.slug}
+              href={`/article/${item.slug}`}
+              className="block border rounded shadow hover:shadow-lg overflow-hidden"
+            >
+              <div className="relative w-full aspect-video">
+                <Image
+                  src={`/img/img-${item.slug}.webp`}
+                  alt={item.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority={index === 0}
+                  className="object-cover rounded-t"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-lg mb-1">{item.title}</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-300">Channel: {item.channel}</p>
+              </div>
+            </Link>
         ))}
       </div>
 

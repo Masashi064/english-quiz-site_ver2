@@ -1076,6 +1076,10 @@ img, video {
   opacity: .8;
 }
 
+.hover\:opacity-90:hover {
+  opacity: .9;
+}
+
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1097,6 +1101,10 @@ img, video {
   --tw-scale-x: .9;
   --tw-scale-y: .9;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:underline {
+  text-decoration-line: underline;
 }
 
 .dark\:block:is(.dark *) {

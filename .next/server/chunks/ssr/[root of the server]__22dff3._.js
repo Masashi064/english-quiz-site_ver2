@@ -194,18 +194,24 @@ function HowToUsePage() {
                         href: `/article/${item.slug}`,
                         className: "block border rounded shadow hover:shadow-lg overflow-hidden",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                src: item.thumbnail,
-                                alt: item.title,
-                                width: 480,
-                                height: 270,
-                                priority: false,
-                                sizes: "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
-                                className: "w-full h-40 object-cover"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative w-full aspect-video",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    src: `/img/img-${item.slug}.webp`,
+                                    alt: item.title,
+                                    fill: true,
+                                    sizes: "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+                                    priority: index === 0,
+                                    className: "object-cover rounded-t"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/how-to-use/page.tsx",
+                                    lineNumber: 88,
+                                    columnNumber: 17
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/how-to-use/page.tsx",
                                 lineNumber: 87,
-                                columnNumber: 13
+                                columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "p-4",
@@ -215,25 +221,25 @@ function HowToUsePage() {
                                         children: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/app/how-to-use/page.tsx",
-                                        lineNumber: 97,
-                                        columnNumber: 15
+                                        lineNumber: 98,
+                                        columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm text-gray-500",
+                                        className: "text-sm text-gray-500 dark:text-gray-300",
                                         children: [
                                             "Channel: ",
                                             item.channel
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/how-to-use/page.tsx",
-                                        lineNumber: 98,
-                                        columnNumber: 15
+                                        lineNumber: 99,
+                                        columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/how-to-use/page.tsx",
-                                lineNumber: 96,
-                                columnNumber: 13
+                                lineNumber: 97,
+                                columnNumber: 15
                             }, this)
                         ]
                     }, item.slug, true, {
@@ -255,17 +261,17 @@ function HowToUsePage() {
                         children: "Browse All Quizzes ➜"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 106,
+                        lineNumber: 107,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/how-to-use/page.tsx",
-                    lineNumber: 105,
+                    lineNumber: 106,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 104,
+                lineNumber: 105,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -273,7 +279,7 @@ function HowToUsePage() {
                 children: "3. Review Vocabulary"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 111,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -281,7 +287,7 @@ function HowToUsePage() {
                 children: "Below the quiz, you'll find a vocabulary section with key words from the video."
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 112,
+                lineNumber: 113,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -291,27 +297,27 @@ function HowToUsePage() {
                         children: "Important words and phrases highlighted"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 116,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: "Simple English definitions provided"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 117,
+                        lineNumber: 118,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: "Memorable example sentences included"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 118,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 115,
+                lineNumber: 116,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -319,7 +325,7 @@ function HowToUsePage() {
                 children: "📘 You can add words to your favorites and review them later."
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 120,
+                lineNumber: 121,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -327,7 +333,7 @@ function HowToUsePage() {
                 children: "4. Sign In to Track Your Progress"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 122,
+                lineNumber: 123,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -335,7 +341,7 @@ function HowToUsePage() {
                 children: "Create a free account to unlock the following features:"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 123,
+                lineNumber: 124,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -345,34 +351,34 @@ function HowToUsePage() {
                         children: "Save your quiz history"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 127,
+                        lineNumber: 128,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: "View past scores in one place"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 128,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: "Manage your favorite words"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 129,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: "Access upcoming features early (coming soon)"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 130,
+                        lineNumber: 131,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 126,
+                lineNumber: 127,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -380,7 +386,7 @@ function HowToUsePage() {
                 children: "🔐 You can sign up easily with an email or social login."
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 132,
+                lineNumber: 133,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -388,7 +394,7 @@ function HowToUsePage() {
                 children: "🔁 Learn Anytime, Anywhere"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 134,
+                lineNumber: 135,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -396,7 +402,7 @@ function HowToUsePage() {
                 children: "SABACAN works great on smartphones too, with new content added regularly. Make it part of your daily routine and improve your English in your spare time!"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 135,
+                lineNumber: 136,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -404,7 +410,7 @@ function HowToUsePage() {
                 children: "🌐 Want to switch to Japanese?"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 139,
+                lineNumber: 140,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -412,7 +418,7 @@ function HowToUsePage() {
                 children: "You can switch languages using the toggle button at the top of the page."
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 140,
+                lineNumber: 141,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -420,7 +426,7 @@ function HowToUsePage() {
                 children: "💬 Need Help?"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 144,
+                lineNumber: 145,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -432,7 +438,7 @@ function HowToUsePage() {
                         children: "FAQ"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 146,
+                        lineNumber: 147,
                         columnNumber: 19
                     }, this),
                     " or ",
@@ -442,14 +448,14 @@ function HowToUsePage() {
                         children: "Contact Us"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
-                        lineNumber: 146,
+                        lineNumber: 147,
                         columnNumber: 78
                     }, this),
                     " page."
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 145,
+                lineNumber: 146,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -457,7 +463,7 @@ function HowToUsePage() {
                 children: "Start learning English with SABACAN today!"
             }, void 0, false, {
                 fileName: "[project]/app/how-to-use/page.tsx",
-                lineNumber: 149,
+                lineNumber: 150,
                 columnNumber: 7
             }, this)
         ]
