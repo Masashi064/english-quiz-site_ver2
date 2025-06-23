@@ -353,14 +353,16 @@ useEffect(() => {
                 </div>
               )}
               <Link href={`/article/${a.slug}`} className="block hover:opacity-80 transition">
-                <Image
-                  src={`/img/img-${a.slug}.webp`}
-                  alt="thumbnail"
-                  width={480}
-                  height={270}
-                  className="mb-3 w-full h-40 object-cover rounded"
-                  priority={index < 1}
-                />
+                <div className="relative w-full aspect-video mb-3 rounded overflow-hidden">
+                  <Image
+                    src={`/img/img-${a.slug}.webp`}
+                    alt="thumbnail"
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover"
+                    priority={index < 1}
+                  />
+                </div>
                 <h2 className="text-xl font-semibold mb-1">{a.movie_title}</h2>
               </Link>
               <p className="text-sm text-gray-500 dark:text-gray-300">Channel: {a.channel_name}</p>

@@ -158,7 +158,7 @@ export default function QuizLayout({
             </p>
             <div className="text-center mt-4">
               <a
-                href="/"
+                href="/articles"
                 className="text-blue-600 dark:text-blue-400 underline font-semibold"
               >
                 👉 Try the next quiz!
@@ -179,7 +179,7 @@ export default function QuizLayout({
         </div>
                 <div className="text-center mt-6">
           <a
-            href="/"
+            href="/articles"
             className="text-blue-600 dark:text-blue-400 underline font-semibold"
           >
             👉 Ready for another quiz?
