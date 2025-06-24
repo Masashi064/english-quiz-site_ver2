@@ -1,0 +1,63 @@
+{
+  "slug": "4694ca01",
+  "video_id": "J5dLrmFcy8o",
+  "movie_title": "Can Japan’s Sinking Airport be Saved?",
+  "movie_url": "https://youtu.be/J5dLrmFcy8o",
+  "published_at": "2024-05-09T13:00:13Z",
+  "duration": "PT4M31S",
+  "tags": [],
+  "introduction": "Subscribe to our channel, hit the notification bell, and drop a like to join us.\n\nKansai Internation",
+  "lead_intro": "Imagine a place where architecture blends with nature and innovation soars to new heights above the ocean waves. Let's explore Japan's impressive floating airport, Kansai International Airport!",
+  "quiz": [
+    {
+      "question": "When was Kansai International Airport inaugurated?",
+      "choices": [
+        "1994",
+        "2000",
+        "2010"
+      ],
+      "answer": "1994",
+      "explanation": "Kansai International Airport was inaugurated in 1994, dazzling the world with its innovation and impact on Japan's Kanai region."
+    },
+    {
+      "question": "What is the unique feature of Kansai International Airport's terminal designed by Renzo Piano?",
+      "choices": [
+        "1.7 km long",
+        "Circular shape",
+        "Resembles an airplane wing profile"
+      ],
+      "answer": "Resembles an airplane wing profile",
+      "explanation": "The terminal of Kansai International Airport designed by Renzo Piano resembles an airplane wing profile, making it a standout architectural marvel."
+    },
+    {
+      "question": "What issue has raised concerns about the long-term stability of Kansai International Airport?",
+      "choices": [
+        "Noise pollution",
+        "Airplane accidents",
+        "Subsidence of artificial islands"
+      ],
+      "answer": "Subsidence of artificial islands",
+      "explanation": "The subsidence of the artificial islands on which the airport was built has raised doubts about its stability, posing challenges for its future viability."
+    },
+    {
+      "question": "What was the reason for building Kansai International Airport on artificial islands?",
+      "choices": [
+        "Scenic views",
+        "Noise reduction",
+        "Historical significance"
+      ],
+      "answer": "Noise reduction",
+      "explanation": "The decision to build the airport on artificial islands was to reduce the impact of noise on the local population, addressing citizen protests over excessive noise from the previous Osaka airport."
+    },
+    {
+      "question": "What impact would the potential loss of Kansai International Airport have on Japan?",
+      "choices": [
+        "No impact",
+        "Negative impact on economy and mobility",
+        "Positive impact on tourism"
+      ],
+      "answer": "Negative impact on economy and mobility",
+      "explanation": "The potential loss of the airport would have a significant negative impact on Japan's economy and mobility in the Kansai region, affecting the country's international image as a tourist destination."
+    }
+  ]
+}

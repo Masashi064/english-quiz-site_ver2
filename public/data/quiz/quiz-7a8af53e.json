@@ -1,0 +1,92 @@
+{
+  "slug": "7a8af53e",
+  "video_id": "wJUXLqNHCaI",
+  "movie_title": "Why The War on Drugs Is a Huge Failure",
+  "movie_url": "https://youtu.be/wJUXLqNHCaI",
+  "published_at": "2016-03-01T17:22:49Z",
+  "duration": "PT6M26S",
+  "tags": [
+    "drugs",
+    "drug war",
+    "war on drugs",
+    "heroin",
+    "addiction",
+    "addict",
+    "cocaine",
+    "abuse",
+    "Legalization",
+    "weed",
+    "pot",
+    "marijuana",
+    "DEA",
+    "usa",
+    "nixon",
+    "mexico",
+    "drug cartel",
+    "violence",
+    "war",
+    "corruption",
+    "stop the harm",
+    "meth",
+    "cristal meth",
+    "prohibition",
+    "in a nutshell",
+    "kurzgesagt",
+    "world",
+    "death"
+  ],
+  "introduction": "The war against drugs has been a terrible disaster for everybody involved. Why? And can we do someth",
+  "lead_intro": "The War on Drugs has been a controversial topic for decades, with significant unintended consequences. Let's explore why this approach has failed and what alternative strategies could be more effective.",
+  "quiz": [
+    {
+      "question": "What is the core strategy of the War on Drugs?",
+      "choices": [
+        "eradicating demand for drugs",
+        "incarcerating drug traffickers",
+        "providing free drugs to addicts"
+      ],
+      "answer": "incarcerating drug traffickers",
+      "explanation": "The core strategy of the War on Drugs has been focused on eradicating the supply of drugs and incarcerating drug traffickers."
+    },
+    {
+      "question": "What market force is ignored by the strategy of eradicating the drug supply?",
+      "choices": [
+        "demand and supply",
+        "price and demand",
+        "supply and competition"
+      ],
+      "answer": "supply and demand",
+      "explanation": "Eradicating the drug supply without reducing the demand first ignores the fundamental market forces of supply and demand."
+    },
+    {
+      "question": "What unintended consequence arose from the US Government's attempt to stop crystal meth production?",
+      "choices": [
+        "increased potency of crystal meth",
+        "decreased availability of crystal meth",
+        "lower production costs for crystal meth"
+      ],
+      "answer": "increased potency of crystal meth",
+      "explanation": "The US Government's attempt to stop crystal meth production led to unintended consequences such as increased potency of the drug."
+    },
+    {
+      "question": "What strategy did Switzerland adopt to address heroin addiction?",
+      "choices": [
+        "incarceration of addicts",
+        "harm reduction approach",
+        "increased law enforcement efforts"
+      ],
+      "answer": "harm reduction approach",
+      "explanation": "Switzerland adopted a harm reduction approach by providing free heroin maintenance centers, clean needles, and medical supervision to address heroin addiction."
+    },
+    {
+      "question": "What was a significant outcome of Switzerland's harm reduction strategy for heroin addicts?",
+      "choices": [
+        "increase in drug-related crime",
+        "decrease in HIV infections",
+        "rise in drug-related street work"
+      ],
+      "answer": "decrease in HIV infections",
+      "explanation": "Switzerland's harm reduction strategy led to a drastic decrease in HIV infections among heroin addicts."
+    }
+  ]
+}

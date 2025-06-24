@@ -62,7 +62,7 @@ function getLatestQuizzes(count) {
             slug: data.slug,
             title: data.movie_title,
             channel: data.channel_name,
-            publishedAt: data.published_at,
+            publishedAt: data.published_date || data.published_at,
             thumbnail: `/img/img-${data.slug}.jpg`
         };
     }).sort((a, b)=>new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()).slice(0, count);

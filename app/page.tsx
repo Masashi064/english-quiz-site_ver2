@@ -25,7 +25,7 @@ function getLatestQuizzes(count: number): QuizMeta[] {
         slug: data.slug,
         title: data.movie_title,
         channel: data.channel_name,
-        publishedAt: data.published_at,
+        publishedAt: data.published_date || data.published_at, // ← fallback付き
         thumbnail: `/img/img-${data.slug}.jpg`,
       };
     })

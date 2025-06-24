@@ -77,55 +77,48 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
   }, [slugs, completedSlugs])
 
 
-  // 🔁 記事データの読み込み
-  useEffect(() => {
-    Promise.all(
+useEffect(() => {
+  const fetchData = async () => {
+    const results = await Promise.all(
       slugs.map((slug) =>
         fetch(`/data/category/category-${slug}.json`).then((res) => res.json()).catch(() => null)
       )
-    ).then((results) => {
-      setArticles(results.filter((a): a is CategoryItem => !!a))
-    })
-  }, [slugs])
-
-  useEffect(() => {
-  Promise.all(
-    slugs.map((slug) =>
-      fetch(`/data/category/category-${slug}.json`).then((res) => res.json()).catch(() => null)
     )
-  ).then((results) => {
+
     const loaded = results.filter((a): a is CategoryItem => !!a)
     setArticles(loaded)
 
-    // 🔢 件数カウント
+    // ✅ 件数カウント
     const catCounts: Record<string, number> = {}
     const lvlCounts: Record<string, number> = {}
 
-    loaded.forEach(a => {
+    loaded.forEach((a) => {
       catCounts[a.assigned_category] = (catCounts[a.assigned_category] || 0) + 1
       lvlCounts[a.assigned_level] = (lvlCounts[a.assigned_level] || 0) + 1
     })
 
     setCategoryCounts(catCounts)
     setLevelCounts(lvlCounts)
-  })
-}, [slugs])
 
-useEffect(() => {
-  const fetchCompletedSlugs = async () => {
-    if (!user) return
-    const quizRef = collection(db, 'users', user.uid, 'quizResults')
-    const quizSnap = await getDocs(quizRef)
-    const completed: string[] = []
-    quizSnap.forEach(doc => {
-      const data = doc.data()
-      if (data.slug) completed.push(data.slug)
-    })
-    setCompletedSlugs(completed)
+    // ✅ 完了クイズ数（もし user がいれば）
+    if (user) {
+      const quizRef = collection(db, 'users', user.uid, 'quizResults')
+      const quizSnap = await getDocs(quizRef)
+      const completed: string[] = []
+      quizSnap.forEach((doc) => {
+        const data = doc.data()
+        if (data.slug) completed.push(data.slug)
+      })
+      setCompletedSlugs(completed)
+
+      const completedCount = loaded.filter((a) => completed.includes(a.slug)).length
+      setCompletedCount(completedCount)
+      setUncompletedCount(loaded.length - completedCount)
+    }
   }
-  fetchCompletedSlugs()
-}, [user])
 
+  fetchData()
+}, [slugs, user])
 
   const parseDuration = (iso: string): number => {
     const match = iso.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/)
@@ -346,35 +339,32 @@ useEffect(() => {
             : 'p-4 border rounded relative shadow hover:shadow-lg bg-white dark:bg-gray-800 text-black dark:text-white'
 
           return (
-            <div key={a.slug} className={cardStyle}>
-              {isCompleted && (
-                <div className="absolute bottom-0 right-0 bg-green-600 text-white px-2">
-                  ✅ Completed
-                </div>
-              )}
-              <Link href={`/article/${a.slug}`} className="block hover:opacity-80 transition">
-                <div className="relative w-full aspect-video mb-3 rounded overflow-hidden">
-                  <Image
-                    src={`/img/img-${a.slug}.webp`}
-                    alt="thumbnail"
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover"
-                    priority={index < 1}
-                  />
-                </div>
-                <h2 className="text-xl font-semibold mb-1">{a.movie_title}</h2>
-              </Link>
-              <p className="text-sm text-gray-500 dark:text-gray-300">Channel: {a.channel_name}</p>
-              <p className="text-sm mt-1">📂 {a.assigned_category} / 🎯 {a.assigned_level}</p>
-              <p className="text-sm text-gray-600 dark:text-gray-300">🕒 {formatDuration(a.duration)} / 📅 {formatDate(a.published_at)}</p>
-              <Link
-                href={`/article/${a.slug}`}
-                className="inline-block mt-4 text-blue-600 dark:text-blue-300 font-semibold hover:underline"
-              >
-                ▶ Read article
-              </Link>
-            </div>
+            <Link
+              key={a.slug}
+              href={`/article/${a.slug}`}
+              className="block border rounded shadow hover:shadow-lg overflow-hidden bg-white dark:bg-gray-900"
+            >
+              <div className="relative w-full aspect-video">
+                <Image
+                  src={`/img/img-${a.slug}.webp`}
+                  alt={a.movie_title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  priority={index === 0}
+                  className="object-cover"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="font-semibold text-lg mb-1">{a.movie_title}</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-300">Channel: {a.channel_name}</p>
+                <p className="text-sm mt-1">
+                  📂 {a.assigned_category} / 🎯 {a.assigned_level} / 🕒 {formatDuration(a.duration)} / 📅 {formatDate(a.published_at)}
+                </p>
+                <span className="inline-block mt-3 text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+                  ▶ Read article
+                </span>
+              </div>
+            </Link>
           )
         })}
       </div>

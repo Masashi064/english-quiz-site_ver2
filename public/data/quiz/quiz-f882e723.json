@@ -1,0 +1,68 @@
+{
+  "slug": "f882e723",
+  "video_id": "QAa2O_8wBUQ",
+  "movie_title": "What is Dark Matter and Dark Energy?",
+  "movie_url": "https://youtu.be/QAa2O_8wBUQ",
+  "published_at": "2015-08-06T12:49:29Z",
+  "duration": "PT6M21S",
+  "tags": [
+    "Dark Energy",
+    "Dark Matter",
+    "Energy (Industry)",
+    "Condensed Matter Physics (Field Of Study)"
+  ],
+  "introduction": "What is dark energy? What is dark matter? Well, if we knew exactly we would have a nobel prize – we",
+  "lead_intro": "The universe is full of mysteries with dark matter and dark energy accounting for a large portion of it. Let's dive into the fascinating world of dark matter and dark energy!",
+  "quiz": [
+    {
+      "question": "What percentage of the known universe is made up of dark matter?",
+      "choices": [
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "answer": "25%",
+      "explanation": "The video mentions that dark matter accounts for about 25% of the known universe."
+    },
+    {
+      "question": "How do we know dark matter is present in the universe?",
+      "choices": [
+        "It emits light",
+        "It interacts with gravity",
+        "It reflects light"
+      ],
+      "answer": "It interacts with gravity",
+      "explanation": "Dark matter is detected through its interaction with gravity, such as bending light passing nearby."
+    },
+    {
+      "question": "What did Edward Hubble discover in 1929 that led to understanding the expansion of the universe?",
+      "choices": [
+        "The universe is contracting",
+        "The universe is static",
+        "The universe is expanding"
+      ],
+      "answer": "The universe is expanding",
+      "explanation": "Hubble discovered that the universe is expanding by observing the red shift in the light emitted by distant galaxies."
+    },
+    {
+      "question": "What is one proposed idea about dark energy?",
+      "choices": [
+        "It's a property of matter",
+        "It's a type of normal energy",
+        "It's a property of space"
+      ],
+      "answer": "It's a property of space",
+      "explanation": "One idea is that dark energy is not a thing but a property of space, suggesting that empty space has its own energy."
+    },
+    {
+      "question": "What was the concept proposed by Einstein in 1917 related to dark energy?",
+      "choices": [
+        "Cosmological constant",
+        "Theory of relativity",
+        "Quantum mechanics"
+      ],
+      "answer": "Cosmological constant",
+      "explanation": "Einstein's concept of a cosmological constant was a force that countered the force of gravity, similar to some ideas about dark energy."
+    }
+  ]
+}
