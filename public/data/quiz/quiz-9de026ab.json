@@ -1,0 +1,91 @@
+{
+  "slug": "9de026ab",
+  "video_id": "AhgRjqgrgkk",
+  "movie_title": "The loneliest man in history - 6 Minute English",
+  "movie_url": "https://youtu.be/AhgRjqgrgkk",
+  "published_at": "2022-03-12T13:00:40Z",
+  "duration": "PT6M15S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "bbc",
+    "bbc learning english",
+    "English class",
+    "6 minute"
+  ],
+  "introduction": "Improve your English vocabulary and listening in just six minutes! Can you imagine being left in a c",
+  "lead_intro": "Join us in this 6 Minute English episode as we discuss the astronaut Michael Collins, known as 'the loneliest man in history', who piloted the command module during the Moon landing mission.",
+  "quiz": [
+    {
+      "question": "What was the name of the first animal, a dog, to go into space?",
+      "choices": [
+        "Irina",
+        "Laika",
+        "Anastasia"
+      ],
+      "answer": "Laika",
+      "explanation": "Laika was the name of the first animal, a dog, to go into space, who unfortunately did not survive the return to Earth."
+    },
+    {
+      "question": "What did Michael Collins describe himself as in terms of being alone in space?",
+      "choices": [
+        "lonely man",
+        "lonely astronaut",
+        "lonely pilot"
+      ],
+      "answer": "lonely man",
+      "explanation": "Michael Collins referred to himself as 'the loneliest man in the whole lonely orbit around the lonely planet on a lonely evening' while orbiting the Moon alone."
+    },
+    {
+      "question": "How did the bond between the Apollo 11 astronauts develop according to Michael Collins?",
+      "choices": [
+        "during the Moon landing",
+        "before the preparatory flight",
+        "after the flight"
+      ],
+      "answer": "after the flight",
+      "explanation": "Collins mentioned in an interview that the close connection between the astronauts, Armstrong, Aldrin, and himself, actually developed after the Apollo 11 flight while on a trip round the world to discuss their experiences."
+    },
+    {
+      "question": "What term did Michael Collins use to describe being alone in the command module?",
+      "choices": [
+        "comfortable",
+        "peaceful",
+        "isolated"
+      ],
+      "answer": "comfortable",
+      "explanation": "Collins mentioned feeling 'quite comfortable' in the command module Columbia while orbiting the Moon, as he was accustomed to flying airplanes alone."
+    },
+    {
+      "question": "What word is synonymous with 'pioneer' as mentioned in the episode?",
+      "choices": [
+        "adventurer",
+        "explorer",
+        "trailblazer"
+      ],
+      "answer": "trailblazer",
+      "explanation": "In the episode, it was mentioned that being a trailblazer is similar to being a pioneer, both referring to someone who is the first to do something."
+    }
+  ]
+}

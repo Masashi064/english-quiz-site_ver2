@@ -1,0 +1,105 @@
+{
+  "slug": "3e1f147c",
+  "video_id": "e-P5IFTqB98",
+  "movie_title": "Black Holes Explained – From Birth to Death",
+  "movie_url": "https://youtu.be/e-P5IFTqB98",
+  "published_at": "2015-12-15T16:33:55Z",
+  "duration": "PT5M56S",
+  "tags": [
+    "black hole",
+    "universe",
+    "space",
+    "cosmos",
+    "earth",
+    "death",
+    "black",
+    "Astronomy (Field Of Study)",
+    "black hole sun",
+    "explained",
+    "sun",
+    "documentary",
+    "star",
+    "eating",
+    "bomb",
+    "birth",
+    "devour",
+    "ending",
+    "footage",
+    "gravity",
+    "high",
+    "supermassive",
+    "news",
+    "paradox",
+    "physics",
+    "videos",
+    "pictures",
+    "quasar",
+    "radiation",
+    "event horizon",
+    "mass",
+    "singularity",
+    "theory",
+    "vs",
+    "wars",
+    "warning",
+    "infographic",
+    "animation",
+    "youtube",
+    "kurzgesagt",
+    "in a nutshell"
+  ],
+  "introduction": "Black holes. Lets talk about them.\n\n\nOUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman Channel: https:/",
+  "lead_intro": "Have you ever wondered what would happen if you fell into a black hole? Let's explore the mysteries of black holes and their impact on the universe.",
+  "quiz": [
+    {
+      "question": "What is the core of a star fusing hydrogen atoms into until it reaches iron, causing a sudden imbalance between radiation and gravity?",
+      "choices": [
+        "helium",
+        "iron",
+        "neutron star"
+      ],
+      "answer": "iron",
+      "explanation": "The fusion process in the core of a star leads to the creation of iron, which builds up until it causes a sudden imbalance between radiation and gravity, leading to a supernova explosion."
+    },
+    {
+      "question": "What happens to a star when the balance between radiation and gravity is broken in its core?",
+      "choices": [
+        "it collapses",
+        "it expands",
+        "it stabilizes"
+      ],
+      "answer": "it collapses",
+      "explanation": "When the balance between radiation and gravity is broken in a star's core, the star collapses and undergoes a supernova explosion."
+    },
+    {
+      "question": "What is the 'event horizon' of a black hole?",
+      "choices": [
+        "the singularity",
+        "the black sphere reflecting nothing",
+        "the point where nothing can escape"
+      ],
+      "answer": "the point where nothing can escape",
+      "explanation": "The event horizon of a black hole is the point where anything that crosses it needs to be traveling faster than the speed of light to escape, making escape impossible."
+    },
+    {
+      "question": "What is the 'singularity' of a black hole known for?",
+      "choices": [
+        "it is indefinitely dense",
+        "it has a surface and volume",
+        "it generates energy"
+      ],
+      "answer": "it is indefinitely dense",
+      "explanation": "The singularity of a black hole may be indefinitely dense, with all its mass concentrated into a single point in space, without any surface or volume."
+    },
+    {
+      "question": "How do black holes eventually evaporate over time?",
+      "choices": [
+        "through Hawking radiation",
+        "by consuming all nearby matter",
+        "by expanding in size"
+      ],
+      "answer": "through Hawking radiation",
+      "explanation": "Black holes eventually evaporate through a process called Hawking radiation, where they lose energy gradually by emitting particles."
+    }
+  ]
+}

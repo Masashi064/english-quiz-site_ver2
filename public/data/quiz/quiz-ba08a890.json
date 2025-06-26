@@ -43,57 +43,57 @@
     "Listening Practice"
   ],
   "introduction": "Improve your English vocabulary and speaking with 6 Minute English from the BBC! What's the fascinat",
-  "lead_intro": "Welcome to a fun and informative English learning session with 6 Minute English! Let's dive into the world of uniforms and vocabulary together.",
+  "lead_intro": "Join us in exploring the topic of uniforms in this 6 Minute English episode, where we discuss the significance of different professions wearing uniforms.",
   "quiz": [
     {
-      "question": "In the 19th century, police officer’s top hats could be used for...",
+      "question": "What did Metropolitan Police officers use their top hats for in the 19th century?",
       "choices": [
         "to stand on",
         "as a weapon",
         "to protect their heads from the sun"
       ],
       "answer": "to stand on",
-      "explanation": "From 1829 to 1839, Metropolitan Police officers wore a cane-reinforced top hat, which could be used as a step to climb or see over walls."
+      "explanation": "From 1829 to 1839, Metropolitan Police officers wore top hats that could be used as a step to climb or see over walls."
     },
     {
-      "question": "What does it mean if something 'suits you'?",
+      "question": "What does it mean when something 'suits you'?",
       "choices": [
-        "it doesn't look good on you",
         "it fits perfectly",
-        "it stands out"
+        "it looks good on you",
+        "it is uncomfortable"
       ],
       "answer": "it looks good on you",
-      "explanation": "If something 'suits you', it means it looks good on you."
+      "explanation": "If something 'suits you', it means it looks good on you, like the pilot's uniform on Tim."
     },
     {
       "question": "What does 'persona' refer to?",
       "choices": [
-        "your inner thoughts",
-        "the character you present to the outside world",
-        "your favorite uniform"
+        "the person you feel like inside",
+        "a character you present to the outside world",
+        "a type of mask"
       ],
-      "answer": "the character you present to the outside world",
-      "explanation": "'Persona' refers to the character you present to the outside world, different from the person you feel like inside."
+      "answer": "a character you present to the outside world",
+      "explanation": "'Persona' refers to the character you show to others, different from your true self."
     },
     {
-      "question": "What does 'liberating' mean in the context discussed?",
+      "question": "What does the term 'liberating' mean?",
       "choices": [
         "feeling restricted",
         "feeling you can behave however you like",
-        "feeling scared"
+        "following strict rules"
       ],
       "answer": "feeling you can behave however you like",
-      "explanation": "'Liberating' means feeling free to behave however you like, as discussed in the video."
+      "explanation": "'Liberating' means feeling free to behave in a way that expresses your true self."
     },
     {
       "question": "What does it mean to 'try something on for size'?",
       "choices": [
-        "to wear something for a fashion show",
-        "to test something to decide if you want it",
-        "to give something away"
+        "to make a final decision",
+        "to test something before buying",
+        "to give something a new look"
       ],
-      "answer": "to test something to decide if you want it",
-      "explanation": "'Trying something on for size' means to test something to decide if it is suitable or desired."
+      "answer": "to test something before buying",
+      "explanation": "To 'try something on for size' means to test or evaluate something before making a final decision."
     }
   ]
 }

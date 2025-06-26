@@ -1,0 +1,92 @@
+{
+  "slug": "c8432e3d",
+  "video_id": "LS-VPyLaJFM",
+  "movie_title": "The Last Star in the Universe – Red Dwarfs Explained",
+  "movie_url": "https://youtu.be/LS-VPyLaJFM",
+  "published_at": "2016-01-31T11:45:37Z",
+  "duration": "PT5M51S",
+  "tags": [
+    "red dwarf",
+    "universe",
+    "heat death",
+    "end of the universe",
+    "death",
+    "space",
+    "sun",
+    "star",
+    "physics",
+    "astronomy",
+    "life cycle",
+    "hydrogen",
+    "helium",
+    "humans",
+    "earth",
+    "aliens",
+    "alien life",
+    "exoplanet",
+    "gas giant",
+    "super earth",
+    "white dwarf",
+    "black dwarf",
+    "life",
+    "last star",
+    "funny",
+    "kurzgesagt",
+    "in a nutshell",
+    "future"
+  ],
+  "introduction": "The last star in the universe will be a red dwarf. Red dwarfs in general might be great places to lo",
+  "lead_intro": "Red dwarfs, the tiny stars in the universe, hold the potential for finding alien life and being humanity's last hope. Let's dive into the fascinating world of red dwarfs and their significance.",
+  "quiz": [
+    {
+      "question": "Approximately what percentage of stars in the universe are red dwarfs?",
+      "choices": [
+        "20%",
+        "50%",
+        "70%"
+      ],
+      "answer": "70%",
+      "explanation": "The video mentions that at least 70% of stars in the universe are red dwarfs."
+    },
+    {
+      "question": "What is the average lifespan of a red dwarf?",
+      "choices": [
+        "1-10 million years",
+        "1-10 trillion years",
+        "100-500 billion years"
+      ],
+      "answer": "1-10 trillion years",
+      "explanation": "Red dwarfs have an average lifespan between 1 and 10 trillion years."
+    },
+    {
+      "question": "Why is a planet orbiting very close to a red dwarf likely to be inhospitable for life?",
+      "choices": [
+        "It would be too far from the star's energy",
+        "It would be tidally locked",
+        "It would receive too much sunlight"
+      ],
+      "answer": "It would be tidally locked",
+      "explanation": "A planet close to a red dwarf would likely be tidally locked, with one side facing the star being incredibly hot and the other frozen."
+    },
+    {
+      "question": "What happens to a red dwarf when its hydrogen runs out?",
+      "choices": [
+        "It transforms into a blue dwarf",
+        "It expands into a supergiant",
+        "It becomes a white dwarf"
+      ],
+      "answer": "It transforms into a blue dwarf",
+      "explanation": "When a red dwarf's hydrogen runs out, it transforms into a blue dwarf before eventually becoming a white dwarf."
+    },
+    {
+      "question": "How many potentially habitable planets are estimated to be around red dwarfs in the Milky Way alone?",
+      "choices": [
+        "4 million",
+        "60 million",
+        "60 billion"
+      ],
+      "answer": "60 billion",
+      "explanation": "Around red dwarfs in the Milky Way alone, there are an estimated 60 billion potentially habitable planets."
+    }
+  ]
+}

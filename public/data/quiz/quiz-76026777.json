@@ -1,0 +1,73 @@
+{
+  "slug": "76026777",
+  "video_id": "qNWWrDBRBqk",
+  "movie_title": "The Most Gruesome Parasites – Neglected Tropical Diseases – NTDs",
+  "movie_url": "https://youtu.be/qNWWrDBRBqk",
+  "published_at": "2016-11-30T13:36:44Z",
+  "duration": "PT5M43S",
+  "tags": [
+    "ntd",
+    "ntds",
+    "neglected tropical disease",
+    "disease",
+    "ebola",
+    "pharma",
+    "funny",
+    "60s horror movies",
+    "parasite"
+  ],
+  "introduction": "There are a group of parasites extremely disgusting and mean. Humanity declared war on them.\n\n\nOUR C",
+  "lead_intro": "Did you know that one in seven humans on the planet suffers from devastating diseases called NTDs? Learn more about these parasites and the incredible efforts to eradicate them by taking this quiz!",
+  "quiz": [
+    {
+      "question": "What are NTDs caused by?",
+      "choices": [
+        "bacteria",
+        "fungi",
+        "parasites"
+      ],
+      "answer": "parasites",
+      "explanation": "The video mentions that NTDs are caused by a vast range of different parasites such as worms, amoebae, bacteria, or viruses."
+    },
+    {
+      "question": "Which disease mentioned in the video can cause blindness?",
+      "choices": [
+        "malaria",
+        "hookworms",
+        "tuberculosis"
+      ],
+      "answer": "hookworms",
+      "explanation": "Some NTDs like hookworms can cause blindness as a result of awful eye infections."
+    },
+    {
+      "question": "How do you get infected by Dracun culiasis?",
+      "choices": [
+        "through the air",
+        "skin contact",
+        "infected water"
+      ],
+      "answer": "infected water",
+      "explanation": "If you accidentally drink water infected by Dracun culiasis, you could get infected by this parasite."
+    },
+    {
+      "question": "What was the percentage of Dracun culiasis cases reduced by from 1985 to 2015?",
+      "choices": [
+        "50%",
+        "75%",
+        "99.999%"
+      ],
+      "answer": "99.999%",
+      "explanation": "From 1985 to 2015, the cases of Dracun culiasis were reduced by 99.999% all over the world."
+    },
+    {
+      "question": "How many people did the treatments for NTDs reach in 2015 alone?",
+      "choices": [
+        "over 500 million",
+        "over 850 million",
+        "over 1 billion"
+      ],
+      "answer": "over 850 million",
+      "explanation": "In 2015, the treatments for NTDs reached over 850 million people, more than the population of the EU and the US combined."
+    }
+  ]
+}

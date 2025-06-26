@@ -39,57 +39,57 @@
     "podcast English"
   ],
   "introduction": "More and more people are living to 100, but what is the secret of a long life? Beth and Neil discuss",
-  "lead_intro": "Have you ever wondered about the secrets to living a long and healthy life? Join Neil and Beth as they explore the fascinating topic of centenarians and longevity.",
+  "lead_intro": "Join Neil and Beth in discussing the secrets to living a long life and learning some useful new vocabulary along the way.",
   "quiz": [
     {
-      "question": "Where was the world's oldest certified person, Kane Tanaka, from?",
+      "question": "According to the video, what country was the world's oldest certified person from?",
       "choices": [
         "Switzerland",
         "Italy",
         "Japan"
       ],
       "answer": "Japan",
-      "explanation": "Kane Tanaka, who lived to be 119 years old, was from Japan."
+      "explanation": "The world's oldest certified person, Kane Tanaka, was from Japan. She lived to be 119 years old."
     },
     {
-      "question": "What is the meaning of the phrase 'one size fits all'?",
+      "question": "What does the phrase 'one size fits all' mean?",
       "choices": [
         "Suitable for everyone or every purpose",
-        "One size is too big",
-        "Customized for each individual"
+        "One specific size fits everything",
+        "One style fits everyone"
       ],
       "answer": "Suitable for everyone or every purpose",
-      "explanation": "The phrase 'one size fits all' means something that is suitable for everyone or every purpose."
+      "explanation": "The phrase 'one size fits all' refers to something that is suitable for everyone or every purpose."
     },
     {
-      "question": "What does the term 'lifespan' refer to?",
+      "question": "What is a 'lifespan'?",
       "choices": [
-        "Time taken to reach a milestone",
-        "Length of time someone is expected to live",
-        "Duration of a single activity"
+        "The length of time someone is normally expected to live",
+        "A type of exercise routine",
+        "A specific age to live up to"
       ],
-      "answer": "Length of time someone is normally expected to live",
+      "answer": "The length of time someone is normally expected to live",
       "explanation": "A 'lifespan' refers to the length of time someone is normally expected to live."
     },
     {
-      "question": "What legendary source is associated with eternal youth?",
+      "question": "What does the 'fountain of youth' legend do?",
       "choices": [
-        "Fountain of Wisdom",
-        "Fountain of Youth",
-        "Fountain of Happiness"
+        "Keeps anyone who drinks it young forever",
+        "Makes people grow older faster",
+        "Has no effect on aging"
       ],
-      "answer": "Fountain of Youth",
-      "explanation": "The 'Fountain of Youth' is a legendary source of magical water that keeps anyone who drinks it, young forever."
+      "answer": "Keeps anyone who drinks it young forever",
+      "explanation": "The legendary 'fountain of youth' produces magical water that keeps anyone who drinks it young forever."
     },
     {
-      "question": "What does 'Peter Pan Syndrome' describe?",
+      "question": "What does 'Peter Pan syndrome' describe?",
       "choices": [
-        "Fear of growing old",
-        "Refusal to take on adult responsibilities",
-        "Desire for eternal youth"
+        "An adult who refuses to grow up",
+        "A child who grows up too fast",
+        "A fictional character who never ages"
       ],
-      "answer": "Refusal to take on adult responsibilities",
-      "explanation": "'Peter Pan Syndrome' describes an adult who refuses to grow up and take on adult responsibilities."
+      "answer": "An adult who refuses to grow up",
+      "explanation": "'Peter Pan syndrome' describes an adult who refuses to grow up and take on adult responsibilities."
     }
   ]
 }

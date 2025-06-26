@@ -1,0 +1,63 @@
+{
+  "slug": "8e8ccceb",
+  "video_id": "vsvsjWbx5tg",
+  "movie_title": "Cases of retailer-related offences involving e-bikes drop",
+  "movie_url": "https://youtu.be/vsvsjWbx5tg",
+  "published_at": "2025-01-28T14:47:41Z",
+  "duration": "PT5M17S",
+  "tags": [],
+  "introduction": "Retailer-related offences involving power-assisted bicycles (PABs) or e-bikes fell by more than thre",
+  "lead_intro": "Discover the importance of safety regulations for power-assisted bicycles (PABs) in this video. Test your knowledge with the following quiz!",
+  "quiz": [
+    {
+      "question": "What is the international standard that PABs must be certified to?",
+      "choices": [
+        "EN15194",
+        "EN15234",
+        "EN14321"
+      ],
+      "answer": "EN15194",
+      "explanation": "PABs must be certified to EN15194, an international standard, to ensure safety and compliance."
+    },
+    {
+      "question": "What action may void the warranty for a PAB?",
+      "choices": [
+        "Modifying approved parts",
+        "Registering with LTA",
+        "Using it for food delivery"
+      ],
+      "answer": "Modifying approved parts",
+      "explanation": "Any form of modifications to approved PABs can void the warranty and make the PAB non-compliant."
+    },
+    {
+      "question": "What was the consequence for a retailer who sold an illegally modified PAB and a non-compliant battery?",
+      "choices": [
+        "Fined $77,000",
+        "Received a warning",
+        "No consequences"
+      ],
+      "answer": "Fined $77,000",
+      "explanation": "The retailer faced a fine of $77,000 for selling non-compliant PAB parts, emphasizing the seriousness of such offenses."
+    },
+    {
+      "question": "What is one of the risks associated with modifications to PABs?",
+      "choices": [
+        "Fire hazards",
+        "Improved battery life",
+        "Decreased speed"
+      ],
+      "answer": "Fire hazards",
+      "explanation": "Modifications to PABs, like using non-original parts, can pose fire risks and lead to dangerous incidents."
+    },
+    {
+      "question": "What should consumers do to ensure safety when purchasing secondhand PABs or parts?",
+      "choices": [
+        "Check for defects",
+        "Ignore warnings",
+        "Buy from unknown sources"
+      ],
+      "answer": "Check for defects",
+      "explanation": "Consumers are advised to check for defects when buying secondhand PABs or parts to avoid safety risks associated with non-compliant devices."
+    }
+  ]
+}

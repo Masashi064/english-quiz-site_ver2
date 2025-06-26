@@ -36,57 +36,57 @@
     "death"
   ],
   "introduction": "The war against drugs has been a terrible disaster for everybody involved. Why? And can we do someth",
-  "lead_intro": "The War on Drugs has been a controversial topic for decades, with significant unintended consequences. Let's explore why this approach has failed and what alternative strategies could be more effective.",
+  "lead_intro": "The War on Drugs has had devastating consequences and unintended outcomes. Learn about its failures and alternative approaches in this thought-provoking video.",
   "quiz": [
     {
       "question": "What is the core strategy of the War on Drugs?",
       "choices": [
-        "eradicating demand for drugs",
-        "incarcerating drug traffickers",
-        "providing free drugs to addicts"
+        "eradicating the demand for drugs",
+        "eradicating the supply of drugs",
+        "legalizing all drugs"
       ],
-      "answer": "incarcerating drug traffickers",
-      "explanation": "The core strategy of the War on Drugs has been focused on eradicating the supply of drugs and incarcerating drug traffickers."
+      "answer": "eradicating the supply of drugs",
+      "explanation": "The core strategy of the War on Drugs is focused on eradicating the supply of drugs, rather than addressing the demand."
     },
     {
-      "question": "What market force is ignored by the strategy of eradicating the drug supply?",
+      "question": "What is the unintended consequence of reducing the supply of drugs without reducing the demand first?",
       "choices": [
-        "demand and supply",
-        "price and demand",
-        "supply and competition"
+        "increase in drug sales",
+        "reduction in drug availability",
+        "decrease in drug potency"
       ],
-      "answer": "supply and demand",
-      "explanation": "Eradicating the drug supply without reducing the demand first ignores the fundamental market forces of supply and demand."
+      "answer": "increase in drug sales",
+      "explanation": "Reducing the supply of drugs without addressing the demand leads to an increase in drug sales, encouraging more production and trafficking."
     },
     {
-      "question": "What unintended consequence arose from the US Government's attempt to stop crystal meth production?",
+      "question": "What was the unintended consequence of strictly regulating the sale of chemicals used to produce crystal meth?",
       "choices": [
-        "increased potency of crystal meth",
-        "decreased availability of crystal meth",
-        "lower production costs for crystal meth"
+        "reduction in meth production",
+        "increase in meth quality",
+        "decrease in meth availability"
       ],
-      "answer": "increased potency of crystal meth",
-      "explanation": "The US Government's attempt to stop crystal meth production led to unintended consequences such as increased potency of the drug."
+      "answer": "increase in meth quality",
+      "explanation": "Strictly regulating chemicals for crystal meth production led to an increase in meth quality and the emergence of more professional meth production."
     },
     {
-      "question": "What strategy did Switzerland adopt to address heroin addiction?",
+      "question": "How did the prohibition of drugs contribute to increased violence according to the video?",
       "choices": [
-        "incarceration of addicts",
-        "harm reduction approach",
-        "increased law enforcement efforts"
+        "access to legal system for cartels",
+        "settlement of disputes through violence",
+        "reduction in gang conflicts"
       ],
-      "answer": "harm reduction approach",
-      "explanation": "Switzerland adopted a harm reduction approach by providing free heroin maintenance centers, clean needles, and medical supervision to address heroin addiction."
+      "answer": "settlement of disputes through violence",
+      "explanation": "Prohibition of drugs prevents cartels from accessing legal systems, leading to settling disputes through violence, escalating conflicts."
     },
     {
-      "question": "What was a significant outcome of Switzerland's harm reduction strategy for heroin addicts?",
+      "question": "What approach did Switzerland adopt to address the heroin crisis in the 1980s?",
       "choices": [
-        "increase in drug-related crime",
-        "decrease in HIV infections",
-        "rise in drug-related street work"
+        "heroin criminalization",
+        "harm reduction",
+        "increased incarceration"
       ],
-      "answer": "decrease in HIV infections",
-      "explanation": "Switzerland's harm reduction strategy led to a drastic decrease in HIV infections among heroin addicts."
+      "answer": "harm reduction",
+      "explanation": "Switzerland implemented harm reduction strategies including free heroin maintenance centers to address the heroin crisis, leading to significant positive outcomes."
     }
   ]
 }
