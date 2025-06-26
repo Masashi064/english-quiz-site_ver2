@@ -34,7 +34,7 @@ export default function ArticleList({ slugs }: { slugs: string[] }) {
   const [search, setSearch] = useState('')
   const [sortKey, setSortKey] = useState<'duration' | 'published_at' | 'published_date'>('published_date')
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc')
-  const [completionFilter, setCompletionFilter] = useState<'all' | 'completed' | 'uncompleted'>('uncompleted')
+  const [completionFilter, setCompletionFilter] = useState<'all' | 'completed' | 'uncompleted'>('all')
   const [completedSlugs, setCompletedSlugs] = useState<string[]>([])
   const [categoryCounts, setCategoryCounts] = useState<Record<string, number>>({})
   const [levelCounts, setLevelCounts] = useState<Record<string, number>>({})
@@ -271,8 +271,8 @@ useEffect(() => {
           }}
           className="h-10 px-3 border rounded text-sm bg-white text-black dark:bg-gray-800 dark:text-white dark:border-gray-600 focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-300 appearance-none"
         >
-          <option value="all">All Status ({articles.length})</option>
-          <option value="uncompleted">Not attempted ({uncompletedCount})</option>
+          <option value="all">All Quizzes ({articles.length})</option>
+          <option value="uncompleted">Yet to try ({uncompletedCount})</option>
           <option value="completed">Completed ({completedCount})</option>
         </select>
 
@@ -322,10 +322,11 @@ useEffect(() => {
             setSortKey('published_date')
             setSortOrder('desc')
           }}
-          className="h-10 px-4 rounded text-sm bg-gray-200 text-black dark:bg-gray-700 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600"
+          className="h-10 px-4 rounded text-sm bg-gray-300 text-gray-900 dark:bg-gray-600 dark:text-white hover:bg-gray-400 dark:hover:bg-gray-500"
         >
           Reset Filters
         </button>
+
 
 
       </div>

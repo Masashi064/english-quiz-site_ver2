@@ -93,7 +93,7 @@ function ArticleList({ slugs }) {
     const [search, setSearch] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [sortKey, setSortKey] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('published_date');
     const [sortOrder, setSortOrder] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('desc');
-    const [completionFilter, setCompletionFilter] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('uncompleted');
+    const [completionFilter, setCompletionFilter] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('all');
     const [completedSlugs, setCompletedSlugs] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [categoryCounts, setCategoryCounts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({});
     const [levelCounts, setLevelCounts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({});
@@ -369,7 +369,7 @@ function ArticleList({ slugs }) {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                 value: "all",
                                 children: [
-                                    "All Status (",
+                                    "All Quizzes (",
                                     articles.length,
                                     ")"
                                 ]
@@ -381,7 +381,7 @@ function ArticleList({ slugs }) {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                 value: "uncompleted",
                                 children: [
-                                    "Not attempted (",
+                                    "Yet to try (",
                                     uncompletedCount,
                                     ")"
                                 ]
@@ -499,7 +499,7 @@ function ArticleList({ slugs }) {
                             setSortKey('published_date');
                             setSortOrder('desc');
                         },
-                        className: "h-10 px-4 rounded text-sm bg-gray-200 text-black dark:bg-gray-700 dark:text-white hover:bg-gray-300 dark:hover:bg-gray-600",
+                        className: "h-10 px-4 rounded text-sm bg-gray-300 text-gray-900 dark:bg-gray-600 dark:text-white hover:bg-gray-400 dark:hover:bg-gray-500",
                         children: "Reset Filters"
                     }, void 0, false, {
                         fileName: "[project]/components/ArticleList.tsx",
@@ -532,12 +532,12 @@ function ArticleList({ slugs }) {
                                     className: "object-cover"
                                 }, void 0, false, {
                                     fileName: "[project]/components/ArticleList.tsx",
-                                    lineNumber: 348,
+                                    lineNumber: 349,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/ArticleList.tsx",
-                                lineNumber: 347,
+                                lineNumber: 348,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -548,7 +548,7 @@ function ArticleList({ slugs }) {
                                         children: a.movie_title
                                     }, void 0, false, {
                                         fileName: "[project]/components/ArticleList.tsx",
-                                        lineNumber: 358,
+                                        lineNumber: 359,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -559,7 +559,7 @@ function ArticleList({ slugs }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ArticleList.tsx",
-                                        lineNumber: 359,
+                                        lineNumber: 360,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -576,7 +576,7 @@ function ArticleList({ slugs }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/ArticleList.tsx",
-                                        lineNumber: 360,
+                                        lineNumber: 361,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -584,25 +584,25 @@ function ArticleList({ slugs }) {
                                         children: "▶ Read article"
                                     }, void 0, false, {
                                         fileName: "[project]/components/ArticleList.tsx",
-                                        lineNumber: 363,
+                                        lineNumber: 364,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/ArticleList.tsx",
-                                lineNumber: 357,
+                                lineNumber: 358,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, a.slug, true, {
                         fileName: "[project]/components/ArticleList.tsx",
-                        lineNumber: 342,
+                        lineNumber: 343,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/components/ArticleList.tsx",
-                lineNumber: 333,
+                lineNumber: 334,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -610,7 +610,7 @@ function ArticleList({ slugs }) {
                 children: renderPagination()
             }, void 0, false, {
                 fileName: "[project]/components/ArticleList.tsx",
-                lineNumber: 371,
+                lineNumber: 372,
                 columnNumber: 7
             }, this)
         ]
@@ -620,7 +620,7 @@ function ArticleList({ slugs }) {
         columnNumber: 5
     }, this);
 }
-_s(ArticleList, "KBgO1RSkPjYCj9DLrqW3zC9KQos=", false, function() {
+_s(ArticleList, "VJ3OPFYxc6ihMXRurI37QZVw1V8=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$useAuth$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAuth"]
     ];
