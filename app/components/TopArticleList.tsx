@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import FilterSidebar from '../components/FilterSidebar'
+import { FaFilter } from 'react-icons/fa';
 
 type Article = {
   slug: string
@@ -42,6 +43,7 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
   const [level, setLevel] = useState('all')
   const [completion, setCompletion] = useState('all')
   const [drawerOpen, setDrawerOpen] = useState(false)
+  const handleDrawerToggle = () => setDrawerOpen((prev) => !prev)
 
   const allCategories = Array.from(new Set(articles.map((a) => a.assigned_category).filter(Boolean))) as string[]
   const allChannels = Array.from(new Set(articles.map((a) => a.channel_name)))
@@ -127,13 +129,11 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
 
       {/* Mobile fixed FAB-style drawer open button */}
       <button
-        className={`fixed bottom-6 right-4 z-50 bg-blue-600 text-white w-12 h-12 rounded-full shadow-md md:hidden transition-opacity ${
-          drawerOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
-        }`}
-        onClick={() => setDrawerOpen(true)}
+        onClick={handleDrawerToggle}
+        className="fixed bottom-6 right-6 z-40 bg-blue-600 text-white p-4 rounded-full shadow-lg md:hidden"
         aria-label="Open filter drawer"
       >
-        &gt;
+        <FaFilter size={24} />
       </button>
 
       <section className="flex-1 px-4 py-6">
