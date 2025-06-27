@@ -1,9 +1,12 @@
 'use client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import FilterSidebar from '../components/FilterSidebar'
-import { FaFilter } from 'react-icons/fa';
+import { FaFilter } from 'react-icons/fa'
+import { getAuth } from 'firebase/auth'
+import { getFirestore, collection, getDocs } from 'firebase/firestore'
+import { app } from '../../lib/firebase'
 
 type Article = {
   slug: string
@@ -43,22 +46,54 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
   const [level, setLevel] = useState('all')
   const [completion, setCompletion] = useState('all')
   const [drawerOpen, setDrawerOpen] = useState(false)
+  const [completedSlugs, setCompletedSlugs] = useState<string[]>([])
+  const [loadedCompletion, setLoadedCompletion] = useState(false)
+
   const handleDrawerToggle = () => setDrawerOpen((prev) => !prev)
+
+  // ✅ completion フィルターが変更されたら、初回のみ Firebase データを取得
+  useEffect(() => {
+    if (!loadedCompletion && completion !== 'all') {
+      const fetchCompleted = async () => {
+        const auth = getAuth(app)
+        const user = auth.currentUser
+        if (!user) return
+
+        const db = getFirestore(app)
+        const ref = collection(db, 'users', user.uid, 'quizResults')
+        const snapshot = await getDocs(ref)
+
+        const slugs = snapshot.docs
+          .filter(doc => doc.data().score > 0)
+          .map(doc => doc.id)
+
+        setCompletedSlugs(slugs)
+        setLoadedCompletion(true)
+      }
+
+      fetchCompleted()
+    }
+  }, [completion, loadedCompletion])
 
   const allCategories = Array.from(new Set(articles.map((a) => a.assigned_category).filter(Boolean))) as string[]
   const allChannels = Array.from(new Set(articles.map((a) => a.channel_name)))
 
-  const filtered = articles.filter((a) => {
-    const matchCategory = category === 'all' || a.assigned_category === category
-    const matchLevel = level === 'all' || a.assigned_level === level
-    const matchChannel = channel === 'all' || a.channel_name === channel
-    const matchCompletion =
-      completion === 'all' ||
-      (completion === 'completed' && a.completed) ||
-      (completion === 'uncompleted' && !a.completed)
+  const filtered = articles
+    .map((a) => ({
+      ...a,
+      completed: completedSlugs.includes(a.slug),
+    }))
+    .filter((a) => {
+      const matchCategory = category === 'all' || a.assigned_category === category
+      const matchLevel = level === 'all' || a.assigned_level === level
+      const matchChannel = channel === 'all' || a.channel_name === channel
+      const matchCompletion =
+        completion === 'all' ||
+        (completion === 'completed' && a.completed) ||
+        (completion === 'uncompleted' && !a.completed)
 
-    return matchCategory && matchLevel && matchChannel && matchCompletion
-  })
+      return matchCategory && matchLevel && matchChannel && matchCompletion
+    })
 
   const sorted = [...filtered].sort((a, b) => {
     const aDate = new Date(a.published_date || a.published_at).getTime()
@@ -84,31 +119,14 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
         />
       </aside>
 
-      {/* Mobile Drawer Overlay + Sidebar */}
+      {/* Mobile Drawer */}
       {drawerOpen && (
         <div className="fixed inset-0 z-50">
-          {/* オーバーレイ（クリックで閉じる） */}
+          <div className="absolute inset-0 bg-black/50" onClick={() => setDrawerOpen(false)} />
           <div
-            className="absolute inset-0 bg-black/50"
-            onClick={() => setDrawerOpen(false)}
-          />
-
-          {/* ドロワー本体（クリックイベントがオーバーレイに伝播しないように） */}
-          <div
-            id="mobile-drawer"
             className="absolute top-0 left-0 w-64 h-full bg-white dark:bg-gray-900 p-4 overflow-y-auto"
-            onClick={(e) => e.stopPropagation()} // ← ここで stopPropagation
+            onClick={(e) => e.stopPropagation()}
           >
-            <button
-              className="mb-4 text-sm"
-              onClick={(e) => {
-                e.stopPropagation() // ✖でもオーバーレイクリック扱いされないように
-                setDrawerOpen(false)
-              }}
-            >
-              ✕ Close
-            </button>
-
             <FilterSidebar
               category={category}
               setCategory={setCategory}
@@ -125,9 +143,7 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
         </div>
       )}
 
-
-
-      {/* Mobile fixed FAB-style drawer open button */}
+      {/* Mobile Filter Button */}
       <button
         onClick={handleDrawerToggle}
         className="fixed bottom-6 right-6 z-40 bg-blue-600 text-white p-4 rounded-full shadow-lg md:hidden"
