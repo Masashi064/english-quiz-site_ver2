@@ -7,6 +7,7 @@ import { FaFilter } from 'react-icons/fa'
 import { getAuth } from 'firebase/auth'
 import { getFirestore, collection, getDocs } from 'firebase/firestore'
 import { app } from '../../lib/firebase'
+import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
 
 type Article = {
   slug: string
@@ -74,6 +75,7 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
       fetchCompleted()
     }
   }, [completion, loadedCompletion])
+  
 
   const allCategories = Array.from(new Set(articles.map((a) => a.assigned_category).filter(Boolean))) as string[]
   const allChannels = Array.from(new Set(articles.map((a) => a.channel_name)))

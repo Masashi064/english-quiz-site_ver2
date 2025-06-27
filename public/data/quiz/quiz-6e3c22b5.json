@@ -1,0 +1,96 @@
+{
+  "slug": "6e3c22b5",
+  "video_id": "3-icphihD6Y",
+  "movie_title": "Could you give up fast fashion? 6 Minute English",
+  "movie_url": "https://youtu.be/3-icphihD6Y",
+  "published_at": "2020-02-20T12:00:00Z",
+  "duration": "PT6M33S",
+  "tags": [
+    "english videos",
+    "BBC",
+    "learn English",
+    "how to speak English",
+    "English speaking",
+    "English vocabulary",
+    "speak English",
+    "elt",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "Ingilizce ders",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "tefl",
+    "clothes",
+    "fast fashion",
+    "environment",
+    "landfill",
+    "6 minute english",
+    "consumist",
+    "recycle"
+  ],
+  "introduction": "Lots of people are planning to buy no new clothes this year, favouring second-hand or making do with",
+  "lead_intro": "Are you aware of the impact of fast fashion on the environment? Let's test your knowledge with a quiz based on a BBC Learning English video discussion!",
+  "quiz": [
+    {
+      "question": "According to the Enviro Audit Committee, how many items of clothing were sent to landfill in the UK in 2017?",
+      "choices": [
+        "23 million items",
+        "234 million items",
+        "2.3 billion items"
+      ],
+      "answer": "234 million items",
+      "explanation": "The correct answer is 234 million items, as reported by the Enviro Audit Committee."
+    },
+    {
+      "question": "What does the expression 'chasing the cheapest needle' refer to in the fashion industry?",
+      "choices": [
+        "Looking for the most expensive clothes",
+        "Constantly trying to find cheaper production options",
+        "Creating unique and expensive designs"
+      ],
+      "answer": "Constantly trying to find cheaper production options",
+      "explanation": "In the fashion industry, 'chasing the cheapest needle' means always looking for cheaper production options to undercut competitors."
+    },
+    {
+      "question": "What does Lauren Bravo attribute to the pressure of not being seen in the same outfit twice?",
+      "choices": [
+        "Celebrities",
+        "Social media",
+        "Fashion magazines"
+      ],
+      "answer": "Social media",
+      "explanation": "Lauren Bravo attributes the pressure of not being seen in the same outfit twice to the influence of social media."
+    },
+    {
+      "question": "What does the term 'outsourced' mean in the context of fashion production?",
+      "choices": [
+        "In-house production",
+        "Given to another company to do",
+        "High-quality production"
+      ],
+      "answer": "Given to another company to do",
+      "explanation": "'Outsourced' in fashion production context means giving work to another company to do, often because it can be done cheaper."
+    },
+    {
+      "question": "What does the term 'backlash' refer to in the discussion about fast fashion?",
+      "choices": [
+        "Strong positive reaction",
+        "Lack of reaction",
+        "Strong negative reaction"
+      ],
+      "answer": "Strong negative reaction",
+      "explanation": "'Backlash' in the context of fast fashion refers to a strong negative reaction to what is happening in the industry."
+    }
+  ]
+}

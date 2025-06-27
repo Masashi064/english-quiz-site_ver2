@@ -1,0 +1,63 @@
+{
+  "slug": "6be7e275",
+  "video_id": "jdxs5JefHwk",
+  "movie_title": "Important for world to coordinate efforts to tackle health crises: Vivian Balakrishnan",
+  "movie_url": "https://youtu.be/jdxs5JefHwk",
+  "published_at": "2025-02-11T16:01:28Z",
+  "duration": "PT6M33S",
+  "tags": [],
+  "introduction": "Foreign Affairs Minister Vivian Balakrishnan says that it is important to coordinate global efforts",
+  "lead_intro": "Learn about global efforts to tackle healthcare crises and the importance of coordination in this informative video.",
+  "quiz": [
+    {
+      "question": "What warning signs does Professor Pangestu watch out for in terms of new infectious diseases?",
+      "choices": [
+        "mutations in a particular virus",
+        "bacterial outbreaks in the US",
+        "spread of misinformation"
+      ],
+      "answer": "mutations in a particular virus",
+      "explanation": "Professor Pangestu mentions watching out for mutations in viruses and when a virus comes from an animal not previously known to carry it."
+    },
+    {
+      "question": "According to Professor Pangestu, what type of virus would most public health experts put their money on causing the next pandemic?",
+      "choices": [
+        "flu virus",
+        "SARS-CoV-2 variant",
+        "Zika virus"
+      ],
+      "answer": "flu virus",
+      "explanation": "Professor Pangestu explains that due to its rapid spread, mutation capability, and wide distribution among animals, a flu virus is likely to cause the next pandemic."
+    },
+    {
+      "question": "What did Professor Pangestu highlight as the most important factor needed to face global health challenges?",
+      "choices": [
+        "vaccination coverage",
+        "political will",
+        "social media campaigns"
+      ],
+      "answer": "political will",
+      "explanation": "Professor Pangestu emphasizes the importance of global solidarity, international cooperation, political will, and sufficient resources to tackle healthcare challenges effectively."
+    },
+    {
+      "question": "What impact did misinformation have on the COVID-19 vaccination efforts mentioned in the video?",
+      "choices": [
+        "increased vaccination rates",
+        "decreased trust in vaccines",
+        "improved access to healthcare"
+      ],
+      "answer": "decreased trust in vaccines",
+      "explanation": "Misinformation, such as fake news about vaccines, led to hesitancy among people to get vaccinated, impacting the vaccination coverage negatively."
+    },
+    {
+      "question": "What did Professor Pangestu stress should be done regarding planning for the next pandemic?",
+      "choices": [
+        "delay planning until necessary",
+        "plan ahead during quiet periods",
+        "rely solely on international aid"
+      ],
+      "answer": "plan ahead during quiet periods",
+      "explanation": "Professor Pangestu emphasizes the need to plan for the next pandemic during quiet periods rather than delaying it, stressing the importance of preparedness."
+    }
+  ]
+}
