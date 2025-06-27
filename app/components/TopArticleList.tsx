@@ -54,7 +54,7 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
                 alt={a.movie_title}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                priority={index < 4}
+                priority={index === 0}
                 className="object-cover"
               />
             </div>
