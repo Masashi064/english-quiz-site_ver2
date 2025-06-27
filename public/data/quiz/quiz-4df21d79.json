@@ -1,0 +1,95 @@
+{
+  "slug": "4df21d79",
+  "video_id": "UEH3oRSgVXQ",
+  "movie_title": "Can you stop a disaster? ⏲️ 6 Minute English",
+  "movie_url": "https://youtu.be/UEH3oRSgVXQ",
+  "published_at": "2023-08-03T14:00:29Z",
+  "duration": "PT6M22S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "bbc",
+    "bbc learning english",
+    "English class",
+    "6 minute",
+    "English speaking practice",
+    "English words",
+    "English podcast",
+    "podcast English"
+  ],
+  "introduction": "Natural disasters can cause death and destruction. Should we just accept them, or is there any way w",
+  "lead_intro": "Join us as we explore the topic of natural disasters and how people can work together to minimize their impact. Let's test your knowledge with some quiz questions!",
+  "quiz": [
+    {
+      "question": "According to the video, which natural disaster is most responsible for human deaths?",
+      "choices": [
+        "floods",
+        "droughts",
+        "earthquakes"
+      ],
+      "answer": "earthquakes",
+      "explanation": "The video mentions that earthquakes are the most responsible for human deaths."
+    },
+    {
+      "question": "What is fatalism according to Professor Easthope in the video?",
+      "choices": [
+        "belief in controlling natural events",
+        "belief in the power to change events",
+        "belief in powerlessness to change events"
+      ],
+      "answer": "belief in powerlessness to change events",
+      "explanation": "Fatalism, as described by Professor Easthope, is the belief that people are powerless to change events."
+    },
+    {
+      "question": "What does 'within your grasp' mean as mentioned in the video?",
+      "choices": [
+        "impossible to achieve",
+        "very likely to achieve",
+        "uncertain to achieve"
+      ],
+      "answer": "very likely to achieve",
+      "explanation": "If something is within your grasp, it is very likely that you will achieve it, as explained in the video."
+    },
+    {
+      "question": "What is a megaphone used for in the context of the video?",
+      "choices": [
+        "amplifying music",
+        "shouting warnings",
+        "sending text messages"
+      ],
+      "answer": "shouting warnings",
+      "explanation": "A megaphone, a handheld cone-shaped device, is used for shouting warnings about approaching cyclones, as mentioned in the video."
+    },
+    {
+      "question": "What does the term 'evacuation' mean according to the video?",
+      "choices": [
+        "building shelters",
+        "returning home after a disaster",
+        "moving people to safety"
+      ],
+      "answer": "moving people to safety",
+      "explanation": "Evacuation means moving people from a dangerous place to somewhere safe, as explained in the video."
+    }
+  ]
+}

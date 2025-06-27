@@ -1,0 +1,91 @@
+{
+  "slug": "e525011a",
+  "video_id": "Z51Q29u4CWc",
+  "movie_title": "United against food waste - 6 Minute English",
+  "movie_url": "https://youtu.be/Z51Q29u4CWc",
+  "published_at": "2022-12-29T16:01:27Z",
+  "duration": "PT6M22S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "bbc",
+    "bbc learning english",
+    "English class",
+    "6 minute"
+  ],
+  "introduction": "According to the UN, one third of the food we grow ends up in the rubbish bin. In this programme, we",
+  "lead_intro": "Join us in exploring the issue of food waste and how it can be minimized. Test your knowledge with these quiz questions!",
+  "quiz": [
+    {
+      "question": "Which food can be grown in Britain throughout the year?",
+      "choices": [
+        "strawberries",
+        "kale",
+        "rhubarb"
+      ],
+      "answer": "kale",
+      "explanation": "Kale is the correct answer as it can be grown in Britain throughout the year, unlike strawberries and rhubarb which have specific growing seasons."
+    },
+    {
+      "question": "What is a middleman in the context of food sales?",
+      "choices": [
+        "someone who grows food",
+        "someone who buys directly from farmers and sells for profit",
+        "a supermarket manager"
+      ],
+      "answer": "someone who buys directly from farmers and sells for profit",
+      "explanation": "A middleman buys produce directly from the producer, such as a farmer, and then sells it on to customers for a profit."
+    },
+    {
+      "question": "Why do supermarkets set cautious use-by dates?",
+      "choices": [
+        "to save money",
+        "to protect consumers from food poisoning",
+        "to promote local food"
+      ],
+      "answer": "to protect consumers from food poisoning",
+      "explanation": "Supermarkets set cautious use-by dates to ensure consumer safety from potential food poisoning, even though it may lead to more food being discarded."
+    },
+    {
+      "question": "What does the phrase 'eat local, eat seasonal' encourage?",
+      "choices": [
+        "buying imported food",
+        "buying food grown in your area at that time of year",
+        "eating fast food"
+      ],
+      "answer": "buying food grown in your area at that time of year",
+      "explanation": "The slogan 'eat local, eat seasonal' encourages people to buy and eat food which has been grown in their local area during the current season."
+    },
+    {
+      "question": "What does the term 'worst-case scenario' refer to?",
+      "choices": [
+        "the best possible outcome",
+        "the most serious or unpleasant situation",
+        "a common occurrence"
+      ],
+      "answer": "the most serious or unpleasant situation",
+      "explanation": "The worst-case scenario describes the most serious or unpleasant thing that could happen in a given situation, often used in planning and decision-making."
+    }
+  ]
+}
