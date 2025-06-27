@@ -1,3 +1,5 @@
+'use client'
+
 type Props = {
   category: string;
   setCategory: (v: string) => void;
@@ -32,6 +34,18 @@ export default function FilterSidebar({
 
   return (
     <div className="space-y-4 p-4 text-sm text-black dark:text-white">
+      <div className="flex justify-between items-center mb-2 md:hidden">
+        <span className="text-base font-semibold">Filters</span>
+        <button
+          onClick={() => {
+            const drawer = document.querySelector('#mobile-drawer')
+            if (drawer) drawer.classList.add('hidden')
+          }}
+          className="text-xl font-bold px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700"
+        >
+          ✕
+        </button>
+      </div>
       <div>
         <label className="block font-semibold mb-1">Channel</label>
         <select className="w-full bg-white dark:bg-gray-800 border dark:border-gray-600 text-black dark:text-white" value={channel} onChange={e => setChannel(e.target.value)}>

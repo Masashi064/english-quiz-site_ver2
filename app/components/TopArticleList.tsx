@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -83,20 +82,31 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
         />
       </aside>
 
-      {/* Mobile drawer trigger */}
-      <div className="md:hidden fixed top-4 left-4 z-50">
-        <button onClick={() => setDrawerOpen(true)} className="px-3 py-2 rounded bg-blue-600 text-white shadow">
-          ☰ Filter
-        </button>
-      </div>
-
-      {/* Mobile drawer */}
+      {/* Mobile Drawer Overlay + Sidebar */}
       {drawerOpen && (
-        <div className="fixed inset-0 bg-black/50 z-40">
-          <div className="fixed top-0 left-0 w-64 h-full bg-white dark:bg-gray-900 z-50 p-4 overflow-y-auto">
-            <button className="mb-4 text-sm" onClick={() => setDrawerOpen(false)}>
+        <div className="fixed inset-0 z-50">
+          {/* オーバーレイ（クリックで閉じる） */}
+          <div
+            className="absolute inset-0 bg-black/50"
+            onClick={() => setDrawerOpen(false)}
+          />
+
+          {/* ドロワー本体（クリックイベントがオーバーレイに伝播しないように） */}
+          <div
+            id="mobile-drawer"
+            className="absolute top-0 left-0 w-64 h-full bg-white dark:bg-gray-900 p-4 overflow-y-auto"
+            onClick={(e) => e.stopPropagation()} // ← ここで stopPropagation
+          >
+            <button
+              className="mb-4 text-sm"
+              onClick={(e) => {
+                e.stopPropagation() // ✖でもオーバーレイクリック扱いされないように
+                setDrawerOpen(false)
+              }}
+            >
               ✕ Close
             </button>
+
             <FilterSidebar
               category={category}
               setCategory={setCategory}
@@ -112,6 +122,19 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
           </div>
         </div>
       )}
+
+
+
+      {/* Mobile fixed FAB-style drawer open button */}
+      <button
+        className={`fixed bottom-6 right-4 z-50 bg-blue-600 text-white w-12 h-12 rounded-full shadow-md md:hidden transition-opacity ${
+          drawerOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
+        }`}
+        onClick={() => setDrawerOpen(true)}
+        aria-label="Open filter drawer"
+      >
+        &gt;
+      </button>
 
       <section className="flex-1 px-4 py-6">
         <h1 className="text-2xl font-bold mb-6">📅 Newest Articles First</h1>

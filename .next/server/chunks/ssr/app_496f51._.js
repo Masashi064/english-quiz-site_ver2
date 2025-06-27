@@ -9,6 +9,7 @@ __turbopack_esm__({
     "default": (()=>FilterSidebar)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+'use client';
 ;
 function FilterSidebar({ category, setCategory, channel, setChannel, level, setLevel, completion, setCompletion, allCategories, allChannels }) {
     const resetFilters = ()=>{
@@ -21,13 +22,42 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
         className: "space-y-4 p-4 text-sm text-black dark:text-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex justify-between items-center mb-2 md:hidden",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "text-base font-semibold",
+                        children: "Filters"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/FilterSidebar.tsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: ()=>{
+                            const drawer = document.querySelector('#mobile-drawer');
+                            if (drawer) drawer.classList.add('hidden');
+                        },
+                        className: "text-xl font-bold px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700",
+                        children: "✕"
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/FilterSidebar.tsx",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/FilterSidebar.tsx",
+                lineNumber: 37,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                         className: "block font-semibold mb-1",
                         children: "Channel"
                     }, void 0, false, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 36,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -40,7 +70,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "All Channels"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 38,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this),
                             allChannels.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -48,19 +78,19 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                     children: c
                                 }, c, false, {
                                     fileName: "[project]/app/components/FilterSidebar.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 37,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                lineNumber: 35,
+                lineNumber: 49,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -70,7 +100,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                         children: "Category"
                     }, void 0, false, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 45,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -83,7 +113,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "All Categories"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 47,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this),
                             allCategories.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -91,19 +121,19 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                     children: c
                                 }, c, false, {
                                     fileName: "[project]/app/components/FilterSidebar.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 46,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                lineNumber: 44,
+                lineNumber: 58,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -113,7 +143,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                         children: "Level"
                     }, void 0, false, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 54,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -126,7 +156,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "All Levels"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 56,
+                                lineNumber: 70,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -134,7 +164,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "Beginner"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 57,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -142,7 +172,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "Intermediate"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 58,
+                                lineNumber: 72,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -150,19 +180,19 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "Advanced"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 59,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 55,
+                        lineNumber: 69,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                lineNumber: 53,
+                lineNumber: 67,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -172,7 +202,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                         children: "Completion"
                     }, void 0, false, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 63,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -185,7 +215,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "All Quizzes"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 65,
+                                lineNumber: 79,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -193,7 +223,7 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "Completed"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 66,
+                                lineNumber: 80,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -201,19 +231,19 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                                 children: "Yet to try"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                                lineNumber: 67,
+                                lineNumber: 81,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/FilterSidebar.tsx",
-                        lineNumber: 64,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                lineNumber: 62,
+                lineNumber: 76,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -222,13 +252,13 @@ function FilterSidebar({ category, setCategory, channel, setChannel, level, setL
                 children: "Reset Filters"
             }, void 0, false, {
                 fileName: "[project]/app/components/FilterSidebar.tsx",
-                lineNumber: 71,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/FilterSidebar.tsx",
-        lineNumber: 34,
+        lineNumber: 36,
         columnNumber: 5
     }, this);
 }
@@ -307,70 +337,80 @@ function TopArticleList({ articles }) {
                     allChannels: allChannels
                 }, void 0, false, {
                     fileName: "[project]/app/components/TopArticleList.tsx",
-                    lineNumber: 72,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 71,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "md:hidden fixed top-4 left-4 z-50",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    onClick: ()=>setDrawerOpen(true),
-                    className: "px-3 py-2 rounded bg-blue-600 text-white shadow",
-                    children: "☰ Filter"
-                }, void 0, false, {
-                    fileName: "[project]/app/components/TopArticleList.tsx",
-                    lineNumber: 88,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 87,
+                lineNumber: 70,
                 columnNumber: 7
             }, this),
             drawerOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed inset-0 bg-black/50 z-40",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "fixed top-0 left-0 w-64 h-full bg-white dark:bg-gray-900 z-50 p-4 overflow-y-auto",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "mb-4 text-sm",
-                            onClick: ()=>setDrawerOpen(false),
-                            children: "✕ Close"
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/TopArticleList.tsx",
-                            lineNumber: 97,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$FilterSidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            category: category,
-                            setCategory: setCategory,
-                            channel: channel,
-                            setChannel: setChannel,
-                            level: level,
-                            setLevel: setLevel,
-                            completion: completion,
-                            setCompletion: setCompletion,
-                            allCategories: allCategories,
-                            allChannels: allChannels
-                        }, void 0, false, {
-                            fileName: "[project]/app/components/TopArticleList.tsx",
-                            lineNumber: 100,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/components/TopArticleList.tsx",
-                    lineNumber: 96,
-                    columnNumber: 11
-                }, this)
+                className: "fixed inset-0 z-50",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 bg-black/50",
+                        onClick: ()=>setDrawerOpen(false)
+                    }, void 0, false, {
+                        fileName: "[project]/app/components/TopArticleList.tsx",
+                        lineNumber: 89,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        id: "mobile-drawer",
+                        className: "absolute top-0 left-0 w-64 h-full bg-white dark:bg-gray-900 p-4 overflow-y-auto",
+                        onClick: (e)=>e.stopPropagation(),
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "mb-4 text-sm",
+                                onClick: (e)=>{
+                                    e.stopPropagation() // ✖でもオーバーレイクリック扱いされないように
+                                    ;
+                                    setDrawerOpen(false);
+                                },
+                                children: "✕ Close"
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/TopArticleList.tsx",
+                                lineNumber: 100,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$FilterSidebar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                category: category,
+                                setCategory: setCategory,
+                                channel: channel,
+                                setChannel: setChannel,
+                                level: level,
+                                setLevel: setLevel,
+                                completion: completion,
+                                setCompletion: setCompletion,
+                                allCategories: allCategories,
+                                allChannels: allChannels
+                            }, void 0, false, {
+                                fileName: "[project]/app/components/TopArticleList.tsx",
+                                lineNumber: 110,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/TopArticleList.tsx",
+                        lineNumber: 95,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/components/TopArticleList.tsx",
+                lineNumber: 87,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                className: `fixed bottom-6 right-4 z-50 bg-blue-600 text-white w-12 h-12 rounded-full shadow-md md:hidden transition-opacity ${drawerOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'}`,
+                onClick: ()=>setDrawerOpen(true),
+                "aria-label": "Open filter drawer",
+                children: ">"
             }, void 0, false, {
                 fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 95,
-                columnNumber: 9
+                lineNumber: 129,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "flex-1 px-4 py-6",
@@ -380,7 +420,7 @@ function TopArticleList({ articles }) {
                         children: "📅 Newest Articles First"
                     }, void 0, false, {
                         fileName: "[project]/app/components/TopArticleList.tsx",
-                        lineNumber: 117,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -400,12 +440,12 @@ function TopArticleList({ articles }) {
                                             className: "object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TopArticleList.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 149,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/TopArticleList.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 148,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -416,7 +456,7 @@ function TopArticleList({ articles }) {
                                                 children: a.movie_title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 136,
+                                                lineNumber: 159,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -427,7 +467,7 @@ function TopArticleList({ articles }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 160,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -440,7 +480,7 @@ function TopArticleList({ articles }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 161,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -448,36 +488,36 @@ function TopArticleList({ articles }) {
                                                 children: "▶ Read article"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 141,
+                                                lineNumber: 164,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/TopArticleList.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 158,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, a.slug, true, {
                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                lineNumber: 120,
+                                lineNumber: 143,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/components/TopArticleList.tsx",
-                        lineNumber: 118,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 116,
+                lineNumber: 139,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/TopArticleList.tsx",
-        lineNumber: 69,
+        lineNumber: 68,
         columnNumber: 5
     }, this);
 }
