@@ -1,0 +1,87 @@
+{
+  "slug": "fd4891b2",
+  "video_id": "Hja0SLs2kus",
+  "movie_title": "The amazing ways plants defend themselves - Valentin Hammoudi",
+  "movie_url": "https://youtu.be/Hja0SLs2kus",
+  "published_at": "2017-08-28T15:05:58Z",
+  "duration": "PT6M12S",
+  "tags": [
+    "TED",
+    "TED-Ed",
+    "TED Education",
+    "TED Ed",
+    "Valentin Hammoudi",
+    "Juan M. Urbina Studios",
+    "plants",
+    "plant defenses",
+    "tomato",
+    "aphid",
+    "immune system",
+    "lignin",
+    "leaves",
+    "cuticle",
+    "thorns",
+    "spines",
+    "trichome",
+    "nettles",
+    "histamine",
+    "raphides",
+    "microbes",
+    "insects",
+    "pathogens"
+  ],
+  "introduction": "Check out our Patreon page: https://www.patreon.com/teded\n\nView full lesson: https://ed.ted.com/less",
+  "lead_intro": "Plants have fascinating defense mechanisms against threats like insects and herbivores. Let's test your understanding of plant defenses!",
+  "quiz": [
+    {
+      "question": "What is the protective layer on leaves that deters insects and microbes?",
+      "choices": [
+        "Waxy cuticle",
+        "Thorns",
+        "Trichomes"
+      ],
+      "answer": "Waxy cuticle",
+      "explanation": "The waxy cuticle on leaves deters insects and microbes from attacking the plant."
+    },
+    {
+      "question": "Which plant species releases histamine and other toxins to cause pain and inflammation when touched?",
+      "choices": [
+        "Stinging nettles",
+        "Spinach",
+        "Kiwi fruit"
+      ],
+      "answer": "Stinging nettles",
+      "explanation": "Stinging nettles release histamine and other toxins that cause pain and inflammation upon contact."
+    },
+    {
+      "question": "What plant species sports tiny hooks to stab the feet of bed bugs and other insects?",
+      "choices": [
+        "Kidney bean plant",
+        "Mimosa plant",
+        "Cotton plant"
+      ],
+      "answer": "Kidney bean plant",
+      "explanation": "The kidney bean plant sports tiny hooks to stab the feet of bed bugs and other insects for defense."
+    },
+    {
+      "question": "Which plant has a strategy to scare insects away by shrinking its leaves?",
+      "choices": [
+        "Mimosa plant",
+        "Cotton plant",
+        "Tomato plant"
+      ],
+      "answer": "Mimosa plant",
+      "explanation": "The mimosa plant scares insects away by shrinking its leaves through a folding movement."
+    },
+    {
+      "question": "How do plants prevent more pathogens from entering after detecting invaders?",
+      "choices": [
+        "Thickening waxy cuticle",
+        "Releasing toxins",
+        "Increasing water intake"
+      ],
+      "answer": "Thickening waxy cuticle",
+      "explanation": "Plants thicken the waxy cuticle and strengthen cell walls to prevent more pathogens from entering."
+    }
+  ]
+}
