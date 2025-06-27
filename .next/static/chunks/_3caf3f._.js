@@ -342,12 +342,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                             category,
                             " / 🎯 ",
                             level,
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/components/QuizLayout.tsx",
-                                lineNumber: 107,
-                                columnNumber: 62
-                            }, this),
-                            "⏱ Duration: ",
+                            " / ⏱ Duration: ",
                             duration,
                             " / 📅 Published: ",
                             publishedAt ? new Date(publishedAt).toLocaleDateString() : 'N/A'
@@ -370,7 +365,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                         children: "🧠 Quiz"
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 113,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this),
                     quiz.map(_s1((q, i)=>{
@@ -407,7 +402,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 132,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -418,12 +413,12 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                             children: c
                                         }, j, false, {
                                             fileName: "[project]/components/QuizLayout.tsx",
-                                            lineNumber: 136,
+                                            lineNumber: 135,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 133,
                                     columnNumber: 15
                                 }, this),
                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -437,26 +432,26 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/QuizLayout.tsx",
-                                            lineNumber: 147,
+                                            lineNumber: 146,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: q.explanation
                                         }, void 0, false, {
                                             fileName: "[project]/components/QuizLayout.tsx",
-                                            lineNumber: 148,
+                                            lineNumber: 147,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 146,
+                                    lineNumber: 145,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/components/QuizLayout.tsx",
-                            lineNumber: 132,
+                            lineNumber: 131,
                             columnNumber: 13
                         }, this);
                     }, "2xykd+8WDpBHcgCPsXTywC8QIuk=")),
@@ -472,7 +467,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/QuizLayout.tsx",
-                                lineNumber: 156,
+                                lineNumber: 155,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -483,12 +478,12 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                     children: "👉 Try the next quiz!"
                                 }, void 0, false, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 159,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/QuizLayout.tsx",
-                                lineNumber: 159,
+                                lineNumber: 158,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -496,7 +491,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/QuizLayout.tsx",
-                lineNumber: 112,
+                lineNumber: 111,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -506,7 +501,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                         children: "📘 Vocabulary"
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 172,
+                        lineNumber: 171,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -515,12 +510,12 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                 item: v
                             }, i, false, {
                                 fileName: "[project]/components/QuizLayout.tsx",
-                                lineNumber: 177,
+                                lineNumber: 176,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 173,
+                        lineNumber: 172,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -531,18 +526,18 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                             children: "👉 Ready for another quiz?"
                         }, void 0, false, {
                             fileName: "[project]/components/QuizLayout.tsx",
-                            lineNumber: 181,
+                            lineNumber: 180,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 180,
+                        lineNumber: 179,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/QuizLayout.tsx",
-                lineNumber: 171,
+                lineNumber: 170,
                 columnNumber: 7
             }, this)
         ]

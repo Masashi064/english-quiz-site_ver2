@@ -104,8 +104,7 @@ export default function QuizLayout({
           ></iframe>
         </div>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          Channel: {channelName} / 📂 {category} / 🎯 {level}<br />
-          ⏱ Duration: {duration} / 📅 Published: {publishedAt ? new Date(publishedAt).toLocaleDateString() : 'N/A'}
+          Channel: {channelName} / 📂 {category} / 🎯 {level} / ⏱ Duration: {duration} / 📅 Published: {publishedAt ? new Date(publishedAt).toLocaleDateString() : 'N/A'}
         </p>
       </section>
 
