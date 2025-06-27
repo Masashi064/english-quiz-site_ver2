@@ -39,7 +39,7 @@ export default function SiteHeader() {
       {/* 第1ヘッダー */}
       <header className="flex justify-between items-center px-4 py-2 border-b border-gray-700">
         <div className="flex items-center gap-6">
-          <Link href="/" className="flex items-center">
+          <Link href="/top" className="flex items-center">
             <Image
               src="/img/logo-dark.png"
               alt="SABACAN"
@@ -80,8 +80,8 @@ export default function SiteHeader() {
       {/* ✅ 第2ヘッダー（案内バー） */}
       <div className="bg-blue-50 dark:bg-blue-900 text-sm py-2 border-b border-gray-300 dark:border-gray-700">
         <div className="max-w-6xl mx-auto flex justify-center gap-6 text-blue-700 dark:text-blue-200">
-          <Link href="/articles" className="hover:underline">
-            📰 Articles
+          <Link href="/top" className="hover:underline">
+            📰 Top
           </Link>
           <Link href="/word-review" className="hover:underline">
             🧠 Word Review Mode

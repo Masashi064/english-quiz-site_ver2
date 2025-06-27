@@ -69,7 +69,7 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
   return (
     <main className="flex max-w-7xl mx-auto">
       {/* PC sidebar */}
-      <aside className="hidden md:block w-64 border-r bg-gray-50 dark:bg-gray-800">
+      <aside className="hidden md:block w-64 border-r bg-gray-50 dark:bg-black">
         <FilterSidebar
           category={category}
           setCategory={setCategory}
