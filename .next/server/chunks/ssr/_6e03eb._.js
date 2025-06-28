@@ -265,6 +265,25 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
     };
     const score = answers.filter((a, i)=>a === quiz[i].answer).length;
     const allAnswered = answers.every((a)=>a !== null);
+    const [showFeedback, setShowFeedback] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [feedbackText, setFeedbackText] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
+    const submitFeedback = async ()=>{
+        if (!feedbackText.trim()) return;
+        const feedbackRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$node$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["collection"])(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$firebase$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["db"], user ? `users/${user.uid}/feedbacks` : `feedbacks/public`);
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$node$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["addDoc"])(feedbackRef, {
+            userId: user?.uid || 'anonymous',
+            slug,
+            videoId,
+            movieTitle,
+            feedback: feedbackText.trim(),
+            timestamp: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$node$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["serverTimestamp"])(),
+            userAgent: navigator.userAgent,
+            platform: navigator.platform
+        });
+        setFeedbackText('');
+        setShowFeedback(false);
+        alert('Thanks for your feedback!');
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "+ px-4 py-10 max-w-3xl mx-auto space-y-10 text-black dark:text-white bg-white dark:bg-black",
         children: [
@@ -273,7 +292,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                 children: movieTitle
             }, void 0, false, {
                 fileName: "[project]/components/QuizLayout.tsx",
-                lineNumber: 91,
+                lineNumber: 118,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -281,7 +300,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                 children: leadIntro
             }, void 0, false, {
                 fileName: "[project]/components/QuizLayout.tsx",
-                lineNumber: 92,
+                lineNumber: 119,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -291,7 +310,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                         children: "📺 Watch the Video"
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 95,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -305,12 +324,12 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                             allowFullScreen: true
                         }, void 0, false, {
                             fileName: "[project]/components/QuizLayout.tsx",
-                            lineNumber: 97,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 96,
+                        lineNumber: 123,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -329,13 +348,13 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 106,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/QuizLayout.tsx",
-                lineNumber: 94,
+                lineNumber: 121,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -345,7 +364,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                         children: "🧠 Quiz"
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 112,
+                        lineNumber: 139,
                         columnNumber: 9
                     }, this),
                     quiz.map((q, i)=>{
@@ -379,7 +398,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 132,
+                                    lineNumber: 159,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -390,12 +409,12 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                             children: c
                                         }, j, false, {
                                             fileName: "[project]/components/QuizLayout.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 162,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 160,
                                     columnNumber: 15
                                 }, this),
                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -409,26 +428,26 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/QuizLayout.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 173,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: q.explanation
                                         }, void 0, false, {
                                             fileName: "[project]/components/QuizLayout.tsx",
-                                            lineNumber: 147,
+                                            lineNumber: 174,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 145,
+                                    lineNumber: 172,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/components/QuizLayout.tsx",
-                            lineNumber: 131,
+                            lineNumber: 158,
                             columnNumber: 13
                         }, this);
                     }),
@@ -444,7 +463,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/QuizLayout.tsx",
-                                lineNumber: 155,
+                                lineNumber: 182,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -455,12 +474,12 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                     children: "👉 Try the next quiz!"
                                 }, void 0, false, {
                                     fileName: "[project]/components/QuizLayout.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 186,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/QuizLayout.tsx",
-                                lineNumber: 158,
+                                lineNumber: 185,
                                 columnNumber: 13
                             }, this)
                         ]
@@ -468,7 +487,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/QuizLayout.tsx",
-                lineNumber: 111,
+                lineNumber: 138,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -478,7 +497,7 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                         children: "📘 Vocabulary"
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 171,
+                        lineNumber: 198,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -487,12 +506,12 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                                 item: v
                             }, i, false, {
                                 fileName: "[project]/components/QuizLayout.tsx",
-                                lineNumber: 176,
+                                lineNumber: 203,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 172,
+                        lineNumber: 199,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -503,24 +522,114 @@ function QuizLayout({ slug, movieTitle, leadIntro, quiz, vocabulary, videoId, ch
                             children: "👉 Ready for another quiz?"
                         }, void 0, false, {
                             fileName: "[project]/components/QuizLayout.tsx",
-                            lineNumber: 180,
+                            lineNumber: 207,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/QuizLayout.tsx",
-                        lineNumber: 179,
+                        lineNumber: 206,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/QuizLayout.tsx",
-                lineNumber: 170,
+                lineNumber: 197,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-xl font-semibold mt-10 mb-2",
+                        children: "🙋 Feedback"
+                    }, void 0, false, {
+                        fileName: "[project]/components/QuizLayout.tsx",
+                        lineNumber: 216,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm text-gray-500 dark:text-gray-400 mb-2",
+                        children: [
+                            "Found a mistake in the quiz or vocabulary?",
+                            ' ',
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-semibold text-yellow-600",
+                                children: "Let us know!"
+                            }, void 0, false, {
+                                fileName: "[project]/components/QuizLayout.tsx",
+                                lineNumber: 219,
+                                columnNumber: 9
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/QuizLayout.tsx",
+                        lineNumber: 217,
+                        columnNumber: 7
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: ()=>setShowFeedback(true),
+                        className: "bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700",
+                        children: "✉ Report a Problem"
+                    }, void 0, false, {
+                        fileName: "[project]/components/QuizLayout.tsx",
+                        lineNumber: 221,
+                        columnNumber: 7
+                    }, this),
+                    showFeedback && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mt-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                className: "w-full h-24 p-2 border rounded text-black dark:text-white dark:bg-gray-800",
+                                placeholder: "e.g. Question 3 has a typo in the choices...",
+                                value: feedbackText,
+                                onChange: (e)=>setFeedbackText(e.target.value)
+                            }, void 0, false, {
+                                fileName: "[project]/components/QuizLayout.tsx",
+                                lineNumber: 230,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-end mt-2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: submitFeedback,
+                                        className: "bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700",
+                                        children: "Submit"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/QuizLayout.tsx",
+                                        lineNumber: 237,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: ()=>setShowFeedback(false),
+                                        className: "ml-2 px-4 py-2 border rounded text-gray-700 dark:text-gray-300",
+                                        children: "Cancel"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/QuizLayout.tsx",
+                                        lineNumber: 243,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/QuizLayout.tsx",
+                                lineNumber: 236,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/QuizLayout.tsx",
+                        lineNumber: 229,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/QuizLayout.tsx",
+                lineNumber: 215,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/QuizLayout.tsx",
-        lineNumber: 90,
+        lineNumber: 117,
         columnNumber: 5
     }, this);
 }

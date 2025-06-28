@@ -85,6 +85,33 @@ export default function QuizLayout({
 
   const score = answers.filter((a, i) => a === quiz[i].answer).length
   const allAnswered = answers.every((a) => a !== null)
+  const [showFeedback, setShowFeedback] = useState(false)
+  const [feedbackText, setFeedbackText] = useState('')
+
+  const submitFeedback = async () => {
+    if (!feedbackText.trim()) return
+
+    const feedbackRef = collection(db, user
+      ? `users/${user.uid}/feedbacks`
+      : `feedbacks/public`
+    )
+
+    await addDoc(feedbackRef, {
+      userId: user?.uid || 'anonymous',
+      slug,
+      videoId,
+      movieTitle,
+      feedback: feedbackText.trim(),
+      timestamp: serverTimestamp(),
+      userAgent: navigator.userAgent,
+      platform: navigator.platform,
+    })
+
+    setFeedbackText('')
+    setShowFeedback(false)
+    alert('Thanks for your feedback!')
+  }
+
 
   return (
     <main className="+ px-4 py-10 max-w-3xl mx-auto space-y-10 text-black dark:text-white bg-white dark:bg-black">
@@ -185,6 +212,44 @@ export default function QuizLayout({
           </a>
         </div>
       </section>
+      <section>
+      <h2 className="text-xl font-semibold mt-10 mb-2">🙋 Feedback</h2>
+      <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+        Found a mistake in the quiz or vocabulary?{' '}
+        <span className="font-semibold text-yellow-600">Let us know!</span>
+      </p>
+      <button
+        onClick={() => setShowFeedback(true)}
+        className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+      >
+        ✉ Report a Problem
+      </button>
+
+      {showFeedback && (
+        <div className="mt-4">
+          <textarea
+            className="w-full h-24 p-2 border rounded text-black dark:text-white dark:bg-gray-800"
+            placeholder="e.g. Question 3 has a typo in the choices..."
+            value={feedbackText}
+            onChange={(e) => setFeedbackText(e.target.value)}
+          />
+          <div className="flex justify-end mt-2">
+            <button
+              onClick={submitFeedback}
+              className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+            >
+              Submit
+            </button>
+            <button
+              onClick={() => setShowFeedback(false)}
+              className="ml-2 px-4 py-2 border rounded text-gray-700 dark:text-gray-300"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
+    </section>
     </main>
   )
 }

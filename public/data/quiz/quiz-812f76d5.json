@@ -1,0 +1,78 @@
+{
+  "slug": "812f76d5",
+  "video_id": "JtUAAXe_0VI",
+  "movie_title": "Can You Trust Kurzgesagt Videos?",
+  "movie_url": "https://youtu.be/JtUAAXe_0VI",
+  "published_at": "2019-03-03T13:30:28Z",
+  "duration": "PT6M10S",
+  "tags": [
+    "trust",
+    "kurzgesagt",
+    "in a nutshell",
+    "honesty",
+    "fake news",
+    "research",
+    "scripts",
+    "writing",
+    "trust kurzgesagt",
+    "quality",
+    "trustworthy",
+    "good",
+    "funny",
+    "animation"
+  ],
+  "introduction": "Can you trust our videos? How do we research them nowadays? And what about our older videos? \n\n\nOUR",
+  "lead_intro": "Have you ever wondered how trustworthy Kurzgesagt videos are? Dive into the behind-the-scenes process and standards of their content creation in this insightful video!",
+  "quiz": [
+    {
+      "question": "What is the first step in making a Kurzgesagt video?",
+      "choices": [
+        "Research",
+        "Illustration",
+        "Scriptwriting"
+      ],
+      "answer": "Research",
+      "explanation": "The first step in making a Kurzgesagt video is research, where they look for books and scientific papers to get an overview before moving forward."
+    },
+    {
+      "question": "How does Kurzgesagt ensure the accuracy of their videos?",
+      "choices": [
+        "Reach out to experts for fact-checking",
+        "Guess the information",
+        "Skip the research step"
+      ],
+      "answer": "Reach out to experts for fact-checking",
+      "explanation": "Kurzgesagt ensures the accuracy of their videos by reaching out to experts or scientists to fact-check and correct any errors in their content."
+    },
+    {
+      "question": "What do Kurzgesagt videos aim to achieve?",
+      "choices": [
+        "Provide a balanced perspective",
+        "Present trustworthy information",
+        "Offer simple answers to complex issues"
+      ],
+      "answer": "Present trustworthy information",
+      "explanation": "Kurzgesagt videos aim to present trustworthy information by thoroughly researching and consulting experts to ensure the accuracy of their content."
+    },
+    {
+      "question": "What did Kurzgesagt do with their older Refugee and Addiction videos?",
+      "choices": [
+        "Deleted them",
+        "Kept them unchanged",
+        "Added more sources"
+      ],
+      "answer": "Deleted them",
+      "explanation": "Kurzgesagt decided to delete their older Refugee and Addiction videos because they did not meet their current standards of balanced perspectives and thorough research."
+    },
+    {
+      "question": "How does Kurzgesagt plan to address the issue with their older videos?",
+      "choices": [
+        "Deleting all older videos",
+        "Adding sources and further reading",
+        "Ignoring the problem"
+      ],
+      "answer": "Adding sources and further reading",
+      "explanation": "Kurzgesagt plans to address the issue with their older videos by going through them to add sources, further reading, and comments in the next few months."
+    }
+  ]
+}

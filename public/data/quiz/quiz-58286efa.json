@@ -1,0 +1,90 @@
+{
+  "slug": "58286efa",
+  "video_id": "fTTGALaRZoc",
+  "movie_title": "Banking Explained – Money and Credit",
+  "movie_url": "https://youtu.be/fTTGALaRZoc",
+  "published_at": "2015-03-12T13:28:00Z",
+  "duration": "PT6M10S",
+  "tags": [
+    "Money (Quotation Subject)",
+    "Bank (Industry)",
+    "Hip Hop Music (Musical Genre)",
+    "Credit (Industry)",
+    "banking system",
+    "debt",
+    "dept crisis",
+    "Lehman Brothers (Business Operation)",
+    "bank crisis",
+    "Bankruptcy (Organization Termination Type)",
+    "European Union",
+    "money",
+    "banker",
+    "credit union",
+    "crowdfunding",
+    "micro credit",
+    "italy",
+    "Credit Theory Of Money",
+    "economy",
+    "Central bank",
+    "Greece (Country)",
+    "bank",
+    "infographic",
+    "flat design",
+    "kurzgesagt",
+    "in a nutshell"
+  ],
+  "introduction": "Banks are a riddle wrapped up in an enigma. We all kind of know that they do stuff with money we don",
+  "lead_intro": "Banks play a crucial role in our society, providing funds for people and businesses. Let's explore the history of banking and its impact on our economy.",
+  "quiz": [
+    {
+      "question": "Where did the word 'bank' originate from?",
+      "choices": [
+        "Italian for 'money'",
+        "French for 'trade'",
+        "Italian for 'bench'"
+      ],
+      "answer": "Italian for 'bench'",
+      "explanation": "The word 'bank' originates from the Italian word 'banco', meaning 'bench', as merchants used to conduct exchange business on outdoor benches."
+    },
+    {
+      "question": "What is a key function of banks in our economic system?",
+      "choices": [
+        "Providing free services",
+        "Managing social media accounts",
+        "Turning unused funds into resources for society"
+      ],
+      "answer": "Turning unused funds into resources for society",
+      "explanation": "Banks play a vital role by taking funds unused by savers and lending them out at higher interest rates, thus providing resources for individuals to buy homes and industries to grow."
+    },
+    {
+      "question": "Why did traditional banks face challenges during the financial crisis of 2008?",
+      "choices": [
+        "They provided interest-free loans",
+        "They invested in stable assets",
+        "They adopted risky financial constructs"
+      ],
+      "answer": "They adopted risky financial constructs",
+      "explanation": "Many traditional banks adopted complex and risky financial constructs during the financial boom, leading to the collapse of the housing market and a global banking crisis in 2008."
+    },
+    {
+      "question": "What distinguishes credit unions from traditional banks?",
+      "choices": [
+        "Profit maximization",
+        "Shared value focus",
+        "Individual shareholder ownership"
+      ],
+      "answer": "Shared value focus",
+      "explanation": "Credit unions focus on shared value rather than profit maximization, aiming to help members create opportunities like starting businesses and investing back into communities."
+    },
+    {
+      "question": "What alternative financing method has gained popularity through platforms like Kickstarter?",
+      "choices": [
+        "Micro credits",
+        "Bank loans",
+        "Crowdfunding"
+      ],
+      "answer": "Crowdfunding",
+      "explanation": "Crowdfunding allows individuals to get loans from groups of investors, bypassing traditional banks. It has enabled many technology companies to start and projects to come to life."
+    }
+  ]
+}

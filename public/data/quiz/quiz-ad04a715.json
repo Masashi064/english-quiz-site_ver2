@@ -1,0 +1,75 @@
+{
+  "slug": "ad04a715",
+  "video_id": "mZsaaturR6E",
+  "movie_title": "Fusion Power Explained – Future or Failure",
+  "movie_url": "https://youtu.be/mZsaaturR6E",
+  "published_at": "2016-11-10T17:26:44Z",
+  "duration": "PT6M16S",
+  "tags": [
+    "fusion",
+    "fusion energy",
+    "physics",
+    "global energy",
+    "fusion power",
+    "iter",
+    "fuel",
+    "power",
+    "hydrogen",
+    "atom",
+    "plasma"
+  ],
+  "introduction": "How does Fusion Energy work and is it a good idea?\n\n\nOUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman",
+  "lead_intro": "Imagine a world where we could harness the power of the sun on Earth. Is it possible to build a sun in a controlled environment? Let's dive into the fascinating world of nuclear fusion and the potential of fusion reactors.",
+  "quiz": [
+    {
+      "question": "What is the main process that powers the sun?",
+      "choices": [
+        "Fossil fuels",
+        "Nuclear fusion",
+        "Batteries"
+      ],
+      "answer": "Nuclear fusion",
+      "explanation": "The main process that powers the sun is nuclear fusion, where nuclei merge and fuse, releasing energy in the process."
+    },
+    {
+      "question": "How do stars reach the incredibly high temperatures required for fusion?",
+      "choices": [
+        "By burning fossil fuels",
+        "By generating heat in their cores through pressure",
+        "By storing sunlight in batteries"
+      ],
+      "answer": "By generating heat in their cores through pressure",
+      "explanation": "Stars reach the high temperatures required for fusion by generating heat in their cores through pressure, squeezing nuclei together until they merge and fuse."
+    },
+    {
+      "question": "What are the two main methods scientists have developed to reach the high temperatures needed for fusion on Earth?",
+      "choices": [
+        "Burning fossil fuels and solar panels",
+        "Magnetic field and inertial confinement",
+        "Hydroelectric power and wind turbines"
+      ],
+      "answer": "Magnetic field and inertial confinement",
+      "explanation": "Scientists have developed two main methods to reach the high temperatures needed for fusion on Earth: magnetic field confinement and inertial confinement using super-powered lasers."
+    },
+    {
+      "question": "What is the potential drawback of using Tritium as a fusion fuel?",
+      "choices": [
+        "It is abundant in sea water",
+        "It is incredibly expensive and rare",
+        "It is stable and easy to find"
+      ],
+      "answer": "It is incredibly expensive and rare",
+      "explanation": "Tritium, one of the fusion fuels, is incredibly expensive and rare, making it a potential limitation for fusion reactors."
+    },
+    {
+      "question": "What is the main concern regarding the commercial viability of fusion power?",
+      "choices": [
+        "It is proven technology",
+        "It is a low-cost energy solution",
+        "It is unproven and might be too expensive"
+      ],
+      "answer": "It is unproven and might be too expensive",
+      "explanation": "The main concern regarding the commercial viability of fusion power is that it is unproven technology and might be too expensive to implement on a large scale."
+    }
+  ]
+}
