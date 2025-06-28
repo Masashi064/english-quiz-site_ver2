@@ -7,7 +7,7 @@ import { FaFilter } from 'react-icons/fa'
 import { getAuth } from 'firebase/auth'
 import { getFirestore, collection, getDocs } from 'firebase/firestore'
 import { app } from '../../lib/firebase'
-import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
+import { useAuth } from '../../lib/useAuth'
 
 type Article = {
   slug: string
@@ -49,33 +49,29 @@ export default function TopArticleList({ articles }: { articles: Article[] }) {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [completedSlugs, setCompletedSlugs] = useState<string[]>([])
   const [loadedCompletion, setLoadedCompletion] = useState(false)
+  const { user } = useAuth()
 
   const handleDrawerToggle = () => setDrawerOpen((prev) => !prev)
 
-  // ✅ completion フィルターが変更されたら、初回のみ Firebase データを取得
   useEffect(() => {
-    if (!loadedCompletion && completion !== 'all') {
-      const fetchCompleted = async () => {
-        const auth = getAuth(app)
-        const user = auth.currentUser
-        if (!user) return
+    const fetchCompleted = async () => {
+      if (!user || completion === 'all') return
 
-        const db = getFirestore(app)
-        const ref = collection(db, 'users', user.uid, 'quizResults')
-        const snapshot = await getDocs(ref)
+      const db = getFirestore(app)
+      const ref = collection(db, 'users', user.uid, 'quizResults')
+      const snapshot = await getDocs(ref)
 
-        const slugs = snapshot.docs
-          .filter(doc => doc.data().score > 0)
-          .map(doc => doc.id)
+      const slugs = snapshot.docs
+        .filter(doc => doc.data().score > 0 && doc.data().slug)
+        .map(doc => doc.data().slug)
 
-        setCompletedSlugs(slugs)
-        setLoadedCompletion(true)
-      }
-
-      fetchCompleted()
+      setCompletedSlugs(slugs)
     }
-  }, [completion, loadedCompletion])
-  
+
+    fetchCompleted()
+  }, [user, completion])
+
+
 
   const allCategories = Array.from(new Set(articles.map((a) => a.assigned_category).filter(Boolean))) as string[]
   const allChannels = Array.from(new Set(articles.map((a) => a.channel_name)))

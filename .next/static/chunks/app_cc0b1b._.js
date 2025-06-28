@@ -295,33 +295,31 @@ function TopArticleList({ articles }) {
     const [completedSlugs, setCompletedSlugs] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const [loadedCompletion, setLoadedCompletion] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const handleDrawerToggle = ()=>setDrawerOpen((prev)=>!prev);
-    // ✅ completion フィルターが変更されたら、初回のみ Firebase データを取得
+    // TopArticleList.tsx より該当箇所を修正
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "TopArticleList.useEffect": ()=>{
-            if (!loadedCompletion && completion !== 'all') {
-                const fetchCompleted = {
-                    "TopArticleList.useEffect.fetchCompleted": async ()=>{
-                        const auth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$auth$2f$dist$2f$esm2017$2f$index$2d$8bd0c73f$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__p__as__getAuth$3e$__["getAuth"])(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$firebase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["app"]);
-                        const user = auth.currentUser;
-                        if (!user) return;
-                        const db = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm2017$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getFirestore"])(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$firebase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["app"]);
-                        const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm2017$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["collection"])(db, 'users', user.uid, 'quizResults');
-                        const snapshot = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm2017$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getDocs"])(ref);
-                        const slugs = snapshot.docs.filter({
-                            "TopArticleList.useEffect.fetchCompleted.slugs": (doc)=>doc.data().score > 0
-                        }["TopArticleList.useEffect.fetchCompleted.slugs"]).map({
-                            "TopArticleList.useEffect.fetchCompleted.slugs": (doc)=>doc.id
-                        }["TopArticleList.useEffect.fetchCompleted.slugs"]);
-                        setCompletedSlugs(slugs);
-                        setLoadedCompletion(true);
-                    }
-                }["TopArticleList.useEffect.fetchCompleted"];
+            const fetchCompleted = {
+                "TopArticleList.useEffect.fetchCompleted": async ()=>{
+                    const auth = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$auth$2f$dist$2f$esm2017$2f$index$2d$8bd0c73f$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__p__as__getAuth$3e$__["getAuth"])(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$firebase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["app"]);
+                    const user = auth.currentUser;
+                    if (!user) return;
+                    const db = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm2017$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getFirestore"])(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$firebase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["app"]);
+                    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm2017$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["collection"])(db, 'users', user.uid, 'quizResults');
+                    const snapshot = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm2017$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getDocs"])(ref);
+                    const slugs = snapshot.docs.filter({
+                        "TopArticleList.useEffect.fetchCompleted.slugs": (doc)=>doc.data().score > 0
+                    }["TopArticleList.useEffect.fetchCompleted.slugs"]).map({
+                        "TopArticleList.useEffect.fetchCompleted.slugs": (doc)=>doc.id
+                    }["TopArticleList.useEffect.fetchCompleted.slugs"]);
+                    setCompletedSlugs(slugs);
+                }
+            }["TopArticleList.useEffect.fetchCompleted"];
+            if (completion !== 'all') {
                 fetchCompleted();
             }
         }
     }["TopArticleList.useEffect"], [
-        completion,
-        loadedCompletion
+        completion
     ]);
     const allCategories = Array.from(new Set(articles.map((a)=>a.assigned_category).filter(Boolean)));
     const allChannels = Array.from(new Set(articles.map((a)=>a.channel_name)));
@@ -360,12 +358,12 @@ function TopArticleList({ articles }) {
                     allChannels: allChannels
                 }, void 0, false, {
                     fileName: "[project]/app/components/TopArticleList.tsx",
-                    lineNumber: 110,
+                    lineNumber: 109,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 109,
+                lineNumber: 108,
                 columnNumber: 7
             }, this),
             drawerOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -376,7 +374,7 @@ function TopArticleList({ articles }) {
                         onClick: ()=>setDrawerOpen(false)
                     }, void 0, false, {
                         fileName: "[project]/app/components/TopArticleList.tsx",
-                        lineNumber: 127,
+                        lineNumber: 126,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -395,18 +393,18 @@ function TopArticleList({ articles }) {
                             allChannels: allChannels
                         }, void 0, false, {
                             fileName: "[project]/app/components/TopArticleList.tsx",
-                            lineNumber: 132,
+                            lineNumber: 131,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/components/TopArticleList.tsx",
-                        lineNumber: 128,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 126,
+                lineNumber: 125,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -417,12 +415,12 @@ function TopArticleList({ articles }) {
                     size: 24
                 }, void 0, false, {
                     fileName: "[project]/app/components/TopArticleList.tsx",
-                    lineNumber: 154,
+                    lineNumber: 153,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 149,
+                lineNumber: 148,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -433,7 +431,7 @@ function TopArticleList({ articles }) {
                         children: "📅 Newest Articles First"
                     }, void 0, false, {
                         fileName: "[project]/app/components/TopArticleList.tsx",
-                        lineNumber: 158,
+                        lineNumber: 157,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -453,12 +451,12 @@ function TopArticleList({ articles }) {
                                             className: "object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/app/components/TopArticleList.tsx",
-                                            lineNumber: 167,
+                                            lineNumber: 166,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/TopArticleList.tsx",
-                                        lineNumber: 166,
+                                        lineNumber: 165,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -469,7 +467,7 @@ function TopArticleList({ articles }) {
                                                 children: a.movie_title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 176,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -480,7 +478,7 @@ function TopArticleList({ articles }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 178,
+                                                lineNumber: 177,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -493,7 +491,7 @@ function TopArticleList({ articles }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 179,
+                                                lineNumber: 178,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -501,36 +499,36 @@ function TopArticleList({ articles }) {
                                                 children: "▶ Read article"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                                lineNumber: 182,
+                                                lineNumber: 181,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/components/TopArticleList.tsx",
-                                        lineNumber: 176,
+                                        lineNumber: 175,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, a.slug, true, {
                                 fileName: "[project]/app/components/TopArticleList.tsx",
-                                lineNumber: 161,
+                                lineNumber: 160,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/components/TopArticleList.tsx",
-                        lineNumber: 159,
+                        lineNumber: 158,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/TopArticleList.tsx",
-                lineNumber: 157,
+                lineNumber: 156,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/TopArticleList.tsx",
-        lineNumber: 107,
+        lineNumber: 106,
         columnNumber: 5
     }, this);
 }
