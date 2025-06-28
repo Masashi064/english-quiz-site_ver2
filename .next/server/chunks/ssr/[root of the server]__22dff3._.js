@@ -433,7 +433,7 @@ function HowToUsePage() {
                 children: [
                     "Check our ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "#",
+                        href: "#/faq",
                         className: "text-blue-500 underline",
                         children: "FAQ"
                     }, void 0, false, {
@@ -443,13 +443,13 @@ function HowToUsePage() {
                     }, this),
                     " or ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "#",
+                        href: "/contact",
                         className: "text-blue-500 underline",
                         children: "Contact Us"
                     }, void 0, false, {
                         fileName: "[project]/app/how-to-use/page.tsx",
                         lineNumber: 147,
-                        columnNumber: 78
+                        columnNumber: 82
                     }, this),
                     " page."
                 ]

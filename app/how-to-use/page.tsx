@@ -144,7 +144,7 @@ export default function HowToUsePage() {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">💬 Need Help?</h2>
       <p>
-        Check our <a href="#" className="text-blue-500 underline">FAQ</a> or <a href="#" className="text-blue-500 underline">Contact Us</a> page.
+        Check our <a href="#/faq" className="text-blue-500 underline">FAQ</a> or <a href="/contact" className="text-blue-500 underline">Contact Us</a> page.
       </p>
 
       <p className="mt-6 text-center">Start learning English with SABACAN today!</p>
