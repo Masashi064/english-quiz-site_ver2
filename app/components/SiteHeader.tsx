@@ -39,7 +39,7 @@ export default function SiteHeader() {
       {/* 第1ヘッダー */}
       <header className="flex justify-between items-center px-4 py-2 border-b border-gray-700">
         <div className="flex items-center gap-6">
-          <Link href="/top" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <Image
               src="/img/logo-dark.png"
               alt="SABACAN"
