@@ -1,0 +1,63 @@
+{
+  "slug": "3a71a190",
+  "video_id": "EJoJzLaIcEc",
+  "movie_title": "How the Universe Might End",
+  "movie_url": "https://youtu.be/EJoJzLaIcEc",
+  "published_at": "2025-06-26T16:14:41Z",
+  "duration": "PT2M59S",
+  "tags": [],
+  "introduction": "Right now, the universe is full of life and light. But over unimaginable spans of time, everything w",
+  "lead_intro": "Have you ever wondered how the universe will end? Let's dive into a fascinating journey through time and space to explore the ultimate fate of our universe.",
+  "quiz": [
+    {
+      "question": "What will happen to spiral galaxies when the universe is much older?",
+      "choices": [
+        "They will be virtually extinct.",
+        "They will become brighter.",
+        "They will disappear suddenly."
+      ],
+      "answer": "They will be virtually extinct.",
+      "explanation": "As the universe ages, spiral galaxies will be virtually extinct as gravity pulls galaxy groups together, forming giant elliptical galaxies."
+    },
+    {
+      "question": "How will galaxies change in relation to each other as the universe expands?",
+      "choices": [
+        "They will become increasingly far apart.",
+        "They will merge into one giant galaxy.",
+        "They will disappear completely."
+      ],
+      "answer": "They will become increasingly far apart.",
+      "explanation": "Due to the accelerating expansion of the universe, galaxies will be driven billions of light years away from each other, becoming isolated islands in a dark and cold universe."
+    },
+    {
+      "question": "What will galaxies become when the universe is tens of trillions of years old?",
+      "choices": [
+        "Faint memories.",
+        "Brighter and more active.",
+        "Invisible to the naked eye."
+      ],
+      "answer": "Faint memories.",
+      "explanation": "After trillions of years, other galaxies will be faint memories as the expansion of the universe drives them beyond the cosmic event horizon, making every galaxy alone in a dark void."
+    },
+    {
+      "question": "What will the last stars in a galaxy eventually turn into?",
+      "choices": [
+        "Invisibly cold white dwarfs, neutron stars, and black holes.",
+        "Bright supernovae.",
+        "New galaxies."
+      ],
+      "answer": "Invisibly cold white dwarfs, neutron stars, and black holes.",
+      "explanation": "The last stars in a galaxy will evolve into cold white dwarfs, neutron stars, and black holes, silently orbiting the galactic center."
+    },
+    {
+      "question": "How will the final black hole in the universe eventually 'die'?",
+      "choices": [
+        "By evaporating away entirely in one final burst of light.",
+        "By exploding into a supernova.",
+        "By collapsing into a smaller black hole."
+      ],
+      "answer": "By evaporating away entirely in one final burst of light.",
+      "explanation": "The final black hole in the universe may live for an incredibly long time, but it will eventually evaporate entirely in one final burst of light, marking the end of the universe."
+    }
+  ]
+}

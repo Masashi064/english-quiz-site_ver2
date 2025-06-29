@@ -1,0 +1,81 @@
+{
+  "slug": "6d6478be",
+  "video_id": "hX_acKX1G2Y",
+  "movie_title": "The Sun is NOT Yellow!",
+  "movie_url": "https://youtu.be/hX_acKX1G2Y",
+  "published_at": "2024-08-01T14:00:40Z",
+  "duration": "PT1M",
+  "tags": [
+    "inanutshell",
+    "kurzgesagt",
+    "kurzgesagt_inanutshell",
+    "learnwithshorts",
+    "interestingfact",
+    "kurzgesagt - in a nutshell",
+    "in a nutshell",
+    "science facts",
+    "Learn with Shorts",
+    "science",
+    "YouTube university",
+    "YouTube MBA",
+    "sun",
+    "physics",
+    "color studies",
+    "colors",
+    "is the sun yellow"
+  ],
+  "introduction": "Repeat after us: 🗣️🗣️🗣️🗣️The. Sun. Is. Not. Yellow. ‼️‼️‼️‼️ \n\n#kurzgesagt\n#inanutshell #kurzges",
+  "lead_intro": "Have you ever wondered why the Sun appears yellow even though it emits light in every color of the visible spectrum? Let's delve into the science behind this fascinating phenomenon!",
+  "quiz": [
+    {
+      "question": "Why does the sky appear blue?",
+      "choices": [
+        "The scattering of blue light",
+        "The absorption of red light",
+        "The reflection of yellow light"
+      ],
+      "answer": "The scattering of blue light",
+      "explanation": "The Earth's atmosphere scatters blue light with shorter wavelengths more than red light, resulting in the blue color of the sky."
+    },
+    {
+      "question": "What causes the sky to appear yellow during sunrise and sunset?",
+      "choices": [
+        "Scattering of blue light",
+        "Scattering of red light",
+        "Absorption of yellow light"
+      ],
+      "answer": "Scattering of blue light",
+      "explanation": "During sunrise and sunset, the sunlight passes through more atmosphere, causing more blue light to scatter and making the Sun appear yellow."
+    },
+    {
+      "question": "Why does the Sun appear yellow to us?",
+      "choices": [
+        "Scattering of red light",
+        "Absorption of blue light",
+        "Scattering of blue light"
+      ],
+      "answer": "Scattering of blue light",
+      "explanation": "The scattering of blue light by Earth's atmosphere makes the Sun, which emits light in all colors, appear yellow to us."
+    },
+    {
+      "question": "What happens when you mix all colors of light together?",
+      "choices": [
+        "You get white light",
+        "You get black light",
+        "You get yellow light"
+      ],
+      "answer": "You get white light",
+      "explanation": "Mixing all colors of light results in white light, which is the true color of sunlight."
+    },
+    {
+      "question": "What enhances the beauty of ocean sunsets?",
+      "choices": [
+        "Scattering of red light by water vapor and particles",
+        "Absorption of blue light by clouds",
+        "Reflection of green light by trees"
+      ],
+      "answer": "Scattering of red light by water vapor and particles",
+      "explanation": "The scattering of red light by water vapor and particles in the atmosphere contributes to the breathtaking beauty of ocean sunsets."
+    }
+  ]
+}
