@@ -1,0 +1,91 @@
+{
+  "slug": "f58a5c84",
+  "video_id": "qPQQwqGWktE",
+  "movie_title": "Space Elevator – Science Fiction or the Future of Mankind?",
+  "movie_url": "https://youtu.be/qPQQwqGWktE",
+  "published_at": "2016-04-08T16:40:30Z",
+  "duration": "PT5M26S",
+  "tags": [
+    "space elevator",
+    "space",
+    "science fiction",
+    "mankind",
+    "death",
+    "universe",
+    "space travel",
+    "space ship",
+    "star",
+    "sun",
+    "earth",
+    "future",
+    "far future",
+    "star wars",
+    "nasa",
+    "space x",
+    "rocket",
+    "rocket science",
+    "physics",
+    "elevator",
+    "tether",
+    "anchor",
+    "counterweight",
+    "kurzgesagt",
+    "in a nutshell",
+    "science",
+    "fantasy"
+  ],
+  "introduction": "So. Space elevators. Are they are thing that we should talk about?\n\n\nOUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀",
+  "lead_intro": "Have you ever wondered about the possibility of a space elevator? Learn how this concept could revolutionize space travel and exploration.",
+  "quiz": [
+    {
+      "question": "What is one major advantage of a space elevator over rockets for getting cargo into space?",
+      "choices": [
+        "Reduced cost",
+        "Faster speed",
+        "Larger cargo capacity"
+      ],
+      "answer": "Reduced cost",
+      "explanation": "A space elevator is projected to reduce the cost of launching cargo into space significantly, making it a more cost-effective option compared to rockets."
+    },
+    {
+      "question": "What holds up the tether of a space elevator?",
+      "choices": [
+        "Counterweight",
+        "Anchor",
+        "Climber"
+      ],
+      "answer": "Counterweight",
+      "explanation": "The counterweight at the top of the space elevator holds up the tether, providing the necessary tension to keep it stable and upright."
+    },
+    {
+      "question": "What is one of the biggest challenges in building a space elevator?",
+      "choices": [
+        "Creating a strong and light tether material",
+        "Designing the climber chamber",
+        "Selecting the launch site"
+      ],
+      "answer": "Creating a strong and light tether material",
+      "explanation": "One major challenge in constructing a space elevator is developing a material for the tether that is strong, light, and durable enough to withstand various environmental factors in space."
+    },
+    {
+      "question": "Why is the Moon proposed as a potential location for building a space elevator first?",
+      "choices": [
+        "Weaker gravity makes construction easier",
+        "Closer proximity to Earth",
+        "Existing infrastructure for space projects"
+      ],
+      "answer": "Weaker gravity makes construction easier",
+      "explanation": "The weaker gravity on the Moon makes it a potentially easier location to build a space elevator, as it requires a less sturdy material for the tether due to lower gravitational forces."
+    },
+    {
+      "question": "What is one potential risk associated with a space elevator breaking?",
+      "choices": [
+        "Debris posing a threat to spaceflight",
+        "Loss of cargo capacity",
+        "Impact on Earth's rotation"
+      ],
+      "answer": "Debris posing a threat to spaceflight",
+      "explanation": "If a space elevator tether were to break, the resulting debris in orbit could pose serious risks to future space missions and spaceflight due to the potential hazards it would create."
+    }
+  ]
+}

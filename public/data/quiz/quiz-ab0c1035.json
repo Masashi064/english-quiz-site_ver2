@@ -1,0 +1,63 @@
+{
+  "slug": "ab0c1035",
+  "video_id": "MZCGs3tAOe4",
+  "movie_title": "Hottest week ever: BBC News Review",
+  "movie_url": "https://youtu.be/MZCGs3tAOe4",
+  "published_at": "2023-07-12T15:06:32Z",
+  "duration": "PT5M37S",
+  "tags": [],
+  "introduction": "Hotter weather has never been recorded. The UN says that the first week of July had the highest aver",
+  "lead_intro": "Discover the impacts of the hottest week ever recorded and learn essential vocabulary with BBC Learning English. Let's test your understanding with a quiz!",
+  "quiz": [
+    {
+      "question": "What does 'just getting started' mean in the context of the video?",
+      "choices": [
+        "more to come",
+        "already finished",
+        "unexpected outcome"
+      ],
+      "answer": "more to come",
+      "explanation": "'Just getting started' implies that there is a lot more to come, as mentioned in the video regarding the worsening high temperatures."
+    },
+    {
+      "question": "What does 'uncharted territory' refer to in the video?",
+      "choices": [
+        "something not experienced before",
+        "familiar territory",
+        "historical maps"
+      ],
+      "answer": "something not experienced before",
+      "explanation": "'Uncharted territory' metaphorically means an area or situation that is new and not explored or experienced before, as explained in the video regarding the extreme weather conditions."
+    },
+    {
+      "question": "How is the term 'scorches' used in the video?",
+      "choices": [
+        "damages with heat",
+        "freezes",
+        "purifies water"
+      ],
+      "answer": "damages with heat",
+      "explanation": "In the video, 'scorches' is used to describe the negative impact of extreme heat, where surfaces or people can be harmed by intense heat."
+    },
+    {
+      "question": "What is the significance of the highest average global temperature ever measured according to the video?",
+      "choices": [
+        "increased likelihood of severe weather events",
+        "decrease in global temperatures",
+        "improved agricultural yields"
+      ],
+      "answer": "increased likelihood of severe weather events",
+      "explanation": "The video mentions that the record-high temperatures could lead to hurricanes, droughts, and heavy rain becoming more frequent, indicating a higher probability of severe weather events."
+    },
+    {
+      "question": "How does the article from The Hill describe the Earth's current climate?",
+      "choices": [
+        "hottest in 120,000 years",
+        "coldest on record",
+        "stable temperatures"
+      ],
+      "answer": "hottest in 120,000 years",
+      "explanation": "The article from The Hill states that the Earth is currently experiencing its highest temperatures in 120,000 years, emphasizing the severity of the global warming situation."
+    }
+  ]
+}

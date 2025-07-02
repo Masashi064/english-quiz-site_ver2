@@ -1,0 +1,88 @@
+{
+  "slug": "72d61aa9",
+  "video_id": "9tbxDgcv74c",
+  "movie_title": "What If You Detonated a Nuclear Bomb In The Marianas Trench? (Science not Fantasy)",
+  "movie_url": "https://youtu.be/9tbxDgcv74c",
+  "published_at": "2018-07-22T12:30:03Z",
+  "duration": "PT6M3S",
+  "tags": [
+    "nuke",
+    "mariana trench",
+    "marianas trench",
+    "nuclear bomb",
+    "detonate",
+    "detonated",
+    "what happens",
+    "what happened",
+    "pressure",
+    "tsar bomba",
+    "fat man",
+    "little boy",
+    "earthquake",
+    "tsunami",
+    "nuclear winter",
+    "tectonic plates",
+    "philippine plate",
+    "pacific plate",
+    "water pressure",
+    "crushed",
+    "animation",
+    "kurzgesagt",
+    "in a nutshell",
+    "If You Detonated a Nuclear Bomb In The Marianas Trench"
+  ],
+  "introduction": "Did you ever wonder what happened if you detonated a nuclear bomb in the Marianas Trench? No? We nei",
+  "lead_intro": "Have you ever wondered what would happen if we detonated a nuclear weapon at the deepest point of the ocean? Let's explore the potential outcomes in this fascinating scenario!",
+  "quiz": [
+    {
+      "question": "What is the name of the most powerful nuclear bomb humans have ever exploded?",
+      "choices": [
+        "Fat Man",
+        "Ivy Mike",
+        "Tsar Bomba"
+      ],
+      "answer": "Tsar Bomba",
+      "explanation": "The most powerful nuclear bomb humans have ever exploded is the Tsar Bomba, also known as the RDS-220 hydrogen bomb."
+    },
+    {
+      "question": "Where is the Earth's deepest known point located?",
+      "choices": [
+        "Mariana Trench",
+        "Atlantic Ocean",
+        "Great Barrier Reef"
+      ],
+      "answer": "Mariana Trench",
+      "explanation": "The Earth's deepest known point is inside the Mariana Trench, which is a very deep valley at the edge of two tectonic plates."
+    },
+    {
+      "question": "What is the depth of the Mariana Trench?",
+      "choices": [
+        "5 kilometers",
+        "11 kilometers",
+        "15 kilometers"
+      ],
+      "answer": "11 kilometers",
+      "explanation": "The Mariana Trench reaches a depth of about 11 kilometers, making it almost three times deeper than the dark grave of the Titanic."
+    },
+    {
+      "question": "What happens to the bubble created by the nuclear detonation at the bottom of the Mariana Trench?",
+      "choices": [
+        "It grows indefinitely",
+        "It shrinks and then disintegrates",
+        "It remains stable"
+      ],
+      "answer": "It shrinks and then disintegrates",
+      "explanation": "The bubble created by the nuclear detonation initially grows, then shrinks due to the immense pressure, and eventually disintegrates into smaller, hot, and radioactive bubbles."
+    },
+    {
+      "question": "How does the Earth's orbit get affected by detonating a nuclear weapon at the bottom of the Mariana Trench?",
+      "choices": [
+        "It changes significantly",
+        "It remains unaffected",
+        "It becomes unstable"
+      ],
+      "answer": "It remains unaffected",
+      "explanation": "Detonating a nuclear weapon at the bottom of the Mariana Trench does not affect the Earth's orbit, as the planet's mass remains the same and previous nuclear tests have not altered our orbit."
+    }
+  ]
+}
