@@ -1,0 +1,85 @@
+{
+  "slug": "28a4a88b",
+  "video_id": "piMfL12RzoA",
+  "movie_title": "Bill Nye Breaks Down Webb Telescope Space Images | WIRED",
+  "movie_url": "https://youtu.be/piMfL12RzoA",
+  "published_at": "2022-08-18T14:10:36Z",
+  "duration": "PT6M",
+  "tags": [
+    "bill nye explains",
+    "bill nye explains telescope pictures",
+    "bill nye scientist",
+    "bill nye space telescope",
+    "bill nye the science guy",
+    "carina nebula",
+    "currents",
+    "galaxies images",
+    "james webb space telescope",
+    "james webb telescope images",
+    "jwst",
+    "real images of galaxies",
+    "southern ring nebula",
+    "space images from telescope",
+    "space telescope",
+    "stephan's quintet",
+    "stephen quintet images",
+    "telescope bill nye",
+    "telescope images",
+    "telescope space images",
+    "wired"
+  ],
+  "introduction": "The James Webb Space Telescope has dazzled us with its first batch of images. WIRED got in touch wit",
+  "lead_intro": "The Webb Telescope has captured breathtaking images of celestial objects, revealing fascinating details about the universe. Let's explore some key takeaways from the video!",
+  "quiz": [
+    {
+      "question": "What type of wavelengths were used to capture the images shown in the video?",
+      "choices": [
+        "Visible light",
+        "Infrared wavelengths",
+        "Ultraviolet light"
+      ],
+      "answer": "Infrared wavelengths",
+      "explanation": "The images were taken in infrared wavelengths (heat), allowing the telescope to detect objects that are not visible in regular light."
+    },
+    {
+      "question": "What does the red color in the images produced by the Webb Telescope indicate?",
+      "choices": [
+        "Objects moving slower",
+        "Objects moving faster",
+        "Objects of similar distance"
+      ],
+      "answer": "Objects moving faster",
+      "explanation": "Objects that are farther away and moving faster appear redder in the images produced by the telescope."
+    },
+    {
+      "question": "What celestial feature is depicted in the image discussed in the video?",
+      "choices": [
+        "Stellar nursery",
+        "White dwarf star",
+        "Supernova remnant"
+      ],
+      "answer": "White dwarf star",
+      "explanation": "The image shows a white dwarf star at the center, which has thrown out most of its material and is glowing in white light."
+    },
+    {
+      "question": "What element was found in the atmosphere of planet WASP-96b?",
+      "choices": [
+        "Oxygen",
+        "Water vapor",
+        "Carbon dioxide"
+      ],
+      "answer": "Water vapor",
+      "explanation": "Water vapor was detected in the atmosphere of planet WASP-96b, suggesting the presence of common elements like water in distant planets."
+    },
+    {
+      "question": "Why is finding methane in the atmosphere of a distant planet significant?",
+      "choices": [
+        "Indicates presence of water",
+        "Suggests extreme temperatures",
+        "Implies potential for life"
+      ],
+      "answer": "Implies potential for life",
+      "explanation": "The presence of methane in an atmosphere could indicate the existence of living organisms on that planet, raising the possibility of extraterrestrial life."
+    }
+  ]
+}

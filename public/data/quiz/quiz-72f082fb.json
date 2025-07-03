@@ -1,0 +1,98 @@
+{
+  "slug": "72f082fb",
+  "video_id": "hdkcXqQPMdM",
+  "movie_title": "How does this all-female species reproduce? - Susana Freitas and Darren Parker",
+  "movie_url": "https://youtu.be/hdkcXqQPMdM",
+  "published_at": "2023-04-06T15:01:07Z",
+  "duration": "PT6M",
+  "tags": [
+    "parthenogenesis",
+    "reproduction",
+    "animal reproduction",
+    "asexual reproduction",
+    "virgin birth",
+    "animal virgin births",
+    "embryo",
+    "fertilization",
+    "chromosome",
+    "sex cells",
+    "egg cell",
+    "sperm cell",
+    "Ispera",
+    "smoothhound shark",
+    "sexual reproduction",
+    "komodo dragons",
+    "mutations",
+    "genetic mutations",
+    "genetic diversity",
+    "mullers ratchet",
+    "mutational meltdown",
+    "evolution",
+    "extinction",
+    "Susana Freitas",
+    "Darren Parker",
+    "Petya Zlateva",
+    "Compote Collective",
+    "education",
+    "animation",
+    "TED",
+    "TED-Ed",
+    "TED Ed",
+    "Teded",
+    "Ted Education"
+  ],
+  "introduction": "Explore the science of parthenogenesis, a form of reproduction which allows animals to develop an em",
+  "lead_intro": "Discover the fascinating world of parthenogenesis and its impact on various animal species, from sharks to lizards. Learn how some creatures are thriving without fathers and the potential risks they face.",
+  "quiz": [
+    {
+      "question": "What is parthenogenesis?",
+      "choices": [
+        "A type of asexual reproduction",
+        "A type of sexual mating",
+        "A type of genetic mutation"
+      ],
+      "answer": "A type of asexual reproduction",
+      "explanation": "Parthenogenesis is a type of asexual reproduction where an embryo develops from an unfertilized egg cell that doubles its own chromosome count."
+    },
+    {
+      "question": "Which animal species may have had the first account of parthenogenesis in smoothhound sharks?",
+      "choices": [
+        "Smoothhound sharks",
+        "Komodo dragons",
+        "Mayflies"
+      ],
+      "answer": "Smoothhound sharks",
+      "explanation": "Ispera, the smoothhound shark born in captivity, may have been the first account of parthenogenesis in smoothhound sharks."
+    },
+    {
+      "question": "Why do scientists think parthenogenesis could be beneficial in some contexts?",
+      "choices": [
+        "It requires only one parent",
+        "It involves complex mating rituals",
+        "It leads to genetic mutations"
+      ],
+      "answer": "It requires only one parent",
+      "explanation": "Parthenogenesis could be beneficial as it requires only one parent, reducing the time and energy-intensive mating rituals associated with sexual reproduction."
+    },
+    {
+      "question": "What is the risk associated with parthenogenetic lineages according to Muller's ratchet theory?",
+      "choices": [
+        "Accumulation of harmful mutations",
+        "Rapid population decline",
+        "Increased genetic diversity"
+      ],
+      "answer": "Accumulation of harmful mutations",
+      "explanation": "Muller's ratchet theory predicts that parthenogenetic lineages will accumulate harmful mutations over time, potentially leading to mutational meltdown and extinction."
+    },
+    {
+      "question": "How have New Mexico whiptail lizards managed to survive as an all-female species?",
+      "choices": [
+        "By hybridizing two different lizard species",
+        "By reproducing sexually and asexually",
+        "By avoiding genetic diversity"
+      ],
+      "answer": "By hybridizing two different lizard species",
+      "explanation": "New Mexico whiptail lizards survived as an all-female species by hybridizing two different lizard species, which gave them a high level of genetic diversity for long-term survival."
+    }
+  ]
+}

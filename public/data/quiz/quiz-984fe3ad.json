@@ -1,0 +1,96 @@
+{
+  "slug": "984fe3ad",
+  "video_id": "_kR93WRw31Y",
+  "movie_title": "The Train Heist | Think Like A Coder, Ep 4",
+  "movie_url": "https://youtu.be/_kR93WRw31Y",
+  "published_at": "2019-12-09T16:00:29Z",
+  "duration": "PT6M",
+  "tags": [
+    "think like a coder",
+    "coding",
+    "programming",
+    "variable",
+    "coding variables",
+    "how to code",
+    "learn to code",
+    "loops",
+    "coding loops",
+    "programming puzzles",
+    "girls who code",
+    "coding for beginners",
+    "coding projects",
+    "ted ed series",
+    "ted ed coding",
+    "computer science",
+    "education",
+    "ethic",
+    "hedge",
+    "robots",
+    "animation",
+    "code.org",
+    "coding lessons",
+    "TED",
+    "TED-Ed",
+    "TED Ed",
+    "Teded",
+    "Ted Education",
+    "tlac",
+    "alex rosenthal",
+    "kozmonot animation studios",
+    "tlac ep 4"
+  ],
+  "introduction": "The adventure continues! Episode 4: The trio plot how they can steal the first artifact— the Node of",
+  "lead_intro": "Join Ethic, Hedge, and Adila on their thrilling mission to steal the Node of Power from a heavily fortified train in this exciting tale of strategy and teamwork.",
+  "quiz": [
+    {
+      "question": "What key item is being targeted by Ethic, Hedge, and Adila during their mission?",
+      "choices": [
+        "Node of Power",
+        "Force Field",
+        "Artifact"
+      ],
+      "answer": "Node of Power",
+      "explanation": "Throughout the story, the main objective of the team is to steal the Node of Power, which is being used to run the heavily fortified train."
+    },
+    {
+      "question": "How does Hedge determine when to press the button in the engine car?",
+      "choices": [
+        "Analyze the unloading procedure",
+        "Listen for a signal",
+        "Count down from 10"
+      ],
+      "answer": "Analyze the unloading procedure",
+      "explanation": "Hedge needs to analyze the train's unloading procedure to know when to press the button that lowers the force field over the artifact."
+    },
+    {
+      "question": "What variable is used to track the train's position during the heist?",
+      "choices": [
+        "Train position",
+        "Artifact location",
+        "Crane distance"
+      ],
+      "answer": "Train position",
+      "explanation": "By setting up a variable to track the train's position, the team can determine when the Node of Power is in the right position for Hedge to press the button."
+    },
+    {
+      "question": "What role does Ethic play in guiding Hedge during the heist?",
+      "choices": [
+        "Give instructions",
+        "Pilot the crane",
+        "Press the button"
+      ],
+      "answer": "Give instructions",
+      "explanation": "Ethic is responsible for instructing Hedge on when to press the button in the engine car, as Hedge cannot program himself."
+    },
+    {
+      "question": "What happens after Ethic successfully steals the Node of Power?",
+      "choices": [
+        "Ethic becomes chief robotics engineer",
+        "The artifact shimmers to life",
+        "Hedge hides the artifact"
+      ],
+      "answer": "Ethic becomes chief robotics engineer",
+      "explanation": "After Ethic successfully steals the Node of Power, the artifact reveals a vision of the past where Ethic's talent for robotics led her to become the chief robotics engineer, transforming society."
+    }
+  ]
+}
