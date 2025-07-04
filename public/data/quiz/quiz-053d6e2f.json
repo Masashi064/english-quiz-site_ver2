@@ -1,0 +1,89 @@
+{
+  "slug": "053d6e2f",
+  "video_id": "tHZRXN_pVi8",
+  "movie_title": "Can AI have a mind of its own? ⏲️ 6 Minute English",
+  "movie_url": "https://youtu.be/tHZRXN_pVi8",
+  "published_at": "2023-01-26T16:00:33Z",
+  "duration": "PT6M20S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "Ingilizce",
+    "bbc learning english",
+    "English words",
+    "English podcast",
+    "6 minute english",
+    "artificial intelligence",
+    "robots"
+  ],
+  "introduction": "🤩🤩🤩🤖 Is artificial intelligence capable of consciousness? We’ll hear from an expert who believes",
+  "lead_intro": "Artificial intelligence and the concept of consciousness are under the spotlight in this BBC Learning English video. Let's dive into a quiz to test your understanding!",
+  "quiz": [
+    {
+      "question": "What is the name of the chatbot discussed in the video?",
+      "choices": [
+        "Blake Lemoine",
+        "LaMDA",
+        "Emily Bender"
+      ],
+      "answer": "LaMDA",
+      "explanation": "LaMDA is the chatbot developed by Blake Lemoine, the software engineer."
+    },
+    {
+      "question": "According to Emily Bender, what term does she suggest using instead of 'automatic speech recognition'?",
+      "choices": [
+        "automatic transcription",
+        "machine learning",
+        "technical bias"
+      ],
+      "answer": "automatic transcription",
+      "explanation": "Emily Bender suggests using 'automatic transcription' instead of 'automatic speech recognition' to avoid implying cognitive processes."
+    },
+    {
+      "question": "What does anthropomorphizing computers mean?",
+      "choices": [
+        "Treating them as if they were human",
+        "Building conscious machines",
+        "Analyzing massive amounts of data"
+      ],
+      "answer": "Treating them as if they were human",
+      "explanation": "Anthropomorphizing computers refers to assigning human traits or characteristics to them, treating them as if they were human."
+    },
+    {
+      "question": "What is the main risk associated with treating computers as if they could think?",
+      "choices": [
+        "Being surprised in a negative way",
+        "Building powerful AI",
+        "Getting taken in by someone"
+      ],
+      "answer": "Being surprised in a negative way",
+      "explanation": "The main risk is being blindsided or negatively surprised by assuming computers can think when they can't."
+    },
+    {
+      "question": "What was the correct answer to the movie question asked in the video?",
+      "choices": [
+        "The computer comes to life",
+        "The computer dreams about the writer",
+        "The writer falls in love with the computer"
+      ],
+      "answer": "The writer falls in love with the computer",
+      "explanation": "In the movie 'Her', the writer falls in love with his computer, similar to what happened with LaMDA and Blake Lemoine."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "92f3cd86",
+  "video_id": "jDqsNK1hmM8",
+  "movie_title": "Can climate change cause more disease? ⏲️ 6 Minute English",
+  "movie_url": "https://youtu.be/jDqsNK1hmM8",
+  "published_at": "2023-05-25T14:00:33Z",
+  "duration": "PT6M20S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English expressions",
+    "BBC Learning English",
+    "English speaking",
+    "ELT",
+    "Ingilizce",
+    "English class",
+    "English speaking practice",
+    "English words",
+    "English podcast",
+    "podcast English",
+    "mosquito",
+    "climate change",
+    "dengue",
+    "malaria",
+    "cholera",
+    "diseases"
+  ],
+  "introduction": "Every year, mosquito-borne diseases kill around three-quarters of a million globally, but could it g",
+  "lead_intro": "Learn about the impact of climate change on the spread of mosquito-borne diseases like dengue fever in this engaging video from BBC Learning English.",
+  "quiz": [
+    {
+      "question": "What is a common symptom of dengue fever?",
+      "choices": [
+        "fever",
+        "cough",
+        "rash"
+      ],
+      "answer": "fever",
+      "explanation": "Dr. Iriani mentions that fever and muscle aches are common symptoms of a viral infection like dengue fever."
+    },
+    {
+      "question": "What is a critical window in the context of dengue fever?",
+      "choices": [
+        "time period for treatment",
+        "time period for diagnosis",
+        "time period for recovery"
+      ],
+      "answer": "time period for treatment",
+      "explanation": "A critical window refers to a limited period of time during which a patient with dengue fever needs treatment to survive, typically between days five and seven of the infection."
+    },
+    {
+      "question": "What is the breeding ground for mosquitoes in Indonesia?",
+      "choices": [
+        "buckets with water",
+        "dry areas",
+        "clean water sources"
+      ],
+      "answer": "buckets with water",
+      "explanation": "During periods of drought in Indonesia, people collect drinking water in buckets, inadvertently creating breeding grounds for mosquitoes."
+    },
+    {
+      "question": "What is the link between poverty and dengue fever?",
+      "choices": [
+        "increased exposure to mosquitoes",
+        "better sanitation practices",
+        "reduced cases of dengue"
+      ],
+      "answer": "increased exposure to mosquitoes",
+      "explanation": "Poverty contributes to the spread of dengue fever as more people living in crowded, unsanitary conditions are exposed to infected mosquitoes."
+    },
+    {
+      "question": "What has technology improved to help combat the spread of dengue fever?",
+      "choices": [
+        "early warning systems",
+        "GPS tracking for mosquitoes",
+        "weather forecasting tools"
+      ],
+      "answer": "early warning systems",
+      "explanation": "Technology advancements include early warning systems that can predict dengue outbreaks months in advance, aiding in prevention and control efforts."
+    }
+  ]
+}

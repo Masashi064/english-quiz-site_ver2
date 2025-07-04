@@ -1,0 +1,71 @@
+{
+  "slug": "ec3c4b89",
+  "video_id": "DHyUYg8X31c",
+  "movie_title": "Do Robots Deserve Rights? What if Machines Become Conscious?",
+  "movie_url": "https://youtu.be/DHyUYg8X31c",
+  "published_at": "2017-02-23T13:31:05Z",
+  "duration": "PT6M35S",
+  "tags": [
+    "robots",
+    "ai",
+    "singularity",
+    "artificial intelligence",
+    "morals",
+    "laws",
+    "westworld"
+  ],
+  "introduction": "What shall we do once machines become conscious? Do we need to grant them rights?\n\nCheck out Wisecra",
+  "lead_intro": "As artificial intelligence continues to advance, the question of whether machines deserve rights becomes increasingly relevant. Dive into the thought-provoking discussion on AI and consciousness with this video analysis.",
+  "quiz": [
+    {
+      "question": "According to the video, what is a key factor that entitles beings to have rights?",
+      "choices": [
+        "Consciousness",
+        "Self-awareness",
+        "Programming"
+      ],
+      "answer": "Consciousness",
+      "explanation": "The video discusses how consciousness entitles beings to have rights because it gives them the ability to suffer and be aware of pain."
+    },
+    {
+      "question": "What aspect of the human brain is mentioned as being deeply tied to our rights?",
+      "choices": [
+        "Ability to feel pleasure",
+        "Prefer justice over injustice",
+        "Evolutionary programming"
+      ],
+      "answer": "Evolutionary programming",
+      "explanation": "The video explains that our human rights are deeply tied to our programming, such as the instinct to avoid pain and seek pleasure for survival."
+    },
+    {
+      "question": "What does the video suggest could occur when Artificial Intelligence can create their own AI smarter than themselves?",
+      "choices": [
+        "Technological stagnation",
+        "Loss of control over programming",
+        "Decrease in AI capabilities"
+      ],
+      "answer": "Loss of control over programming",
+      "explanation": "The video raises the possibility that once AI can create smarter AI, the control over how robots are programmed may be largely out of human control."
+    },
+    {
+      "question": "Which historical figure argued that animals were mere automata, similar to robots?",
+      "choices": [
+        "René Descartes",
+        "Charles Darwin",
+        "Isaac Newton"
+      ],
+      "answer": "René Descartes",
+      "explanation": "René Descartes argued that animals were mere automata, similar to robots, during the Scientific Revolution."
+    },
+    {
+      "question": "What economic interest is mentioned in the video as a reason for denying robot rights?",
+      "choices": [
+        "Increased productivity",
+        "Economic potential",
+        "Social harmony"
+      ],
+      "answer": "Economic potential",
+      "explanation": "The video highlights that there is an economic interest in denying robot rights, as it opens up the possibility of coercing sentient AI for economic gain."
+    }
+  ]
+}
