@@ -1,0 +1,74 @@
+{
+  "slug": "066f3c2a",
+  "video_id": "yO1QNNvKoNY",
+  "movie_title": "Four charged over money laundering scheme via cash withdrawals from Sheng Siong teller machines",
+  "movie_url": "https://youtu.be/yO1QNNvKoNY",
+  "published_at": "2025-06-26T14:33:44Z",
+  "duration": "PT2M30S",
+  "tags": [
+    "Izz Iryan Mod Ali",
+    "Noraidilsahiq Norasif",
+    "Singapore",
+    "Sheng Siong",
+    "Simple Teller Machines",
+    "money laundering",
+    "money laundering scheme",
+    "PayNow",
+    "cash withdrawals",
+    "$TMs"
+  ],
+  "introduction": "Authorities have uncovered a new money laundering scheme involving the illegal withdrawal of cash fr",
+  "lead_intro": "Learn about a recent money laundering scheme involving cash withdrawals from teller machines in this video.",
+  "quiz": [
+    {
+      "question": "How many suspects have been charged in relation to the money laundering scheme?",
+      "choices": [
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": "4",
+      "explanation": "The video mentions that four men aged 16 to 23 have been charged in relation to the scheme."
+    },
+    {
+      "question": "What is the daily withdrawal limit per transaction at the Shinxong STMs?",
+      "choices": [
+        "$1,000",
+        "$500",
+        "$2,000"
+      ],
+      "answer": "$1,000",
+      "explanation": "The video states that withdrawals at the Shinxong STMs are limited to $1,000 per transaction."
+    },
+    {
+      "question": "How many new measures does Shengong say they have implemented?",
+      "choices": [
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": "5",
+      "explanation": "Shengong says they have implemented new measures and have upgraded the system, including a maximum of five withdrawals per day per user."
+    },
+    {
+      "question": "What kind of system does the expert suggest implementing to monitor transactions?",
+      "choices": [
+        "Security monitoring system",
+        "Data analysis system",
+        "Transaction tracking system"
+      ],
+      "answer": "Security monitoring system",
+      "explanation": "The expert in the video suggests implementing a security monitoring system to detect any fraudulent or suspicious transactions."
+    },
+    {
+      "question": "How many simple tele machines are located at Shingong outlets across the region?",
+      "choices": [
+        "40",
+        "50",
+        "60"
+      ],
+      "answer": "60",
+      "explanation": "More than 60 simple tele machines are located at Shingong outlets across the region, as mentioned in the video."
+    }
+  ]
+}

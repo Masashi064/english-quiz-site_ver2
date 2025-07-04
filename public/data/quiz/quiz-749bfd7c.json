@@ -1,0 +1,78 @@
+{
+  "slug": "749bfd7c",
+  "video_id": "GoJsr4IwCm4",
+  "movie_title": "Why Age? Should We End Aging Forever?",
+  "movie_url": "https://youtu.be/GoJsr4IwCm4",
+  "published_at": "2017-10-20T13:01:59Z",
+  "duration": "PT6M48S",
+  "tags": [
+    "age",
+    "immortal",
+    "live",
+    "life",
+    "forever",
+    "future",
+    "humans",
+    "far future",
+    "aging",
+    "cure",
+    "medicine",
+    "happy",
+    "funny",
+    "animation"
+  ],
+  "introduction": "Watch part 2 by CGPGrey: https://www.youtube.com/watch?v=C25qzDhGLx8\n\nIf you could decide today... h",
+  "lead_intro": "Have you ever thought about the possibility of ending aging and extending human life? Let's explore the science and ethics behind this idea.",
+  "quiz": [
+    {
+      "question": "What is the most effective way to treat a disease according to the video?",
+      "choices": [
+        "Developing better chemotherapies",
+        "Preventing the cause of the disease",
+        "Performing surgeries"
+      ],
+      "answer": "Preventing the cause of the disease",
+      "explanation": "The video suggests that preventing the cause of a disease, such as stopping a million people from smoking, is more effective than developing better chemotherapies."
+    },
+    {
+      "question": "What is aging primarily caused by according to the video?",
+      "choices": [
+        "Biology",
+        "Physics",
+        "Chemistry"
+      ],
+      "answer": "Physics",
+      "explanation": "The video explains that aging is primarily caused by physical processes such as wear and tear on the body, rather than solely biological factors."
+    },
+    {
+      "question": "What does the concept of life extension promise?",
+      "choices": [
+        "Eternal youth",
+        "Prevention of diseases and fixed maximum age",
+        "Inevitable aging"
+      ],
+      "answer": "Prevention of diseases and fixed maximum age",
+      "explanation": "Life extension promises to end diseases and eliminate a fixed maximum age, rather than ensuring eternal youth or inevitable aging."
+    },
+    {
+      "question": "What percentage of healthcare costs are spent during a person's senior years according to the video?",
+      "choices": [
+        "Over 50%",
+        "Nearly half",
+        "Less than 30%"
+      ],
+      "answer": "Nearly half",
+      "explanation": "The video mentions that nearly half of a person's lifetime healthcare costs are spent during their senior years, highlighting the significant impact of aging on healthcare resources."
+    },
+    {
+      "question": "How does the video describe the end of biological aging in relation to death?",
+      "choices": [
+        "A way to avoid death entirely",
+        "The end of death completely",
+        "An extension of life without disease"
+      ],
+      "answer": "An extension of life without disease",
+      "explanation": "The video describes the end of biological aging as an extension of life without disease, rather than a complete avoidance of death."
+    }
+  ]
+}

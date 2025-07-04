@@ -1,0 +1,89 @@
+{
+  "slug": "5d7996e7",
+  "video_id": "6Y3rL9LVV9w",
+  "movie_title": "6 Minute English: Connecting remote communities",
+  "movie_url": "https://youtu.be/6Y3rL9LVV9w",
+  "published_at": "2022-08-11T09:59:22Z",
+  "duration": "PT6M20S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "English expressions",
+    "BBC Learning English",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "English class",
+    "internet",
+    "remote areas",
+    "connecting",
+    "online",
+    "6 minute english"
+  ],
+  "introduction": "In certain developed countries around the world, there is a stark difference in the availability of",
+  "lead_intro": "Join us in exploring how communities are solving internet connection issues around the world and test your knowledge with a fun quiz!",
+  "quiz": [
+    {
+      "question": "What was the name of the first ever internet browser?",
+      "choices": [
+        "Ask Jeeves",
+        "WorldWideWeb",
+        "Yahoo"
+      ],
+      "answer": "WorldWideWeb",
+      "explanation": "The first internet browser was called WorldWideWeb, invented by Tim Berners-Lee."
+    },
+    {
+      "question": "How would you describe an internet connection that is irregular and stops working suddenly for short periods?",
+      "choices": [
+        "Fast",
+        "Dodgy",
+        "Stable"
+      ],
+      "answer": "Dodgy",
+      "explanation": "A dodgy internet connection is one that is unreliable or bad."
+    },
+    {
+      "question": "What does it mean to know something 'by word-of-mouth'?",
+      "choices": [
+        "Through the internet",
+        "By reading a book",
+        "Verbally passed from person to person"
+      ],
+      "answer": "Verbally passed from person to person",
+      "explanation": "Knowing something by word-of-mouth implies the information was verbally shared among individuals."
+    },
+    {
+      "question": "What does the phrase 'from the horse's mouth' mean?",
+      "choices": [
+        "From a reliable source",
+        "From a fictional character",
+        "From a news article"
+      ],
+      "answer": "From a reliable source",
+      "explanation": "'From the horse's mouth' refers to information coming directly from a trustworthy or reliable source."
+    },
+    {
+      "question": "What is the definition of a gadget?",
+      "choices": [
+        "A big, non-electronic device",
+        "A small, electronic device with a useful purpose",
+        "A musical instrument"
+      ],
+      "answer": "A small, electronic device with a useful purpose",
+      "explanation": "A gadget is a small electronic device designed to serve a specific purpose."
+    }
+  ]
+}

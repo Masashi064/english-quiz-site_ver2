@@ -1,0 +1,94 @@
+{
+  "slug": "8390805f",
+  "video_id": "uFk0mgljtns",
+  "movie_title": "How to Make a Kurzgesagt Video in 1200 Hours",
+  "movie_url": "https://youtu.be/uFk0mgljtns",
+  "published_at": "2020-02-16T13:29:44Z",
+  "duration": "PT6M48S",
+  "tags": [
+    "Behind the scences",
+    "making of",
+    "how to",
+    "tutorial",
+    "script",
+    "topic",
+    "science",
+    "research",
+    "illustration",
+    "drawing",
+    "animation",
+    "voice over",
+    "narration",
+    "recording",
+    "rigging",
+    "after effects",
+    "illustrator",
+    "adobe",
+    "creative cloud",
+    "music",
+    "sfx",
+    "soundtrack",
+    "soundeffects",
+    "spotify",
+    "soundcloud",
+    "patreon",
+    "business",
+    "money",
+    "how does kurzgesagt make videos",
+    "how does kurzgesagt make money"
+  ],
+  "introduction": "Get Merch designed with ❤ from https://kgs.link/shop-118  \nJoin the Patreon Bird Army 🐧 https://kgs",
+  "lead_intro": "Have you ever wondered how Kurzgesagt makes their fascinating and beautiful videos? Let's dive into the detailed process behind creating a Kurzgesagt video!",
+  "quiz": [
+    {
+      "question": "What is the first step in creating a Kurzgesagt video?",
+      "choices": [
+        "Researching",
+        "Illustrating",
+        "Narration"
+      ],
+      "answer": "Researching",
+      "explanation": "The process begins with researching by reading books, scientific papers, and consulting experts to lay the foundation for the script."
+    },
+    {
+      "question": "How long does it usually take to finish writing a script for a Kurzgesagt video?",
+      "choices": [
+        "A few weeks",
+        "A few days",
+        "Several months"
+      ],
+      "answer": "A few weeks",
+      "explanation": "Writing the script is a time-consuming process that can take between a few weeks and even years to complete due to multiple rewrites and fact-checking."
+    },
+    {
+      "question": "Which software is primarily used for animating scenes in Kurzgesagt videos?",
+      "choices": [
+        "Adobe After Effects",
+        "Cinema 4D",
+        "Illustrator"
+      ],
+      "answer": "Adobe After Effects",
+      "explanation": "The scenes and audio are animated using Adobe After Effects, and recently, they have started experimenting with Cinema 4D for animation."
+    },
+    {
+      "question": "What is the final step in the Kurzgesagt video-making process?",
+      "choices": [
+        "Animation",
+        "Narration",
+        "Music and Sound Design"
+      ],
+      "answer": "Music and Sound Design",
+      "explanation": "The last step involves creating original music composed specifically for the video and adding sound effects to enhance the viewing experience."
+    },
+    {
+      "question": "How does Kurzgesagt primarily support the creation of their videos?",
+      "choices": [
+        "Direct support from viewers",
+        "Government funding",
+        "Commercial advertising"
+      ],
+      "answer": "Direct support from viewers",
+      "explanation": "Kurzgesagt relies heavily on direct support from viewers through merchandise purchases and Patreon contributions to continue making their videos freely available."
+    }
+  ]
+}
