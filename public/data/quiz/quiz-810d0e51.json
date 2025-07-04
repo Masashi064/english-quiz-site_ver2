@@ -1,0 +1,91 @@
+{
+  "slug": "810d0e51",
+  "video_id": "JZ_EV9DPtt0",
+  "movie_title": "Climate change and evolution - 6 Minute English",
+  "movie_url": "https://youtu.be/JZ_EV9DPtt0",
+  "published_at": "2022-07-14T14:50:11Z",
+  "duration": "PT6M20S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English tutorial",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "slang",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "bbc",
+    "bbc learning english",
+    "English class",
+    "6 minute"
+  ],
+  "introduction": "In the 1830s Charles Darwin visited the Galapagos islands in the Pacific Ocean. His study of the uni",
+  "lead_intro": "Welcome to a fascinating journey through the Galapagos Islands and the concept of evolution! Let's test your knowledge with some quiz questions based on the video.",
+  "quiz": [
+    {
+      "question": "What was the name of the ship Charles Darwin sailed in during his trip around the world?",
+      "choices": [
+        "HMS Beagle",
+        "HMS Victory",
+        "SS Great Britain"
+      ],
+      "answer": "HMS Beagle",
+      "explanation": "Darwin sailed in the HMS Beagle during his trip around the world to collect samples of flora and fauna."
+    },
+    {
+      "question": "What does the term 'flora and fauna' refer to?",
+      "choices": [
+        "Plants and animals",
+        "Rocks and minerals",
+        "Clouds and rain"
+      ],
+      "answer": "Plants and animals",
+      "explanation": "Flora and fauna refer to the plants and animals of a specific place."
+    },
+    {
+      "question": "What physical feature of the Galapagos finches did Darwin observe variations in?",
+      "choices": [
+        "Beak",
+        "Wings",
+        "Tail feathers"
+      ],
+      "answer": "Beak",
+      "explanation": "Darwin noticed variations in the beak shapes of the Galapagos finches, which helped them adapt and survive in their environment."
+    },
+    {
+      "question": "How did warmer temperatures impact the bodies of birds in the Brazilian Amazon and red deer on the Isle of Rum?",
+      "choices": [
+        "Caused them to evolve smaller bodies",
+        "Caused them to evolve larger bodies",
+        "No impact on body size"
+      ],
+      "answer": "Caused them to evolve smaller bodies",
+      "explanation": "Warmer temperatures caused birds and deer to evolve smaller bodies as an adaptation to the changing climate."
+    },
+    {
+      "question": "What genetic characteristic allowed lizards in the Caribbean to survive hurricanes?",
+      "choices": [
+        "Strong front legs and small back legs",
+        "Large back legs and small front legs",
+        "Long tail and big eyes"
+      ],
+      "answer": "Strong front legs and small back legs",
+      "explanation": "Lizards with strong front legs and small back legs were able to cling on and survive hurricanes, passing on these traits to their offspring through evolution."
+    }
+  ]
+}

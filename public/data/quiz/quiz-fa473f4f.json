@@ -1,0 +1,93 @@
+{
+  "slug": "fa473f4f",
+  "video_id": "obpKWRcXezA",
+  "movie_title": "Restoring trust in science - 6 Minute English",
+  "movie_url": "https://youtu.be/obpKWRcXezA",
+  "published_at": "2022-06-30T09:23:40Z",
+  "duration": "PT6M20S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "English expressions",
+    "BBC Learning English",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "6 minute",
+    "neil degrass tyson",
+    "cosmology",
+    "science",
+    "education",
+    "astronomy",
+    "astronomer",
+    "space",
+    "universe"
+  ],
+  "introduction": "Recent events like the Covid pandemic and climate crisis have put scientists under pressure from cri",
+  "lead_intro": "Meet Neil deGrasse Tyson, an inspiring scientist with a passion for communicating about cosmology. Let's dive into some quiz questions based on the discussion!",
+  "quiz": [
+    {
+      "question": "According to the video, who was the first astronomer to propose that the Earth and planets revolve around the Sun?",
+      "choices": [
+        "Nicolaus Copernicus",
+        "Isaac Newton",
+        "Galileo Galilei"
+      ],
+      "answer": "Nicolaus Copernicus",
+      "explanation": "Polish astronomer Nicolaus Copernicus was the first to propose the heliocentric model in 1543, where the Earth revolves around the Sun."
+    },
+    {
+      "question": "What process involves other scientists carefully examining and confirming the results of an experiment?",
+      "choices": [
+        "Peer review",
+        "Regurgitation",
+        "Duplication"
+      ],
+      "answer": "Peer review",
+      "explanation": "Peer review is the process where other scientists double-check an experiment's findings to ensure everything was done correctly."
+    },
+    {
+      "question": "What does the idiom 'cross the t’s and dot the i’s' mean?",
+      "choices": [
+        "Pay close attention to details",
+        "Repeat facts without understanding",
+        "Question everything"
+      ],
+      "answer": "Pay close attention to details",
+      "explanation": "The idiom 'cross the t’s and dot the i’s' means to pay attention to the small details of what you are doing."
+    },
+    {
+      "question": "According to Neil deGrasse Tyson, what is the most important part of science?",
+      "choices": [
+        "Regurgitating facts",
+        "Encouraging opinions",
+        "Recognising objective truth"
+      ],
+      "answer": "Recognising objective truth",
+      "explanation": "Neil believes the key part of science is knowing how to question things and recognize objective truths unaffected by bias or opinion."
+    },
+    {
+      "question": "What did Neil deGrasse Tyson criticize about the US education system's approach to teaching science?",
+      "choices": [
+        "Encouraging regurgitation of facts",
+        "Promoting critical thinking",
+        "Focusing on opinions"
+      ],
+      "answer": "Encouraging regurgitation of facts",
+      "explanation": "Neil criticized the teaching of science as just imparting facts without fostering critical thinking or understanding."
+    }
+  ]
+}

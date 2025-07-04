@@ -1,0 +1,78 @@
+{
+  "slug": "3f1d8781",
+  "video_id": "RVMZxH1TIIQ",
+  "movie_title": "Why Earth Is A Prison and How To Escape It",
+  "movie_url": "https://youtu.be/RVMZxH1TIIQ",
+  "published_at": "2017-02-01T13:22:31Z",
+  "duration": "PT6M57S",
+  "tags": [
+    "space",
+    "gravity",
+    "ariane 6",
+    "rocket",
+    "spacetravel",
+    "human",
+    "earth",
+    "solar system",
+    "galaxy",
+    "universe",
+    "gravity well",
+    "gravity prison",
+    "kurzgesagt",
+    "in a nutshell"
+  ],
+  "introduction": "We are trapped on earth. Controlled by an ancient debt to the universe...\n\nLearn more about Ariane 6",
+  "lead_intro": "Space travel is an incredible feat, but have you ever wondered why it's so challenging for us to escape Earth's gravity? Let's dive into the science behind this cosmic predicament.",
+  "quiz": [
+    {
+      "question": "What phenomenon traps us on Earth and creates a 'gravity prison'?",
+      "choices": [
+        "electromagnetism",
+        "gravity",
+        "friction"
+      ],
+      "answer": "gravity",
+      "explanation": "Gravity is the force that traps us on Earth, creating a 'gravity prison' due to the attraction between objects with mass."
+    },
+    {
+      "question": "What concept explains the need to repay energy to escape Earth's gravity?",
+      "choices": [
+        "kinetic energy",
+        "potential energy",
+        "thermal energy"
+      ],
+      "answer": "potential energy",
+      "explanation": "To escape Earth's gravity, we need to repay our energy debt by increasing our potential energy through rockets."
+    },
+    {
+      "question": "What is the main purpose of rockets in space travel?",
+      "choices": [
+        "generate electricity",
+        "produce heat",
+        "exchange energy"
+      ],
+      "answer": "exchange energy",
+      "explanation": "Rockets exchange chemical energy into kinetic energy to propel spacecraft and repay the energy debt to gravity."
+    },
+    {
+      "question": "Why do rockets require more fuel as they get larger?",
+      "choices": [
+        "to reduce weight",
+        "to increase speed",
+        "to overcome mass inertia"
+      ],
+      "answer": "to overcome mass inertia",
+      "explanation": "As rockets get larger, they require more fuel to overcome the increased mass inertia and lift off the ground."
+    },
+    {
+      "question": "What strategy is used to maintain orbit around Earth?",
+      "choices": [
+        "flying vertically",
+        "flying horizontally",
+        "hovering in place"
+      ],
+      "answer": "flying horizontally",
+      "explanation": "To stay in orbit, rockets fly horizontally at high speeds so that the ground curves away beneath them, allowing them to remain in space."
+    }
+  ]
+}

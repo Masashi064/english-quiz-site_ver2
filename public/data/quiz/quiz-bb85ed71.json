@@ -1,0 +1,81 @@
+{
+  "slug": "bb85ed71",
+  "video_id": "MUWUHf-rzks",
+  "movie_title": "How to Make an Elephant Explode – The Size of Life 2",
+  "movie_url": "https://youtu.be/MUWUHf-rzks",
+  "published_at": "2017-12-21T13:38:50Z",
+  "duration": "PT6M55S",
+  "tags": [
+    "size",
+    "elephant",
+    "mouse",
+    "exploding",
+    "animals",
+    "life",
+    "wounder",
+    "kleibers law",
+    "scaling",
+    "pregnant",
+    "children",
+    "metabolism",
+    "animation",
+    "kurzgesagt",
+    "infographic",
+    "funny",
+    "in a nutshell"
+  ],
+  "introduction": "OUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman Channel: https://kgs.link/youtubeDE \nSpanish Channel:",
+  "lead_intro": "Have you ever wondered what would happen if you shrank an elephant to the size of a mouse or enlarged a mouse to the size of an elephant? This video explores the fascinating reasons behind why such extreme size changes can have deadly consequences.",
+  "quiz": [
+    {
+      "question": "Why did the giant mouse explode when enlarged to the size of an elephant?",
+      "choices": [
+        "Its cells produced too much heat",
+        "It lacked the necessary energy",
+        "Its surface area was insufficient"
+      ],
+      "answer": "Its cells produced too much heat",
+      "explanation": "When the mouse was enlarged, it had significantly more volume filled with mitochondria producing heat, but its surface area to release that heat was inadequate, leading to an explosion."
+    },
+    {
+      "question": "How do animal cells generate usable chemical energy?",
+      "choices": [
+        "By converting food and oxygen",
+        "By storing sunlight",
+        "By absorbing minerals"
+      ],
+      "answer": "By converting food and oxygen",
+      "explanation": "Animal cells convert food and oxygen into usable chemical energy in mitochondria, which act as the powerhouse of the cell."
+    },
+    {
+      "question": "Why do bigger animals like elephants have evolved ways to get rid of heat more easily?",
+      "choices": [
+        "To prevent overheating and death",
+        "To conserve energy",
+        "To increase their metabolic rate"
+      ],
+      "answer": "To prevent overheating and death",
+      "explanation": "Bigger animals like elephants have evolved features like huge flat ears to help dissipate heat more effectively, preventing them from overheating and dying due to excess heat generation."
+    },
+    {
+      "question": "What happens to an elephant if its cells suddenly become as active as those of a shrew?",
+      "choices": [
+        "It explodes due to excessive heat",
+        "It shrinks in size",
+        "It becomes more agile"
+      ],
+      "answer": "It explodes due to excessive heat",
+      "explanation": "If an elephant's cells became as active as those of a shrew, an immense amount of heat would be generated, causing the elephant to explode due to the inability to dissipate that heat."
+    },
+    {
+      "question": "How do baby mammals transition from being a part of their mother to individuals after birth?",
+      "choices": [
+        "Their internal processes speed up rapidly",
+        "They become one with their mother",
+        "They stop eating"
+      ],
+      "answer": "Their internal processes speed up rapidly",
+      "explanation": "After birth, a baby mammal's internal processes speed up rapidly, transitioning them from being a part of their mother to becoming individuals in a matter of hours, with their metabolic rate increasing significantly."
+    }
+  ]
+}
