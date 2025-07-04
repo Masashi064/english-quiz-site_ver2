@@ -1,0 +1,97 @@
+{
+  "slug": "4cbb269d",
+  "video_id": "p_8yK2kmxoo",
+  "movie_title": "The Most Dangerous Stuff in the Universe - Strange Stars Explained",
+  "movie_url": "https://youtu.be/p_8yK2kmxoo",
+  "published_at": "2019-04-14T12:30:02Z",
+  "duration": "PT7M10S",
+  "tags": [
+    "Strange Stars",
+    "Quark Stars",
+    "Neutron Stars",
+    "Black Hole",
+    "Strange Matter",
+    "Strange Quarks",
+    "Strangelet",
+    "Dark Matter",
+    "Big Bang",
+    "Universe",
+    "Space",
+    "Solarsystem",
+    "Supernova",
+    "Star",
+    "Sun",
+    "Elektron",
+    "Proton",
+    "Neutron",
+    "Gravity",
+    "Quark",
+    "Quarks",
+    "Atoms",
+    "Atom",
+    "Nucleus",
+    "Gluon",
+    "Up Quark",
+    "Down Quark",
+    "Deconfinement",
+    "Core",
+    "Quark Matter",
+    "Dense",
+    "Density",
+    "Galaxy"
+  ],
+  "introduction": "Sources:\nhttps://sites.google.com/view/sourcesquarkstars\n\nInside neutron stars we can find the weird",
+  "lead_intro": "Have you ever heard of strange matter, the most dangerous substance in existence? Let's dive into the extreme world of neutron stars and quark matter.",
+  "quiz": [
+    {
+      "question": "What happens to the core of a massive star when it collapses under its own gravity?",
+      "choices": [
+        "Electrons merge into protons",
+        "Particles decay away quickly",
+        "Quarks separate into individual particles"
+      ],
+      "answer": "Electrons merge into protons",
+      "explanation": "When a massive star's core collapses, electrons are pushed into protons, merging to form neutrons."
+    },
+    {
+      "question": "What is the environment like in the core of neutron stars?",
+      "choices": [
+        "Similar to a vacuum",
+        "Extreme where nuclear physics rules change",
+        "Filled with visible light"
+      ],
+      "answer": "Extreme where nuclear physics rules change",
+      "explanation": "The core of neutron stars is so extreme that the rules of nuclear physics change, leading to strange matter."
+    },
+    {
+      "question": "What is the term for a star made from a giant thing purely from quarks?",
+      "choices": [
+        "Neutron star",
+        "Supernova",
+        "Quark Star"
+      ],
+      "answer": "Quark Star",
+      "explanation": "A star made purely from quarks inside a neutron star core is called a Quark Star."
+    },
+    {
+      "question": "What might be the ideal state of matter formed inside a neutron star?",
+      "choices": [
+        "Liquid matter",
+        "Strange matter",
+        "Gas matter"
+      ],
+      "answer": "Strange matter",
+      "explanation": "Strange matter, if formed, could be the ideal state of matter, perfectly dense and stable."
+    },
+    {
+      "question": "What could strangelets do if they were to strike the Earth?",
+      "choices": [
+        "Create a new moon",
+        "Convert it into strange matter",
+        "Cause an earthquake"
+      ],
+      "answer": "Convert it into strange matter",
+      "explanation": "If a strangelet were to hit Earth, it would immediately start converting it into strange matter, ultimately transforming it entirely."
+    }
+  ]
+}

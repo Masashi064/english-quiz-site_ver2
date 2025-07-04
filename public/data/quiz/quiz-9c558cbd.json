@@ -1,0 +1,83 @@
+{
+  "slug": "9c558cbd",
+  "video_id": "YI3tsmFsrOg",
+  "movie_title": "The Deadliest Being on Planet Earth – The Bacteriophage",
+  "movie_url": "https://youtu.be/YI3tsmFsrOg",
+  "published_at": "2018-05-13T12:00:22Z",
+  "duration": "PT7M9S",
+  "tags": [
+    "bacteriophage",
+    "phage",
+    "endolysin",
+    "phage therapy",
+    "therapy",
+    "medicine",
+    "antibiotics",
+    "antibiotic",
+    "resistence",
+    "antibiotic resistance",
+    "survival",
+    "healing",
+    "bacteria",
+    "satire",
+    "education",
+    "human progress",
+    "animation",
+    "kurzgesagt",
+    "in a nutshell"
+  ],
+  "introduction": "A war has been raging for billions of years, killing trillions every single day, while we don’t even",
+  "lead_intro": "Did you know that the deadliest being on our planet is not what you might expect? Dive into the world of phages, the tiny killer virus robots that could potentially save millions of lives!",
+  "quiz": [
+    {
+      "question": "What is the main role of phages in the ecosystem?",
+      "choices": [
+        "killing bacteria",
+        "killing humans",
+        "killing animals"
+      ],
+      "answer": "killing bacteria",
+      "explanation": "Phages are specialized in killing bacteria, making them the main predators of bacteria in the ecosystem."
+    },
+    {
+      "question": "Why are phages considered 'smart weapons'?",
+      "choices": [
+        "They constantly evolve to become better killers",
+        "They attack humans and bacteria indiscriminately",
+        "They are harmless to all living organisms"
+      ],
+      "answer": "They constantly evolve to become better killers",
+      "explanation": "There has been an arms race between phages and bacteria for billions of years, making phages constantly evolve and become more effective at killing bacteria."
+    },
+    {
+      "question": "How do phages kill bacteria?",
+      "choices": [
+        "By injecting their genetic information",
+        "By physically consuming the bacteria",
+        "By releasing toxic gases"
+      ],
+      "answer": "By injecting their genetic information",
+      "explanation": "Phages connect their tail fibers with receptors on the bacteria and inject their genetic information, taking over the bacteria's machinery to produce more phages until the bacteria bursts."
+    },
+    {
+      "question": "Why did humans start looking into injecting phages into their bodies?",
+      "choices": [
+        "Due to the rise of superbugs immune to antibiotics",
+        "To exterminate all bacteria in their bodies",
+        "To study the behavior of phages"
+      ],
+      "answer": "Due to the rise of superbugs immune to antibiotics",
+      "explanation": "As bacteria became immune to antibiotics, humans turned to phages as a potential solution to combat infections caused by superbugs."
+    },
+    {
+      "question": "What makes phages a more targeted approach compared to antibiotics?",
+      "choices": [
+        "They only attack specific bacteria",
+        "They attack all types of organisms",
+        "They are ineffective at killing bacteria"
+      ],
+      "answer": "They only attack specific bacteria",
+      "explanation": "Phages are like guided missiles that only attack the specific bacteria they are specialized to kill, unlike antibiotics which can harm good bacteria as well."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "d976f421",
+  "video_id": "fJoCs5Z_QvE",
+  "movie_title": "Britain's love affair with coffee - 6 Minute English",
+  "movie_url": "https://youtu.be/fJoCs5Z_QvE",
+  "published_at": "2022-04-07T15:08:13Z",
+  "duration": "PT6M20S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "English grammar",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "BBC Learning English",
+    "English speaking",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "6 minute",
+    "coffee",
+    "history",
+    "Britain",
+    "drinking",
+    "hot drink"
+  ],
+  "introduction": "Here in the UK, when it comes to enjoying a nice hot drink, it's not all about tea. We like coffee t",
+  "lead_intro": "Join BBC Learning English in exploring the history of coffee in Britain and its impact on society. Test your knowledge with this engaging quiz!",
+  "quiz": [
+    {
+      "question": "What was the name of the first coffee to arrive in Britain in the 17th century?",
+      "choices": [
+        "Cappuccino",
+        "Mocha",
+        "Latte"
+      ],
+      "answer": "Mocha",
+      "explanation": "The earliest coffee to reach Britain took its name from the port in Yemen it was shipped from, which was Mocha."
+    },
+    {
+      "question": "What replaced coffee as the most fashionable drink in the 1800s?",
+      "choices": [
+        "Tea",
+        "Hot Chocolate",
+        "Orange Juice"
+      ],
+      "answer": "Tea",
+      "explanation": "Tea replaced coffee as the most fashionable drink in the 1800s, partly because it was drunk by Queen Victoria."
+    },
+    {
+      "question": "Which social group used coffee to wean men off alcohol in the 17th century?",
+      "choices": [
+        "Temperance Movement",
+        "Coffee Enthusiasts",
+        "Tea Lovers"
+      ],
+      "answer": "Temperance Movement",
+      "explanation": "The Temperance Movement sponsored coffee taverns to try to wean working men off going to the pub for lunch, using coffee as an alternative to alcohol."
+    },
+    {
+      "question": "What is Fairtrade coffee known for?",
+      "choices": [
+        "Low quality",
+        "Unfair pricing",
+        "Guaranteeing a fair price for coffee producers"
+      ],
+      "answer": "Guaranteeing a fair price for coffee producers",
+      "explanation": "Fairtrade coffee refers to a scheme that ensures coffee farmers receive a fair price for growing their product."
+    },
+    {
+      "question": "What does artisanal coffee refer to?",
+      "choices": [
+        "Coffee made by machines",
+        "Coffee with artificial flavors",
+        "Coffee made by hand in a traditional way"
+      ],
+      "answer": "Coffee made by hand in a traditional way",
+      "explanation": "Artisanal coffee describes coffee made by artisans - skilled workers who make things by hand in a traditional way."
+    }
+  ]
+}
