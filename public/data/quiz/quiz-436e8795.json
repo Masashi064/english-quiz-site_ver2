@@ -1,0 +1,94 @@
+{
+  "slug": "436e8795",
+  "video_id": "EBAc4PIQC2Y",
+  "movie_title": "Finding your way in space - 6 Minute English",
+  "movie_url": "https://youtu.be/EBAc4PIQC2Y",
+  "published_at": "2022-05-19T14:30:04Z",
+  "duration": "PT6M20S",
+  "tags": [
+    "learn English",
+    "English vocabulary",
+    "speak English",
+    "bbc english",
+    "English teacher",
+    "英語",
+    "영어",
+    "อังกฤษ",
+    "Anh",
+    "IELTS",
+    "British English",
+    "English pronunciation",
+    "English lesson",
+    "idiom",
+    "English expressions",
+    "BBC Learning English",
+    "ELT",
+    "podcast",
+    "Ingilizce",
+    "6 minute",
+    "space",
+    "navigation",
+    "6 minute english",
+    "compass",
+    "lost in space",
+    "up and down",
+    "north and south",
+    "vocabulary",
+    "astronaut",
+    "location"
+  ],
+  "introduction": "What’s up and what’s down for astronauts who are floating in zero gravity? In space is there a true",
+  "lead_intro": "Have you ever wondered how astronauts navigate in space? Let's test your knowledge with a quiz based on the information shared in the 6 Minute English video!",
+  "quiz": [
+    {
+      "question": "Who was the first person in space?",
+      "choices": [
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "Valentina Tereshkova"
+      ],
+      "answer": "Yuri Gagarin",
+      "explanation": "Yuri Gagarin was the first person in space, making history in 1961 as a Soviet cosmonaut."
+    },
+    {
+      "question": "What instrument is used on Earth to find directions that uses a magnetic needle to point north?",
+      "choices": [
+        "Telescope",
+        "Compass",
+        "Ruler"
+      ],
+      "answer": "Compass",
+      "explanation": "A compass is an instrument with a magnetic needle that points north towards the Earth's magnetic pole."
+    },
+    {
+      "question": "What unit of measurement is a light year?",
+      "choices": [
+        "Time",
+        "Distance",
+        "Weight"
+      ],
+      "answer": "Distance",
+      "explanation": "A light year measures the distance that light travels in one year, approximately 6 trillion miles."
+    },
+    {
+      "question": "What is the reason given for why a compass always points north on Earth?",
+      "choices": [
+        "Earth's rotation",
+        "Magnetic pole",
+        "Sun's position"
+      ],
+      "answer": "Magnetic pole",
+      "explanation": "A compass needle is magnetized and attracted to Earth's magnetic pole, which explains why it points north."
+    },
+    {
+      "question": "Why is magnetism not a reliable guide for navigating in space?",
+      "choices": [
+        "Magnetic field flips",
+        "Space debris interference",
+        "Solar flares"
+      ],
+      "answer": "Magnetic field flips",
+      "explanation": "In space, the magnetic field flips irregularly every few hundred or thousand light years, making magnetism unreliable for navigation."
+    }
+  ]
+}

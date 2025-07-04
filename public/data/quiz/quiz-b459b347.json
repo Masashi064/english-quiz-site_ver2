@@ -1,0 +1,69 @@
+{
+  "slug": "b459b347",
+  "video_id": "TnzcwTyr6cE",
+  "movie_title": "Genetic Engineering and Diseases – Gene Drive & Malaria",
+  "movie_url": "https://youtu.be/TnzcwTyr6cE",
+  "published_at": "2016-09-21T12:36:46Z",
+  "duration": "PT7M4S",
+  "tags": [
+    "Malaria",
+    "gene drive",
+    "modification",
+    "mosquito",
+    "zika"
+  ],
+  "introduction": "We have the choice to attack one of our oldest enemies with genetic engineering. But should we do it",
+  "lead_intro": "Did you know that genetic engineering could potentially help eradicate malaria by targeting mosquitoes? Test your knowledge with this quiz!",
+  "quiz": [
+    {
+      "question": "What is the main parasite responsible for causing malaria?",
+      "choices": [
+        "bacteria",
+        "plasmodia",
+        "virus"
+      ],
+      "answer": "plasmodia",
+      "explanation": "Plasmodia are the group of micro-organisms that cause malaria."
+    },
+    {
+      "question": "How do malaria parasites hide from the immune system after invading the liver?",
+      "choices": [
+        "transform into red blood cells",
+        "infect the brain cells",
+        "enter big cells"
+      ],
+      "answer": "enter big cells",
+      "explanation": "Malaria parasites hide from the immune system by entering big cells in the liver."
+    },
+    {
+      "question": "What revolutionary technology could potentially help eradicate malaria by genetically modifying mosquitoes?",
+      "choices": [
+        "CRISPR",
+        "Cloning",
+        "PCR"
+      ],
+      "answer": "CRISPR",
+      "explanation": "CRISPR is a genetic engineering technology that can make large-scale changes to entire species."
+    },
+    {
+      "question": "How do scientists ensure that the anti-malaria genetic modification spreads through mosquito populations effectively?",
+      "choices": [
+        "by releasing engineered mosquitoes in the wild",
+        "only editing a few mosquitoes",
+        "by waiting for natural selection"
+      ],
+      "answer": "by releasing engineered mosquitoes in the wild",
+      "explanation": "Scientists use a genetic engineering method called gene drive to ensure that the anti-malaria gene spreads rapidly through mosquito populations."
+    },
+    {
+      "question": "What is one of the concerns associated with using genetic engineering to combat malaria?",
+      "choices": [
+        "parasites becoming stronger",
+        "mosquitoes becoming extinct",
+        "unintended consequences"
+      ],
+      "answer": "unintended consequences",
+      "explanation": "One concern of genetic engineering for malaria control is the potential for unintended consequences when altering the genetic code of organisms."
+    }
+  ]
+}
